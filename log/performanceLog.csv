@@ -1,0 +1,14 @@
+Time,Activity,PSS_Dalvik,PSS_Native,PSS_Total,CPU_cpuinfo,CPU_top,RX_bytes,TX_bytes,BatteryLevel
+2016-05-18 19:35:11,activity.WebViewLinkActivity,85082,63547,510864,3.3%,21%,0,0,69
+2016-05-18 19:35:12,activity.WebViewLinkActivity,85162,63747,512988,37%,43%,0,0,69
+2016-05-18 19:35:13,activity.WebViewLinkActivity,85162,63803,509892,37%,29%,0,0,69
+2016-05-18 19:35:14,activity.WebViewLinkActivity,85166,63943,511932,37%,18%,0,0,69
+2016-05-18 19:35:15,activity.WebViewLinkActivity,85170,63983,515448,140%,17%,0,0,69
+2016-05-18 19:35:16,activity.WebViewLinkActivity,85170,63571,531000,140%,23%,0,0,69
+2016-05-18 19:35:18,activity.WebViewLinkActivity,81926,64179,530764,140%,22%,0,0,69
+2016-05-18 19:35:19,activity.WebViewLinkActivity,81938,64051,531068,140%,18%,0,0,69
+2016-05-18 19:35:21,activity.WebViewLinkActivity,81958,64471,530912,140%,20%,0,0,69
+2016-05-18 19:35:20,activity.WebViewLinkActivity,81946,64111,530876,140%,20%,0,0,69
+2016-05-18 19:35:22,activity.WebViewLinkActivity,81962,64515,531024,140%,18%,0,0,69
+2016-05-18 19:35:23,activity.WebViewLinkActivity,81970,64647,530940,140%,2%,0,0,69
+2016-05-18 19:35:24,activity.WebViewLinkActivity,81978,64591,530812,140%,0%,0,0,69

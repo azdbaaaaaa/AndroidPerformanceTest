@@ -1,0 +1,64 @@
+Activity,StartTime,EndTime,TotalTime(ms)
+com.yaya.mmbang/.activity.SplashActivity,05-05 15:55:41.700,05-05 15:55:42.550,2250
+com.yaya.mmbang/.activity.MainActivity,05-05 15:55:42.740,,
+com.yaya.mmbang/.login.NewbieProcessActivity,05-05 15:55:42.830,05-05 15:55:43.580,2410
+com.yaya.mmbang/.login.ActivityLogin},05-05 15:55:46.600,,
+com.yaya.mmbang/.activity.WebViewLinkActivity,05-05 15:56:02.360,05-05 15:56:02.900,1260
+com.yaya.mmbang/.activity.WebViewLinkActivity,05-05 15:56:15.870,05-05 15:56:16.040,1910
+com.yaya.mmbang/.login.ActivityLogin},05-05 15:56:21.150,,
+com.yaya.mmbang/.activity.PhotoSelectorActivity,05-05 15:56:32.750,05-05 15:56:32.900,1650
+com.yaya.mmbang/.activity.PhotoViewActivity,05-05 15:56:34.410,05-05 15:56:34.550,960
+com.yaya.mmbang/.activity.TopicDetailListActivity,05-05 15:56:40.190,05-05 15:56:40.560,750
+com.yaya.mmbang/.activity.TopicDetailListActivity,05-05 15:56:45.140,05-05 15:56:45.320,460
+com.yaya.mmbang/.activity.WebViewLinkActivity,05-05 15:56:51.420,05-05 15:56:51.580,1000
+com.yaya.mmbang/.activity.ActivityCostEffective,05-05 15:57:11.690,05-05 15:57:12.010,1700
+com.yaya.mmbang/.trialcenter.ActivityTrialCenterDetail,05-05 15:57:17.920,05-05 15:57:18.120,2040
+com.yaya.mmbang/.trialcenter.ActivityTrialCenterAdressConfirm,05-05 15:57:21.310,05-05 15:57:21.490,800
+com.yaya.mmbang/.trialcenter.ActivityTrialReportApplySuccess,05-05 15:57:23.770,05-05 15:57:23.970,1740
+com.yaya.mmbang/.trialcenter.ActivitySingleProductReport,05-05 15:57:31.630,05-05 15:57:31.880,1510
+com.yaya.mmbang/.activity.BabyMusicActivity,05-05 15:57:40.610,05-05 15:57:40.820,1430
+com.yaya.mmbang/.activity.ToolBoxActivityGroup,05-05 15:57:47.920,05-05 15:57:48.210,2130
+com.yaya.mmbang/.activity.EssentialTagCustomActivityGroup,05-05 15:57:52.620,05-05 15:57:52.810,1430
+com.yaya.mmbang/.activity.WorkGuideActivity,05-05 15:57:58.020,05-05 15:57:58.250,270
+com.yaya.mmbang/.activity.WebViewLinkActivity,05-05 15:58:10.780,05-05 15:58:10.940,1720
+com.yaya.mmbang/.activity.BangNewsListActivity,05-05 15:58:19.280,05-05 15:58:19.400,680
+com.yaya.mmbang/.activity.TopicDetailListActivity,05-05 15:58:22.250,05-05 15:58:22.520,770
+com.yaya.mmbang/.activity.BangMapActivityNew},05-05 15:59:12.810,,
+com.yaya.mmbang/.activity.BangItemListActivity,05-05 15:59:17.620,05-05 15:59:17.780,1400
+com.yaya.mmbang/.activity.CreateTopicInputActivity,05-05 15:59:20.300,05-05 15:59:20.480,780
+com.yaya.mmbang/.activity.BangInfoActivity,05-05 15:59:24.640,05-05 15:59:24.840,1480
+com.yaya.mmbang/.activity.BangMapActivityNew},05-05 15:59:29.420,,
+com.yaya.mmbang/.activity.BangMessageActivity},05-05 15:59:36.060,,
+com.yaya.mmbang/.activity.MyMsgRecordListActivity,05-05 15:59:37.890,05-05 15:59:38.080,1970
+com.yaya.mmbang/.activity.GetFlowListActivity,05-05 15:59:40.540,05-05 15:59:40.720,1260
+com.yaya.mmbang/.activity.ReplyMeListActivity,05-05 15:59:42.970,05-05 15:59:43.140,2110
+com.yaya.mmbang/.activity.PersonalInfoModifyActivity},05-05 16:00:03.240,,
+com.yaya.mmbang/.activity.PhotoSelectorActivity,05-05 16:00:04.640,05-05 16:00:04.770,1410
+com.yaya.mmbang/.login.ActivityBindLoginUser,05-05 16:00:08.560,05-05 16:00:08.800,1360
+com.yaya.mmbang/.recipe.ActivityAddressList},05-05 16:00:14.870,,
+com.yaya.mmbang/.recipe.ActivityAddressEdit},05-05 16:00:16.920,,
+com.yaya.mmbang/.activity.BabyListActivity,05-05 16:00:21.620,05-05 16:00:21.830,1450
+com.yaya.mmbang/.activity.BabyEditActivity,05-05 16:00:25.340,05-05 16:00:25.510,850
+com.yaya.mmbang/.activity.FriendsActivity,05-05 16:00:36.930,05-05 16:00:37.060,1990
+com.yaya.mmbang/.activity.PersonalActivityNew,05-05 16:00:39.010,05-05 16:00:39.210,220
+com.yaya.mmbang/.activity.FriendsActivity,05-05 16:00:43.570,05-05 16:00:43.710,1280
+com.yaya.mmbang/.activity.PersonalActivityNew,05-05 16:00:45.150,05-05 16:00:45.320,470
+com.yaya.mmbang/.activity.BangItemListActivity,05-05 16:00:47.850,05-05 16:00:48.020,1870
+com.yaya.mmbang/.activity.TopicDetailListActivity,05-05 16:00:49.260,05-05 16:00:49.520,780
+com.yaya.mmbang/.activity.BangItemListActivity,05-05 16:00:53.100,05-05 16:00:53.250,350
+com.yaya.mmbang/.activity.TopicDetailListActivity,05-05 16:00:54.650,05-05 16:00:54.840,1490
+com.yaya.mmbang/.activity.BabyEditActivity,05-05 16:00:59.280,05-05 16:00:59.480,760
+com.yaya.mmbang/.antenatal.ActivityReportMain},05-05 16:01:02.190,,
+com.yaya.mmbang/.antenatal.ActivityNoCompleteAntenatelInfo,05-05 16:01:09.760,05-05 16:01:09.920,1680
+com.yaya.mmbang/.antenatal.AntenatalWebViewActivity,05-05 16:01:14.170,05-05 16:01:14.310,480
+com.yaya.mmbang/.activity.SettingActivity,05-05 16:01:21.030,05-05 16:01:21.270,300
+com.yaya.mmbang/.activity.SettingActivity,05-05 16:01:22.350,05-05 16:01:22.550,900
+com.yaya.mmbang/.activity.SettingActivity,05-05 16:01:29.160,05-05 16:01:29.340,500
+com.yaya.mmbang/.activity.MyMsgRecordListActivity,05-05 16:01:30.610,05-05 16:01:30.800,1410
+com.yaya.mmbang/.activity.CreateTopicInputActivity,05-05 16:01:34.420,05-05 16:01:34.610,1030
+com.yaya.mmbang/.login.ActivityLogin},05-05 16:01:48.440,,
+com.yaya.mmbang/.activity.WebViewLinkActivity,05-05 16:01:54.170,05-05 16:01:54.350,520
+com.yaya.mmbang/.login.ActivityPhoneCodeLogin,05-05 16:01:59.720,05-05 16:01:59.880,1600
+com.yaya.mmbang/.login.ActivityPhoneCodeLogin,05-05 16:02:09.470,05-05 16:02:09.610,1080
+com.yaya.mmbang/.login.ActivityFindPassword,05-05 16:02:11.970,05-05 16:02:12.140,2110
+com.yaya.mmbang/.login.ActivityFindPassword,05-05 16:02:14.230,05-05 16:02:14.380,610

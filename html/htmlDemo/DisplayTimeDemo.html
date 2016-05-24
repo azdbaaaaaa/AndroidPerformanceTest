@@ -1,0 +1,63 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>DisplayTime</title>
+
+		<script type="text/javascript" src="http://cdn.hcharts.cn/jquery/jquery-1.8.3.min.js"></script>
+		<style type="text/css">
+${demo.css}
+		</style>
+		<script type="text/javascript">
+$(function () {
+        $('#DisplayTime').highcharts({
+            chart: {
+                type: 'column'
+            },
+            title: {
+                text: 'DisplayTime'
+            },
+            subtitle: {
+                text: 'DisplayTime'
+            },
+            xAxis: {
+                categories: [
+                    '主页','启动页'
+                ]
+            },
+            yAxis: {
+                min: 0,
+                title: {
+                    text: '页面加载时间(ms)'
+                }
+            },
+            tooltip: {
+                headerFormat: '<span style="font-size:10px">{point.key}</span><table>',
+                pointFormat: '<tr><td style="color:{series.color};padding:0">{series.name}: </td>' +
+                    '<td style="padding:0"><b>{point.y:.1f} mm</b></td></tr>',
+                footerFormat: '</table>',
+                shared: true,
+                useHTML: true
+            },
+            plotOptions: {
+                column: {
+                    pointPadding: 0.2,
+                    borderWidth: 0
+                }
+            },
+            series: [
+            {name: 'mmbang',data: [49.9, 71.5, 106.4, 129.2, 144.0, 176.0, 135.6, 148.5, 216.4, 194.1, 95.6, 54.4]}, {name: 'babytree',data: [83.6, 78.8, 98.5, 93.4, 106.0, 84.5, 105.0, 104.3, 91.2, 83.5, 106.6, 92.3]
+
+            }]
+        });
+    });   
+		</script>
+	</head>
+	<body>
+<script src="http://cdn.hcharts.cn/highcharts/highcharts.js"></script>
+<script src="http://cdn.hcharts.cn/highcharts/modules/exporting.js"></script>
+
+<div id="DisplayTime" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+
+	</body>
+</html>

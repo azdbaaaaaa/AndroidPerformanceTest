@@ -1,0 +1,90 @@
+Applications Graphics Acceleration Info:
+Uptime: 87302445 Realtime: 87302445
+
+** Graphics info for pid 6262 [com.babytree.apps.pregnancy] **
+
+Recent DisplayList operations
+            DrawRenderNode
+              DrawRect
+            DrawRenderNode
+            DrawRenderNode
+            DrawRenderNode
+            DrawRenderNode
+              DrawRenderNode
+                DrawRenderNode
+                  DrawBitmapRect
+                Save
+                ClipRect
+                Translate
+                RestoreToCount
+          DrawRenderNode
+        DrawPatch
+      RestoreToCount
+RestoreToCount
+DrawRect
+DrawBitmapRect
+DrawPatch
+Save
+DrawRenderNode
+  DrawRenderNode
+    DrawRenderNode
+      DrawRenderNode
+        DrawRect
+      Save
+      ClipRect
+      DrawRenderNode
+        DrawRenderNode
+          DrawRenderNode
+            DrawRenderNode
+              DrawRect
+            DrawRenderNode
+            DrawRenderNode
+              DrawRenderNode
+            DrawRenderNode
+              DrawRenderNode
+                DrawRenderNode
+                Save
+                ClipRect
+                Translate
+                RestoreToCount
+            DrawRenderNode
+          DrawRenderNode
+        DrawPatch
+      RestoreToCount
+RestoreToCount
+DrawRect
+DrawPatch
+
+Caches:
+Current memory usage / total memory usage (bytes):
+  TextureCache         14373316 / 75497472
+  LayerCache                  0 / 50331648 (numLayers = 0)
+  Garbage layers              0
+  Active layers               0
+  RenderBufferCache           0 /  8388608
+  GradientCache               0 /  1048576
+  PathCache                   0 / 33554432
+  TessellationCache           0 /  1048576
+  TextDropShadowCache         0 /  6291456
+  PatchCache                192 /   131072
+  FontRenderer 0 A8     1048576 /  1048576
+  FontRenderer 0 RGBA         0 /        0
+  FontRenderer 0 total  1048576 /  1048576
+Other:
+  FboCache                    0 /        0
+Total memory usage:
+  15422084 bytes, 14.71 MB
+
+Profile data in ms:
+
+	com.babytree.apps.pregnancy/com.babytree.apps.pregnancy.activity.RoleSelectActivity/android.view.ViewRootImpl@197c3558 (visibility=0)
+View hierarchy:
+
+  com.babytree.apps.pregnancy/com.babytree.apps.pregnancy.activity.RoleSelectActivity/android.view.ViewRootImpl@197c3558
+  33 views, 33.43 kB of display lists
+
+
+Total ViewRootImpl: 1
+Total Views:        33
+Total DisplayList:  33.43 kB
+

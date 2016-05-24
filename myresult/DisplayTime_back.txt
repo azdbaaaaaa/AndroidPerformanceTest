@@ -1,0 +1,414 @@
+--------- beginning of main
+--------- beginning of system
+05-05 10:07:58.808 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:07:59.208 W/ActivityManager( 1008): getTasks: caller 10550 does not hold REAL_GET_TASKS; limiting output
+05-05 10:07:59.218 W/ActivityManager( 1008): getRunningAppProcesses: caller 10550 does not hold REAL_GET_TASKS; limiting output
+05-05 10:07:59.828 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:00.848 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:01.868 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:01.998 W/ActivityManager( 1008): getRunningAppProcesses: caller 10090 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:02.428 I/ActivityManager( 1008): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.yaya.mmbang/.activity.SplashActivity bnds=[434,1172][658,1396]} from uid 10017 on display 0
+05-05 10:08:02.498 I/ActivityManager( 1008): Start proc com.yaya.mmbang for activity com.yaya.mmbang/.activity.SplashActivity: pid=4903 uid=10818 gids={50818, 9997, 1028, 3003, 1015} abi=armeabi
+05-05 10:08:02.548 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:02.558 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:02.568 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:02.718 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:02.728 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:02.728 W/ActivityManager( 1008): getRecentTasks: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:02.728 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:02.878 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:03.058 W/ActivityManager( 1008): Unable to start service Intent { act=com.google.android.gms.ads.identifier.service.START pkg=com.google.android.gms } U=0: not found
+05-05 10:08:03.088 I/ActivityManager( 1008): Displayed com.yaya.mmbang/.activity.SplashActivity: +623ms
+05-05 10:08:03.128 I/ActivityManager( 1008): START u0 {flg=0x4000000 cmp=com.yaya.mmbang/.activity.MainActivity (has extras)} from uid 10818 on display 0
+05-05 10:08:03.208 I/ActivityManager( 1008): START u0 {cmp=com.yaya.mmbang/.login.NewbieProcessActivity (has extras)} from uid 10818 on display 0
+05-05 10:08:03.588 I/ActivityManager( 1008): Start proc com.yaya.mmbang:remote for service com.yaya.mmbang/com.baidu.location.f: pid=5026 uid=10818 gids={50818, 9997, 1028, 3003, 1015} abi=armeabi
+05-05 10:08:03.638 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:03.878 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:03.908 I/ActivityManager( 1008): Displayed com.yaya.mmbang/.login.NewbieProcessActivity: +468ms (total +764ms)
+05-05 10:08:04.168 I/ActivityManager( 1008): Process com.yaya.mmbang:remote (pid 5026) has died
+05-05 10:08:04.278 W/ActivityManager( 1008): getTasks: caller 10550 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:04.278 W/ActivityManager( 1008): getRunningAppProcesses: caller 10550 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:04.818 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:04.888 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:05.858 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:05.898 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:06.868 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:06.918 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:07.868 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:07.928 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:08.028 W/ActivityManager( 1008): Unable to start service Intent { act=APP_CHANGE_ACTION flg=0x4 cmp=com.wandoujia.phoenix2/com.wandoujia.base.services.AlarmService (has extras) } U=0: not found
+05-05 10:08:08.868 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:08.938 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:09.328 W/ActivityManager( 1008): getTasks: caller 10550 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:09.348 W/ActivityManager( 1008): getRunningAppProcesses: caller 10550 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:09.878 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:09.958 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:10.888 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:10.978 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:11.888 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:11.988 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:12.898 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:13.008 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:13.898 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:14.008 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:14.428 W/ActivityManager( 1008): getTasks: caller 10550 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:14.448 W/ActivityManager( 1008): getRunningAppProcesses: caller 10550 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:14.898 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:15.028 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:15.908 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:16.038 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:16.908 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:17.048 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:17.918 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:18.048 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:18.918 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:19.068 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:19.518 W/ActivityManager( 1008): getTasks: caller 10550 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:19.538 W/ActivityManager( 1008): getRunningAppProcesses: caller 10550 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:19.928 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:20.088 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:20.938 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:21.098 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:21.948 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:22.018 I/ActivityManager( 1008): START u0 {cmp=com.yaya.mmbang/.activity.WebViewLinkActivity (has extras)} from uid 10818 on display 0
+05-05 10:08:22.108 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:22.468 I/ActivityManager( 1008): Start proc com.yaya.mmbang:remote for service com.yaya.mmbang/com.baidu.location.f: pid=5142 uid=10818 gids={50818, 9997, 1028, 3003, 1015} abi=armeabi
+05-05 10:08:22.528 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:22.548 I/ActivityManager( 1008): Displayed com.yaya.mmbang/.activity.WebViewLinkActivity: +520ms
+05-05 10:08:22.888 I/ActivityManager( 1008): Process com.yaya.mmbang:remote (pid 5142) has died
+05-05 10:08:22.948 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:23.118 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:23.958 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:24.128 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:24.618 W/ActivityManager( 1008): getTasks: caller 10550 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:24.638 W/ActivityManager( 1008): getRunningAppProcesses: caller 10550 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:24.958 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:25.148 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:25.968 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:26.158 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:26.968 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:27.168 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:27.498 I/ActivityManager( 1008): START u0 {cmp=com.yaya.mmbang/.login.ActivityLogin} from uid 10818 on display 0
+05-05 10:08:27.728 I/ActivityManager( 1008): Displayed com.yaya.mmbang/.login.ActivityLogin: +218ms
+05-05 10:08:27.968 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:28.188 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:28.978 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:29.188 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:29.698 W/ActivityManager( 1008): getTasks: caller 10550 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:29.718 W/ActivityManager( 1008): getRunningAppProcesses: caller 10550 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:29.978 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:30.198 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:30.988 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:31.208 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:31.988 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:31.998 W/ActivityManager( 1008): getRunningAppProcesses: caller 10090 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:32.228 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:32.998 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:33.238 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:33.998 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:34.238 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:34.778 W/ActivityManager( 1008): getTasks: caller 10550 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:34.798 W/ActivityManager( 1008): getRunningAppProcesses: caller 10550 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:35.008 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:35.258 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:35.288 I/ActivityManager( 1008): START u0 {flg=0x4000000 cmp=com.yaya.mmbang/.activity.TopicDetailListActivity (has extras)} from uid 10818 on display 0
+05-05 10:08:35.578 I/ActivityManager( 1008): Displayed com.yaya.mmbang/.activity.TopicDetailListActivity: +283ms
+05-05 10:08:36.008 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:36.258 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:37.018 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:37.268 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:38.028 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:38.278 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:39.038 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:39.248 I/ActivityManager( 1008): START u0 {flg=0x4000000 cmp=com.yaya.mmbang/.activity.CalendarActivity (has extras)} from uid 10818 on display 0
+05-05 10:08:39.288 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:39.758 I/ActivityManager( 1008): Displayed com.yaya.mmbang/.activity.CalendarActivity: +497ms
+05-05 10:08:39.868 W/ActivityManager( 1008): getTasks: caller 10550 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:39.868 W/ActivityManager( 1008): getRunningAppProcesses: caller 10550 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:40.038 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:40.298 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:41.048 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:41.298 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:42.048 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:42.308 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:43.058 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:43.318 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:43.628 I/ActivityManager( 1008): START u0 {flg=0x4000000 cmp=com.yaya.mmbang/.parenting.TemperatureActivity (has extras)} from uid 10818 on display 0
+05-05 10:08:43.888 I/ActivityManager( 1008): Displayed com.yaya.mmbang/.parenting.TemperatureActivity: +247ms
+05-05 10:08:44.058 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:44.338 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:44.918 W/ActivityManager( 1008): getTasks: caller 10550 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:44.928 W/ActivityManager( 1008): getRunningAppProcesses: caller 10550 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:45.058 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:45.338 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:46.068 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:46.348 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:46.668 I/ActivityManager( 1008): START u0 {flg=0x4000000 cmp=com.yaya.mmbang/.plsz.PLSZActivity (has extras)} from uid 10818 on display 0
+05-05 10:08:47.028 I/ActivityManager( 1008): Displayed com.yaya.mmbang/.plsz.PLSZActivity: +344ms
+05-05 10:08:47.068 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:47.358 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:48.078 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:48.378 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:49.088 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:49.388 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:49.998 W/ActivityManager( 1008): getTasks: caller 10550 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:50.008 W/ActivityManager( 1008): getRunningAppProcesses: caller 10550 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:50.088 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:50.408 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:51.098 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:51.418 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:52.098 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:52.428 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:53.108 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:53.438 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:54.108 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:54.448 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:55.068 W/ActivityManager( 1008): getTasks: caller 10550 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:55.078 W/ActivityManager( 1008): getRunningAppProcesses: caller 10550 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:55.118 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:55.458 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:56.118 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:56.478 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:57.128 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:57.498 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:58.138 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:58.518 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:58.648 I/ActivityManager( 1008): START u0 {cmp=com.yaya.mmbang/.activity.BangMapActivityNew} from uid 10818 on display 0
+05-05 10:08:58.828 I/ActivityManager( 1008): Displayed com.yaya.mmbang/.activity.BangMapActivityNew: +177ms
+05-05 10:08:59.148 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:08:59.538 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:00.128 W/ActivityManager( 1008): getTasks: caller 10550 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:00.148 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:00.148 W/ActivityManager( 1008): getRunningAppProcesses: caller 10550 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:00.558 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:01.158 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:01.578 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:01.998 W/ActivityManager( 1008): getRunningAppProcesses: caller 10090 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:02.158 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:02.588 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:03.158 I/ActivityManager( 1008): START u0 {cmp=com.yaya.mmbang/.activity.BangItemListActivity (has extras)} from uid 10818 on display 0
+05-05 10:09:03.178 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:03.318 I/ActivityManager( 1008): Displayed com.yaya.mmbang/.activity.BangItemListActivity: +153ms
+05-05 10:09:03.618 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:04.188 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:04.628 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:05.188 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:05.198 W/ActivityManager( 1008): getTasks: caller 10550 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:05.208 W/ActivityManager( 1008): getRunningAppProcesses: caller 10550 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:05.638 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:06.198 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:06.658 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:07.198 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:07.678 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:08.208 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:08.388 I/ActivityManager( 1008): START u0 {cmp=com.yaya.mmbang/.activity.TopicDetailListActivity (has extras)} from uid 10818 on display 0
+05-05 10:09:08.558 I/ActivityManager( 1008): Displayed com.yaya.mmbang/.activity.TopicDetailListActivity: +158ms
+05-05 10:09:08.688 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:09.208 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:09.698 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:10.218 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:10.258 W/ActivityManager( 1008): getTasks: caller 10550 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:10.278 W/ActivityManager( 1008): getRunningAppProcesses: caller 10550 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:10.718 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:11.218 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:11.738 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:12.228 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:12.748 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:12.758 W/ActivityManager( 1008): Unable to start service Intent { act=APP_CHANGE_ACTION flg=0x4 cmp=com.wandoujia.phoenix2/com.wandoujia.base.services.AlarmService (has extras) } U=0: not found
+05-05 10:09:13.238 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:13.758 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:14.238 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:14.468 I/ActivityManager( 1008): START u0 {cmp=com.yaya.mmbang/.login.ActivityLogin} from uid 10818 on display 0
+05-05 10:09:14.618 I/ActivityManager( 1008): Displayed com.yaya.mmbang/.login.ActivityLogin: +127ms
+05-05 10:09:14.768 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:15.248 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:15.348 W/ActivityManager( 1008): getTasks: caller 10550 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:15.368 W/ActivityManager( 1008): getRunningAppProcesses: caller 10550 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:15.778 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:16.248 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:16.798 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:17.258 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:17.818 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:18.268 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:18.828 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:19.268 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:19.828 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:20.278 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:20.418 W/ActivityManager( 1008): getTasks: caller 10550 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:20.428 W/ActivityManager( 1008): getRunningAppProcesses: caller 10550 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:20.838 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:21.278 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:21.848 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:22.288 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:22.858 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:23.288 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:23.868 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:24.298 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:24.888 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:25.298 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:25.488 W/ActivityManager( 1008): getTasks: caller 10550 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:25.498 W/ActivityManager( 1008): getRunningAppProcesses: caller 10550 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:25.908 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:26.308 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:26.918 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:27.318 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:27.948 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:28.328 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:28.958 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:29.328 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:29.408 I/ActivityManager( 1008): START u0 {cmp=com.yaya.mmbang/.activity.BangItemListActivity (has extras)} from uid 10818 on display 0
+05-05 10:09:29.568 I/ActivityManager( 1008): Displayed com.yaya.mmbang/.activity.BangItemListActivity: +145ms
+05-05 10:09:29.968 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:30.338 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:30.558 W/ActivityManager( 1008): getTasks: caller 10550 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:30.578 W/ActivityManager( 1008): getRunningAppProcesses: caller 10550 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:30.778 I/ActivityManager( 1008): START u0 {cmp=com.yaya.mmbang/.activity.CreateTopicInputActivity (has extras)} from uid 10818 on display 0
+05-05 10:09:30.978 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:30.988 I/ActivityManager( 1008): Displayed com.yaya.mmbang/.activity.CreateTopicInputActivity: +198ms
+05-05 10:09:31.348 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:31.988 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:31.998 W/ActivityManager( 1008): getRunningAppProcesses: caller 10090 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:32.348 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:32.998 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:33.358 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:34.018 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:34.358 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:35.028 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:35.358 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:35.648 W/ActivityManager( 1008): getTasks: caller 10550 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:35.648 W/ActivityManager( 1008): getRunningAppProcesses: caller 10550 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:36.038 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:36.368 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:37.048 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:37.378 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:38.058 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:38.378 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:39.068 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:39.378 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:40.068 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:40.388 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:40.688 W/ActivityManager( 1008): getTasks: caller 10550 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:40.698 W/ActivityManager( 1008): getRunningAppProcesses: caller 10550 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:41.078 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:41.388 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:42.078 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:42.398 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:43.088 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:43.398 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:44.098 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:44.398 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:44.888 I/ActivityManager( 1008): START u0 {cmp=com.yaya.mmbang/.activity.PersonalInfoModifyActivity} from uid 10818 on display 0
+05-05 10:09:45.048 I/ActivityManager( 1008): Displayed com.yaya.mmbang/.activity.PersonalInfoModifyActivity: +140ms
+05-05 10:09:45.108 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:45.408 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:45.748 W/ActivityManager( 1008): getTasks: caller 10550 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:45.758 W/ActivityManager( 1008): getRunningAppProcesses: caller 10550 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:46.118 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:46.408 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:46.838 I/ActivityManager( 1008): START u0 {cmp=com.yaya.mmbang/.activity.PhotoSelectorActivity (has extras)} from uid 10818 on display 0
+05-05 10:09:47.008 I/ActivityManager( 1008): Displayed com.yaya.mmbang/.activity.PhotoSelectorActivity: +155ms
+05-05 10:09:47.138 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:47.418 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:48.138 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:48.418 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:49.148 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:49.428 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:50.168 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:50.438 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:50.828 W/ActivityManager( 1008): getTasks: caller 10550 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:50.868 W/ActivityManager( 1008): getRunningAppProcesses: caller 10550 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:51.188 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:51.438 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:52.198 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:52.448 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:52.468 I/ActivityManager( 1008): START u0 {cmp=com.yaya.mmbang/.login.ActivityBindLoginUser (has extras)} from uid 10818 on display 0
+05-05 10:09:52.658 I/ActivityManager( 1008): Displayed com.yaya.mmbang/.login.ActivityBindLoginUser: +179ms
+05-05 10:09:53.218 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:53.448 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:54.238 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:54.458 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:55.248 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:55.458 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:55.968 W/ActivityManager( 1008): getTasks: caller 10550 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:55.988 W/ActivityManager( 1008): getRunningAppProcesses: caller 10550 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:56.258 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:56.468 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:57.268 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:57.478 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:57.768 I/ActivityManager( 1008): START u0 {cmp=com.yaya.mmbang/.recipe.ActivityAddressList} from uid 10818 on display 0
+05-05 10:09:57.888 I/ActivityManager( 1008): Displayed com.yaya.mmbang/.recipe.ActivityAddressList: +107ms
+05-05 10:09:58.288 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:58.488 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:59.298 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:09:59.488 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:10:00.308 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:10:00.498 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:10:01.058 W/ActivityManager( 1008): getTasks: caller 10550 does not hold REAL_GET_TASKS; limiting output
+05-05 10:10:01.078 W/ActivityManager( 1008): getRunningAppProcesses: caller 10550 does not hold REAL_GET_TASKS; limiting output
+05-05 10:10:01.328 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:10:01.498 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:10:01.738 I/ActivityManager( 1008): START u0 {cmp=com.yaya.mmbang/.activity.BabyListActivity (has extras)} from uid 10818 on display 0
+05-05 10:10:01.978 I/ActivityManager( 1008): Displayed com.yaya.mmbang/.activity.BabyListActivity: +221ms
+05-05 10:10:01.998 W/ActivityManager( 1008): getRunningAppProcesses: caller 10090 does not hold REAL_GET_TASKS; limiting output
+05-05 10:10:02.358 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:10:02.508 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:10:03.368 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:10:03.508 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:10:04.378 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:10:04.518 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:10:05.388 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:10:05.518 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:10:06.138 W/ActivityManager( 1008): getTasks: caller 10550 does not hold REAL_GET_TASKS; limiting output
+05-05 10:10:06.138 W/ActivityManager( 1008): getRunningAppProcesses: caller 10550 does not hold REAL_GET_TASKS; limiting output
+05-05 10:10:06.398 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:10:06.518 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:10:07.408 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:10:07.528 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:10:08.428 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:10:08.528 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:10:08.838 I/ActivityManager( 1008): START u0 {cmp=com.yaya.mmbang/.activity.SettingActivity (has extras)} from uid 10818 on display 0
+05-05 10:10:09.028 I/ActivityManager( 1008): Displayed com.yaya.mmbang/.activity.SettingActivity: +186ms
+05-05 10:10:09.448 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:10:09.538 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:10:10.458 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:10:10.548 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:10:10.888 I/ActivityManager( 1008): START u0 {cmp=com.yaya.mmbang/.activity.SettingActivity (has extras)} from uid 10818 on display 0
+05-05 10:10:11.068 I/ActivityManager( 1008): Displayed com.yaya.mmbang/.activity.SettingActivity: +169ms
+05-05 10:10:11.188 W/ActivityManager( 1008): getTasks: caller 10550 does not hold REAL_GET_TASKS; limiting output
+05-05 10:10:11.198 W/ActivityManager( 1008): getRunningAppProcesses: caller 10550 does not hold REAL_GET_TASKS; limiting output
+05-05 10:10:11.488 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:10:11.548 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:10:12.498 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:10:12.558 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:10:13.518 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:10:13.558 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:10:14.528 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:10:14.558 I/ActivityManager( 1008): START u0 {cmp=com.yaya.mmbang/.activity.SettingActivity (has extras)} from uid 10818 on display 0
+05-05 10:10:14.568 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:10:14.728 I/ActivityManager( 1008): Displayed com.yaya.mmbang/.activity.SettingActivity: +163ms
+05-05 10:10:15.538 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:10:15.568 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:10:16.248 W/ActivityManager( 1008): getTasks: caller 10550 does not hold REAL_GET_TASKS; limiting output
+05-05 10:10:16.268 W/ActivityManager( 1008): getRunningAppProcesses: caller 10550 does not hold REAL_GET_TASKS; limiting output
+05-05 10:10:16.558 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:10:16.578 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:10:17.578 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:10:17.578 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:10:18.588 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:10:18.588 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:10:19.598 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:10:19.608 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:10:20.598 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:10:20.618 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:10:21.328 W/ActivityManager( 1008): getTasks: caller 10550 does not hold REAL_GET_TASKS; limiting output
+05-05 10:10:21.328 W/ActivityManager( 1008): getRunningAppProcesses: caller 10550 does not hold REAL_GET_TASKS; limiting output
+05-05 10:10:21.608 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:10:21.638 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:10:22.608 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:10:22.638 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:10:23.608 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:10:23.638 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:10:24.618 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:10:24.648 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-05 10:10:25.628 W/ActivityManager( 1008): getRunningAppProcesses: caller 10818 does not hold REAL_GET_TASKS; limiting output
+05-05 10:10:25.658 W/ActivityManager( 1008): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output

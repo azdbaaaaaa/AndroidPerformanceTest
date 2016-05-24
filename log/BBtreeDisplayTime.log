@@ -1,0 +1,451 @@
+--------- beginning of main
+--------- beginning of system
+05-20 17:34:30.794 W/ActivityManager( 1016): getRunningAppProcesses: caller 10926 does not hold REAL_GET_TASKS; limiting output
+05-20 17:34:31.314 W/ActivityManager( 1016): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-20 17:34:31.804 W/ActivityManager( 1016): getRunningAppProcesses: caller 10926 does not hold REAL_GET_TASKS; limiting output
+05-20 17:34:32.344 W/ActivityManager( 1016): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-20 17:34:32.434 I/ActivityManager( 1016): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.babytree.apps.pregnancy/.MainActivity bnds=[1126,1172][1350,1396]} from uid 10017 on display 0
+05-20 17:34:32.494 I/ActivityManager( 1016): Start proc com.babytree.apps.pregnancy for activity com.babytree.apps.pregnancy/.MainActivity: pid=25006 uid=10922 gids={50922, 9997, 3003, 1028, 1015, 3002, 3001} abi=armeabi
+05-20 17:34:32.814 W/ActivityManager( 1016): getRunningAppProcesses: caller 10926 does not hold REAL_GET_TASKS; limiting output
+05-20 17:34:33.374 W/ActivityManager( 1016): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-20 17:34:33.734 W/ActivityManager( 1016): getRunningAppProcesses: caller 10922 does not hold REAL_GET_TASKS; limiting output
+05-20 17:34:33.804 W/ActivityManager( 1016): Unable to start service Intent { cmp=com.babytree.apps.pregnancy/com.apptalkingdata.push.service.PushService (has extras) } U=0: not found
+05-20 17:34:33.804 W/ActivityManager( 1016): getRunningAppProcesses: caller 10922 does not hold REAL_GET_TASKS; limiting output
+05-20 17:34:33.834 W/ActivityManager( 1016): getRecentTasks: caller 10922 does not hold REAL_GET_TASKS; limiting output
+05-20 17:34:33.834 W/ActivityManager( 1016): getRunningAppProcesses: caller 10926 does not hold REAL_GET_TASKS; limiting output
+05-20 17:34:33.834 W/ActivityManager( 1016): getRunningAppProcesses: caller 10922 does not hold REAL_GET_TASKS; limiting output
+05-20 17:34:34.374 W/ActivityManager( 1016): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-20 17:34:34.834 W/ActivityManager( 1016): getRunningAppProcesses: caller 10926 does not hold REAL_GET_TASKS; limiting output
+05-20 17:34:34.964 W/ActivityManager( 1016): Unable to start service Intent { cmp=com.babytree.apps.pregnancy/com.babytree.platform.service.BaseService } U=0: not found
+05-20 17:34:34.994 W/ActivityManager( 1016): getRunningAppProcesses: caller 10922 does not hold REAL_GET_TASKS; limiting output
+05-20 17:34:34.994 W/ActivityManager( 1016): getRunningAppProcesses: caller 10922 does not hold REAL_GET_TASKS; limiting output
+05-20 17:34:35.034 I/ActivityManager( 1016): Start proc com.babytree.apps.pregnancy:pushservice for service com.babytree.apps.pregnancy/com.igexin.sdk.PushService: pid=25091 uid=10922 gids={50922, 9997, 3003, 1028, 1015, 3002, 3001} abi=armeabi
+05-20 17:34:35.174 W/ActivityManager( 1016): getRunningAppProcesses: caller 10922 does not hold REAL_GET_TASKS; limiting output
+05-20 17:34:35.384 W/ActivityManager( 1016): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-20 17:34:35.384 I/ActivityManager( 1016): Start proc com.babytree.apps.pregnancy:remote for service com.babytree.apps.pregnancy/com.baidu.location.f: pid=25141 uid=10922 gids={50922, 9997, 3003, 1028, 1015, 3002, 3001} abi=armeabi
+05-20 17:34:35.394 W/ActivityManager( 1016): getTasks: caller 10550 does not hold REAL_GET_TASKS; limiting output
+05-20 17:34:35.394 W/ActivityManager( 1016): getRunningAppProcesses: caller 10550 does not hold REAL_GET_TASKS; limiting output
+05-20 17:34:35.594 I/ActivityManager( 1016): Displayed com.babytree.apps.pregnancy/.MainActivity: +3s137ms
+05-20 17:34:35.844 W/ActivityManager( 1016): getRunningAppProcesses: caller 10926 does not hold REAL_GET_TASKS; limiting output
+05-20 17:34:36.084 W/ActivityManager( 1016): getRunningAppProcesses: caller 10922 does not hold REAL_GET_TASKS; limiting output
+05-20 17:34:36.154 W/ActivityManager( 1016): getRecentTasks: caller 10922 does not hold REAL_GET_TASKS; limiting output
+05-20 17:34:36.164 W/ActivityManager( 1016): getRunningAppProcesses: caller 10922 does not hold REAL_GET_TASKS; limiting output
+05-20 17:34:36.394 W/ActivityManager( 1016): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-20 17:34:36.854 W/ActivityManager( 1016): getRunningAppProcesses: caller 10926 does not hold REAL_GET_TASKS; limiting output
+05-20 17:34:37.404 W/ActivityManager( 1016): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-20 17:34:37.864 W/ActivityManager( 1016): getRunningAppProcesses: caller 10926 does not hold REAL_GET_TASKS; limiting output
+05-20 17:34:38.414 W/ActivityManager( 1016): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-20 17:34:38.444 W/ActivityManager( 1016): getRunningAppProcesses: caller 10922 does not hold REAL_GET_TASKS; limiting output
+05-20 17:34:38.504 W/ActivityManager( 1016): getRecentTasks: caller 10922 does not hold REAL_GET_TASKS; limiting output
+05-20 17:34:38.504 W/ActivityManager( 1016): getRunningAppProcesses: caller 10922 does not hold REAL_GET_TASKS; limiting output
+05-20 17:34:38.864 W/ActivityManager( 1016): getRunningAppProcesses: caller 10926 does not hold REAL_GET_TASKS; limiting output
+05-20 17:34:39.234 I/ActivityManager( 1016): START u0 {cmp=com.babytree.apps.pregnancy/.activity.SailfishActivity (has extras)} from uid 10922 on display 0
+05-20 17:34:39.414 W/ActivityManager( 1016): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-20 17:34:39.604 I/ActivityManager( 1016): Start proc com.baidu.BaiduMap:MapCoreService for content provider com.baidu.BaiduMap/com.baidu.location.OfflineLocationV1Provider: pid=25301 uid=10080 gids={50080, 9997, 1028, 1015, 3003, 3002, 3001} abi=armeabi
+05-20 17:34:39.744 W/ActivityManager( 1016): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+05-20 17:34:39.874 W/ActivityManager( 1016): getRunningAppProcesses: caller 10926 does not hold REAL_GET_TASKS; limiting output
+05-20 17:34:39.944 I/ActivityManager( 1016): Killing 19307:com.miui.player/u0a20 (adj 15): empty for 2704s
+05-20 17:34:40.074 I/ActivityManager( 1016): Displayed com.babytree.apps.pregnancy/.activity.SailfishActivity: +769ms
+05-20 17:34:40.374 W/ActivityManager( 1016): getRunningAppProcesses: caller 10090 does not hold REAL_GET_TASKS; limiting output
+05-20 17:34:40.424 W/ActivityManager( 1016): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-20 17:34:40.444 W/ActivityManager( 1016): getTasks: caller 10550 does not hold REAL_GET_TASKS; limiting output
+05-20 17:34:40.454 W/ActivityManager( 1016): getRunningAppProcesses: caller 10550 does not hold REAL_GET_TASKS; limiting output
+05-20 17:34:40.704 W/ActivityManager( 1016): getRunningAppProcesses: caller 10922 does not hold REAL_GET_TASKS; limiting output
+05-20 17:34:40.704 W/ActivityManager( 1016): getRunningAppProcesses: caller 10922 does not hold REAL_GET_TASKS; limiting output
+05-20 17:34:40.704 W/ActivityManager( 1016): Unbind failed: could not find connection for android.os.BinderProxy@c8b97e5
+05-20 17:34:40.704 W/ActivityManager( 1016): getRunningAppProcesses: caller 10922 does not hold REAL_GET_TASKS; limiting output
+05-20 17:34:40.874 W/ActivityManager( 1016): getRunningAppProcesses: caller 10926 does not hold REAL_GET_TASKS; limiting output
+05-20 17:34:41.434 W/ActivityManager( 1016): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-20 17:34:41.874 W/ActivityManager( 1016): getRunningAppProcesses: caller 10926 does not hold REAL_GET_TASKS; limiting output
+05-20 17:34:42.434 W/ActivityManager( 1016): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-20 17:34:42.884 W/ActivityManager( 1016): getRunningAppProcesses: caller 10926 does not hold REAL_GET_TASKS; limiting output
+05-20 17:34:43.464 W/ActivityManager( 1016): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-20 17:34:43.884 W/ActivityManager( 1016): getRunningAppProcesses: caller 10926 does not hold REAL_GET_TASKS; limiting output
+05-20 17:34:44.474 W/ActivityManager( 1016): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-20 17:34:44.614 W/ActivityManager( 1016): getRunningAppProcesses: caller 10291 does not hold REAL_GET_TASKS; limiting output
+05-20 17:34:44.894 W/ActivityManager( 1016): getRunningAppProcesses: caller 10926 does not hold REAL_GET_TASKS; limiting output
+05-20 17:34:45.494 W/ActivityManager( 1016): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-20 17:34:45.514 W/ActivityManager( 1016): getTasks: caller 10550 does not hold REAL_GET_TASKS; limiting output
+05-20 17:34:45.524 W/ActivityManager( 1016): getRunningAppProcesses: caller 10550 does not hold REAL_GET_TASKS; limiting output
+05-20 17:34:45.894 W/ActivityManager( 1016): getRunningAppProcesses: caller 10926 does not hold REAL_GET_TASKS; limiting output
+05-20 17:34:46.514 W/ActivityManager( 1016): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-20 17:34:46.524 I/ActivityManager( 1016): START u0 {cmp=com.babytree.apps.pregnancy/.activity.RecommendActivity} from uid 10922 on display 0
+05-20 17:34:46.804 I/ActivityManager( 1016): Displayed com.babytree.apps.pregnancy/.activity.RecommendActivity: +257ms
+05-20 17:34:46.904 W/ActivityManager( 1016): getRunningAppProcesses: caller 10926 does not hold REAL_GET_TASKS; limiting output
+05-20 17:34:47.524 W/ActivityManager( 1016): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-20 17:34:47.904 W/ActivityManager( 1016): getRunningAppProcesses: caller 10926 does not hold REAL_GET_TASKS; limiting output
+05-20 17:34:48.544 W/ActivityManager( 1016): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-20 17:34:48.884 W/ActivityManager( 1016): getRunningAppProcesses: caller 10922 does not hold REAL_GET_TASKS; limiting output
+05-20 17:34:48.894 W/ActivityManager( 1016): getRunningAppProcesses: caller 10922 does not hold REAL_GET_TASKS; limiting output
+05-20 17:34:48.914 W/ActivityManager( 1016): getRunningAppProcesses: caller 10922 does not hold REAL_GET_TASKS; limiting output
+05-20 17:34:48.914 W/ActivityManager( 1016): getRunningAppProcesses: caller 10926 does not hold REAL_GET_TASKS; limiting output
+05-20 17:34:49.564 W/ActivityManager( 1016): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-20 17:34:49.924 W/ActivityManager( 1016): getRunningAppProcesses: caller 10926 does not hold REAL_GET_TASKS; limiting output
+05-20 17:34:50.574 W/ActivityManager( 1016): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-20 17:34:50.584 W/ActivityManager( 1016): getTasks: caller 10550 does not hold REAL_GET_TASKS; limiting output
+05-20 17:34:50.594 W/ActivityManager( 1016): getRunningAppProcesses: caller 10550 does not hold REAL_GET_TASKS; limiting output
+05-20 17:34:50.924 W/ActivityManager( 1016): getRunningAppProcesses: caller 10926 does not hold REAL_GET_TASKS; limiting output
+05-20 17:34:51.594 W/ActivityManager( 1016): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-20 17:34:51.924 W/ActivityManager( 1016): getRunningAppProcesses: caller 10926 does not hold REAL_GET_TASKS; limiting output
+05-20 17:34:52.604 W/ActivityManager( 1016): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-20 17:34:52.934 W/ActivityManager( 1016): getRunningAppProcesses: caller 10926 does not hold REAL_GET_TASKS; limiting output
+05-20 17:34:53.614 W/ActivityManager( 1016): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-20 17:34:53.944 W/ActivityManager( 1016): getRunningAppProcesses: caller 10926 does not hold REAL_GET_TASKS; limiting output
+05-20 17:34:54.624 W/ActivityManager( 1016): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-20 17:34:54.944 W/ActivityManager( 1016): getRunningAppProcesses: caller 10926 does not hold REAL_GET_TASKS; limiting output
+05-20 17:34:55.644 W/ActivityManager( 1016): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-20 17:34:55.644 W/ActivityManager( 1016): getTasks: caller 10550 does not hold REAL_GET_TASKS; limiting output
+05-20 17:34:55.664 W/ActivityManager( 1016): getRunningAppProcesses: caller 10550 does not hold REAL_GET_TASKS; limiting output
+05-20 17:34:55.944 W/ActivityManager( 1016): getRunningAppProcesses: caller 10926 does not hold REAL_GET_TASKS; limiting output
+05-20 17:34:56.654 W/ActivityManager( 1016): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-20 17:34:56.954 W/ActivityManager( 1016): getRunningAppProcesses: caller 10926 does not hold REAL_GET_TASKS; limiting output
+05-20 17:34:57.134 I/ActivityManager( 1016): START u0 {cmp=com.babytree.apps.pregnancy/.activity.topic.list.NewTopicListActivity (has extras)} from uid 10922 on display 0
+05-20 17:34:57.344 I/ActivityManager( 1016): Displayed com.babytree.apps.pregnancy/.activity.topic.list.NewTopicListActivity: +174ms
+05-20 17:34:57.664 W/ActivityManager( 1016): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-20 17:34:57.954 W/ActivityManager( 1016): getRunningAppProcesses: caller 10926 does not hold REAL_GET_TASKS; limiting output
+05-20 17:34:58.684 W/ActivityManager( 1016): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-20 17:34:58.964 W/ActivityManager( 1016): getRunningAppProcesses: caller 10926 does not hold REAL_GET_TASKS; limiting output
+05-20 17:34:59.704 W/ActivityManager( 1016): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-20 17:34:59.974 W/ActivityManager( 1016): getRunningAppProcesses: caller 10926 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:00.214 I/ActivityManager( 1016): START u0 {cmp=com.babytree.apps.pregnancy/.activity.topic.details.TopicDetailActivity (has extras)} from uid 10922 on display 0
+05-20 17:35:00.514 I/ActivityManager( 1016): Displayed com.babytree.apps.pregnancy/.activity.topic.details.TopicDetailActivity: +277ms
+05-20 17:35:00.704 W/ActivityManager( 1016): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:00.724 W/ActivityManager( 1016): getTasks: caller 10550 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:00.734 W/ActivityManager( 1016): getRunningAppProcesses: caller 10550 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:00.974 W/ActivityManager( 1016): getRunningAppProcesses: caller 10926 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:01.714 W/ActivityManager( 1016): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:01.984 W/ActivityManager( 1016): getRunningAppProcesses: caller 10926 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:02.244 I/ActivityManager( 1016): START u0 {cmp=com.babytree.apps.pregnancy/.activity.CenterActivity (has extras)} from uid 10922 on display 0
+05-20 17:35:02.644 I/ActivityManager( 1016): Displayed com.babytree.apps.pregnancy/.activity.CenterActivity: +304ms
+05-20 17:35:02.724 W/ActivityManager( 1016): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:02.994 W/ActivityManager( 1016): getRunningAppProcesses: caller 10926 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:03.734 W/ActivityManager( 1016): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:03.994 W/ActivityManager( 1016): getRunningAppProcesses: caller 10926 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:04.544 W/ActivityManager( 1016): getRunningAppProcesses: caller 10922 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:04.544 W/ActivityManager( 1016): getRunningAppProcesses: caller 10922 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:04.544 W/ActivityManager( 1016): getRunningAppProcesses: caller 10922 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:04.754 W/ActivityManager( 1016): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:05.004 W/ActivityManager( 1016): getRunningAppProcesses: caller 10926 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:05.294 W/ActivityManager( 1016): getRunningAppProcesses: caller 10922 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:05.294 W/ActivityManager( 1016): getRunningAppProcesses: caller 10922 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:05.334 W/ActivityManager( 1016): getRunningAppProcesses: caller 10922 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:05.754 W/ActivityManager( 1016): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:05.784 W/ActivityManager( 1016): getTasks: caller 10550 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:05.804 W/ActivityManager( 1016): getRunningAppProcesses: caller 10550 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:06.014 W/ActivityManager( 1016): getRunningAppProcesses: caller 10926 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:06.234 I/ActivityManager( 1016): START u0 {cmp=com.babytree.apps.pregnancy/.activity.topicpost.activity.TopicPostActivity (has extras)} from uid 10922 on display 0
+05-20 17:35:06.274 W/ActivityManager( 1016): Unable to start service Intent { cmp=com.babytree.apps.pregnancy/com.babytree.platform.service.BaseService } U=0: not found
+05-20 17:35:06.474 I/ActivityManager( 1016): Displayed com.babytree.apps.pregnancy/.activity.topicpost.activity.TopicPostActivity: +220ms
+05-20 17:35:06.774 W/ActivityManager( 1016): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:07.014 W/ActivityManager( 1016): getRunningAppProcesses: caller 10926 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:07.794 W/ActivityManager( 1016): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:08.024 W/ActivityManager( 1016): getRunningAppProcesses: caller 10926 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:08.444 W/ActivityManager( 1016): getRunningAppProcesses: caller 10922 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:08.444 W/ActivityManager( 1016): getRunningAppProcesses: caller 10922 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:08.444 W/ActivityManager( 1016): Unbind failed: could not find connection for android.os.BinderProxy@23db0bb1
+05-20 17:35:08.454 W/ActivityManager( 1016): getRunningAppProcesses: caller 10922 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:08.804 W/ActivityManager( 1016): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:09.024 W/ActivityManager( 1016): getRunningAppProcesses: caller 10926 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:09.814 W/ActivityManager( 1016): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:09.874 W/ActivityManager( 1016): getRunningAppProcesses: caller 10922 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:09.874 W/ActivityManager( 1016): getRunningAppProcesses: caller 10922 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:09.884 W/ActivityManager( 1016): getRunningAppProcesses: caller 10922 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:10.034 W/ActivityManager( 1016): getRunningAppProcesses: caller 10926 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:10.374 W/ActivityManager( 1016): getRunningAppProcesses: caller 10090 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:10.824 W/ActivityManager( 1016): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:10.874 W/ActivityManager( 1016): getTasks: caller 10550 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:10.894 W/ActivityManager( 1016): getRunningAppProcesses: caller 10550 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:11.034 W/ActivityManager( 1016): getRunningAppProcesses: caller 10926 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:11.494 I/ActivityManager( 1016): START u0 {cmp=com.babytree.apps.pregnancy/.activity.MessageCenterActivity (has extras)} from uid 10922 on display 0
+05-20 17:35:11.774 I/ActivityManager( 1016): Displayed com.babytree.apps.pregnancy/.activity.MessageCenterActivity: +223ms
+05-20 17:35:11.834 W/ActivityManager( 1016): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:12.034 W/ActivityManager( 1016): getRunningAppProcesses: caller 10926 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:12.844 W/ActivityManager( 1016): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:13.044 W/ActivityManager( 1016): getRunningAppProcesses: caller 10926 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:13.824 W/ActivityManager( 1016): getRunningAppProcesses: caller 10922 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:13.824 W/ActivityManager( 1016): getRunningAppProcesses: caller 10922 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:13.834 W/ActivityManager( 1016): getRunningAppProcesses: caller 10922 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:13.854 W/ActivityManager( 1016): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:14.054 W/ActivityManager( 1016): getRunningAppProcesses: caller 10926 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:14.614 W/ActivityManager( 1016): getRunningAppProcesses: caller 10291 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:14.864 W/ActivityManager( 1016): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:15.064 W/ActivityManager( 1016): getRunningAppProcesses: caller 10926 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:15.884 W/ActivityManager( 1016): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:15.954 W/ActivityManager( 1016): getTasks: caller 10550 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:15.974 W/ActivityManager( 1016): getRunningAppProcesses: caller 10550 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:16.064 W/ActivityManager( 1016): getRunningAppProcesses: caller 10926 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:16.894 W/ActivityManager( 1016): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:17.074 W/ActivityManager( 1016): getRunningAppProcesses: caller 10926 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:17.904 W/ActivityManager( 1016): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:17.954 I/ActivityManager( 1016): START u0 {cmp=com.babytree.apps.pregnancy/.activity.CenterActivity (has extras)} from uid 10922 on display 0
+05-20 17:35:18.074 W/ActivityManager( 1016): getRunningAppProcesses: caller 10926 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:18.214 I/ActivityManager( 1016): Displayed com.babytree.apps.pregnancy/.activity.CenterActivity: +237ms
+05-20 17:35:18.924 W/ActivityManager( 1016): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:19.074 W/ActivityManager( 1016): getRunningAppProcesses: caller 10926 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:19.944 W/ActivityManager( 1016): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:20.084 W/ActivityManager( 1016): getRunningAppProcesses: caller 10926 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:20.964 W/ActivityManager( 1016): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:21.054 W/ActivityManager( 1016): getTasks: caller 10550 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:21.064 W/ActivityManager( 1016): getRunningAppProcesses: caller 10550 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:21.084 W/ActivityManager( 1016): getRunningAppProcesses: caller 10926 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:21.974 W/ActivityManager( 1016): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:22.094 W/ActivityManager( 1016): getRunningAppProcesses: caller 10926 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:22.994 W/ActivityManager( 1016): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:23.104 W/ActivityManager( 1016): getRunningAppProcesses: caller 10926 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:23.724 W/ActivityManager( 1016): getRunningAppProcesses: caller 10922 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:23.734 W/ActivityManager( 1016): getRunningAppProcesses: caller 10922 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:23.744 W/ActivityManager( 1016): getRunningAppProcesses: caller 10922 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:24.004 W/ActivityManager( 1016): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:24.104 W/ActivityManager( 1016): getRunningAppProcesses: caller 10926 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:25.014 W/ActivityManager( 1016): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:25.114 W/ActivityManager( 1016): getRunningAppProcesses: caller 10926 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:26.034 W/ActivityManager( 1016): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:26.124 W/ActivityManager( 1016): getRunningAppProcesses: caller 10926 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:26.144 W/ActivityManager( 1016): getTasks: caller 10550 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:26.164 W/ActivityManager( 1016): getRunningAppProcesses: caller 10550 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:26.374 I/ActivityManager( 1016): START u0 {cmp=com.babytree.apps.pregnancy/.activity.SettingActivity} from uid 10922 on display 0
+05-20 17:35:26.694 I/ActivityManager( 1016): Displayed com.babytree.apps.pregnancy/.activity.SettingActivity: +277ms
+05-20 17:35:27.054 W/ActivityManager( 1016): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:27.124 W/ActivityManager( 1016): getRunningAppProcesses: caller 10926 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:28.064 W/ActivityManager( 1016): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:28.134 W/ActivityManager( 1016): getRunningAppProcesses: caller 10926 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:29.074 W/ActivityManager( 1016): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:29.134 W/ActivityManager( 1016): getRunningAppProcesses: caller 10926 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:29.294 W/ActivityManager( 1016): getRunningAppProcesses: caller 10922 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:30.084 W/ActivityManager( 1016): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:30.144 W/ActivityManager( 1016): getRunningAppProcesses: caller 10926 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:30.994 I/ActivityManager( 1016): START u0 {cmp=com.babytree.apps.pregnancy/.activity.LoginActivity (has extras)} from uid 10922 on display 0
+05-20 17:35:31.104 W/ActivityManager( 1016): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:31.144 W/ActivityManager( 1016): getRunningAppProcesses: caller 10926 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:31.244 W/ActivityManager( 1016): getTasks: caller 10550 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:31.244 W/ActivityManager( 1016): getRunningAppProcesses: caller 10550 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:31.304 I/ActivityManager( 1016): Displayed com.babytree.apps.pregnancy/.activity.LoginActivity: +266ms
+05-20 17:35:32.114 W/ActivityManager( 1016): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:32.154 W/ActivityManager( 1016): getRunningAppProcesses: caller 10926 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:33.134 W/ActivityManager( 1016): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:33.154 W/ActivityManager( 1016): getRunningAppProcesses: caller 10926 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:34.144 W/ActivityManager( 1016): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:34.164 W/ActivityManager( 1016): getRunningAppProcesses: caller 10926 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:35.154 W/ActivityManager( 1016): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:35.164 W/ActivityManager( 1016): getRunningAppProcesses: caller 10926 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:36.154 W/ActivityManager( 1016): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:36.174 W/ActivityManager( 1016): getRunningAppProcesses: caller 10926 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:36.274 W/ActivityManager( 1016): getTasks: caller 10550 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:36.284 W/ActivityManager( 1016): getRunningAppProcesses: caller 10550 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:37.174 W/ActivityManager( 1016): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:37.184 W/ActivityManager( 1016): getRunningAppProcesses: caller 10926 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:38.194 W/ActivityManager( 1016): getRunningAppProcesses: caller 10926 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:38.194 W/ActivityManager( 1016): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:39.194 W/ActivityManager( 1016): getRunningAppProcesses: caller 10926 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:39.214 W/ActivityManager( 1016): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:40.204 W/ActivityManager( 1016): getRunningAppProcesses: caller 10926 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:40.234 W/ActivityManager( 1016): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:40.384 W/ActivityManager( 1016): getRunningAppProcesses: caller 10090 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:40.874 W/ActivityManager( 1016): getRunningAppProcesses: caller 10922 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:40.874 W/ActivityManager( 1016): getRunningAppProcesses: caller 10922 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:40.884 W/ActivityManager( 1016): getRunningAppProcesses: caller 10922 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:41.224 W/ActivityManager( 1016): getRunningAppProcesses: caller 10926 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:41.254 W/ActivityManager( 1016): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:41.334 W/ActivityManager( 1016): getTasks: caller 10550 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:41.354 W/ActivityManager( 1016): getRunningAppProcesses: caller 10550 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:42.224 W/ActivityManager( 1016): getRunningAppProcesses: caller 10926 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:42.264 W/ActivityManager( 1016): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:43.234 W/ActivityManager( 1016): getRunningAppProcesses: caller 10926 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:43.274 W/ActivityManager( 1016): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:44.194 W/ActivityManager( 1016): getRunningAppProcesses: caller 10922 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:44.194 W/ActivityManager( 1016): getRunningAppProcesses: caller 10922 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:44.194 W/ActivityManager( 1016): getRunningAppProcesses: caller 10922 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:44.244 W/ActivityManager( 1016): getRunningAppProcesses: caller 10926 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:44.284 W/ActivityManager( 1016): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:44.614 W/ActivityManager( 1016): getRunningAppProcesses: caller 10291 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:45.244 W/ActivityManager( 1016): getRunningAppProcesses: caller 10926 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:45.284 W/ActivityManager( 1016): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:46.254 W/ActivityManager( 1016): getRunningAppProcesses: caller 10926 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:46.304 W/ActivityManager( 1016): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:46.454 W/ActivityManager( 1016): getTasks: caller 10550 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:46.474 W/ActivityManager( 1016): getRunningAppProcesses: caller 10550 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:47.264 W/ActivityManager( 1016): getRunningAppProcesses: caller 10926 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:47.314 W/ActivityManager( 1016): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:48.264 W/ActivityManager( 1016): getRunningAppProcesses: caller 10926 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:48.324 W/ActivityManager( 1016): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:49.264 W/ActivityManager( 1016): getRunningAppProcesses: caller 10926 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:49.344 W/ActivityManager( 1016): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:50.274 W/ActivityManager( 1016): getRunningAppProcesses: caller 10926 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:50.354 W/ActivityManager( 1016): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:51.284 W/ActivityManager( 1016): getRunningAppProcesses: caller 10926 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:51.354 I/ActivityManager( 1016): START u0 {cmp=com.babytree.apps.pregnancy/.activity.SettingActivity} from uid 10922 on display 0
+05-20 17:35:51.364 W/ActivityManager( 1016): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:51.544 W/ActivityManager( 1016): getTasks: caller 10550 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:51.554 W/ActivityManager( 1016): getRunningAppProcesses: caller 10550 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:51.584 I/ActivityManager( 1016): Displayed com.babytree.apps.pregnancy/.activity.SettingActivity: +201ms
+05-20 17:35:52.294 W/ActivityManager( 1016): getRunningAppProcesses: caller 10926 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:52.374 W/ActivityManager( 1016): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:53.204 W/ActivityManager( 1016): getRunningAppProcesses: caller 10922 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:53.204 W/ActivityManager( 1016): getRunningAppProcesses: caller 10922 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:53.214 W/ActivityManager( 1016): getRunningAppProcesses: caller 10922 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:53.294 W/ActivityManager( 1016): getRunningAppProcesses: caller 10926 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:53.394 W/ActivityManager( 1016): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:54.304 W/ActivityManager( 1016): getRunningAppProcesses: caller 10926 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:54.394 W/ActivityManager( 1016): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:55.304 W/ActivityManager( 1016): getRunningAppProcesses: caller 10926 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:55.414 W/ActivityManager( 1016): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:56.314 W/ActivityManager( 1016): getRunningAppProcesses: caller 10926 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:56.424 W/ActivityManager( 1016): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:56.624 W/ActivityManager( 1016): getTasks: caller 10550 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:56.634 W/ActivityManager( 1016): getRunningAppProcesses: caller 10550 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:57.314 W/ActivityManager( 1016): getRunningAppProcesses: caller 10926 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:57.434 W/ActivityManager( 1016): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:58.314 I/ActivityManager( 1016): START u0 {cmp=com.babytree.apps.pregnancy/.activity.CenterActivity (has extras)} from uid 10922 on display 0
+05-20 17:35:58.324 W/ActivityManager( 1016): getRunningAppProcesses: caller 10926 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:58.454 W/ActivityManager( 1016): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:58.514 I/ActivityManager( 1016): Displayed com.babytree.apps.pregnancy/.activity.CenterActivity: +166ms
+05-20 17:35:59.324 W/ActivityManager( 1016): getRunningAppProcesses: caller 10926 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:59.454 W/ActivityManager( 1016): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-20 17:35:59.614 I/ActivityManager( 1016): START u0 {cmp=com.babytree.apps.pregnancy/.activity.recentlyScan.RecentlyScanActivity} from uid 10922 on display 0
+05-20 17:35:59.884 I/ActivityManager( 1016): Displayed com.babytree.apps.pregnancy/.activity.recentlyScan.RecentlyScanActivity: +250ms
+05-20 17:36:00.334 W/ActivityManager( 1016): getRunningAppProcesses: caller 10926 does not hold REAL_GET_TASKS; limiting output
+05-20 17:36:00.474 W/ActivityManager( 1016): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-20 17:36:01.014 W/ActivityManager( 1016): getRunningAppProcesses: caller 10922 does not hold REAL_GET_TASKS; limiting output
+05-20 17:36:01.014 W/ActivityManager( 1016): getRunningAppProcesses: caller 10922 does not hold REAL_GET_TASKS; limiting output
+05-20 17:36:01.024 W/ActivityManager( 1016): getRunningAppProcesses: caller 10922 does not hold REAL_GET_TASKS; limiting output
+05-20 17:36:01.334 W/ActivityManager( 1016): getRunningAppProcesses: caller 10926 does not hold REAL_GET_TASKS; limiting output
+05-20 17:36:01.474 W/ActivityManager( 1016): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-20 17:36:01.724 W/ActivityManager( 1016): getTasks: caller 10550 does not hold REAL_GET_TASKS; limiting output
+05-20 17:36:01.744 W/ActivityManager( 1016): getRunningAppProcesses: caller 10550 does not hold REAL_GET_TASKS; limiting output
+05-20 17:36:02.284 I/ActivityManager( 1016): START u0 {cmp=com.babytree.apps.pregnancy/.activity.PostTopicListActivity (has extras)} from uid 10922 on display 0
+05-20 17:36:02.344 W/ActivityManager( 1016): getRunningAppProcesses: caller 10926 does not hold REAL_GET_TASKS; limiting output
+05-20 17:36:02.444 I/ActivityManager( 1016): Displayed com.babytree.apps.pregnancy/.activity.PostTopicListActivity: +140ms
+05-20 17:36:02.484 W/ActivityManager( 1016): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-20 17:36:03.344 W/ActivityManager( 1016): getRunningAppProcesses: caller 10926 does not hold REAL_GET_TASKS; limiting output
+05-20 17:36:03.504 W/ActivityManager( 1016): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-20 17:36:03.674 W/ActivityManager( 1016): getRunningAppProcesses: caller 10922 does not hold REAL_GET_TASKS; limiting output
+05-20 17:36:03.684 W/ActivityManager( 1016): getRunningAppProcesses: caller 10922 does not hold REAL_GET_TASKS; limiting output
+05-20 17:36:03.684 W/ActivityManager( 1016): getRunningAppProcesses: caller 10922 does not hold REAL_GET_TASKS; limiting output
+05-20 17:36:04.354 W/ActivityManager( 1016): getRunningAppProcesses: caller 10926 does not hold REAL_GET_TASKS; limiting output
+05-20 17:36:04.524 W/ActivityManager( 1016): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-20 17:36:04.524 I/ActivityManager( 1016): START u0 {cmp=com.babytree.apps.pregnancy/.activity.ReplyTopicListActivity (has extras)} from uid 10922 on display 0
+05-20 17:36:04.724 I/ActivityManager( 1016): Displayed com.babytree.apps.pregnancy/.activity.ReplyTopicListActivity: +162ms
+05-20 17:36:05.354 W/ActivityManager( 1016): getRunningAppProcesses: caller 10926 does not hold REAL_GET_TASKS; limiting output
+05-20 17:36:05.534 W/ActivityManager( 1016): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-20 17:36:06.364 W/ActivityManager( 1016): getRunningAppProcesses: caller 10926 does not hold REAL_GET_TASKS; limiting output
+05-20 17:36:06.564 W/ActivityManager( 1016): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-20 17:36:06.814 W/ActivityManager( 1016): getTasks: caller 10550 does not hold REAL_GET_TASKS; limiting output
+05-20 17:36:06.834 W/ActivityManager( 1016): getRunningAppProcesses: caller 10550 does not hold REAL_GET_TASKS; limiting output
+05-20 17:36:06.844 W/ActivityManager( 1016): getRunningAppProcesses: caller 10922 does not hold REAL_GET_TASKS; limiting output
+05-20 17:36:06.844 W/ActivityManager( 1016): getRunningAppProcesses: caller 10922 does not hold REAL_GET_TASKS; limiting output
+05-20 17:36:06.854 W/ActivityManager( 1016): getRunningAppProcesses: caller 10922 does not hold REAL_GET_TASKS; limiting output
+05-20 17:36:07.374 W/ActivityManager( 1016): getRunningAppProcesses: caller 10926 does not hold REAL_GET_TASKS; limiting output
+05-20 17:36:07.574 W/ActivityManager( 1016): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-20 17:36:07.674 I/ActivityManager( 1016): START u0 {cmp=com.babytree.apps.pregnancy/.activity.MyFavoritesActivity} from uid 10922 on display 0
+05-20 17:36:07.914 I/ActivityManager( 1016): Displayed com.babytree.apps.pregnancy/.activity.MyFavoritesActivity: +209ms
+05-20 17:36:08.374 W/ActivityManager( 1016): getRunningAppProcesses: caller 10926 does not hold REAL_GET_TASKS; limiting output
+05-20 17:36:08.584 W/ActivityManager( 1016): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-20 17:36:09.054 W/ActivityManager( 1016): getRunningAppProcesses: caller 10922 does not hold REAL_GET_TASKS; limiting output
+05-20 17:36:09.064 W/ActivityManager( 1016): getRunningAppProcesses: caller 10922 does not hold REAL_GET_TASKS; limiting output
+05-20 17:36:09.064 W/ActivityManager( 1016): getRunningAppProcesses: caller 10922 does not hold REAL_GET_TASKS; limiting output
+05-20 17:36:09.374 W/ActivityManager( 1016): getRunningAppProcesses: caller 10926 does not hold REAL_GET_TASKS; limiting output
+05-20 17:36:09.604 W/ActivityManager( 1016): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-20 17:36:09.834 I/ActivityManager( 1016): START u0 {cmp=com.babytree.apps.pregnancy/.activity.CaoGaoXiangActivity} from uid 10922 on display 0
+05-20 17:36:10.064 I/ActivityManager( 1016): Displayed com.babytree.apps.pregnancy/.activity.CaoGaoXiangActivity: +195ms
+05-20 17:36:10.384 W/ActivityManager( 1016): getRunningAppProcesses: caller 10090 does not hold REAL_GET_TASKS; limiting output
+05-20 17:36:10.384 W/ActivityManager( 1016): getRunningAppProcesses: caller 10926 does not hold REAL_GET_TASKS; limiting output
+05-20 17:36:10.614 W/ActivityManager( 1016): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-20 17:36:11.124 W/ActivityManager( 1016): getRunningAppProcesses: caller 10922 does not hold REAL_GET_TASKS; limiting output
+05-20 17:36:11.124 W/ActivityManager( 1016): getRunningAppProcesses: caller 10922 does not hold REAL_GET_TASKS; limiting output
+05-20 17:36:11.134 W/ActivityManager( 1016): getRunningAppProcesses: caller 10922 does not hold REAL_GET_TASKS; limiting output
+05-20 17:36:11.384 W/ActivityManager( 1016): getRunningAppProcesses: caller 10926 does not hold REAL_GET_TASKS; limiting output
+05-20 17:36:11.634 W/ActivityManager( 1016): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-20 17:36:11.894 W/ActivityManager( 1016): getTasks: caller 10550 does not hold REAL_GET_TASKS; limiting output
+05-20 17:36:11.914 W/ActivityManager( 1016): getRunningAppProcesses: caller 10550 does not hold REAL_GET_TASKS; limiting output
+05-20 17:36:12.214 I/ActivityManager( 1016): START u0 {cmp=com.babytree.apps.pregnancy/.activity.FollowerAndFunsActivity (has extras)} from uid 10922 on display 0
+05-20 17:36:12.394 W/ActivityManager( 1016): getRunningAppProcesses: caller 10926 does not hold REAL_GET_TASKS; limiting output
+05-20 17:36:12.404 I/ActivityManager( 1016): Displayed com.babytree.apps.pregnancy/.activity.FollowerAndFunsActivity: +159ms
+05-20 17:36:12.654 W/ActivityManager( 1016): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-20 17:36:13.404 W/ActivityManager( 1016): getRunningAppProcesses: caller 10926 does not hold REAL_GET_TASKS; limiting output
+05-20 17:36:13.514 W/ActivityManager( 1016): getRunningAppProcesses: caller 10922 does not hold REAL_GET_TASKS; limiting output
+05-20 17:36:13.524 W/ActivityManager( 1016): getRunningAppProcesses: caller 10922 does not hold REAL_GET_TASKS; limiting output
+05-20 17:36:13.524 W/ActivityManager( 1016): getRunningAppProcesses: caller 10922 does not hold REAL_GET_TASKS; limiting output
+05-20 17:36:13.674 W/ActivityManager( 1016): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-20 17:36:14.314 I/ActivityManager( 1016): START u0 {cmp=com.babytree.apps.pregnancy/.activity.FollowerAndFunsActivity (has extras)} from uid 10922 on display 0
+05-20 17:36:14.414 W/ActivityManager( 1016): getRunningAppProcesses: caller 10926 does not hold REAL_GET_TASKS; limiting output
+05-20 17:36:14.484 I/ActivityManager( 1016): Displayed com.babytree.apps.pregnancy/.activity.FollowerAndFunsActivity: +142ms
+05-20 17:36:14.614 W/ActivityManager( 1016): getRunningAppProcesses: caller 10291 does not hold REAL_GET_TASKS; limiting output
+05-20 17:36:14.684 W/ActivityManager( 1016): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-20 17:36:15.424 W/ActivityManager( 1016): getRunningAppProcesses: caller 10926 does not hold REAL_GET_TASKS; limiting output
+05-20 17:36:15.684 W/ActivityManager( 1016): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-20 17:36:16.434 W/ActivityManager( 1016): getRunningAppProcesses: caller 10926 does not hold REAL_GET_TASKS; limiting output
+05-20 17:36:16.704 W/ActivityManager( 1016): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-20 17:36:16.994 W/ActivityManager( 1016): getTasks: caller 10550 does not hold REAL_GET_TASKS; limiting output
+05-20 17:36:17.014 W/ActivityManager( 1016): getRunningAppProcesses: caller 10550 does not hold REAL_GET_TASKS; limiting output
+05-20 17:36:17.364 W/ActivityManager( 1016): getRunningAppProcesses: caller 10922 does not hold REAL_GET_TASKS; limiting output
+05-20 17:36:17.364 W/ActivityManager( 1016): getRunningAppProcesses: caller 10922 does not hold REAL_GET_TASKS; limiting output
+05-20 17:36:17.374 W/ActivityManager( 1016): getRunningAppProcesses: caller 10922 does not hold REAL_GET_TASKS; limiting output
+05-20 17:36:17.434 W/ActivityManager( 1016): getRunningAppProcesses: caller 10926 does not hold REAL_GET_TASKS; limiting output
+05-20 17:36:17.724 W/ActivityManager( 1016): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-20 17:36:18.434 W/ActivityManager( 1016): getRunningAppProcesses: caller 10926 does not hold REAL_GET_TASKS; limiting output
+05-20 17:36:18.734 W/ActivityManager( 1016): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-20 17:36:19.444 W/ActivityManager( 1016): getRunningAppProcesses: caller 10926 does not hold REAL_GET_TASKS; limiting output
+05-20 17:36:19.764 W/ActivityManager( 1016): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-20 17:36:20.454 W/ActivityManager( 1016): getRunningAppProcesses: caller 10926 does not hold REAL_GET_TASKS; limiting output
+05-20 17:36:20.784 W/ActivityManager( 1016): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-20 17:36:21.364 I/ActivityManager( 1016): START u0 {cmp=com.babytree.apps.pregnancy/.activity.score.activity.MyScoreActivity} from uid 10922 on display 0
+05-20 17:36:21.414 W/ActivityManager( 1016): Unable to start service Intent { cmp=com.babytree.apps.pregnancy/com.babytree.platform.service.BaseService } U=0: not found
+05-20 17:36:21.454 W/ActivityManager( 1016): getRunningAppProcesses: caller 10926 does not hold REAL_GET_TASKS; limiting output
+05-20 17:36:21.574 I/ActivityManager( 1016): Displayed com.babytree.apps.pregnancy/.activity.score.activity.MyScoreActivity: +176ms
+05-20 17:36:21.794 W/ActivityManager( 1016): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-20 17:36:22.084 W/ActivityManager( 1016): getTasks: caller 10550 does not hold REAL_GET_TASKS; limiting output
+05-20 17:36:22.114 W/ActivityManager( 1016): getRunningAppProcesses: caller 10550 does not hold REAL_GET_TASKS; limiting output
+05-20 17:36:22.464 W/ActivityManager( 1016): getRunningAppProcesses: caller 10926 does not hold REAL_GET_TASKS; limiting output
+05-20 17:36:22.814 W/ActivityManager( 1016): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-20 17:36:23.464 W/ActivityManager( 1016): getRunningAppProcesses: caller 10926 does not hold REAL_GET_TASKS; limiting output
+05-20 17:36:23.824 W/ActivityManager( 1016): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-20 17:36:24.474 W/ActivityManager( 1016): getRunningAppProcesses: caller 10926 does not hold REAL_GET_TASKS; limiting output
+05-20 17:36:24.704 W/ActivityManager( 1016): getRunningAppProcesses: caller 10922 does not hold REAL_GET_TASKS; limiting output
+05-20 17:36:24.704 W/ActivityManager( 1016): getRunningAppProcesses: caller 10922 does not hold REAL_GET_TASKS; limiting output
+05-20 17:36:24.704 W/ActivityManager( 1016): Unbind failed: could not find connection for android.os.BinderProxy@3fe1fdba
+05-20 17:36:24.704 W/ActivityManager( 1016): getRunningAppProcesses: caller 10922 does not hold REAL_GET_TASKS; limiting output
+05-20 17:36:24.834 W/ActivityManager( 1016): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-20 17:36:25.484 W/ActivityManager( 1016): getRunningAppProcesses: caller 10926 does not hold REAL_GET_TASKS; limiting output
+05-20 17:36:25.844 W/ActivityManager( 1016): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-20 17:36:26.484 W/ActivityManager( 1016): getRunningAppProcesses: caller 10926 does not hold REAL_GET_TASKS; limiting output
+05-20 17:36:26.854 W/ActivityManager( 1016): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-20 17:36:27.204 W/ActivityManager( 1016): getTasks: caller 10550 does not hold REAL_GET_TASKS; limiting output
+05-20 17:36:27.224 W/ActivityManager( 1016): getRunningAppProcesses: caller 10550 does not hold REAL_GET_TASKS; limiting output
+05-20 17:36:27.494 W/ActivityManager( 1016): getRunningAppProcesses: caller 10926 does not hold REAL_GET_TASKS; limiting output
+05-20 17:36:27.874 W/ActivityManager( 1016): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-20 17:36:28.504 W/ActivityManager( 1016): getRunningAppProcesses: caller 10926 does not hold REAL_GET_TASKS; limiting output
+05-20 17:36:28.884 W/ActivityManager( 1016): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-20 17:36:29.514 W/ActivityManager( 1016): getRunningAppProcesses: caller 10926 does not hold REAL_GET_TASKS; limiting output
+05-20 17:36:29.864 I/ActivityManager( 1016): START u0 {cmp=com.babytree.apps.pregnancy/.activity.CenterEditActivity} from uid 10922 on display 0
+05-20 17:36:29.904 W/ActivityManager( 1016): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-20 17:36:30.054 I/ActivityManager( 1016): Displayed com.babytree.apps.pregnancy/.activity.CenterEditActivity: +171ms
+05-20 17:36:30.514 W/ActivityManager( 1016): getRunningAppProcesses: caller 10926 does not hold REAL_GET_TASKS; limiting output
+05-20 17:36:30.904 W/ActivityManager( 1016): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-20 17:36:31.074 W/ActivityManager( 1016): getRunningAppProcesses: caller 10922 does not hold REAL_GET_TASKS; limiting output
+05-20 17:36:31.074 W/ActivityManager( 1016): getRunningAppProcesses: caller 10922 does not hold REAL_GET_TASKS; limiting output
+05-20 17:36:31.084 W/ActivityManager( 1016): getRunningAppProcesses: caller 10922 does not hold REAL_GET_TASKS; limiting output
+05-20 17:36:31.534 W/ActivityManager( 1016): getRunningAppProcesses: caller 10926 does not hold REAL_GET_TASKS; limiting output
+05-20 17:36:31.914 W/ActivityManager( 1016): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-20 17:36:32.024 W/ActivityManager( 1016): getRunningAppProcesses: caller 10922 does not hold REAL_GET_TASKS; limiting output
+05-20 17:36:32.024 W/ActivityManager( 1016): getRunningAppProcesses: caller 10922 does not hold REAL_GET_TASKS; limiting output
+05-20 17:36:32.024 W/ActivityManager( 1016): getRunningAppProcesses: caller 10922 does not hold REAL_GET_TASKS; limiting output
+05-20 17:36:32.304 W/ActivityManager( 1016): getTasks: caller 10550 does not hold REAL_GET_TASKS; limiting output
+05-20 17:36:32.314 W/ActivityManager( 1016): getRunningAppProcesses: caller 10550 does not hold REAL_GET_TASKS; limiting output
+05-20 17:36:32.534 W/ActivityManager( 1016): getRunningAppProcesses: caller 10926 does not hold REAL_GET_TASKS; limiting output
+05-20 17:36:32.924 W/ActivityManager( 1016): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-20 17:36:33.044 W/ActivityManager( 1016): getRunningAppProcesses: caller 10922 does not hold REAL_GET_TASKS; limiting output
+05-20 17:36:33.544 W/ActivityManager( 1016): getRunningAppProcesses: caller 10926 does not hold REAL_GET_TASKS; limiting output
+05-20 17:36:33.934 W/ActivityManager( 1016): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-20 17:36:34.544 W/ActivityManager( 1016): getRunningAppProcesses: caller 10926 does not hold REAL_GET_TASKS; limiting output
+05-20 17:36:34.954 W/ActivityManager( 1016): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-20 17:36:35.554 W/ActivityManager( 1016): getRunningAppProcesses: caller 10926 does not hold REAL_GET_TASKS; limiting output
+05-20 17:36:35.964 W/ActivityManager( 1016): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-20 17:36:36.564 W/ActivityManager( 1016): getRunningAppProcesses: caller 10926 does not hold REAL_GET_TASKS; limiting output
+05-20 17:36:36.984 W/ActivityManager( 1016): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-20 17:36:37.364 W/ActivityManager( 1016): getTasks: caller 10550 does not hold REAL_GET_TASKS; limiting output
+05-20 17:36:37.384 W/ActivityManager( 1016): getRunningAppProcesses: caller 10550 does not hold REAL_GET_TASKS; limiting output
+05-20 17:36:37.564 W/ActivityManager( 1016): getRunningAppProcesses: caller 10926 does not hold REAL_GET_TASKS; limiting output
+05-20 17:36:38.004 W/ActivityManager( 1016): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-20 17:36:38.564 W/ActivityManager( 1016): getRunningAppProcesses: caller 10926 does not hold REAL_GET_TASKS; limiting output
+05-20 17:36:39.014 W/ActivityManager( 1016): getRunningAppProcesses: caller 10104 does not hold REAL_GET_TASKS; limiting output
+05-20 17:36:39.574 W/ActivityManager( 1016): getRunningAppProcesses: caller 10926 does not hold REAL_GET_TASKS; limiting output

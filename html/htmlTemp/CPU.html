@@ -1,0 +1,69 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>CPU</title>
+
+<script type="text/javascript" src="http://cdn.hcharts.cn/jquery/jquery-1.8.3.min.js"></script>
+<style type="text/css">
+${demo.css}
+</style>
+
+
+
+<script type="text/javascript">
+$(function () {
+$('#CPU').highcharts({
+chart: {
+type: 'line'
+},
+title: {
+text: 'CPU'
+},
+// subtitle: {
+// text: '专项测试'
+// },
+xAxis: {
+tickInterval: 5,
+categories: ['2016-05-24 10:34:39','2016-05-24 10:34:42','2016-05-24 10:34:45','2016-05-24 10:34:48','2016-05-24 10:34:51','2016-05-24 10:34:54','2016-05-24 10:34:57','2016-05-24 10:35:00','2016-05-24 10:35:03','2016-05-24 10:35:06','2016-05-24 10:35:09','2016-05-24 10:35:12','2016-05-24 10:35:15','2016-05-24 10:35:18','2016-05-24 10:35:21','2016-05-24 10:35:24','2016-05-24 10:35:27','2016-05-24 10:35:30','2016-05-24 10:35:33','2016-05-24 10:35:36','2016-05-24 10:35:39','2016-05-24 10:35:42','2016-05-24 10:35:45','2016-05-24 10:35:48','2016-05-24 10:35:51','2016-05-24 10:35:54','2016-05-24 10:35:57','2016-05-24 10:36:00','2016-05-24 10:36:03','2016-05-24 10:36:06','2016-05-24 10:36:09','2016-05-24 10:36:12','2016-05-24 10:36:15','2016-05-24 10:36:18','2016-05-24 10:36:21','2016-05-24 10:36:24','2016-05-24 10:36:27','2016-05-24 10:36:30']
+},
+yAxis: {min:0,
+title: {
+text: 'CPU使用率(%)'
+}
+},
+tooltip: {
+formatter: function () {
+var s = '<b>' + this.x + '</b>';
+
+$.each(this.points, function () {
+s += '<br/>' + this.series.name + ': ' +
+this.y + ' % ' + '<b>' + this.point.activity + '</b>';
+});
+
+return s;
+},
+shared: true
+},
+plotOptions: {
+line: {
+dataLabels: {
+enabled: false
+},
+enableMouseTracking: true
+}
+},
+series: [
+{name: 'CPU_cpuinfo',data: [{y:0,activity:''},{y:0,activity:'activity.SplashActivity'},{y:0,activity:'activity.SplashActivity'},{y:0,activity:'activity.SplashActivity'},{y:0,activity:'activity.SplashActivity'},{y:0,activity:'activity.SplashActivity'},{y:0,activity:'activity.SplashActivity'},{y:23,activity:'activity.SplashActivity'},{y:23,activity:'activity.SplashActivity'},{y:23,activity:'activity.SplashActivity'},{y:23,activity:'activity.SplashActivity'},{y:23,activity:'activity.SplashActivity'},{y:23,activity:'activity.SplashActivity'},{y:23,activity:'activity.SplashActivity'},{y:23,activity:'activity.SplashActivity'},{y:23,activity:'activity.SplashActivity'},{y:23,activity:'activity.SplashActivity'},{y:23,activity:'activity.SplashActivity'},{y:23,activity:'activity.SplashActivity'},{y:23,activity:'activity.SplashActivity'},{y:23,activity:'activity.SplashActivity'},{y:20,activity:'activity.SplashActivity'},{y:20,activity:'activity.SplashActivity'},{y:20,activity:'activity.SplashActivity'},{y:20,activity:'activity.SplashActivity'},{y:22,activity:'activity.SplashActivity'},{y:22,activity:'activity.SplashActivity'},{y:22,activity:'activity.SplashActivity'},{y:22,activity:'activity.SplashActivity'},{y:20,activity:'activity.SplashActivity'},{y:20,activity:'activity.SplashActivity'},{y:20,activity:'activity.SplashActivity'},{y:20,activity:'activity.SplashActivity'},{y:20,activity:'activity.SplashActivity'},{y:20,activity:'activity.SplashActivity'},{y:20,activity:'activity.SplashActivity'},{y:20,activity:'activity.SplashActivity'},{y:19,activity:'activity.SplashActivity'}]},{name: 'CPU_top',data: [{y:8,activity:''},{y:0,activity:'activity.SplashActivity'},{y:0,activity:'activity.SplashActivity'},{y:0,activity:'activity.SplashActivity'},{y:0,activity:'activity.SplashActivity'},{y:0,activity:'activity.SplashActivity'},{y:0,activity:'activity.SplashActivity'},{y:0,activity:'activity.SplashActivity'},{y:0,activity:'activity.SplashActivity'},{y:0,activity:'activity.SplashActivity'},{y:0,activity:'activity.SplashActivity'},{y:0,activity:'activity.SplashActivity'},{y:1,activity:'activity.SplashActivity'},{y:0,activity:'activity.SplashActivity'},{y:0,activity:'activity.SplashActivity'},{y:0,activity:'activity.SplashActivity'},{y:0,activity:'activity.SplashActivity'},{y:0,activity:'activity.SplashActivity'},{y:0,activity:'activity.SplashActivity'},{y:0,activity:'activity.SplashActivity'},{y:0,activity:'activity.SplashActivity'},{y:0,activity:'activity.SplashActivity'},{y:0,activity:'activity.SplashActivity'},{y:1,activity:'activity.SplashActivity'},{y:0,activity:'activity.SplashActivity'},{y:0,activity:'activity.SplashActivity'},{y:0,activity:'activity.SplashActivity'},{y:0,activity:'activity.SplashActivity'},{y:0,activity:'activity.SplashActivity'},{y:0,activity:'activity.SplashActivity'},{y:0,activity:'activity.SplashActivity'},{y:0,activity:'activity.SplashActivity'},{y:0,activity:'activity.SplashActivity'},{y:0,activity:'activity.SplashActivity'},{y:0,activity:'activity.SplashActivity'},{y:0,activity:'activity.SplashActivity'},{y:0,activity:'activity.SplashActivity'},{y:0,activity:'activity.SplashActivity'}]},
+]
+});
+});
+</script>
+</head>
+<body>
+<script src="http://cdn.hcharts.cn/highcharts/highcharts.js"></script>
+<script src="http://cdn.hcharts.cn/highcharts/modules/exporting.js"></script>
+
+<div id="CPU" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+</body>
+</html>

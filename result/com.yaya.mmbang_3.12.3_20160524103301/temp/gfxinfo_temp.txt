@@ -1,0 +1,90 @@
+Applications Graphics Acceleration Info:
+Uptime: 86515573 Realtime: 86515573
+
+** Graphics info for pid 26482 [com.yaya.mmbang] **
+
+Recent DisplayList operations
+  DrawRenderNode
+    DrawRenderNode
+      DrawRenderNode
+        DrawRenderNode
+          DrawRenderNode
+            DrawPatch
+          Save
+          ClipRect
+          DrawRenderNode
+            DrawRenderNode
+              Save
+              ClipRect
+              Translate
+              DrawText
+              DrawText
+              DrawText
+              RestoreToCount
+          RestoreToCount
+        DrawRenderNode
+          DrawRenderNode
+            DrawPatch
+          DrawPatch
+          Save
+          ClipRect
+          DrawRenderNode
+            DrawPatch
+            DrawRenderNode
+              DrawRenderNode
+                DrawPatch
+              Save
+              ClipRect
+              Translate
+              DrawText
+              RestoreToCount
+            DrawRenderNode
+              DrawRenderNode
+              Save
+              ClipRect
+              Translate
+              DrawText
+              RestoreToCount
+          RestoreToCount
+RestoreToCount
+DrawPatch
+DrawPatch
+multiDraw
+  DrawPatch
+DrawPatch
+multiDraw
+  DrawText
+
+Caches:
+Current memory usage / total memory usage (bytes):
+  TextureCache          1132756 / 75497472
+  LayerCache                  0 / 50331648 (numLayers = 0)
+  Garbage layers              0
+  Active layers               0
+  RenderBufferCache           0 /  8388608
+  GradientCache               0 /  1048576
+  PathCache                   0 / 33554432
+  TessellationCache           0 /  1048576
+  TextDropShadowCache         0 /  6291456
+  PatchCache               2240 /   131072
+  FontRenderer 0 A8     1048576 /  1048576
+  FontRenderer 0 RGBA         0 /        0
+  FontRenderer 0 total  1048576 /  1048576
+Other:
+  FboCache                    0 /        0
+Total memory usage:
+  2183572 bytes, 2.08 MB
+
+Profile data in ms:
+
+	com.yaya.mmbang/com.yaya.mmbang.activity.SplashActivity/android.view.ViewRootImpl@1ba7ca24 (visibility=0)
+View hierarchy:
+
+  com.yaya.mmbang/com.yaya.mmbang.activity.SplashActivity/android.view.ViewRootImpl@1ba7ca24
+  11 views, 10.22 kB of display lists
+
+
+Total ViewRootImpl: 1
+Total Views:        11
+Total DisplayList:  10.22 kB
+
