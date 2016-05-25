@@ -1,2 +1,7 @@
-key,value,desc
-seed,500,种子值
+desc,key,value
+启动时间测试的执行次数,exeTimes,3
+Monkey种子值,seed,500
+Monkey事件数,eventNumber,300
+Monkey操作间隔时间,thinkTime,500
+采集数据间隔时间,sleepTime,3
+
