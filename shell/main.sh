@@ -8,8 +8,10 @@ export resultPath=$rootPath/"result"
 export shellPath=$rootPath/"shell"
 export logPath=$rootPath/"log"
 export csvDirPath=$rootPath/"csv"
-export htmlDemoDirPath=$htmlPath/"htmlDemo"
 
+export htmlDemoDirPath=$htmlPath/"htmlDemo"
+# export htmlTempDirPath=$htmlPath/"htmlTemp"
+# export htmlReportDirPath=$htmlPath/"report"
 # html demo模板地址
 export coldStartTimeHtmlDemoPath=$htmlDemoDirPath/"ColdStartTimeDemo.html"
 export warmStartTimeHtmlDemoPath=$htmlDemoDirPath/"WarmStartTimeDemo.html"
@@ -20,27 +22,25 @@ export cpuHtmlDemoPath=$htmlDemoDirPath/"CPUDemo.html"
 # ##################################################################################
 # ##################################################################################
 # 是否需要生产总的性能报告
-export isNeedTotalReport=true
-#
-#
+export isNeedTotalReport="true"
+# 是否需要自动遍历apk文件下的apk文件
+export isNeedToRunOver="yes"
+# echo "选择需要测试的脚本:"
+# echo "a.monkey测试（含性能）"
+# echo "b.启动时间测试"
+# echo "c.页面加载时间数据收集"
+# echo "d.启动时间测试 + monkey测试（含性能）"
+# export choice="a"
 # 以下变量主要用于 getStartTime.sh
-# 目标测试包名
-# export apkName="MMBangRelease_xiaomi_m.apk"
-export apkName="BBtree.apk"
-# 目标测试包地址
-export apkFilePath=$apkPath/$apkName
-# PUSH到手机端路径
-export apkFileSDCardPath="/sdcard/mmbang/apk/"$apkName
-# 执行次数
-export exeTimes=5
-# 
+# 启动时间测试的执行次数
+export exeTimes=3
 # 以下变量主要用于 monkeyTest.sh
 # monkey操作间隔时间
 export thinkTime=500
 # seed值
-export seed=2
+export seed=20
 # 执行的操作次数
-export eventNumber=1000
+export eventNumber=300
 # 设置采集数据间隔时间，单位:s
 export sleepTime=3
 # 
@@ -50,106 +50,101 @@ export sleepTime=3
 # ##################################################################################
 # ##################################################################################
 
-# 获取版本信息和时间；确定结果保存路径文件夹地址
-datenow=`date +'%Y%m%d%H%M%S'`
-#
-export packageName=`aapt dump badging $apkFilePath | grep package | head -n1 | cut -d "'" -f2`
-export versionCode=`aapt dump badging $apkFilePath | grep package | head -n1 | cut -d "'" -f4`
-export versionName=`aapt dump badging $apkFilePath | grep package | head -n1 | cut -d "'" -f6`
-export mainActivity=`aapt dump badging $apkFilePath | grep launchable-activity | head -n1 | cut -d "'" -f2`
-#
-#
-#########################################################################
-# 结果目录地址
-export resultDirName=$packageName"_"$versionName"_"$datenow
-export resultDirPath=$resultPath/$resultDirName
-export resultDirHtmlPath=$resultDirPath/"html"
-export resultDirLogPath=$resultDirPath/"log"
-export resultDirTempPath=$resultDirPath/"temp"
-export resultDirResultPath=$resultDirPath/"result"
+if [[ $isNeedToRunOver = "yes" ]]; then
+	ls $apkPath | while read apkName
+	do
+		if [[ ! $apkName = "MMBang3.12.3.apk" ]]; then
+			continue
+		fi
+		# 遍历apk
+		export apkName
+		echo "开始测试"$apkName
 
-# 结果文件地址
-# getStartTime.sh	StartTimeCSV2HTML.sh
-export startTimeFilePath=$resultDirResultPath/"StartTime.csv"
-export coldStartTimeHtmlPath=$resultDirHtmlPath/"ColdStartTime.html"
-export warmStartTimeHtmlPath=$resultDirHtmlPath/"WarmStartTime.html"
-# monkeyTest.sh Performance2HTML.sh
-export monkeyLogFilePath=$resultDirLogPath/"monkeyLog.log"
-export logcatLogFilePath=$resultDirLogPath/"logcat.log"
-export performanceFilePath=$resultDirResultPath/"performance.csv"
-export gfxinfoFilePath=$resultDirResultPath/"gfxinfo.csv"
-export gfxinfo_temp=$resultDirTempPath/"gfxinfo_temp.txt"
-export memoryHtmlFilePath=$resultDirHtmlPath/"Memory.html"
-export cpuHtmlFilePath=$resultDirHtmlPath/"CPU.html"
+		# 目标测试包地址
+		export apkFilePath=$apkPath/$apkName
+		# PUSH到手机端路径
+		export apkFileSDCardPath="/sdcard/mmbang/apk/"$apkName
+		# 获取版本信息和时间；确定结果保存路径文件夹地址
+		datenow=`date +'%Y%m%d%H%M%S'`
+		#
+		export packageName=`aapt dump badging $apkFilePath | grep package | head -n1 | cut -d "'" -f2`
+		# export versionCode=`aapt dump badging $apkFilePath | grep package | head -n1 | cut -d "'" -f4`
+		export versionName=`aapt dump badging $apkFilePath | grep package | head -n1 | cut -d "'" -f6`
+		export mainActivity=`aapt dump badging $apkFilePath | grep launchable-activity | head -n1 | cut -d "'" -f2`
+		export phoneAPIVersion=`adb shell cat /system/build.prop | grep ro.build.version.release | cut -d "=" -f2 | tr -d " "`
+		export phoneBrand=`adb shell cat /system/build.prop | grep ro.product.brand | cut -d "=" -f2 | tr -d " "`
+		export phoneModel=`adb shell cat /system/build.prop | grep ro.product.model | cut -d "=" -f2 | tr -d " "`
+		#
+		#
+		#########################################################################
+		# 结果目录地址
+		export resultDirName=$packageName"_"$versionName
+		export resultApkPath=$resultPath/$resultDirName
+		export resultDirPath=$resultApkPath/$datenow
+		export resultDirHtmlPath=$resultDirPath/"html"
+		export resultDirLogPath=$resultDirPath/"log"
+		export resultDirTempPath=$resultDirPath/"temp"
+		export resultDirResultPath=$resultDirPath/"result"
 
-#########################################################################
+		# 结果文件地址
+		# getStartTime.sh	StartTimeCSV2HTML.sh
+		export startTimeFilePath=$resultDirResultPath/"StartTime.csv"
+		export coldStartTimeHtmlPath=$resultDirHtmlPath/"ColdStartTime.html"
+		export warmStartTimeHtmlPath=$resultDirHtmlPath/"WarmStartTime.html"
+		# monkeyTest.sh Performance2HTML.sh
+		export monkeyLogFilePath=$resultDirLogPath/"monkeyLog.log"
+		export logcatLogFilePath=$resultDirLogPath/"logcat.log"
+		export performanceFilePath=$resultDirResultPath/"performance.csv"
+		export gfxinfoFilePath=$resultDirResultPath/"gfxinfo.csv"
+		export gfxinfo_temp=$resultDirTempPath/"gfxinfo_temp.txt"
+		export memoryHtmlFilePath=$resultDirHtmlPath/"Memory.html"
+		export cpuHtmlFilePath=$resultDirHtmlPath/"CPU.html"
+
+		#########################################################################
 
 
 
-# 创建文件夹及其子目录文件夹
-if [[ ! -d $resultDirPath ]]; then
-	mkdir $resultDirPath
-fi
+		# 创建文件夹及其子目录文件夹
 
-if [[ ! -d $resultDirHtmlPath ]]; then
-	mkdir $resultDirHtmlPath
-fi
+		if [[ ! -d $resultApkPath ]]; then
+			mkdir $resultApkPath
+		fi
 
-if [[ ! -d $resultDirLogPath ]]; then
-	mkdir $resultDirLogPath
-fi
+		if [[ ! -d $resultDirPath ]]; then
+			mkdir $resultDirPath
+		fi
 
-if [[ ! -d $resultDirTempPath ]]; then
-	mkdir $resultDirTempPath
-fi
+		if [[ ! -d $resultDirHtmlPath ]]; then
+			mkdir $resultDirHtmlPath
+		fi
 
-if [[ ! -d $resultDirResultPath ]]; then
-	mkdir $resultDirResultPath
-fi
+		if [[ ! -d $resultDirLogPath ]]; then
+			mkdir $resultDirLogPath
+		fi
 
-echo "选择需要测试的脚本:"
-echo "a.monkey测试（含性能）"
-echo "b.启动时间测试"
-echo "c.页面加载时间测试"
-echo "d.启动时间测试+monkey测试（含性能）"
-echo "e.ProcessDisplayTime"
-read choice
+		if [[ ! -d $resultDirTempPath ]]; then
+			mkdir $resultDirTempPath
+		fi
 
-if [[ $choice = "a" ]]; then
-	#statements
-	echo "you have chosen opition a"
+		if [[ ! -d $resultDirResultPath ]]; then
+			mkdir $resultDirResultPath
+		fi
 
-	sh $shellPath/"monkeyTest.sh"
-	sh $shellPath/"Performance2HTML.sh"
-elif [[ $choice = "b" ]]; then
-	#statements
-	echo "you have chosen opition b"
+		sh $shellPath/"getStartTime.sh"
+		sh $shellPath/"StartTimeCSV2HTML.sh"
+		sh $shellPath/"monkeyTest.sh"
+		sh $shellPath/"Performance2HTML.sh"
 
-	sh $shellPath/"getStartTime.sh"
-	sh $shellPath/"StartTimeCSV2HTML.sh"
-elif [[ $choice = "c" ]]; then
-	#statements
-	echo "you have chosen opition c"
-	echo "opition c is not ready"
-elif [[ $choice = "d" ]]; then
-	echo "you have chosen opition d"
+		cp $startTimeFilePath $csvDirPath/"StartTime_"$packageName$versionName".csv"
+		sh $shellPath/"generateTotalReport.sh" $resultDirPath
 
-	sh $shellPath/"getStartTime.sh"
-	sh $shellPath/"StartTimeCSV2HTML.sh"
-	sh $shellPath/"monkeyTest.sh"
-	sh $shellPath/"Performance2HTML.sh"
-elif [[ $choice = "e" ]]; then
-	echo "you have chosen opition e"
+		adb shell input keyevent KEYCODE_HOME
 
-	sh $shellPath/"ProcessDisplayTime.sh"
+		echo "结束测试"$apkName
+	done
 else
-	echo "输入的内容不合法"
+	echo "选择异常，退出程序"
+	exit 1
 fi
 
-# adb shell input keyevent KEYCODE_HOME
 
-# if [[ $isNeedTotalReport = true ]]; then
-# 	sleep 2
-# 	cp $startTimeFilePath $csvDirPath/"StartTime_"$packageName$versionName".csv"
-# 	# sh $shellPath/generateTotalReport
-# fi

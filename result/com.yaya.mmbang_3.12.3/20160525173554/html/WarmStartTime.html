@@ -1,0 +1,75 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>WarmStartTime</title>
+
+<script type="text/javascript" src="http://cdn.hcharts.cn/jquery/jquery-1.8.3.min.js"></script>
+<style type="text/css">
+${demo.css}
+</style>
+<script type="text/javascript">
+$(function () {
+$('#WarmStartTime').highcharts({
+chart: {
+type: 'line'
+},
+title: {
+text: 'WarmStartTime'
+},
+subtitle: {
+text: '热启动时间'
+},
+xAxis: {
+title: {
+text: '测试次数'
+},
+allowDecimals: true,
+floor: 1,//x轴显示的刻度的初始数据，默认为0
+min: 1,//x轴显示的数据的初始数据，默认从0开始
+tickInterval: 1,//x轴刻度间隔为1
+//minPadding: 10,
+startOnTick:true,
+// max: 30,//x轴显示的数据的最大数据
+
+// labels: {
+// formatter:function(){
+// if(this.value <=100) {
+// return "第一等级("+this.value+")";
+// }else if(this.value >100 && this.value <=200) {
+// return "第二等级("+this.value+")";
+// }else {
+// return "第三等级("+this.value+")";
+// }
+// }
+// }
+// categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
+},
+yAxis: {
+title: {
+text: '时间(ms)'
+}
+},tooltip: {shared: true},
+plotOptions: {
+line: {
+dataLabels: {
+enabled: true
+},
+enableMouseTracking: true
+}
+},
+series: [
+{name: 'com.yaya.mmbang3.12.3',data: [0,235,292,269]},
+]
+});
+});
+</script>
+</head>
+<body>
+<script src="http://cdn.hcharts.cn/highcharts/highcharts.js"></script>
+<script src="http://cdn.hcharts.cn/highcharts/modules/exporting.js"></script>
+
+<div id="WarmStartTime" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+
+</body>
+</html>

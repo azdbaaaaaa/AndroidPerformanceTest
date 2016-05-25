@@ -2,27 +2,35 @@
 # $1: resultPath下的文件夹（从main.sh启动可不输入，取父进程的定义的地址）
 #
 #
-rootPath=`dirname $(pwd)`
-apkPath=$rootPath/"apk"
-htmlPath=$rootPath/"html"
-resultPath=$rootPath/"result"
-shellPath=$rootPath/"shell"
-logPath=$rootPath/"log"
-csvDirPath=$rootPath/"csv"
-htmlDemoDirPath=$htmlPath/"htmlDemo"
-htmlTempDirPath=$htmlPath/"htmlTemp"
-reportDirHtmlPath=$htmlPath/"report"
+# rootPath=`dirname $(pwd)`
+# apkPath=$rootPath/"apk"
+# htmlPath=$rootPath/"html"
+# resultPath=$rootPath/"result"
+# shellPath=$rootPath/"shell"
+# logPath=$rootPath/"log"
+# csvDirPath=$rootPath/"csv"
+# htmlDemoDirPath=$htmlPath/"htmlDemo"
 
 reportDemoFilePath=$htmlDemoDirPath/"reportDemo.html"
-reportTempFilePath=$reportDirHtmlPath/"reportTemp.html"
-reportFilePath=$reportDirHtmlPath/"report.html"
 
 
+resultDirPath=$1
+echo $resultDirPath
 
-coldStartTimeHtmlPath=$htmlTempDirPath/"ColdStartTime.html"
-warmStartTimeHtmlPath=$htmlTempDirPath/"WarmStartTime.html"
-memoryHtmlFilePath=$htmlTempDirPath/"Memory.html"
-cpuHtmlFilePath=$htmlTempDirPath/"CPU.html"
+resultDirHtmlPath=$resultDirPath/"html"
+resultDirLogPath=$resultDirPath/"log"
+resultDirTempPath=$resultDirPath/"temp"
+resultDirResultPath=$resultDirPath/"result"
+
+reportTempFilePath=$resultDirHtmlPath/"reportTemp.html"
+reportFilePath=$resultDirHtmlPath/"report.html"
+
+coldStartTimeHtmlPath=$resultDirHtmlPath/"ColdStartTime.html"
+warmStartTimeHtmlPath=$resultDirHtmlPath/"WarmStartTime.html"
+memoryHtmlFilePath=$resultDirHtmlPath/"Memory.html"
+cpuHtmlFilePath=$resultDirHtmlPath/"CPU.html"
+
+displayTimeHtmlFilePath=$htmlPath/"DisplayTime.html"
 
 function getHighchartsCode(){
 	htmlFilePath=$1
@@ -106,7 +114,18 @@ do
 		getHighchartsCode $warmStartTimeHtmlPath >>$reportTempFilePath
 		getHighchartsCode $memoryHtmlFilePath >>$reportTempFilePath
 		getHighchartsCode $cpuHtmlFilePath >>$reportTempFilePath
+		echo $displayTimeHtmlFilePath
+		getHighchartsCode $displayTimeHtmlFilePath >>$reportTempFilePath
+	elif [[ $line =~ '<td id="testphone">' ]]; then
+		echo '<td id="testphone">'$phoneBrand$phoneModel'</td>' >>$reportTempFilePath
+	elif [[ $line =~ '<td id="androidAPI">' ]]; then
+		echo '<td id="androidAPI">'$phoneAPIVersion'</td>' >>$reportTempFilePath
+	elif [[ $line =~ '<td id="packageName">' ]]; then
+		echo '<td id="packageName">'$packageName'</td>' >>$reportTempFilePath
+	elif [[ $line =~ '<td id="versionName">' ]]; then
+		echo '<td id="versionName">'$versionName'</td>' >>$reportTempFilePath
 	else
+		# echo $l
 		cat $reportDemoFilePath | head -n $l | tail -n 1 >>$reportTempFilePath
 	fi
 done
@@ -120,7 +139,7 @@ do
 		ls $csvDirPath | while read line
 		do
 			if [[ $line =~ "StartTime" ]]; then
-				echo -n `getMyColdTime $csvDirPath/$line` >>$reportFilePath
+				echo `getMyColdTime $csvDirPath/$line`"\c" >>$reportFilePath
 			fi
 		done
 		# echo -e "\n"
@@ -129,10 +148,17 @@ do
 		ls $csvDirPath | while read line
 		do
 			if [[ $line =~ "StartTime" ]]; then
-				echo -n `getMyWarmTime $csvDirPath/$line` >>$reportFilePath
+				echo `getMyWarmTime $csvDirPath/$line`"\c" >>$reportFilePath
 			fi
 		done
-		# echo -e "\n"
+	elif [[ $line =~ '<td id="testphone">' ]]; then
+		echo '<td id="testphone">'$phoneBrand$phoneModel'</td>' >>$reportFilePath
+	elif [[ $line =~ '<td id="androidAPI">' ]]; then
+		echo '<td id="androidAPI">'$phoneAPIVersion'</td>' >>$reportFilePath
+	elif [[ $line =~ '<td id="packageName">' ]]; then
+		echo '<td id="packageName">'$packageName'</td>' >>$reportFilePath
+	elif [[ $line =~ '<td id="versionName">' ]]; then
+		echo '<td id="versionName">'$versionName'</td>' >>$reportFilePath
 	else
 		cat $reportTempFilePath | head -n $l | tail -n 1 >>$reportFilePath
 	fi

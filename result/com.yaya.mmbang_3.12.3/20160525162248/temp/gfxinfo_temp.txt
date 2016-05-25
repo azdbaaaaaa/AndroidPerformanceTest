@@ -1,0 +1,122 @@
+Applications Graphics Acceleration Info:
+Uptime: 21910408 Realtime: 21910408
+
+** Graphics info for pid 848 [com.yaya.mmbang] **
+
+Recent DisplayList operations
+                DrawText
+                DrawText
+                DrawText
+                DrawText
+              RestoreToCount
+    RestoreToCount
+RestoreToCount
+DrawRect
+multiDraw
+  DrawText
+Save
+DrawRenderNode
+  DrawRenderNode
+    DrawRect
+  DrawRenderNode
+    Save
+    ClipRect
+    DrawRenderNode
+      DrawRenderNode
+        DrawRenderNode
+          DrawRect
+        DrawRenderNode
+        DrawRenderNode
+        DrawRenderNode
+          DrawRenderNode
+            DrawRenderNode
+              Save
+              ClipRect
+              Translate
+              DrawRenderNode
+                DrawText
+                DrawText
+                DrawText
+                DrawText
+                DrawText
+                DrawText
+                DrawText
+                DrawText
+                DrawText
+                DrawText
+                DrawText
+                DrawText
+                DrawText
+                DrawText
+              RestoreToCount
+    RestoreToCount
+RestoreToCount
+DrawRect
+multiDraw
+  DrawText
+
+Caches:
+Current memory usage / total memory usage (bytes):
+  TextureCache         68005080 / 75497472
+  LayerCache                  0 / 50331648 (numLayers = 0)
+  Garbage layers              0
+  Active layers               0
+  RenderBufferCache           0 /  8388608
+  GradientCache               0 /  1048576
+  PathCache                   0 / 33554432
+  TessellationCache      104616 /  1048576
+  TextDropShadowCache         0 /  6291456
+  PatchCache              22656 /   131072
+  FontRenderer 0 A8     3145728 /  3145728
+  FontRenderer 0 RGBA         0 /        0
+  FontRenderer 0 total  3145728 /  3145728
+Other:
+  FboCache                    0 /        0
+Total memory usage:
+  71278080 bytes, 67.98 MB
+
+Profile data in ms:
+
+	com.yaya.mmbang/com.yaya.mmbang.activity.MainActivity/android.view.ViewRootImpl@2fab7a14 (visibility=8)
+	com.yaya.mmbang/com.yaya.mmbang.activity.WebViewLinkActivity/android.view.ViewRootImpl@c02230e (visibility=8)
+	com.yaya.mmbang/com.yaya.mmbang.activity.TopicDetailListActivity/android.view.ViewRootImpl@385397b5 (visibility=8)
+	com.yaya.mmbang/com.yaya.mmbang.activity.BangItemListActivity/android.view.ViewRootImpl@3eccac69 (visibility=8)
+	com.yaya.mmbang/com.yaya.mmbang.activity.TopicDetailListActivity/android.view.ViewRootImpl@552a2df (visibility=8)
+	com.yaya.mmbang/com.yaya.mmbang.activity.PersonalActivityNew/android.view.ViewRootImpl@f23f843 (visibility=8)
+	com.yaya.mmbang/com.yaya.mmbang.activity.TopicDetailListActivity/android.view.ViewRootImpl@15777fe2 (visibility=8)
+	com.yaya.mmbang/com.yaya.mmbang.activity.WebViewLinkActivity/android.view.ViewRootImpl@2186f91e (visibility=8)
+	com.yaya.mmbang/com.yaya.mmbang.test.ShareInputActivity/android.view.ViewRootImpl@1d91cdf0 (visibility=0)
+View hierarchy:
+
+  com.yaya.mmbang/com.yaya.mmbang.activity.MainActivity/android.view.ViewRootImpl@2fab7a14
+  218 views, 174.00 kB of display lists
+
+  com.yaya.mmbang/com.yaya.mmbang.activity.WebViewLinkActivity/android.view.ViewRootImpl@c02230e
+  23 views, 18.33 kB of display lists
+
+  com.yaya.mmbang/com.yaya.mmbang.activity.TopicDetailListActivity/android.view.ViewRootImpl@385397b5
+  160 views, 127.50 kB of display lists
+
+  com.yaya.mmbang/com.yaya.mmbang.activity.BangItemListActivity/android.view.ViewRootImpl@3eccac69
+  141 views, 112.36 kB of display lists
+
+  com.yaya.mmbang/com.yaya.mmbang.activity.TopicDetailListActivity/android.view.ViewRootImpl@552a2df
+  118 views, 94.03 kB of display lists
+
+  com.yaya.mmbang/com.yaya.mmbang.activity.PersonalActivityNew/android.view.ViewRootImpl@f23f843
+  96 views, 76.50 kB of display lists
+
+  com.yaya.mmbang/com.yaya.mmbang.activity.TopicDetailListActivity/android.view.ViewRootImpl@15777fe2
+  116 views, 92.44 kB of display lists
+
+  com.yaya.mmbang/com.yaya.mmbang.activity.WebViewLinkActivity/android.view.ViewRootImpl@2186f91e
+  23 views, 18.33 kB of display lists
+
+  com.yaya.mmbang/com.yaya.mmbang.test.ShareInputActivity/android.view.ViewRootImpl@1d91cdf0
+  18 views, 18.96 kB of display lists
+
+
+Total ViewRootImpl: 9
+Total Views:        913
+Total DisplayList:  732.45 kB
+

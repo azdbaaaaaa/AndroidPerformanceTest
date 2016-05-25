@@ -1,0 +1,88 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Memory</title>
+
+<script type="text/javascript" src="http://cdn.hcharts.cn/jquery/jquery-1.8.3.min.js"></script>
+<style type="text/css">
+${demo.css}
+</style>
+<script type="text/javascript">
+$(function () {
+$('#Memory').highcharts({
+chart: {
+zoomType: 'x',
+spacingRight: 20
+},
+title: {
+text: 'Memory'
+},
+subtitle: {
+text: document.ontouchstart === undefined ?
+'选中区域可查看具体区域中的数据图表' :
+'Pinch the chart to zoom in'
+},
+xAxis: {
+tickInterval: 5,
+categories: ['2016-05-25 17:36:59','2016-05-25 17:37:02','2016-05-25 17:37:05','2016-05-25 17:37:08','2016-05-25 17:37:11','2016-05-25 17:37:14','2016-05-25 17:37:17','2016-05-25 17:37:20','2016-05-25 17:37:23','2016-05-25 17:37:26','2016-05-25 17:37:29','2016-05-25 17:37:32']
+},
+yAxis: {min: 0,
+title: {
+text: '(内存占用)'
+},
+labels:{formatter: function(){return this.value/1000 + 'MB'}}
+},
+tooltip: {
+formatter: function () {
+var s = '<b>' + this.x + '</b>';
+
+$.each(this.points, function () {
+s += '<br/>' + this.series.name + ': ' +
+parseInt(this.y/1024) + ' MB ' + '<b>' + this.point.activity + '</b>';
+});
+
+return s;
+},
+shared: true
+},
+legend: {
+enabled: true
+},
+plotOptions: {
+area: {
+// fillColor: {
+// linearGradient: { x1: 0, y1: 0, x2: 0, y2: 1},
+// stops: [
+// [0, Highcharts.getOptions().colors[0]],
+// [1, Highcharts.Color(Highcharts.getOptions().colors[0]).setOpacity(0).get('rgba')]
+// ]
+// },
+lineWidth: 1,
+marker: {
+enabled: false
+},
+shadow: false,
+states: {
+hover: {
+lineWidth: 1
+}
+},
+threshold: null
+}
+},
+series: [
+{type:'area',name: 'PSS_Total',data: [{y:59540,activity:'login.NewbieProcessActivity'},{y:56904,activity:'login.NewbieProcessActivity'},{y:56476,activity:'login.NewbieProcessActivity'},{y:56428,activity:'home.MainActivity'},{y:56408,activity:'home.MainActivity'},{y:56228,activity:'home.MainActivity'},{y:56516,activity:'login.NewbieProcessActivity'},{y:56400,activity:'login.NewbieProcessActivity'},{y:56380,activity:'login.NewbieProcessActivity'},{y:57656,activity:'login.NewbieProcessActivity'},{y:58484,activity:'login.NewbieProcessActivity'},{y:58160,activity:'login.NewbieProcessActivity'}],color:'#e47833'},{type:'area',name: 'PSS_Dalvik',data: [{y:9003,activity:'login.NewbieProcessActivity'},{y:35591,activity:'login.NewbieProcessActivity'},{y:34898,activity:'login.NewbieProcessActivity'},{y:34790,activity:'home.MainActivity'},{y:34886,activity:'home.MainActivity'},{y:34766,activity:'home.MainActivity'},{y:34782,activity:'login.NewbieProcessActivity'},{y:34790,activity:'login.NewbieProcessActivity'},{y:34808,activity:'login.NewbieProcessActivity'},{y:34804,activity:'login.NewbieProcessActivity'},{y:35008,activity:'login.NewbieProcessActivity'},{y:34932,activity:'login.NewbieProcessActivity'}],color:'#70db93'},{type:'area',name: 'PSS_Native',data: [{y:13298,activity:'login.NewbieProcessActivity'},{y:16206,activity:'login.NewbieProcessActivity'},{y:16829,activity:'login.NewbieProcessActivity'},{y:16737,activity:'home.MainActivity'},{y:16313,activity:'home.MainActivity'},{y:16389,activity:'home.MainActivity'},{y:16561,activity:'login.NewbieProcessActivity'},{y:16575,activity:'login.NewbieProcessActivity'},{y:16457,activity:'login.NewbieProcessActivity'},{y:17453,activity:'login.NewbieProcessActivity'},{y:17740,activity:'login.NewbieProcessActivity'},{y:17776,activity:'login.NewbieProcessActivity'}],color:'#9932cd'},
+]
+});
+});
+</script>
+</head>
+<body>
+<script src="http://cdn.hcharts.cn/highcharts/highcharts.js"></script>
+<script src="http://cdn.hcharts.cn/highcharts/modules/exporting.js"></script>
+
+<div id="Memory" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+
+</body>
+</html>

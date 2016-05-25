@@ -472,10 +472,10 @@ pre[class*="language-"] {
 
 <tbody>
 <tr>
-<td>小米 Note Pro</td>
-<td>5.0.2</td>
-<td>妈妈帮</td>
-<td>3.12.3</td>
+<td id="testphone">小米 Note Pro</td>
+<td id="androidAPI">5.0.2</td>
+<td id="packageName">com.yaya.mmbang</td>
+<td id="versionName">3.12.3</td>
 </tr>
 </tbody>
 </table>
@@ -489,9 +489,9 @@ pre[class*="language-"] {
 
 <div><pre><code class="language-none">adb shell am start -W $packageName/$packageName.$Mainactivity</code></pre></div>
 
-<div id="WarmStartTime" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
-
 <div id="ColdStartTime" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+
+<div id="WarmStartTime" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
 
 <!-- <p><a href="file:///Users/jimmy_zhou/Desktop/android/html/WarmStartTime.html">WarmStartTime</a></p>
 
@@ -504,7 +504,7 @@ pre[class*="language-"] {
 <h2 id="toc_2">2.主要页面加载时间</h2>
 
 <ol>
-<li><strong>主要页面加载时间</strong> 统计了应用中部分页面activity的Displayed时间</li>
+<li><strong>主要页面加载时间</strong> 统计了应用中部分页面activity的Displayed时间(不包含接口的响应时间)</li>
 <li>数据采集方式：</li>
 </ol>
 
@@ -607,7 +607,7 @@ cat $DisplayTimeLog | grep $packageName | grep &quot;Displayed&quot; | grep ${mm
 <ol>
 <li><strong>CPU</strong> 主要统计了在跑monkey的同时，cpu占用率的曲线变化</li>
 <li>啊啊啊</li>
-<li>数据采集方式：同时采集了top(实际单进程CPU占用)和cpuinfo(时间占比)两组cpu数据</li>
+<li>数据采集方式：同时采集了top(进程的cpu jiffies与总的cpu jiffies比值)和cpuinfo(时间占比)两组cpu数据</li>
 </ol>
 
 <div><pre><code class="language-none">adb shell dumpsys cpuinfo | grep $packageName | grep -v pushservice | head -n 1 | sed -E &#39;s/[[:space:]]+/ /g&#39; | sed &#39;s/^ //g&#39; | cut -d &quot; &quot; -f 1</code></pre></div>

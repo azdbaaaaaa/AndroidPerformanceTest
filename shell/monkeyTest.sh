@@ -72,6 +72,7 @@ fi
 
 function collectLogcat(){
 	echo "-----开始收集logcat-----"
+	adb shell logcat -c
 	adb shell logcat -v time >>$logcatLogFilePath&
 }
 
@@ -121,6 +122,7 @@ function collectGfxinfo(){
 			# echo $CurrentActivity
 		fi
 	done
+
 	# echo "---"
 	# TotalViewRootImpl=`cat $gfxinfo_temp | grep "Total ViewRootImpl" | head -n 1|cut -d ":" -f2 | tr -d " "`
 	# echo $TotalViewRootImpl
@@ -161,20 +163,25 @@ echo "-----开始执行monkey测试命令-----"
 # adb shell monkey -p $packageName --throttle $thinkTime --ignore-timeouts --ignore-crashes --ignore-security-exceptions \
 # --monitor-native-crashes -v -v -v -s $seed $eventNumber >> $monkeyLogFilePath&
 
-adb shell monkey -p $packageName --throttle $thinkTime -v -v -v -s $seed $eventNumber >> $monkeyLogFilePath&
-
+adb shell monkey -p $packageName --ignore-crashes --ignore-timeouts --ignore-security-exceptions --kill-process-after-error \
+--throttle $thinkTime -v -v -v -s $seed $eventNumber >> $monkeyLogFilePath&
+echo "adb shell monkey -p $packageName --ignore-crashes --ignore-timeouts --ignore-security-exceptions --kill-process-after-error \
+--throttle $thinkTime -v -v -v -s $seed $eventNumber >> $monkeyLogFilePath&"
 # 收集logcat信息
 collectLogcat
 
+sleep 1
 # 循环判断采集数据的结束时间
 echo "-----开始收集Performance信息-----"
 while [[ true ]]; do
 	result=`ps | grep "adb shell monkey" | grep -v grep`
 	if [[ $result = "" ]]; then
-		# echo [$result]
+		echo "ps | grep "adb shell monkey" | grep -v grep:"$result
 		echo "-----检测到monkey执行完毕，跳出循环-----"
 		break
 	else
+		echo "ps | grep "adb shell monkey" | grep -v grep:"$result
+		echo "------monkey未结束，继续执行------"
 		collectPerformance&
 		collectGfxinfo&
 		sleep $sleepTime
@@ -194,6 +201,5 @@ wait
 # sleep 3
 
 # sh $shellPath/"PerformanceLog2HTML.sh"
-
 
 

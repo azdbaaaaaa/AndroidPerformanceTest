@@ -1,0 +1,88 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Memory</title>
+
+<script type="text/javascript" src="http://cdn.hcharts.cn/jquery/jquery-1.8.3.min.js"></script>
+<style type="text/css">
+${demo.css}
+</style>
+<script type="text/javascript">
+$(function () {
+$('#Memory').highcharts({
+chart: {
+zoomType: 'x',
+spacingRight: 20
+},
+title: {
+text: 'Memory'
+},
+subtitle: {
+text: document.ontouchstart === undefined ?
+'选中区域可查看具体区域中的数据图表' :
+'Pinch the chart to zoom in'
+},
+xAxis: {
+tickInterval: 5,
+categories: ['2016-05-25 09:42:34','2016-05-25 09:42:37','2016-05-25 09:42:40','2016-05-25 09:42:43','2016-05-25 09:42:46','2016-05-25 09:42:49','2016-05-25 09:42:52','2016-05-25 09:42:55','2016-05-25 09:42:58','2016-05-25 09:43:01']
+},
+yAxis: {min: 0,
+title: {
+text: '(内存占用)'
+},
+labels:{formatter: function(){return this.value/1000 + 'MB'}}
+},
+tooltip: {
+formatter: function () {
+var s = '<b>' + this.x + '</b>';
+
+$.each(this.points, function () {
+s += '<br/>' + this.series.name + ': ' +
+parseInt(this.y/1024) + ' MB ' + '<b>' + this.point.activity + '</b>';
+});
+
+return s;
+},
+shared: true
+},
+legend: {
+enabled: true
+},
+plotOptions: {
+area: {
+// fillColor: {
+// linearGradient: { x1: 0, y1: 0, x2: 0, y2: 1},
+// stops: [
+// [0, Highcharts.getOptions().colors[0]],
+// [1, Highcharts.Color(Highcharts.getOptions().colors[0]).setOpacity(0).get('rgba')]
+// ]
+// },
+lineWidth: 1,
+marker: {
+enabled: false
+},
+shadow: false,
+states: {
+hover: {
+lineWidth: 1
+}
+},
+threshold: null
+}
+},
+series: [
+{type:'area',name: 'PSS_Total',data: [{y:0,activity:''},{y:14400,activity:'MainActivity'},{y:69072,activity:'MainActivity'},{y:70616,activity:'MainActivity'},{y:70580,activity:'MainActivity'},{y:71524,activity:'activity.RoleSelectActivity'},{y:69576,activity:'activity.RoleSelectActivity'},{y:69724,activity:'activity.RoleSelectActivity'},{y:70064,activity:'activity.RoleSelectActivity'},{y:58420,activity:'activity.RoleSelectActivity'}],color:'#e47833'},{type:'area',name: 'PSS_Dalvik',data: [{y:0,activity:''},{y:813,activity:'MainActivity'},{y:11235,activity:'MainActivity'},{y:6423,activity:'MainActivity'},{y:19083,activity:'MainActivity'},{y:24473,activity:'activity.RoleSelectActivity'},{y:24518,activity:'activity.RoleSelectActivity'},{y:22674,activity:'activity.RoleSelectActivity'},{y:22674,activity:'activity.RoleSelectActivity'},{y:22795,activity:'activity.RoleSelectActivity'}],color:'#70db93'},{type:'area',name: 'PSS_Native',data: [{y:0,activity:''},{y:3554,activity:'MainActivity'},{y:27514,activity:'MainActivity'},{y:19405,activity:'MainActivity'},{y:26250,activity:'MainActivity'},{y:20075,activity:'activity.RoleSelectActivity'},{y:21245,activity:'activity.RoleSelectActivity'},{y:21361,activity:'activity.RoleSelectActivity'},{y:21577,activity:'activity.RoleSelectActivity'},{y:21459,activity:'activity.RoleSelectActivity'}],color:'#9932cd'},
+]
+});
+});
+</script>
+</head>
+<body>
+<script src="http://cdn.hcharts.cn/highcharts/highcharts.js"></script>
+<script src="http://cdn.hcharts.cn/highcharts/modules/exporting.js"></script>
+
+<div id="Memory" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+
+</body>
+</html>

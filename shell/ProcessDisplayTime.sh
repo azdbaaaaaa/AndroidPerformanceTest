@@ -17,41 +17,46 @@ echo "2.宝宝树"
 choice=1
 echo "请输入apk的版本号"
 # read versionName
-versionName="3.12.3"
+versionName="3.11.4"
 
 if [[ $choice = 1 ]]; then
 	packageName="com.yaya.mmbang"
-	DisplayTimeLog=$logPath/"MMBangDisplayTime.log"
+	# DisplayTimeLog=$logPath/"DisplayedTime_com.yaya.mmbang3.12.3.log"
 elif [[ $choice = 2 ]]; then
 	packageName="com.babytree.apps.pregnancy"
-	DisplayTimeLog=$logPath/"BBtreeDisplayTime.log"
+	# DisplayTimeLog=$logPath/"DisplayedTime_com.babytree.apps.pregnancy6.6.1.log"
 fi
 
+DisplayTimeLog=$logPath/"DisplayedTime_"$packageName$versionName".log"
 
 # MY_Date=`date +'%Y%m%d_%H%M%S'`
 
 # DisplayTimeResult=$resultPath/"DisplayTime_"$MY_Date".csv"
 DisplayTimeCsvPath=$csvDirPath/"DisplayedTime_"$packageName$versionName".csv"
 DisplayTimeHtmlDemoPath=$htmlPath/"htmlDemo"/"DisplayTimeDemo.html"
-DisplayTimeHtmlPath=$htmlPath/"htmlTemp"/"DisplayTime.html"
+DisplayTimeHtmlPath=$htmlPath/"DisplayTime.html"
 
-DisplayTimeDataTempPath=$htmlPath/"htmlTemp"/"DisplayTimedataTemp.txt"
-DisplayTimeActivityTempPath=$htmlPath/"htmlTemp"/"DisplayTimeActivityTemp.txt"
+DisplayTimeDataTempPath=$htmlPath/"DisplayTimedataTemp.txt"
+DisplayTimeActivityTempPath=$htmlPath/"DisplayTimeActivityTemp.txt"
 
 if [[ -f $DisplayTimeCsvPath ]]; then
 	rm $DisplayTimeCsvPath
+fi
+
+if [[ -f $DisplayTimeHtmlPath ]]; then
+	rm $DisplayTimeHtmlPath
 fi
 
 if [[ -f $DisplayTimeDataTempPath ]]; then
 	rm $DisplayTimeDataTempPath
 fi
 
-if [[ -f $DisplayTimeActivityTempPath]]; then
+if [[ -f $DisplayTimeActivityTempPath ]]; then
 	rm $DisplayTimeActivityTempPath
 fi
 
 
-nameList=("启动页面" "主页面" "登录页面" "宝宝树推荐" "他人信息页" "消息" "发帖" "帮页面" "帖子详情页" "收藏" "我的帖子" "关注" "粉丝" "设置页面")
+nameList=("启动页面" "主页面" "登录页面" "推荐关注" "他人信息页" "消息页面" "发帖页面" "具体帮页面" "帖子详情页" "收藏页面" "我的帖子页面" "关注页面" "粉丝页面" "设置页面")
 
 mmbangActivityList=("SplashActivity" "MainActivity" "ActivityLogin" "RecommendFollowActivity" "PersonalActivity" \
 	"BangMessageActivity" "CreateTopicInputActivity" "BangItemListActivity" "TopicDetailListActivity" "BangItemListActivity" \
@@ -70,7 +75,7 @@ for (( i = 0; i < ${#nameList[@]}; i++ )); do
 		echo $(($i+1))",\c">>$DisplayTimeCsvPath
 		echo ${nameList[$i]}",\c">>$DisplayTimeCsvPath
 		echo ${mmbangActivityList[$i]}",\c">>$DisplayTimeCsvPath
-		myStartTime=`cat $DisplayTimeLog | grep ${mmbangActivityList[$i]} | grep "START" | head -n1 | cut -d " " -f1,2`
+		myStartTime=`cat $DisplayTimeLog | grep ${mmbangActivityList[$i]} | grep "START" | tail -n1 | cut -d " " -f1,2`
 		myStartTimeSec=`echo $myStartTime | cut -d "." -f 1`
 		myStartTimeMsec=`echo $myStartTime | cut -d "." -f 2`
 		myYear=`date +%Y`
@@ -80,7 +85,7 @@ for (( i = 0; i < ${#nameList[@]}; i++ )); do
 		myStartTimeSec=`echo $myStartTimeSec | cut -d '.' -f 1`
 		# echo "$myStartTimeSec*1000+$myStartTimeMsec" | bc
 
-		myEndTime=`cat $DisplayTimeLog | grep ${mmbangActivityList[$i]} | grep "Displayed" | head -n1 | cut -d " " -f1,2`
+		myEndTime=`cat $DisplayTimeLog | grep ${mmbangActivityList[$i]} | grep "Displayed" | tail -n1 | cut -d " " -f1,2`
 		myEndTimeSec=`echo $myEndTime | cut -d "." -f 1`
 		myEndTimeMsec=`echo $myEndTime | cut -d "." -f 2`
 		myYear=`date +%Y`
@@ -95,7 +100,7 @@ for (( i = 0; i < ${#nameList[@]}; i++ )); do
 		echo $(($i+1))",\c">>$DisplayTimeCsvPath
 		echo ${nameList[$i]}",\c">>$DisplayTimeCsvPath
 		echo ${bbtreeActivityList[$i]}",\c">>$DisplayTimeCsvPath
-		myStartTime=`cat $DisplayTimeLog | grep ${bbtreeActivityList[$i]} | grep "START" | head -n1 | cut -d " " -f1,2`
+		myStartTime=`cat $DisplayTimeLog | grep ${bbtreeActivityList[$i]} | grep "START" | tail -n1 | cut -d " " -f1,2`
 		myStartTimeSec=`echo $myStartTime | cut -d "." -f 1`
 		myStartTimeMsec=`echo $myStartTime | cut -d "." -f 2`
 		myYear=`date +%Y`
@@ -105,7 +110,7 @@ for (( i = 0; i < ${#nameList[@]}; i++ )); do
 		myStartTimeSec=`echo $myStartTimeSec | cut -d '.' -f 1`
 		# echo "$myStartTimeSec*1000+$myStartTimeMsec" | bc
 
-		myEndTime=`cat $DisplayTimeLog | grep ${bbtreeActivityList[$i]} | grep "Displayed" | head -n1 | cut -d " " -f1,2`
+		myEndTime=`cat $DisplayTimeLog | grep ${bbtreeActivityList[$i]} | grep "Displayed" | tail -n1 | cut -d " " -f1,2`
 		myEndTimeSec=`echo $myEndTime | cut -d "." -f 1`
 		myEndTimeMsec=`echo $myEndTime | cut -d "." -f 2`
 		myYear=`date +%Y`
@@ -119,7 +124,7 @@ for (( i = 0; i < ${#nameList[@]}; i++ )); do
 	fi
 done
 
-function getMyDisplayTimeData(){
+function getMyDisplayTime(){
 	csvFile=$1
 
 	appName=`cat $csvFile | head -n 1 | cut -d "," -f 2`
@@ -134,8 +139,10 @@ function getMyDisplayTimeData(){
 		if [[ $temp =~ [0-9] ]]; then
 			ActivityNameTemp=`echo $line | awk -F, '{print $2}'`
 			ActivityDisplayTime=`echo $line | awk -F, '{print $6}'`
-			# ActivityName=$ActivityName"'"$ActivityNameTemp"',"
-			echo "'"$ActivityDisplayTime"',\c" >>$DisplayTimeDataTempPath
+			if [[ $2 = "yes" ]]; then
+				echo "'"$ActivityNameTemp"',\c" >>$DisplayTimeActivityTempPath
+			fi
+			echo $ActivityDisplayTime",\c" >>$DisplayTimeDataTempPath
 		fi
 	done < $csvFile
 	echo "]},\c">>$DisplayTimeDataTempPath
@@ -143,40 +150,68 @@ function getMyDisplayTimeData(){
 	# echo $myActivityDisplayTIme >>$DisplayTimeDataTempPath
 }
 
-function getMyDisplayTimeActivity(){
-	csvFile=$1
+# function getMyDisplayTimeActivity(){
+# 	csvFile=$1
+# 	# echo $1
+# 	appName=`cat $csvFile | head -n 1 | cut -d "," -f 2`
+# 	appVersion=`cat $csvFile | head -n 1 | cut -d "," -f 3`
 
-	appName=`cat $csvFile | head -n 1 | cut -d "," -f 2`
-	appVersion=`cat $csvFile | head -n 1 | cut -d "," -f 3`
+# 	# ActivityName=""
+# 	# echo "'"$appName$appVersion"'" >>$DisplayTimeActivityTempPath
 
-	# ActivityName=""
-	# echo "'"$appName$appVersion"'" >>$DisplayTimeActivityTempPath
-
-	while read line
-	do
-		temp=`echo $line | cut -d "," -f 1`
-		if [[ $temp =~ [0-9] ]]; then
-			ActivityNameTemp=`echo $line | awk -F, '{print $2}'`
-			ActivityDisplayTime=`echo $line | awk -F, '{print $6}'`
-			# ActivityName=$ActivityName"'"$ActivityNameTemp"',"
-			echo "'"$ActivityNameTemp"'\c" >>$DisplayTimeActivityTempPath
-		fi
-	done < $csvFile
-	echo "]},\c">>$DisplayTimeActivityTempPath
-	# myActivityDisplayTIme="{name: '"$appName$appVersion"',data: ["$ActivityDisplayTime"]},"
-	# echo $myActivityDisplayTIme >>$DisplayTimeDataTempPath
-}
+# 	while read line
+# 	do
+# 		temp=`echo $line | cut -d "," -f 1`
+# 		if [[ $temp =~ [0-9] ]]; then
+# 			ActivityNameTemp=`echo $line | awk -F, '{print $2}'`
+# 			ActivityDisplayTime=`echo $line | awk -F, '{print $6}'`
+# 			# ActivityName=$ActivityName"'"$ActivityNameTemp"',"
+# 			echo "'"$ActivityNameTemp"',\c" >>$DisplayTimeActivityTempPath
+# 		fi
+# 	done < $csvFile
+# 	# echo "]},\c">>$DisplayTimeActivityTempPath
+# 	# myActivityDisplayTIme="{name: '"$appName$appVersion"',data: ["$ActivityDisplayTime"]},"
+# 	# echo $myActivityDisplayTIme >>$DisplayTimeDataTempPath
+# }
 
 # getMyDisplayTime $csvDirPath/"DisplayedTime_com.yaya.mmbang3.12.3.csv"
+flag=0
 ls $csvDirPath | while read line
 do
 	if [[ $line =~ "DisplayedTime" ]]; then
-		# echo $line
-		echo `getMyDisplayTimeData $csvDirPath/$line`
-		echo `getMyDisplayTimeActivity $csvDirPath/$line`
-		 # >>$DisplayTimeHtmlPath
+		# echo $csvDirPath/$line
+		if [[ $flag = 0 ]]; then
+			getMyDisplayTime $csvDirPath/$line yes
+			flag=1
+		else
+			getMyDisplayTime $csvDirPath/$line no
+		fi
 	fi
 done
+
+cat -n $DisplayTimeHtmlDemoPath | while read line
+do
+	l=`echo $line | awk '{print $1}'`
+	if [[ $l = 25 ]]; then
+		cat $DisplayTimeActivityTempPath >> $DisplayTimeHtmlPath
+	elif [[ $l = 49 ]]; then
+		cat $DisplayTimeDataTempPath >> $DisplayTimeHtmlPath
+	else
+		echo `cat $DisplayTimeHtmlDemoPath | head -n $l | tail -n 1` >> $DisplayTimeHtmlPath
+	fi
+done
+
+
+if [[ -f $DisplayTimeDataTempPath ]]; then
+	rm $DisplayTimeDataTempPath
+fi
+
+if [[ -f $DisplayTimeActivityTempPath ]]; then
+	rm $DisplayTimeActivityTempPath
+fi
+
+
+
 
 
 # cat $DisplayTimeLog | grep -n $packageName | grep "START" | cut -d ":" -f 1 |tr -d "\r" | while read line

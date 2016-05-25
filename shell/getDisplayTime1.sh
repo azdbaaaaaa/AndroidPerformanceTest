@@ -1,23 +1,27 @@
 #!/bin/bash
 
 rootPath=`dirname $(pwd)`
-resultPath=$rootPath/"result"
+logDirPath=$rootPath/"log"
 
 echo "请输入需要测试的apk"
 echo "1.妈妈帮"
 echo "2.宝宝树"
 
-read choice
+# read choice
+choice=1
+echo "请输入apk的版本号"
+# read versionName
+versionName="3.11.4"
 
 if [[ $choice = 1 ]]; then
-	echo "妈妈帮"
 	packageName="com.yaya.mmbang"
-	DisplayTimeLog=$resultPath/"MMBangDisplayTime.log"
+	# DisplayTimeLog=$logPath/"DisplayedTime_com.yaya.mmbang3.12.3.log"
 elif [[ $choice = 2 ]]; then
-	echo "宝宝树"
 	packageName="com.babytree.apps.pregnancy"
-	DisplayTimeLog=$resultPath/"BBtreeDisplayTime.log"
+	# DisplayTimeLog=$logPath/"DisplayedTime_com.babytree.apps.pregnancy6.6.1.log"
 fi
+
+DisplayTimeLog=$logDirPath/"DisplayedTime_"$packageName$versionName".log"
 
 # if [[ -e $DisplayTimeLog ]]; then
 # 	rm -rf $DisplayTimeLog

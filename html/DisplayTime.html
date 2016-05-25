@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>DisplayTime</title>
+
+<script type="text/javascript" src="http://cdn.hcharts.cn/jquery/jquery-1.8.3.min.js"></script>
+<style type="text/css">
+${demo.css}
+</style>
+<script type="text/javascript">
+$(function () {
+$('#DisplayTime').highcharts({
+chart: {
+type: 'column'
+},
+title: {
+text: 'DisplayTime'
+},
+subtitle: {
+text: 'DisplayTime'
+},
+xAxis: {
+categories: [
+'启动页面','主页面','登录页面','宝宝树推荐','他人信息页','消息','发帖','帮页面','帖子详情页','收藏','我的帖子','关注','粉丝','设置页面',]
+},
+yAxis: {
+min: 0,
+title: {
+text: '页面加载时间(ms)'
+}
+},
+tooltip: {
+formatter: function () {
+var s = '<b>' + this.x + '</b>';
+$.each(this.points, function () {
+s += '<br/>' + this.series.name + ': ' + '<b>'+ this.y + '</b>' + 'ms';});
+return s;},
+shared: true,
+},
+plotOptions: {
+column: {
+pointPadding: 0.2,
+borderWidth: 0
+}
+},
+series: [
+{name: 'com.babytree.apps.pregnancy6.6.1',data: [3160,840,310,280,400,280,240,210,300,240,160,190,190,320,]},{name: 'com.yaya.mmbang3.11.4',data: [150,670,150,120,160,170,170,150,270,150,150,150,150,230,]},{name: 'com.yaya.mmbang3.12.3',data: [420,1070,180,110,170,150,220,150,190,150,150,160,160,140,]},{name: 'com.yaya.mmbang3.13.0',data: [510,1150,250,390,230,110,190,170,300,170,170,160,160,240,]},]
+});
+});
+</script>
+</head>
+<body>
+<script src="http://cdn.hcharts.cn/highcharts/highcharts.js"></script>
+<script src="http://cdn.hcharts.cn/highcharts/modules/exporting.js"></script>
+
+<div id="DisplayTime" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+
+</body>
