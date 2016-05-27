@@ -38,8 +38,8 @@ $(function () {
                 var s = '<b>' + this.x + '</b>';
 
                 $.each(this.points, function () {
-                    s += '<br/>' + this.series.name + ': ' +
-                    parseInt(this.y/1024) + ' MB ' + '<b>' + this.point.activity + '</b>';
+                    s += '<br/>' + this.series.name + ': ' + '<b>' +
+                    parseInt(this.y/1024) + '</b>' + ' MB ' + '<b>' + this.point.activity + '</b>';
                 });
 
                 return s;

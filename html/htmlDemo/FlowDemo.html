@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Flow</title>
+
+		<script type="text/javascript" src="http://cdn.hcharts.cn/jquery/jquery-1.8.3.min.js"></script>
+		<style type="text/css">
+${demo.css}
+		</style>
+		
+
+
+        <script type="text/javascript">
+$(function () {
+    $('#Flow').highcharts({
+        chart: {
+            type: 'line'
+        },
+        title: {
+            text: 'Flow'
+        },
+        // subtitle: {
+        //     text: '专项测试'
+        // },
+        xAxis: {
+            tickInterval: 5,
+            categories: ['2016-05-11 17:58:58','2016-05-11 17:58:59','2016-05-11 17:59:01','2016-05-11 17:59:03','2016-05-11 17:59:05','2016-05-11 17:59:07','2016-05-11 17:59:08','2016-05-11 17:59:10','2016-05-11 17:59:12','2016-05-11 17:59:14','2016-05-11 17:59:16','2016-05-11 17:59:17','2016-05-11 17:59:19','2016-05-11 17:59:21','2016-05-11 17:59:23','2016-05-11 17:59:25','2016-05-11 17:59:26','2016-05-11 17:59:28','2016-05-11 17:59:30','2016-05-11 17:59:32','2016-05-11 17:59:34','2016-05-11 17:59:36','2016-05-11 17:59:38','2016-05-11 17:59:40','2016-05-11 17:59:42','2016-05-11 17:59:44','2016-05-11 17:59:46','2016-05-11 17:59:48','2016-05-11 17:59:49','2016-05-11 17:59:51','2016-05-11 17:59:53','2016-05-11 17:59:55','2016-05-11 17:59:57','2016-05-11 18:00:00','2016-05-11 18:00:01','2016-05-11 18:00:03','2016-05-11 18:00:06','2016-05-11 18:00:08','2016-05-11 18:00:10','2016-05-11 18:00:12','2016-05-11 18:00:15','2016-05-11 18:00:18','2016-05-11 18:00:20','2016-05-11 18:00:21','2016-05-11 18:00:23','2016-05-11 18:00:26','2016-05-11 18:00:28','2016-05-11 18:00:30','2016-05-11 18:00:33','2016-05-11 18:00:35','2016-05-11 18:00:37','2016-05-11 18:00:39','2016-05-11 18:00:42','2016-05-11 18:00:45','2016-05-11 18:00:48','2016-05-11 18:00:50','2016-05-11 18:00:52','2016-05-11 18:00:55','2016-05-11 18:00:57','2016-05-11 18:00:59','2016-05-11 18:01:02']
+        },
+        yAxis: {min:0,
+            title: {
+                text: '上下行流量（KB）'
+            }
+        },
+        tooltip: {
+            formatter: function () {
+                var s = '<b>' + this.x + '</b>';
+
+                $.each(this.points, function () {
+                    s += '<br/>' + this.series.name + ': ' + '<b>' +
+                    parseFloat(this.y/1000) + '</b>' + ' KB ' + '<b>' + this.point.activity + '</b>'
+                    ;
+                });
+                return s;
+            },
+            shared: true
+        },
+        plotOptions: {series: {marker: {enabled: false}},
+            line: {
+                dataLabels: {
+                    enabled: false
+                },
+                enableMouseTracking: true
+            }
+        },
+        series: [
+        {name: 'RX_bytes',data: [{y:0,activity:''},{y:3584,activity:'MainActivity'},{y:13434,activity:'MainActivity'},{y:22727,activity:'MainActivity'},{y:25046,activity:'MainActivity'},{y:32366,activity:'activity.RoleSelectActivity'},{y:40332,activity:'activity.RoleSelectActivity'},{y:49402,activity:'activity.RoleSelectActivity'},{y:273816,activity:'activity.RoleSelectActivity'},{y:389799,activity:'activity.RoleSelectActivity'}]},
+
+        ]
+    });
+});
+        </script>
+	</head>
+<body>
+<script src="http://cdn.hcharts.cn/highcharts/highcharts.js"></script>
+<script src="http://cdn.hcharts.cn/highcharts/modules/exporting.js"></script>
+
+<div id="Flow" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+</body>
+</html>

@@ -53,7 +53,8 @@ do
 	CPU_top=`echo $line | awk -F, '{print $7}'`
 	RX_bytes=`echo $line | awk -F, '{print $8}'`
 	TX_bytes=`echo $line | awk -F, '{print $9}'`
-	BatteryLevel=`echo $line | awk -F, '{print $10}'`
+	Folw_bytes=`echo $line | awk -F, '{print $10}'`
+	
 
 	CPU_top=${CPU_top%\%}
 	CPU_cpuinfo=${CPU_cpuinfo%\%}
@@ -90,28 +91,28 @@ do
 	CPU_cpuinfo_String=$CPU_cpuinfo_String",{y:"$CPU_cpuinfo",activity:'"$CurrentActivity"'}"
 	CPU_top_String=$CPU_top_String",{y:"$CPU_top",activity:'"$CurrentActivity"'}"
 
+	RX_bytes_String=$RX_bytes_String",{y:"$RX_bytes",activity:'"$CurrentActivity"'}"
+	TX_bytes_String=$TX_bytes_String",{y:"$TX_bytes",activity:'"$CurrentActivity"'}"
+	Folw_bytes_String=$Folw_bytes_String",{y:"$Folw_bytes",activity:'"$CurrentActivity"'}"
+
 	CurrentTimeString=$CurrentTimeString"'"$CurrentTime"',"
 	# i=2
 done < $performanceFilePath
 
-PSS_Dalvik_String=${PSS_Dalvik_String#?}
-PSS_Native_String=${PSS_Native_String#?}
-PSS_Total_String=${PSS_Total_String#?}
-
-CPU_cpuinfo_String=${CPU_cpuinfo_String#?}
-CPU_top_String=${CPU_top_String#?}
-
 CurrentTimeString=${CurrentTimeString%?}"]"
 
-myPSS_Dalvik_String="{type:'area',name: 'PSS_Dalvik',data: ["$PSS_Dalvik_String"],color:'#70db93'},"
-myPSS_Native_String="{type:'area',name: 'PSS_Native',data: ["$PSS_Native_String"],color:'#9932cd'},"
-myPSS_Total_String="{type:'area',name: 'PSS_Total',data: ["$PSS_Total_String"],color:'#e47833'},"
+myPSS_Dalvik_String="{type:'area',name: 'PSS_Dalvik',data: ["${PSS_Dalvik_String#?}"],color:'#70db93'},"
+myPSS_Native_String="{type:'area',name: 'PSS_Native',data: ["${PSS_Native_String#?}"],color:'#9932cd'},"
+myPSS_Total_String="{type:'area',name: 'PSS_Total',data: ["${PSS_Total_String#?}"],color:'#e47833'},"
 # echo $myPSS_DalvikString
 
-myCPU_cpuinfo_String="{name: 'CPU_cpuinfo',data: ["$CPU_cpuinfo_String"]},"
-myCPU_top_String="{name: 'CPU_top',data: ["$CPU_top_String"]},"
+myCPU_cpuinfo_String="{name: 'CPU_cpuinfo',data: ["${CPU_cpuinfo_String#?}"]},"
+myCPU_top_String="{name: 'CPU_top',data: ["${CPU_top_String#?}"]},"
 # echo $CurrentTimeString
 # echo $myCPU_cpuinfo_String
+myRX_bytes_String="{name: 'RX_bytes',data: ["${RX_bytes_String#?}"]},"
+myTX_bytes_String="{name: 'TX_bytes',data: ["${TX_bytes_String#?}"]},"
+myFolw_bytes_String="{name: 'Folw_bytes',data: ["${Folw_bytes_String#?}"]},"
 
 cat -n $memoryHtmlDemoPath | while read line
 do
@@ -140,6 +141,23 @@ do
 	else
 		# echo ""
 		echo `cat $cpuHtmlDemoPath | head -n $l | tail -n 1` >> $cpuHtmlFilePath
+	fi
+done
+
+cat -n $flowDemoFilePath | while read line
+do
+	# echo $line
+	l=`echo $line | awk '{print $1}'`
+	# echo "["$l"]"
+	if [[ $l = 57 ]]; then
+		# echo "aaa"
+		echo $myRX_bytes_String$myTX_bytes_String$myFolw_bytes_String >> $flowHtmlFilePath
+	elif [[ $l = 28 ]]; then
+		# echo "bbb"
+		echo $CurrentTimeString >> $flowHtmlFilePath
+	else
+		# echo ""
+		echo `cat $flowDemoFilePath | head -n $l | tail -n 1` >> $flowHtmlFilePath
 	fi
 done
 

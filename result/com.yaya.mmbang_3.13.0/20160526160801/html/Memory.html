@@ -1,0 +1,88 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Memory</title>
+
+<script type="text/javascript" src="http://cdn.hcharts.cn/jquery/jquery-1.8.3.min.js"></script>
+<style type="text/css">
+${demo.css}
+</style>
+<script type="text/javascript">
+$(function () {
+$('#Memory').highcharts({
+chart: {
+zoomType: 'x',
+spacingRight: 20
+},
+title: {
+text: 'Memory'
+},
+subtitle: {
+text: document.ontouchstart === undefined ?
+'选中区域可查看具体区域中的数据图表' :
+'Pinch the chart to zoom in'
+},
+xAxis: {
+tickInterval: 5,
+categories: ['2016-05-26 16:15:05','2016-05-26 16:15:08','2016-05-26 16:15:11','2016-05-26 16:15:14','2016-05-26 16:15:17','2016-05-26 16:15:20','2016-05-26 16:15:23','2016-05-26 16:15:26','2016-05-26 16:15:29','2016-05-26 16:15:32','2016-05-26 16:15:35','2016-05-26 16:15:38','2016-05-26 16:15:41','2016-05-26 16:15:44','2016-05-26 16:15:47','2016-05-26 16:15:50','2016-05-26 16:15:53','2016-05-26 16:15:56','2016-05-26 16:15:59','2016-05-26 16:16:02','2016-05-26 16:16:05','2016-05-26 16:16:08','2016-05-26 16:16:11','2016-05-26 16:16:14','2016-05-26 16:16:17','2016-05-26 16:16:20','2016-05-26 16:16:23','2016-05-26 16:16:26','2016-05-26 16:16:29','2016-05-26 16:16:32','2016-05-26 16:16:36','2016-05-26 16:16:39','2016-05-26 16:16:42','2016-05-26 16:16:45','2016-05-26 16:16:48','2016-05-26 16:16:51','2016-05-26 16:16:54','2016-05-26 16:16:57','2016-05-26 16:17:00','2016-05-26 16:17:03','2016-05-26 16:17:06','2016-05-26 16:17:09','2016-05-26 16:17:12','2016-05-26 16:17:15','2016-05-26 16:17:18','2016-05-26 16:17:21','2016-05-26 16:17:24','2016-05-26 16:17:27','2016-05-26 16:17:30','2016-05-26 16:17:33','2016-05-26 16:17:36','2016-05-26 16:17:39','2016-05-26 16:17:42','2016-05-26 16:17:45','2016-05-26 16:17:48','2016-05-26 16:17:51','2016-05-26 16:17:54','2016-05-26 16:17:57','2016-05-26 16:18:00','2016-05-26 16:18:03','2016-05-26 16:18:06','2016-05-26 16:18:09','2016-05-26 16:18:12','2016-05-26 16:18:15','2016-05-26 16:18:18','2016-05-26 16:18:21','2016-05-26 16:18:24','2016-05-26 16:18:28','2016-05-26 16:18:31','2016-05-26 16:18:34','2016-05-26 16:18:37','2016-05-26 16:18:40','2016-05-26 16:18:43','2016-05-26 16:18:46','2016-05-26 16:18:49','2016-05-26 16:18:52','2016-05-26 16:18:55','2016-05-26 16:18:58','2016-05-26 16:19:01','2016-05-26 16:19:04','2016-05-26 16:19:07','2016-05-26 16:19:10','2016-05-26 16:19:13','2016-05-26 16:19:16','2016-05-26 16:19:19','2016-05-26 16:19:22']
+},
+yAxis: {min: 0,
+title: {
+text: '(内存占用)'
+},
+labels:{formatter: function(){return this.value/1000 + 'MB'}}
+},
+tooltip: {
+formatter: function () {
+var s = '<b>' + this.x + '</b>';
+
+$.each(this.points, function () {
+s += '<br/>' + this.series.name + ': ' +
+parseInt(this.y/1024) + ' MB ' + '<b>' + this.point.activity + '</b>';
+});
+
+return s;
+},
+shared: true
+},
+legend: {
+enabled: true
+},
+plotOptions: {
+area: {
+// fillColor: {
+// linearGradient: { x1: 0, y1: 0, x2: 0, y2: 1},
+// stops: [
+// [0, Highcharts.getOptions().colors[0]],
+// [1, Highcharts.Color(Highcharts.getOptions().colors[0]).setOpacity(0).get('rgba')]
+// ]
+// },
+lineWidth: 1,
+marker: {
+enabled: false
+},
+shadow: false,
+states: {
+hover: {
+lineWidth: 1
+}
+},
+threshold: null
+}
+},
+series: [
+{type:'area',name: 'PSS_Total',data: [{y:17460,activity:'activity.SplashActivity'},{y:17444,activity:'activity.SplashActivity'},{y:17432,activity:'activity.SplashActivity'},{y:0,activity:'Launcher'},{y:0,activity:'Launcher'},{y:10312,activity:'Launcher'},{y:10312,activity:'Launcher'},{y:10312,activity:'Launcher'},{y:17096,activity:'activity.SplashActivity'},{y:17072,activity:'activity.SplashActivity'},{y:17072,activity:'activity.SplashActivity'},{y:16980,activity:'activity.SplashActivity'},{y:16980,activity:'activity.SplashActivity'},{y:16980,activity:'activity.SplashActivity'},{y:16960,activity:'activity.SplashActivity'},{y:16960,activity:'activity.SplashActivity'},{y:16960,activity:'activity.SplashActivity'},{y:16960,activity:'activity.SplashActivity'},{y:16960,activity:'activity.SplashActivity'},{y:16960,activity:'activity.SplashActivity'},{y:17256,activity:'activity.SplashActivity'},{y:13472,activity:'login.NewbieProcessActivity'},{y:13472,activity:'login.NewbieProcessActivity'},{y:13472,activity:'login.NewbieProcessActivity'},{y:13472,activity:'login.NewbieProcessActivity'},{y:13472,activity:'login.NewbieProcessActivity'},{y:13660,activity:'login.NewbieProcessActivity'},{y:13472,activity:'login.NewbieProcessActivity'},{y:13472,activity:'login.NewbieProcessActivity'},{y:17148,activity:'login.NewbieProcessActivity'},{y:17148,activity:'login.NewbieProcessActivity'},{y:17144,activity:'login.NewbieProcessActivity'},{y:17144,activity:'login.NewbieProcessActivity'},{y:17144,activity:'login.NewbieProcessActivity'},{y:17144,activity:'login.NewbieProcessActivity'},{y:17144,activity:'login.NewbieProcessActivity'},{y:17144,activity:'login.NewbieProcessActivity'},{y:17136,activity:'login.NewbieProcessActivity'},{y:17132,activity:'login.NewbieProcessActivity'},{y:17120,activity:'login.NewbieProcessActivity'},{y:17120,activity:'login.NewbieProcessActivity'},{y:17120,activity:'login.NewbieProcessActivity'},{y:17112,activity:'login.NewbieProcessActivity'},{y:24012,activity:'login.NewbieProcessActivity'},{y:24020,activity:'login.NewbieProcessActivity'},{y:17272,activity:'login.NewbieProcessActivity'},{y:17124,activity:'login.NewbieProcessActivity'},{y:21044,activity:'login.NewbieProcessActivity'},{y:17120,activity:'login.NewbieProcessActivity'},{y:17120,activity:'login.NewbieProcessActivity'},{y:17120,activity:'login.NewbieProcessActivity'},{y:17120,activity:'login.NewbieProcessActivity'},{y:17120,activity:'login.NewbieProcessActivity'},{y:17120,activity:'login.NewbieProcessActivity'},{y:17120,activity:'login.NewbieProcessActivity'},{y:17120,activity:'login.NewbieProcessActivity'},{y:17120,activity:'login.NewbieProcessActivity'},{y:17120,activity:'login.NewbieProcessActivity'},{y:24016,activity:'login.NewbieProcessActivity'},{y:27420,activity:'login.NewbieProcessActivity'},{y:27424,activity:'login.NewbieProcessActivity'},{y:17128,activity:'login.NewbieProcessActivity'},{y:17128,activity:'login.NewbieProcessActivity'},{y:17128,activity:'login.NewbieProcessActivity'},{y:17128,activity:'login.NewbieProcessActivity'},{y:17128,activity:'login.NewbieProcessActivity'},{y:21048,activity:'login.NewbieProcessActivity'},{y:17136,activity:'login.NewbieProcessActivity'},{y:17284,activity:'login.NewbieProcessActivity'},{y:17136,activity:'login.NewbieProcessActivity'},{y:17128,activity:'login.NewbieProcessActivity'},{y:17844,activity:'login.NewbieProcessActivity'},{y:21352,activity:'activity.MainActivity'},{y:25300,activity:'activity.MainActivity'},{y:25300,activity:'activity.MainActivity'},{y:25300,activity:'activity.MainActivity'},{y:25300,activity:'activity.MainActivity'},{y:25300,activity:'activity.MainActivity'},{y:25300,activity:'activity.MainActivity'},{y:25300,activity:'activity.MainActivity'},{y:25184,activity:'activity.MainActivity'},{y:10680,activity:'activity.MainActivity'},{y:13808,activity:'activity.MainActivity'},{y:13808,activity:'activity.MainActivity'},{y:13808,activity:'activity.MainActivity'},{y:9984,activity:'activity.MainActivity'}],color:'#e47833'},{type:'area',name: 'PSS_Dalvik',data: [{y:5892,activity:'activity.SplashActivity'},{y:5872,activity:'activity.SplashActivity'},{y:5844,activity:'activity.SplashActivity'},{y:0,activity:'Launcher'},{y:0,activity:'Launcher'},{y:6428,activity:'Launcher'},{y:6416,activity:'Launcher'},{y:6416,activity:'Launcher'},{y:6144,activity:'activity.SplashActivity'},{y:5852,activity:'activity.SplashActivity'},{y:5852,activity:'activity.SplashActivity'},{y:5784,activity:'activity.SplashActivity'},{y:5764,activity:'activity.SplashActivity'},{y:5764,activity:'activity.SplashActivity'},{y:5744,activity:'activity.SplashActivity'},{y:5744,activity:'activity.SplashActivity'},{y:5744,activity:'activity.SplashActivity'},{y:5744,activity:'activity.SplashActivity'},{y:5744,activity:'activity.SplashActivity'},{y:5744,activity:'activity.SplashActivity'},{y:5696,activity:'activity.SplashActivity'},{y:5556,activity:'login.NewbieProcessActivity'},{y:5548,activity:'login.NewbieProcessActivity'},{y:5548,activity:'login.NewbieProcessActivity'},{y:5548,activity:'login.NewbieProcessActivity'},{y:5548,activity:'login.NewbieProcessActivity'},{y:5548,activity:'login.NewbieProcessActivity'},{y:5548,activity:'login.NewbieProcessActivity'},{y:5548,activity:'login.NewbieProcessActivity'},{y:5544,activity:'login.NewbieProcessActivity'},{y:5544,activity:'login.NewbieProcessActivity'},{y:5540,activity:'login.NewbieProcessActivity'},{y:5540,activity:'login.NewbieProcessActivity'},{y:5540,activity:'login.NewbieProcessActivity'},{y:5540,activity:'login.NewbieProcessActivity'},{y:5540,activity:'login.NewbieProcessActivity'},{y:5540,activity:'login.NewbieProcessActivity'},{y:5532,activity:'login.NewbieProcessActivity'},{y:5532,activity:'login.NewbieProcessActivity'},{y:5512,activity:'login.NewbieProcessActivity'},{y:5512,activity:'login.NewbieProcessActivity'},{y:5512,activity:'login.NewbieProcessActivity'},{y:5504,activity:'login.NewbieProcessActivity'},{y:5492,activity:'login.NewbieProcessActivity'},{y:5492,activity:'login.NewbieProcessActivity'},{y:5492,activity:'login.NewbieProcessActivity'},{y:5492,activity:'login.NewbieProcessActivity'},{y:5484,activity:'login.NewbieProcessActivity'},{y:5476,activity:'login.NewbieProcessActivity'},{y:5476,activity:'login.NewbieProcessActivity'},{y:5476,activity:'login.NewbieProcessActivity'},{y:5476,activity:'login.NewbieProcessActivity'},{y:5476,activity:'login.NewbieProcessActivity'},{y:5476,activity:'login.NewbieProcessActivity'},{y:5476,activity:'login.NewbieProcessActivity'},{y:5476,activity:'login.NewbieProcessActivity'},{y:5476,activity:'login.NewbieProcessActivity'},{y:5476,activity:'login.NewbieProcessActivity'},{y:5476,activity:'login.NewbieProcessActivity'},{y:5476,activity:'login.NewbieProcessActivity'},{y:5476,activity:'login.NewbieProcessActivity'},{y:5476,activity:'login.NewbieProcessActivity'},{y:5476,activity:'login.NewbieProcessActivity'},{y:5476,activity:'login.NewbieProcessActivity'},{y:5476,activity:'login.NewbieProcessActivity'},{y:5476,activity:'login.NewbieProcessActivity'},{y:5476,activity:'login.NewbieProcessActivity'},{y:5476,activity:'login.NewbieProcessActivity'},{y:5476,activity:'login.NewbieProcessActivity'},{y:5476,activity:'login.NewbieProcessActivity'},{y:5472,activity:'login.NewbieProcessActivity'},{y:5472,activity:'login.NewbieProcessActivity'},{y:5472,activity:'activity.MainActivity'},{y:5468,activity:'activity.MainActivity'},{y:5468,activity:'activity.MainActivity'},{y:5468,activity:'activity.MainActivity'},{y:5468,activity:'activity.MainActivity'},{y:5468,activity:'activity.MainActivity'},{y:5468,activity:'activity.MainActivity'},{y:5468,activity:'activity.MainActivity'},{y:5356,activity:'activity.MainActivity'},{y:7032,activity:'activity.MainActivity'},{y:5812,activity:'activity.MainActivity'},{y:5812,activity:'activity.MainActivity'},{y:5812,activity:'activity.MainActivity'},{y:6232,activity:'activity.MainActivity'}],color:'#70db93'},{type:'area',name: 'PSS_Native',data: [{y:12,activity:'activity.SplashActivity'},{y:12,activity:'activity.SplashActivity'},{y:12,activity:'activity.SplashActivity'},{y:0,activity:'Launcher'},{y:0,activity:'Launcher'},{y:12,activity:'Launcher'},{y:12,activity:'Launcher'},{y:12,activity:'Launcher'},{y:12,activity:'activity.SplashActivity'},{y:12,activity:'activity.SplashActivity'},{y:12,activity:'activity.SplashActivity'},{y:12,activity:'activity.SplashActivity'},{y:12,activity:'activity.SplashActivity'},{y:12,activity:'activity.SplashActivity'},{y:12,activity:'activity.SplashActivity'},{y:12,activity:'activity.SplashActivity'},{y:12,activity:'activity.SplashActivity'},{y:12,activity:'activity.SplashActivity'},{y:12,activity:'activity.SplashActivity'},{y:12,activity:'activity.SplashActivity'},{y:12,activity:'activity.SplashActivity'},{y:8,activity:'login.NewbieProcessActivity'},{y:8,activity:'login.NewbieProcessActivity'},{y:8,activity:'login.NewbieProcessActivity'},{y:8,activity:'login.NewbieProcessActivity'},{y:8,activity:'login.NewbieProcessActivity'},{y:8,activity:'login.NewbieProcessActivity'},{y:8,activity:'login.NewbieProcessActivity'},{y:8,activity:'login.NewbieProcessActivity'},{y:8,activity:'login.NewbieProcessActivity'},{y:8,activity:'login.NewbieProcessActivity'},{y:8,activity:'login.NewbieProcessActivity'},{y:8,activity:'login.NewbieProcessActivity'},{y:8,activity:'login.NewbieProcessActivity'},{y:8,activity:'login.NewbieProcessActivity'},{y:8,activity:'login.NewbieProcessActivity'},{y:8,activity:'login.NewbieProcessActivity'},{y:8,activity:'login.NewbieProcessActivity'},{y:8,activity:'login.NewbieProcessActivity'},{y:8,activity:'login.NewbieProcessActivity'},{y:8,activity:'login.NewbieProcessActivity'},{y:8,activity:'login.NewbieProcessActivity'},{y:8,activity:'login.NewbieProcessActivity'},{y:8,activity:'login.NewbieProcessActivity'},{y:8,activity:'login.NewbieProcessActivity'},{y:8,activity:'login.NewbieProcessActivity'},{y:8,activity:'login.NewbieProcessActivity'},{y:8,activity:'login.NewbieProcessActivity'},{y:8,activity:'login.NewbieProcessActivity'},{y:8,activity:'login.NewbieProcessActivity'},{y:8,activity:'login.NewbieProcessActivity'},{y:8,activity:'login.NewbieProcessActivity'},{y:8,activity:'login.NewbieProcessActivity'},{y:8,activity:'login.NewbieProcessActivity'},{y:8,activity:'login.NewbieProcessActivity'},{y:8,activity:'login.NewbieProcessActivity'},{y:8,activity:'login.NewbieProcessActivity'},{y:8,activity:'login.NewbieProcessActivity'},{y:8,activity:'login.NewbieProcessActivity'},{y:8,activity:'login.NewbieProcessActivity'},{y:8,activity:'login.NewbieProcessActivity'},{y:8,activity:'login.NewbieProcessActivity'},{y:8,activity:'login.NewbieProcessActivity'},{y:8,activity:'login.NewbieProcessActivity'},{y:8,activity:'login.NewbieProcessActivity'},{y:8,activity:'login.NewbieProcessActivity'},{y:8,activity:'login.NewbieProcessActivity'},{y:8,activity:'login.NewbieProcessActivity'},{y:8,activity:'login.NewbieProcessActivity'},{y:8,activity:'login.NewbieProcessActivity'},{y:8,activity:'login.NewbieProcessActivity'},{y:8,activity:'login.NewbieProcessActivity'},{y:8,activity:'activity.MainActivity'},{y:8,activity:'activity.MainActivity'},{y:8,activity:'activity.MainActivity'},{y:8,activity:'activity.MainActivity'},{y:8,activity:'activity.MainActivity'},{y:8,activity:'activity.MainActivity'},{y:8,activity:'activity.MainActivity'},{y:8,activity:'activity.MainActivity'},{y:8,activity:'activity.MainActivity'},{y:12,activity:'activity.MainActivity'},{y:8,activity:'activity.MainActivity'},{y:8,activity:'activity.MainActivity'},{y:8,activity:'activity.MainActivity'},{y:12,activity:'activity.MainActivity'}],color:'#9932cd'},
+]
+});
+});
+</script>
+</head>
+<body>
+<script src="http://cdn.hcharts.cn/highcharts/highcharts.js"></script>
+<script src="http://cdn.hcharts.cn/highcharts/modules/exporting.js"></script>
+
+<div id="Memory" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+
+</body>
+</html>

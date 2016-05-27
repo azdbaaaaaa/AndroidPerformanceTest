@@ -2,6 +2,7 @@
 
 # rootPath=`dirname $(pwd)`
 # packageName="com.yaya.mmbang"
+# mainActivity="com.yaya.mmbang.activity.SplashActivity"
 # versionName="3.12.3"
 # apkFilePath=$rootPath"/apk/MMBangRelease_xiaomi_m.apk"
 # apkFileSDCardPath="/sdcard/mmbang/apk/MMBangRelease_xiaomi_m.apk"
@@ -23,11 +24,13 @@ function installApp(){
 }
 
 function getFirstColdStartTime(){
+	sleep 2
 	# echo "----开始获取首次安装冷启动时间-----"
-	#TotalTime=`adb shell am start -W $packageName/$mainActivity | grep -ai TotalTime|awk -F ' ' '{print $2}'|tr -d "\r"`
-	WaitTime=`adb shell am start -W $packageName/$mainActivity | grep -ai WaitTime|awk -F ' ' '{print $2}'|tr -d "\r"`
-	echo $WaitTime",""\c">>$startTimeFilePath
-	# echo $TotalTime>>$startTimeFilePath
+	TotalTime=`adb shell am start -W $packageName/$mainActivity | grep -ai TotalTime|awk -F ' ' '{print $2}'|tr -d "\r"`
+	# WaitTime=`adb shell am start -W $packageName/$mainActivity | grep -ai WaitTime|awk -F ' ' '{print $2}'|tr -d "\r"`
+	echo $TotalTime",""\c">>$startTimeFilePath
+	# echo $WaitTime",""\c">>$startTimeFilePath
+
 	# echo "----获取首次安装冷启动时间完成:$WaitTime-----"
 }
 
@@ -37,8 +40,11 @@ function getWarmStartTime(){
 	adb shell input keyevent KEYCODE_BACK
 	adb shell input keyevent KEYCODE_BACK
 	sleep 2
-	WaitTime=`adb shell am start -W $packageName/$mainActivity | grep -ai WaitTime|awk -F ' ' '{print $2}'|tr -d "\r"`
-	echo $WaitTime>>$startTimeFilePath
+	TotalTime=`adb shell am start -W $packageName/$mainActivity | grep -ai TotalTime|awk -F ' ' '{print $2}'|tr -d "\r"`
+	# WaitTime=`adb shell am start -W $packageName/$mainActivity | grep -ai WaitTime|awk -F ' ' '{print $2}'|tr -d "\r"`
+	echo $TotalTime>>$startTimeFilePath
+	# echo $WaitTime>>$startTimeFilePath
+
 	# echo "-----获取热启动时间完成:$WaitTime-----"
 }
 

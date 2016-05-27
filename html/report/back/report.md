@@ -20,7 +20,7 @@ adb shell am start -W $packageName/$packageName.$Mainactivity
 ![ColdStartTime Screenshot](/Users/jimmy_zhou/Desktop/android/html/report/ColdStartTime.png)
 
 ##2.主要页面加载时间
-1. **主要页面加载时间** 统计了应用中部分页面activity的Displayed时间
+1. **主要页面加载时间** 统计了应用中部分页面activity的Displayed时间(不包含接口的响应时间)
 2. 数据采集方式：
 
 ~~~
@@ -58,9 +58,9 @@ adb shell top -n 1 -d 0 | grep $packageName | grep -v pushservice | head -n 1 | 
 3. 数据采集方式：同时采集了PSS中（Dalvik Heap、Native Heap、TOTAL）
 
 ~~~
-adb shell dumpsys meminfo $packageName | grep "Dalvik Heap" | head -n 1 | sed -E 's/[[:space:]]+/ /g' | sed 's/^ //g' | cut -d " "  -f 3
+adb shell dumpsys meminfo $packageName | grep Dalvik | head -n 1 | sed -E 's/[[:space:]]+/ /g' | sed 's/^ //g' | cut -d " "  -f 3
 
-adb shell dumpsys meminfo $packageName | grep "Native Heap" | head -n 1 | sed -E 's/[[:space:]]+/ /g' | sed 's/^ //g' | cut -d " "  -f 3
+adb shell dumpsys meminfo $packageName | grep Native | head -n 1 | sed -E 's/[[:space:]]+/ /g' | sed 's/^ //g' | cut -d " "  -f 3
 
 adb shell dumpsys meminfo $packageName | grep TOTAL | head -n 1 | sed -E 's/[[:space:]]+/ /g' | sed 's/^ //g' | cut -d " "  -f 3
 ~~~
@@ -71,7 +71,7 @@ adb shell dumpsys meminfo $packageName | grep TOTAL | head -n 1 | sed -E 's/[[:s
 
 ###耗流量
 1. 可以通过tcpdump抓包，再通过wireshake直接读取包信息来获得流量
-2. 数据采集方式：
+2. 数据采集方式（程序运行时先记录当前流量值，作为初始流量值，然后再继续程序运行中流量的差值）：
 
 ~~~
 adb shell cat /proc/net/xt_qtaguid/stats | grep $myUID | awk '{rx_bytes+=$6}END{print rx_bytes}'
@@ -100,7 +100,7 @@ adb shell dumpsys gfxinfo $packageName
 
 * 不允许出现黑色像素
 * 不允许存在4x过度绘制
-* 不允许存在面积超过屏幕1/4区域的3x过度绘制（淡红色区域
+* 不允许存在面积超过屏幕1/4区域的3x过度绘制（淡红色区域）
 
 ps：只有android4.2及以上的版本才具备此功能
 
@@ -108,27 +108,25 @@ ps：只有android4.2及以上的版本才具备此功能
 TBD
 
 ##6.monkey压力测试
-**测试策略1**：state=已登录 WiFiState=WiFi网络 seed=1 eventCount=10000
+**测试策略1**：不同的登录状态：已登录、未登录
 
-**测试策略2**：未登录 ...
+**测试策略2**：不同的网络状态：无网络、2g网络、3g网络、4g网络、WiFi网络
 
-**测试策略3**：无网络 ...
+**测试策略3**：不同的内存状态：低内存、中内存、高内存
 
-**测试策略4**：2g网络 ...
+**测试策略4**：不同的CPU状态：低CPU、中CPU、高CPU
 
-**测试策略5**：3g网络 ...
+**测试策略5**：不同的电池状态：低电量、中电量、高电量
 
-**测试策略6**：4g网络 ...
-
-**测试策略7**：WiFi网络 ...
+**测试策略6**：不同的monkey运行参数：seed值、throttle时间、各种事件百分比
 
 ...
 
 ##7.安全检查
-###反编译
-###代码混淆
-###敏感数据：传输加密与校验
-###敏感数据：本地缓存及本地数据库检查
-###敏感数据：日志数据检查
+####反编译
+####代码混淆
+####敏感数据：传输加密与校验
+####敏感数据：本地缓存及本地数据库检查
+####敏感数据：日志数据检查
 
 

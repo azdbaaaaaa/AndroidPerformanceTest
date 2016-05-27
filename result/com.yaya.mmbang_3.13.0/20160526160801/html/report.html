@@ -1,0 +1,1028 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>report</title>
+    <script type="text/javascript" src="http://cdn.hcharts.cn/jquery/jquery-1.8.3.min.js"></script>
+    <style type="text/css">
+${demo.css}
+    </style>
+    <script type="text/javascript">
+$(function () {
+$('#ColdStartTime').highcharts({
+chart: {
+type: 'line'
+},
+title: {
+text: 'ColdStartTime'
+},
+subtitle: {
+text: '首次安装冷启动时间'
+},
+xAxis: {
+title: {
+text: '测试次数'
+},
+allowDecimals: true,
+floor: 1,//x轴显示的刻度的初始数据，默认为0
+min: 1,//x轴显示的数据的初始数据，默认从0开始
+tickInterval: 1,//x轴刻度间隔为1
+//minPadding: 10,
+startOnTick:true,
+// max: 30,//x轴显示的数据的最大数据
+
+// labels: {
+// formatter:function(){
+// if(this.value <=100) {
+// return "第一等级("+this.value+")";
+// }else if(this.value >100 && this.value <=200) {
+// return "第二等级("+this.value+")";
+// }else {
+// return "第三等级("+this.value+")";
+// }
+// }
+// }
+// categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
+},
+yAxis: {
+title: {
+text: '时间(ms)'
+}
+},tooltip: {shared: true},
+plotOptions: {
+line: {
+dataLabels: {
+enabled: true
+},
+enableMouseTracking: true
+}
+},
+series: [
+{name: 'com.babytree.apps.pregnancy6.6.1',data: [0,4708,5753,6228,6585,6315,6285,6574,6931,6917,6834,6844,6868,7108,7150,7033,7083,7191,7098,6717,7158]},{name: 'com.tencent.mm6.3.18',data: [0,1730,1314,1608,1454,1600,1445,1485,1502,1478,1502,1507,1499,1482,1468,1484,1503,1484,1490,1538,1476]},{name: 'com.yaya.mmbang3.11.4',data: [0,1183,1159,1172,1211,1181,1175,1270,1253,1209,1171,1252,1247,1128,1212,1201,1114,1285,1360,1237,1140]},{name: 'com.yaya.mmbang3.12.3',data: [0,1122,1097,1185,1145,1166,1193,1179,1144,1282,1245,1169,1179,1211,1125,1146,1291,1115,1142,1253,1143]},{name: 'com.yaya.mmbang3.13.0',data: [0,1150,951,1146,982,986,996,1030,941,994,962,918,1002,1047,982,1016,1056,1002,947,983,1040,]},]
+});
+});
+$(function () {
+$('#WarmStartTime').highcharts({
+chart: {
+type: 'line'
+},
+title: {
+text: 'WarmStartTime'
+},
+subtitle: {
+text: '热启动时间'
+},
+xAxis: {
+title: {
+text: '测试次数'
+},
+allowDecimals: true,
+floor: 1,//x轴显示的刻度的初始数据，默认为0
+min: 1,//x轴显示的数据的初始数据，默认从0开始
+tickInterval: 1,//x轴刻度间隔为1
+//minPadding: 10,
+startOnTick:true,
+// max: 30,//x轴显示的数据的最大数据
+
+// labels: {
+// formatter:function(){
+// if(this.value <=100) {
+// return "第一等级("+this.value+")";
+// }else if(this.value >100 && this.value <=200) {
+// return "第二等级("+this.value+")";
+// }else {
+// return "第三等级("+this.value+")";
+// }
+// }
+// }
+// categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
+},
+yAxis: {
+title: {
+text: '时间(ms)'
+}
+},tooltip: {shared: true},
+plotOptions: {
+line: {
+dataLabels: {
+enabled: true
+},
+enableMouseTracking: true
+}
+},
+series: [
+{name: 'com.babytree.apps.pregnancy6.6.1',data: [0,447,378,359,354,386,416,331,305,354,351,328,322,325,299,343,320,363,284,373,297]},{name: 'com.tencent.mm6.3.18',data: [0,1162,954,1749,1056,451,344,548,676,577,532,305,504,1005,624,575,438,1112,860,337,214]},{name: 'com.yaya.mmbang3.11.4',data: [0,20,415,382,365,420,407,399,399,389,415,393,404,403,410,391,408,391,380,424,401]},{name: 'com.yaya.mmbang3.12.3',data: [0,419,373,391,383,387,388,410,437,394,393,405,378,406,411,399,378,412,409,378,390]},{name: 'com.yaya.mmbang3.13.0',data: [0,683,590,631,685,607,437,683,625,606,600,615,663,620,609,688,690,725,600,594,713,]},]
+});
+});
+$(function () {
+$('#Memory').highcharts({
+chart: {
+zoomType: 'x',
+spacingRight: 20
+},
+title: {
+text: 'Memory'
+},
+subtitle: {
+text: document.ontouchstart === undefined ?
+'选中区域可查看具体区域中的数据图表' :
+'Pinch the chart to zoom in'
+},
+xAxis: {
+tickInterval: 5,
+categories: ['2016-05-26 16:15:05','2016-05-26 16:15:08','2016-05-26 16:15:11','2016-05-26 16:15:14','2016-05-26 16:15:17','2016-05-26 16:15:20','2016-05-26 16:15:23','2016-05-26 16:15:26','2016-05-26 16:15:29','2016-05-26 16:15:32','2016-05-26 16:15:35','2016-05-26 16:15:38','2016-05-26 16:15:41','2016-05-26 16:15:44','2016-05-26 16:15:47','2016-05-26 16:15:50','2016-05-26 16:15:53','2016-05-26 16:15:56','2016-05-26 16:15:59','2016-05-26 16:16:02','2016-05-26 16:16:05','2016-05-26 16:16:08','2016-05-26 16:16:11','2016-05-26 16:16:14','2016-05-26 16:16:17','2016-05-26 16:16:20','2016-05-26 16:16:23','2016-05-26 16:16:26','2016-05-26 16:16:29','2016-05-26 16:16:32','2016-05-26 16:16:36','2016-05-26 16:16:39','2016-05-26 16:16:42','2016-05-26 16:16:45','2016-05-26 16:16:48','2016-05-26 16:16:51','2016-05-26 16:16:54','2016-05-26 16:16:57','2016-05-26 16:17:00','2016-05-26 16:17:03','2016-05-26 16:17:06','2016-05-26 16:17:09','2016-05-26 16:17:12','2016-05-26 16:17:15','2016-05-26 16:17:18','2016-05-26 16:17:21','2016-05-26 16:17:24','2016-05-26 16:17:27','2016-05-26 16:17:30','2016-05-26 16:17:33','2016-05-26 16:17:36','2016-05-26 16:17:39','2016-05-26 16:17:42','2016-05-26 16:17:45','2016-05-26 16:17:48','2016-05-26 16:17:51','2016-05-26 16:17:54','2016-05-26 16:17:57','2016-05-26 16:18:00','2016-05-26 16:18:03','2016-05-26 16:18:06','2016-05-26 16:18:09','2016-05-26 16:18:12','2016-05-26 16:18:15','2016-05-26 16:18:18','2016-05-26 16:18:21','2016-05-26 16:18:24','2016-05-26 16:18:28','2016-05-26 16:18:31','2016-05-26 16:18:34','2016-05-26 16:18:37','2016-05-26 16:18:40','2016-05-26 16:18:43','2016-05-26 16:18:46','2016-05-26 16:18:49','2016-05-26 16:18:52','2016-05-26 16:18:55','2016-05-26 16:18:58','2016-05-26 16:19:01','2016-05-26 16:19:04','2016-05-26 16:19:07','2016-05-26 16:19:10','2016-05-26 16:19:13','2016-05-26 16:19:16','2016-05-26 16:19:19','2016-05-26 16:19:22']
+},
+yAxis: {min: 0,
+title: {
+text: '(内存占用)'
+},
+labels:{formatter: function(){return this.value/1000 + 'MB'}}
+},
+tooltip: {
+formatter: function () {
+var s = '<b>' + this.x + '</b>';
+
+$.each(this.points, function () {
+s += '<br/>' + this.series.name + ': ' +
+parseInt(this.y/1024) + ' MB ' + '<b>' + this.point.activity + '</b>';
+});
+
+return s;
+},
+shared: true
+},
+legend: {
+enabled: true
+},
+plotOptions: {
+area: {
+// fillColor: {
+// linearGradient: { x1: 0, y1: 0, x2: 0, y2: 1},
+// stops: [
+// [0, Highcharts.getOptions().colors[0]],
+// [1, Highcharts.Color(Highcharts.getOptions().colors[0]).setOpacity(0).get('rgba')]
+// ]
+// },
+lineWidth: 1,
+marker: {
+enabled: false
+},
+shadow: false,
+states: {
+hover: {
+lineWidth: 1
+}
+},
+threshold: null
+}
+},
+series: [
+{type:'area',name: 'PSS_Total',data: [{y:17460,activity:'activity.SplashActivity'},{y:17444,activity:'activity.SplashActivity'},{y:17432,activity:'activity.SplashActivity'},{y:0,activity:'Launcher'},{y:0,activity:'Launcher'},{y:10312,activity:'Launcher'},{y:10312,activity:'Launcher'},{y:10312,activity:'Launcher'},{y:17096,activity:'activity.SplashActivity'},{y:17072,activity:'activity.SplashActivity'},{y:17072,activity:'activity.SplashActivity'},{y:16980,activity:'activity.SplashActivity'},{y:16980,activity:'activity.SplashActivity'},{y:16980,activity:'activity.SplashActivity'},{y:16960,activity:'activity.SplashActivity'},{y:16960,activity:'activity.SplashActivity'},{y:16960,activity:'activity.SplashActivity'},{y:16960,activity:'activity.SplashActivity'},{y:16960,activity:'activity.SplashActivity'},{y:16960,activity:'activity.SplashActivity'},{y:17256,activity:'activity.SplashActivity'},{y:13472,activity:'login.NewbieProcessActivity'},{y:13472,activity:'login.NewbieProcessActivity'},{y:13472,activity:'login.NewbieProcessActivity'},{y:13472,activity:'login.NewbieProcessActivity'},{y:13472,activity:'login.NewbieProcessActivity'},{y:13660,activity:'login.NewbieProcessActivity'},{y:13472,activity:'login.NewbieProcessActivity'},{y:13472,activity:'login.NewbieProcessActivity'},{y:17148,activity:'login.NewbieProcessActivity'},{y:17148,activity:'login.NewbieProcessActivity'},{y:17144,activity:'login.NewbieProcessActivity'},{y:17144,activity:'login.NewbieProcessActivity'},{y:17144,activity:'login.NewbieProcessActivity'},{y:17144,activity:'login.NewbieProcessActivity'},{y:17144,activity:'login.NewbieProcessActivity'},{y:17144,activity:'login.NewbieProcessActivity'},{y:17136,activity:'login.NewbieProcessActivity'},{y:17132,activity:'login.NewbieProcessActivity'},{y:17120,activity:'login.NewbieProcessActivity'},{y:17120,activity:'login.NewbieProcessActivity'},{y:17120,activity:'login.NewbieProcessActivity'},{y:17112,activity:'login.NewbieProcessActivity'},{y:24012,activity:'login.NewbieProcessActivity'},{y:24020,activity:'login.NewbieProcessActivity'},{y:17272,activity:'login.NewbieProcessActivity'},{y:17124,activity:'login.NewbieProcessActivity'},{y:21044,activity:'login.NewbieProcessActivity'},{y:17120,activity:'login.NewbieProcessActivity'},{y:17120,activity:'login.NewbieProcessActivity'},{y:17120,activity:'login.NewbieProcessActivity'},{y:17120,activity:'login.NewbieProcessActivity'},{y:17120,activity:'login.NewbieProcessActivity'},{y:17120,activity:'login.NewbieProcessActivity'},{y:17120,activity:'login.NewbieProcessActivity'},{y:17120,activity:'login.NewbieProcessActivity'},{y:17120,activity:'login.NewbieProcessActivity'},{y:17120,activity:'login.NewbieProcessActivity'},{y:24016,activity:'login.NewbieProcessActivity'},{y:27420,activity:'login.NewbieProcessActivity'},{y:27424,activity:'login.NewbieProcessActivity'},{y:17128,activity:'login.NewbieProcessActivity'},{y:17128,activity:'login.NewbieProcessActivity'},{y:17128,activity:'login.NewbieProcessActivity'},{y:17128,activity:'login.NewbieProcessActivity'},{y:17128,activity:'login.NewbieProcessActivity'},{y:21048,activity:'login.NewbieProcessActivity'},{y:17136,activity:'login.NewbieProcessActivity'},{y:17284,activity:'login.NewbieProcessActivity'},{y:17136,activity:'login.NewbieProcessActivity'},{y:17128,activity:'login.NewbieProcessActivity'},{y:17844,activity:'login.NewbieProcessActivity'},{y:21352,activity:'activity.MainActivity'},{y:25300,activity:'activity.MainActivity'},{y:25300,activity:'activity.MainActivity'},{y:25300,activity:'activity.MainActivity'},{y:25300,activity:'activity.MainActivity'},{y:25300,activity:'activity.MainActivity'},{y:25300,activity:'activity.MainActivity'},{y:25300,activity:'activity.MainActivity'},{y:25184,activity:'activity.MainActivity'},{y:10680,activity:'activity.MainActivity'},{y:13808,activity:'activity.MainActivity'},{y:13808,activity:'activity.MainActivity'},{y:13808,activity:'activity.MainActivity'},{y:9984,activity:'activity.MainActivity'}],color:'#e47833'},{type:'area',name: 'PSS_Dalvik',data: [{y:5892,activity:'activity.SplashActivity'},{y:5872,activity:'activity.SplashActivity'},{y:5844,activity:'activity.SplashActivity'},{y:0,activity:'Launcher'},{y:0,activity:'Launcher'},{y:6428,activity:'Launcher'},{y:6416,activity:'Launcher'},{y:6416,activity:'Launcher'},{y:6144,activity:'activity.SplashActivity'},{y:5852,activity:'activity.SplashActivity'},{y:5852,activity:'activity.SplashActivity'},{y:5784,activity:'activity.SplashActivity'},{y:5764,activity:'activity.SplashActivity'},{y:5764,activity:'activity.SplashActivity'},{y:5744,activity:'activity.SplashActivity'},{y:5744,activity:'activity.SplashActivity'},{y:5744,activity:'activity.SplashActivity'},{y:5744,activity:'activity.SplashActivity'},{y:5744,activity:'activity.SplashActivity'},{y:5744,activity:'activity.SplashActivity'},{y:5696,activity:'activity.SplashActivity'},{y:5556,activity:'login.NewbieProcessActivity'},{y:5548,activity:'login.NewbieProcessActivity'},{y:5548,activity:'login.NewbieProcessActivity'},{y:5548,activity:'login.NewbieProcessActivity'},{y:5548,activity:'login.NewbieProcessActivity'},{y:5548,activity:'login.NewbieProcessActivity'},{y:5548,activity:'login.NewbieProcessActivity'},{y:5548,activity:'login.NewbieProcessActivity'},{y:5544,activity:'login.NewbieProcessActivity'},{y:5544,activity:'login.NewbieProcessActivity'},{y:5540,activity:'login.NewbieProcessActivity'},{y:5540,activity:'login.NewbieProcessActivity'},{y:5540,activity:'login.NewbieProcessActivity'},{y:5540,activity:'login.NewbieProcessActivity'},{y:5540,activity:'login.NewbieProcessActivity'},{y:5540,activity:'login.NewbieProcessActivity'},{y:5532,activity:'login.NewbieProcessActivity'},{y:5532,activity:'login.NewbieProcessActivity'},{y:5512,activity:'login.NewbieProcessActivity'},{y:5512,activity:'login.NewbieProcessActivity'},{y:5512,activity:'login.NewbieProcessActivity'},{y:5504,activity:'login.NewbieProcessActivity'},{y:5492,activity:'login.NewbieProcessActivity'},{y:5492,activity:'login.NewbieProcessActivity'},{y:5492,activity:'login.NewbieProcessActivity'},{y:5492,activity:'login.NewbieProcessActivity'},{y:5484,activity:'login.NewbieProcessActivity'},{y:5476,activity:'login.NewbieProcessActivity'},{y:5476,activity:'login.NewbieProcessActivity'},{y:5476,activity:'login.NewbieProcessActivity'},{y:5476,activity:'login.NewbieProcessActivity'},{y:5476,activity:'login.NewbieProcessActivity'},{y:5476,activity:'login.NewbieProcessActivity'},{y:5476,activity:'login.NewbieProcessActivity'},{y:5476,activity:'login.NewbieProcessActivity'},{y:5476,activity:'login.NewbieProcessActivity'},{y:5476,activity:'login.NewbieProcessActivity'},{y:5476,activity:'login.NewbieProcessActivity'},{y:5476,activity:'login.NewbieProcessActivity'},{y:5476,activity:'login.NewbieProcessActivity'},{y:5476,activity:'login.NewbieProcessActivity'},{y:5476,activity:'login.NewbieProcessActivity'},{y:5476,activity:'login.NewbieProcessActivity'},{y:5476,activity:'login.NewbieProcessActivity'},{y:5476,activity:'login.NewbieProcessActivity'},{y:5476,activity:'login.NewbieProcessActivity'},{y:5476,activity:'login.NewbieProcessActivity'},{y:5476,activity:'login.NewbieProcessActivity'},{y:5476,activity:'login.NewbieProcessActivity'},{y:5472,activity:'login.NewbieProcessActivity'},{y:5472,activity:'login.NewbieProcessActivity'},{y:5472,activity:'activity.MainActivity'},{y:5468,activity:'activity.MainActivity'},{y:5468,activity:'activity.MainActivity'},{y:5468,activity:'activity.MainActivity'},{y:5468,activity:'activity.MainActivity'},{y:5468,activity:'activity.MainActivity'},{y:5468,activity:'activity.MainActivity'},{y:5468,activity:'activity.MainActivity'},{y:5356,activity:'activity.MainActivity'},{y:7032,activity:'activity.MainActivity'},{y:5812,activity:'activity.MainActivity'},{y:5812,activity:'activity.MainActivity'},{y:5812,activity:'activity.MainActivity'},{y:6232,activity:'activity.MainActivity'}],color:'#70db93'},{type:'area',name: 'PSS_Native',data: [{y:12,activity:'activity.SplashActivity'},{y:12,activity:'activity.SplashActivity'},{y:12,activity:'activity.SplashActivity'},{y:0,activity:'Launcher'},{y:0,activity:'Launcher'},{y:12,activity:'Launcher'},{y:12,activity:'Launcher'},{y:12,activity:'Launcher'},{y:12,activity:'activity.SplashActivity'},{y:12,activity:'activity.SplashActivity'},{y:12,activity:'activity.SplashActivity'},{y:12,activity:'activity.SplashActivity'},{y:12,activity:'activity.SplashActivity'},{y:12,activity:'activity.SplashActivity'},{y:12,activity:'activity.SplashActivity'},{y:12,activity:'activity.SplashActivity'},{y:12,activity:'activity.SplashActivity'},{y:12,activity:'activity.SplashActivity'},{y:12,activity:'activity.SplashActivity'},{y:12,activity:'activity.SplashActivity'},{y:12,activity:'activity.SplashActivity'},{y:8,activity:'login.NewbieProcessActivity'},{y:8,activity:'login.NewbieProcessActivity'},{y:8,activity:'login.NewbieProcessActivity'},{y:8,activity:'login.NewbieProcessActivity'},{y:8,activity:'login.NewbieProcessActivity'},{y:8,activity:'login.NewbieProcessActivity'},{y:8,activity:'login.NewbieProcessActivity'},{y:8,activity:'login.NewbieProcessActivity'},{y:8,activity:'login.NewbieProcessActivity'},{y:8,activity:'login.NewbieProcessActivity'},{y:8,activity:'login.NewbieProcessActivity'},{y:8,activity:'login.NewbieProcessActivity'},{y:8,activity:'login.NewbieProcessActivity'},{y:8,activity:'login.NewbieProcessActivity'},{y:8,activity:'login.NewbieProcessActivity'},{y:8,activity:'login.NewbieProcessActivity'},{y:8,activity:'login.NewbieProcessActivity'},{y:8,activity:'login.NewbieProcessActivity'},{y:8,activity:'login.NewbieProcessActivity'},{y:8,activity:'login.NewbieProcessActivity'},{y:8,activity:'login.NewbieProcessActivity'},{y:8,activity:'login.NewbieProcessActivity'},{y:8,activity:'login.NewbieProcessActivity'},{y:8,activity:'login.NewbieProcessActivity'},{y:8,activity:'login.NewbieProcessActivity'},{y:8,activity:'login.NewbieProcessActivity'},{y:8,activity:'login.NewbieProcessActivity'},{y:8,activity:'login.NewbieProcessActivity'},{y:8,activity:'login.NewbieProcessActivity'},{y:8,activity:'login.NewbieProcessActivity'},{y:8,activity:'login.NewbieProcessActivity'},{y:8,activity:'login.NewbieProcessActivity'},{y:8,activity:'login.NewbieProcessActivity'},{y:8,activity:'login.NewbieProcessActivity'},{y:8,activity:'login.NewbieProcessActivity'},{y:8,activity:'login.NewbieProcessActivity'},{y:8,activity:'login.NewbieProcessActivity'},{y:8,activity:'login.NewbieProcessActivity'},{y:8,activity:'login.NewbieProcessActivity'},{y:8,activity:'login.NewbieProcessActivity'},{y:8,activity:'login.NewbieProcessActivity'},{y:8,activity:'login.NewbieProcessActivity'},{y:8,activity:'login.NewbieProcessActivity'},{y:8,activity:'login.NewbieProcessActivity'},{y:8,activity:'login.NewbieProcessActivity'},{y:8,activity:'login.NewbieProcessActivity'},{y:8,activity:'login.NewbieProcessActivity'},{y:8,activity:'login.NewbieProcessActivity'},{y:8,activity:'login.NewbieProcessActivity'},{y:8,activity:'login.NewbieProcessActivity'},{y:8,activity:'login.NewbieProcessActivity'},{y:8,activity:'activity.MainActivity'},{y:8,activity:'activity.MainActivity'},{y:8,activity:'activity.MainActivity'},{y:8,activity:'activity.MainActivity'},{y:8,activity:'activity.MainActivity'},{y:8,activity:'activity.MainActivity'},{y:8,activity:'activity.MainActivity'},{y:8,activity:'activity.MainActivity'},{y:8,activity:'activity.MainActivity'},{y:12,activity:'activity.MainActivity'},{y:8,activity:'activity.MainActivity'},{y:8,activity:'activity.MainActivity'},{y:8,activity:'activity.MainActivity'},{y:12,activity:'activity.MainActivity'}],color:'#9932cd'},
+]
+});
+});
+$(function () {
+$('#CPU').highcharts({
+chart: {
+type: 'line'
+},
+title: {
+text: 'CPU'
+},
+// subtitle: {
+// text: '专项测试'
+// },
+xAxis: {
+tickInterval: 5,
+categories: ['2016-05-26 16:15:05','2016-05-26 16:15:08','2016-05-26 16:15:11','2016-05-26 16:15:14','2016-05-26 16:15:17','2016-05-26 16:15:20','2016-05-26 16:15:23','2016-05-26 16:15:26','2016-05-26 16:15:29','2016-05-26 16:15:32','2016-05-26 16:15:35','2016-05-26 16:15:38','2016-05-26 16:15:41','2016-05-26 16:15:44','2016-05-26 16:15:47','2016-05-26 16:15:50','2016-05-26 16:15:53','2016-05-26 16:15:56','2016-05-26 16:15:59','2016-05-26 16:16:02','2016-05-26 16:16:05','2016-05-26 16:16:08','2016-05-26 16:16:11','2016-05-26 16:16:14','2016-05-26 16:16:17','2016-05-26 16:16:20','2016-05-26 16:16:23','2016-05-26 16:16:26','2016-05-26 16:16:29','2016-05-26 16:16:32','2016-05-26 16:16:36','2016-05-26 16:16:39','2016-05-26 16:16:42','2016-05-26 16:16:45','2016-05-26 16:16:48','2016-05-26 16:16:51','2016-05-26 16:16:54','2016-05-26 16:16:57','2016-05-26 16:17:00','2016-05-26 16:17:03','2016-05-26 16:17:06','2016-05-26 16:17:09','2016-05-26 16:17:12','2016-05-26 16:17:15','2016-05-26 16:17:18','2016-05-26 16:17:21','2016-05-26 16:17:24','2016-05-26 16:17:27','2016-05-26 16:17:30','2016-05-26 16:17:33','2016-05-26 16:17:36','2016-05-26 16:17:39','2016-05-26 16:17:42','2016-05-26 16:17:45','2016-05-26 16:17:48','2016-05-26 16:17:51','2016-05-26 16:17:54','2016-05-26 16:17:57','2016-05-26 16:18:00','2016-05-26 16:18:03','2016-05-26 16:18:06','2016-05-26 16:18:09','2016-05-26 16:18:12','2016-05-26 16:18:15','2016-05-26 16:18:18','2016-05-26 16:18:21','2016-05-26 16:18:24','2016-05-26 16:18:28','2016-05-26 16:18:31','2016-05-26 16:18:34','2016-05-26 16:18:37','2016-05-26 16:18:40','2016-05-26 16:18:43','2016-05-26 16:18:46','2016-05-26 16:18:49','2016-05-26 16:18:52','2016-05-26 16:18:55','2016-05-26 16:18:58','2016-05-26 16:19:01','2016-05-26 16:19:04','2016-05-26 16:19:07','2016-05-26 16:19:10','2016-05-26 16:19:13','2016-05-26 16:19:16','2016-05-26 16:19:19','2016-05-26 16:19:22']
+},
+yAxis: {min:0,
+title: {
+text: 'CPU使用率(%)'
+}
+},
+tooltip: {
+formatter: function () {
+var s = '<b>' + this.x + '</b>';
+
+$.each(this.points, function () {
+s += '<br/>' + this.series.name + ': ' +
+this.y + ' % ' + '<b>' + this.point.activity + '</b>';
+});
+
+return s;
+},
+shared: true
+},
+plotOptions: {series: {marker: {enabled: false}},
+line: {
+dataLabels: {
+enabled: false
+},
+enableMouseTracking: true
+}
+},
+series: [
+{name: 'CPU_cpuinfo',data: [{y:0,activity:'activity.SplashActivity'},{y:0,activity:'activity.SplashActivity'},{y:0,activity:'activity.SplashActivity'},{y:0,activity:'Launcher'},{y:0,activity:'Launcher'},{y:0,activity:'Launcher'},{y:0,activity:'Launcher'},{y:0,activity:'Launcher'},{y:0,activity:'activity.SplashActivity'},{y:14,activity:'activity.SplashActivity'},{y:14,activity:'activity.SplashActivity'},{y:14,activity:'activity.SplashActivity'},{y:18,activity:'activity.SplashActivity'},{y:18,activity:'activity.SplashActivity'},{y:12,activity:'activity.SplashActivity'},{y:12,activity:'activity.SplashActivity'},{y:13,activity:'activity.SplashActivity'},{y:13,activity:'activity.SplashActivity'},{y:13,activity:'activity.SplashActivity'},{y:14,activity:'activity.SplashActivity'},{y:14,activity:'activity.SplashActivity'},{y:35,activity:'login.NewbieProcessActivity'},{y:53,activity:'login.NewbieProcessActivity'},{y:53,activity:'login.NewbieProcessActivity'},{y:53,activity:'login.NewbieProcessActivity'},{y:53,activity:'login.NewbieProcessActivity'},{y:26,activity:'login.NewbieProcessActivity'},{y:26,activity:'login.NewbieProcessActivity'},{y:22,activity:'login.NewbieProcessActivity'},{y:22,activity:'login.NewbieProcessActivity'},{y:22,activity:'login.NewbieProcessActivity'},{y:22,activity:'login.NewbieProcessActivity'},{y:22,activity:'login.NewbieProcessActivity'},{y:24,activity:'login.NewbieProcessActivity'},{y:24,activity:'login.NewbieProcessActivity'},{y:15,activity:'login.NewbieProcessActivity'},{y:15,activity:'login.NewbieProcessActivity'},{y:21,activity:'login.NewbieProcessActivity'},{y:21,activity:'login.NewbieProcessActivity'},{y:21,activity:'login.NewbieProcessActivity'},{y:24,activity:'login.NewbieProcessActivity'},{y:24,activity:'login.NewbieProcessActivity'},{y:24,activity:'login.NewbieProcessActivity'},{y:25,activity:'login.NewbieProcessActivity'},{y:25,activity:'login.NewbieProcessActivity'},{y:22,activity:'login.NewbieProcessActivity'},{y:22,activity:'login.NewbieProcessActivity'},{y:28,activity:'login.NewbieProcessActivity'},{y:28,activity:'login.NewbieProcessActivity'},{y:28,activity:'login.NewbieProcessActivity'},{y:20,activity:'login.NewbieProcessActivity'},{y:20,activity:'login.NewbieProcessActivity'},{y:20,activity:'login.NewbieProcessActivity'},{y:20,activity:'login.NewbieProcessActivity'},{y:20,activity:'login.NewbieProcessActivity'},{y:20,activity:'login.NewbieProcessActivity'},{y:20,activity:'login.NewbieProcessActivity'},{y:20,activity:'login.NewbieProcessActivity'},{y:23,activity:'login.NewbieProcessActivity'},{y:23,activity:'login.NewbieProcessActivity'},{y:23,activity:'login.NewbieProcessActivity'},{y:28,activity:'login.NewbieProcessActivity'},{y:22,activity:'login.NewbieProcessActivity'},{y:22,activity:'login.NewbieProcessActivity'},{y:15,activity:'login.NewbieProcessActivity'},{y:15,activity:'login.NewbieProcessActivity'},{y:29,activity:'login.NewbieProcessActivity'},{y:29,activity:'login.NewbieProcessActivity'},{y:29,activity:'login.NewbieProcessActivity'},{y:29,activity:'login.NewbieProcessActivity'},{y:25,activity:'login.NewbieProcessActivity'},{y:25,activity:'login.NewbieProcessActivity'},{y:25,activity:'activity.MainActivity'},{y:52,activity:'activity.MainActivity'},{y:52,activity:'activity.MainActivity'},{y:52,activity:'activity.MainActivity'},{y:37,activity:'activity.MainActivity'},{y:37,activity:'activity.MainActivity'},{y:27,activity:'activity.MainActivity'},{y:27,activity:'activity.MainActivity'},{y:27,activity:'activity.MainActivity'},{y:30,activity:'activity.MainActivity'},{y:30,activity:'activity.MainActivity'},{y:0,activity:'activity.MainActivity'},{y:0,activity:'activity.MainActivity'},{y:0,activity:'activity.MainActivity'}]},{name: 'CPU_top',data: [{y:0,activity:'activity.SplashActivity'},{y:0,activity:'activity.SplashActivity'},{y:0,activity:'activity.SplashActivity'},{y:0,activity:'Launcher'},{y:0,activity:'Launcher'},{y:0,activity:'Launcher'},{y:0,activity:'Launcher'},{y:0,activity:'Launcher'},{y:0,activity:'activity.SplashActivity'},{y:0,activity:'activity.SplashActivity'},{y:0,activity:'activity.SplashActivity'},{y:6,activity:'activity.SplashActivity'},{y:0,activity:'activity.SplashActivity'},{y:0,activity:'activity.SplashActivity'},{y:0,activity:'activity.SplashActivity'},{y:0,activity:'activity.SplashActivity'},{y:0,activity:'activity.SplashActivity'},{y:0,activity:'activity.SplashActivity'},{y:0,activity:'activity.SplashActivity'},{y:0,activity:'activity.SplashActivity'},{y:15,activity:'activity.SplashActivity'},{y:0,activity:'login.NewbieProcessActivity'},{y:0,activity:'login.NewbieProcessActivity'},{y:0,activity:'login.NewbieProcessActivity'},{y:0,activity:'login.NewbieProcessActivity'},{y:0,activity:'login.NewbieProcessActivity'},{y:0,activity:'login.NewbieProcessActivity'},{y:0,activity:'login.NewbieProcessActivity'},{y:0,activity:'login.NewbieProcessActivity'},{y:0,activity:'login.NewbieProcessActivity'},{y:0,activity:'login.NewbieProcessActivity'},{y:0,activity:'login.NewbieProcessActivity'},{y:0,activity:'login.NewbieProcessActivity'},{y:0,activity:'login.NewbieProcessActivity'},{y:0,activity:'login.NewbieProcessActivity'},{y:0,activity:'login.NewbieProcessActivity'},{y:0,activity:'login.NewbieProcessActivity'},{y:0,activity:'login.NewbieProcessActivity'},{y:0,activity:'login.NewbieProcessActivity'},{y:0,activity:'login.NewbieProcessActivity'},{y:0,activity:'login.NewbieProcessActivity'},{y:0,activity:'login.NewbieProcessActivity'},{y:10,activity:'login.NewbieProcessActivity'},{y:0,activity:'login.NewbieProcessActivity'},{y:0,activity:'login.NewbieProcessActivity'},{y:0,activity:'login.NewbieProcessActivity'},{y:10,activity:'login.NewbieProcessActivity'},{y:3,activity:'login.NewbieProcessActivity'},{y:0,activity:'login.NewbieProcessActivity'},{y:0,activity:'login.NewbieProcessActivity'},{y:0,activity:'login.NewbieProcessActivity'},{y:0,activity:'login.NewbieProcessActivity'},{y:0,activity:'login.NewbieProcessActivity'},{y:0,activity:'login.NewbieProcessActivity'},{y:0,activity:'login.NewbieProcessActivity'},{y:0,activity:'login.NewbieProcessActivity'},{y:0,activity:'login.NewbieProcessActivity'},{y:0,activity:'login.NewbieProcessActivity'},{y:0,activity:'login.NewbieProcessActivity'},{y:4,activity:'login.NewbieProcessActivity'},{y:5,activity:'login.NewbieProcessActivity'},{y:3,activity:'login.NewbieProcessActivity'},{y:0,activity:'login.NewbieProcessActivity'},{y:0,activity:'login.NewbieProcessActivity'},{y:0,activity:'login.NewbieProcessActivity'},{y:0,activity:'login.NewbieProcessActivity'},{y:0,activity:'login.NewbieProcessActivity'},{y:4,activity:'login.NewbieProcessActivity'},{y:0,activity:'login.NewbieProcessActivity'},{y:0,activity:'login.NewbieProcessActivity'},{y:0,activity:'login.NewbieProcessActivity'},{y:4,activity:'login.NewbieProcessActivity'},{y:26,activity:'activity.MainActivity'},{y:2,activity:'activity.MainActivity'},{y:4,activity:'activity.MainActivity'},{y:0,activity:'activity.MainActivity'},{y:0,activity:'activity.MainActivity'},{y:2,activity:'activity.MainActivity'},{y:0,activity:'activity.MainActivity'},{y:2,activity:'activity.MainActivity'},{y:0,activity:'activity.MainActivity'},{y:11,activity:'activity.MainActivity'},{y:0,activity:'activity.MainActivity'},{y:0,activity:'activity.MainActivity'},{y:0,activity:'activity.MainActivity'},{y:22,activity:'activity.MainActivity'}]},
+]
+});
+});
+$(function () {
+$('#DisplayTime').highcharts({
+chart: {
+type: 'column'
+},
+title: {
+text: 'DisplayTime'
+},
+subtitle: {
+text: 'DisplayTime'
+},
+xAxis: {
+categories: [
+'启动页面','主页面','登录页面','宝宝树推荐','他人信息页','消息','发帖','帮页面','帖子详情页','收藏','我的帖子','关注','粉丝','设置页面',]
+},
+yAxis: {
+min: 0,
+title: {
+text: '页面加载时间(ms)'
+}
+},
+tooltip: {
+formatter: function () {
+var s = '<b>' + this.x + '</b>';
+$.each(this.points, function () {
+s += '<br/>' + this.series.name + ': ' + '<b>'+ this.y + '</b>' + 'ms';});
+return s;},
+shared: true,
+},
+plotOptions: {
+column: {
+pointPadding: 0.2,
+borderWidth: 0
+}
+},
+series: [
+{name: 'com.babytree.apps.pregnancy6.6.1',data: [3160,840,310,280,400,280,240,210,300,240,160,190,190,320,]},{name: 'com.yaya.mmbang3.11.4',data: [150,670,150,120,160,170,170,150,270,150,150,150,150,230,]},{name: 'com.yaya.mmbang3.12.3',data: [420,1070,180,110,170,150,220,150,190,150,150,160,160,140,]},{name: 'com.yaya.mmbang3.13.0',data: [510,1150,250,390,230,110,190,170,300,170,170,160,160,240,]},]
+});
+});
+$(function () {
+$('#Flow').highcharts({
+chart: {
+type: 'line'
+},
+title: {
+text: 'Flow'
+},
+// subtitle: {
+// text: '专项测试'
+// },
+xAxis: {
+tickInterval: 5,
+categories: ['2016-05-26 16:15:05','2016-05-26 16:15:08','2016-05-26 16:15:11','2016-05-26 16:15:14','2016-05-26 16:15:17','2016-05-26 16:15:20','2016-05-26 16:15:23','2016-05-26 16:15:26','2016-05-26 16:15:29','2016-05-26 16:15:32','2016-05-26 16:15:35','2016-05-26 16:15:38','2016-05-26 16:15:41','2016-05-26 16:15:44','2016-05-26 16:15:47','2016-05-26 16:15:50','2016-05-26 16:15:53','2016-05-26 16:15:56','2016-05-26 16:15:59','2016-05-26 16:16:02','2016-05-26 16:16:05','2016-05-26 16:16:08','2016-05-26 16:16:11','2016-05-26 16:16:14','2016-05-26 16:16:17','2016-05-26 16:16:20','2016-05-26 16:16:23','2016-05-26 16:16:26','2016-05-26 16:16:29','2016-05-26 16:16:32','2016-05-26 16:16:36','2016-05-26 16:16:39','2016-05-26 16:16:42','2016-05-26 16:16:45','2016-05-26 16:16:48','2016-05-26 16:16:51','2016-05-26 16:16:54','2016-05-26 16:16:57','2016-05-26 16:17:00','2016-05-26 16:17:03','2016-05-26 16:17:06','2016-05-26 16:17:09','2016-05-26 16:17:12','2016-05-26 16:17:15','2016-05-26 16:17:18','2016-05-26 16:17:21','2016-05-26 16:17:24','2016-05-26 16:17:27','2016-05-26 16:17:30','2016-05-26 16:17:33','2016-05-26 16:17:36','2016-05-26 16:17:39','2016-05-26 16:17:42','2016-05-26 16:17:45','2016-05-26 16:17:48','2016-05-26 16:17:51','2016-05-26 16:17:54','2016-05-26 16:17:57','2016-05-26 16:18:00','2016-05-26 16:18:03','2016-05-26 16:18:06','2016-05-26 16:18:09','2016-05-26 16:18:12','2016-05-26 16:18:15','2016-05-26 16:18:18','2016-05-26 16:18:21','2016-05-26 16:18:24','2016-05-26 16:18:28','2016-05-26 16:18:31','2016-05-26 16:18:34','2016-05-26 16:18:37','2016-05-26 16:18:40','2016-05-26 16:18:43','2016-05-26 16:18:46','2016-05-26 16:18:49','2016-05-26 16:18:52','2016-05-26 16:18:55','2016-05-26 16:18:58','2016-05-26 16:19:01','2016-05-26 16:19:04','2016-05-26 16:19:07','2016-05-26 16:19:10','2016-05-26 16:19:13','2016-05-26 16:19:16','2016-05-26 16:19:19','2016-05-26 16:19:22']
+},
+yAxis: {min:0,
+title: {
+text: '上下行流量（KB）'
+}
+},
+tooltip: {
+formatter: function () {
+var s = '<b>' + this.x + '</b>';
+
+$.each(this.points, function () {
+s += '<br/>' + this.series.name + ': ' +
+parseFloat(this.y/1000) + ' KB ' + '<b>' + this.point.activity + '</b>'
+;
+});
+return s;
+},
+shared: true
+},
+plotOptions: {series: {marker: {enabled: false}},
+line: {
+dataLabels: {
+enabled: false
+},
+enableMouseTracking: true
+}
+},
+series: [
+{name: 'RX_bytes',data: [{y:0,activity:'activity.SplashActivity'},{y:0,activity:'activity.SplashActivity'},{y:0,activity:'activity.SplashActivity'},{y:0,activity:'Launcher'},{y:0,activity:'Launcher'},{y:2380,activity:'Launcher'},{y:2380,activity:'Launcher'},{y:2380,activity:'Launcher'},{y:2753,activity:'activity.SplashActivity'},{y:2753,activity:'activity.SplashActivity'},{y:3990,activity:'activity.SplashActivity'},{y:5781,activity:'activity.SplashActivity'},{y:5781,activity:'activity.SplashActivity'},{y:5781,activity:'activity.SplashActivity'},{y:7472,activity:'activity.SplashActivity'},{y:7715,activity:'activity.SplashActivity'},{y:7715,activity:'activity.SplashActivity'},{y:7715,activity:'activity.SplashActivity'},{y:7715,activity:'activity.SplashActivity'},{y:7715,activity:'activity.SplashActivity'},{y:18962,activity:'activity.SplashActivity'},{y:364958,activity:'login.NewbieProcessActivity'},{y:366446,activity:'login.NewbieProcessActivity'},{y:366446,activity:'login.NewbieProcessActivity'},{y:366446,activity:'login.NewbieProcessActivity'},{y:366571,activity:'login.NewbieProcessActivity'},{y:366571,activity:'login.NewbieProcessActivity'},{y:456233,activity:'login.NewbieProcessActivity'},{y:456233,activity:'login.NewbieProcessActivity'},{y:456897,activity:'login.NewbieProcessActivity'},{y:456977,activity:'login.NewbieProcessActivity'},{y:457537,activity:'login.NewbieProcessActivity'},{y:457537,activity:'login.NewbieProcessActivity'},{y:457537,activity:'login.NewbieProcessActivity'},{y:457537,activity:'login.NewbieProcessActivity'},{y:457537,activity:'login.NewbieProcessActivity'},{y:457537,activity:'login.NewbieProcessActivity'},{y:458201,activity:'login.NewbieProcessActivity'},{y:458201,activity:'login.NewbieProcessActivity'},{y:458201,activity:'login.NewbieProcessActivity'},{y:458281,activity:'login.NewbieProcessActivity'},{y:458281,activity:'login.NewbieProcessActivity'},{y:458281,activity:'login.NewbieProcessActivity'},{y:458281,activity:'login.NewbieProcessActivity'},{y:458321,activity:'login.NewbieProcessActivity'},{y:458321,activity:'login.NewbieProcessActivity'},{y:458321,activity:'login.NewbieProcessActivity'},{y:458401,activity:'login.NewbieProcessActivity'},{y:458401,activity:'login.NewbieProcessActivity'},{y:458401,activity:'login.NewbieProcessActivity'},{y:458401,activity:'login.NewbieProcessActivity'},{y:458453,activity:'login.NewbieProcessActivity'},{y:458453,activity:'login.NewbieProcessActivity'},{y:458453,activity:'login.NewbieProcessActivity'},{y:458453,activity:'login.NewbieProcessActivity'},{y:458453,activity:'login.NewbieProcessActivity'},{y:459301,activity:'login.NewbieProcessActivity'},{y:459965,activity:'login.NewbieProcessActivity'},{y:459965,activity:'login.NewbieProcessActivity'},{y:459965,activity:'login.NewbieProcessActivity'},{y:459965,activity:'login.NewbieProcessActivity'},{y:459965,activity:'login.NewbieProcessActivity'},{y:459965,activity:'login.NewbieProcessActivity'},{y:460629,activity:'login.NewbieProcessActivity'},{y:460629,activity:'login.NewbieProcessActivity'},{y:461106,activity:'login.NewbieProcessActivity'},{y:461106,activity:'login.NewbieProcessActivity'},{y:461106,activity:'login.NewbieProcessActivity'},{y:461106,activity:'login.NewbieProcessActivity'},{y:461106,activity:'login.NewbieProcessActivity'},{y:461106,activity:'login.NewbieProcessActivity'},{y:461106,activity:'login.NewbieProcessActivity'},{y:514750,activity:'activity.MainActivity'},{y:514750,activity:'activity.MainActivity'},{y:514750,activity:'activity.MainActivity'},{y:515011,activity:'activity.MainActivity'},{y:515011,activity:'activity.MainActivity'},{y:515011,activity:'activity.MainActivity'},{y:515011,activity:'activity.MainActivity'},{y:515011,activity:'activity.MainActivity'},{y:515011,activity:'activity.MainActivity'},{y:515011,activity:'activity.MainActivity'},{y:515436,activity:'activity.MainActivity'},{y:515436,activity:'activity.MainActivity'},{y:515436,activity:'activity.MainActivity'},{y:515436,activity:'activity.MainActivity'}]},{name: 'TX_bytes',data: [{y:0,activity:'activity.SplashActivity'},{y:0,activity:'activity.SplashActivity'},{y:0,activity:'activity.SplashActivity'},{y:52,activity:'Launcher'},{y:52,activity:'Launcher'},{y:1478,activity:'Launcher'},{y:1478,activity:'Launcher'},{y:1478,activity:'Launcher'},{y:2914,activity:'activity.SplashActivity'},{y:2914,activity:'activity.SplashActivity'},{y:3524,activity:'activity.SplashActivity'},{y:6242,activity:'activity.SplashActivity'},{y:6242,activity:'activity.SplashActivity'},{y:6242,activity:'activity.SplashActivity'},{y:8743,activity:'activity.SplashActivity'},{y:9240,activity:'activity.SplashActivity'},{y:9240,activity:'activity.SplashActivity'},{y:9240,activity:'activity.SplashActivity'},{y:9240,activity:'activity.SplashActivity'},{y:9240,activity:'activity.SplashActivity'},{y:17389,activity:'activity.SplashActivity'},{y:46509,activity:'login.NewbieProcessActivity'},{y:46601,activity:'login.NewbieProcessActivity'},{y:46601,activity:'login.NewbieProcessActivity'},{y:46601,activity:'login.NewbieProcessActivity'},{y:46770,activity:'login.NewbieProcessActivity'},{y:46770,activity:'login.NewbieProcessActivity'},{y:51772,activity:'login.NewbieProcessActivity'},{y:51772,activity:'login.NewbieProcessActivity'},{y:53086,activity:'login.NewbieProcessActivity'},{y:53166,activity:'login.NewbieProcessActivity'},{y:55610,activity:'login.NewbieProcessActivity'},{y:55610,activity:'login.NewbieProcessActivity'},{y:55610,activity:'login.NewbieProcessActivity'},{y:55610,activity:'login.NewbieProcessActivity'},{y:55610,activity:'login.NewbieProcessActivity'},{y:55610,activity:'login.NewbieProcessActivity'},{y:56934,activity:'login.NewbieProcessActivity'},{y:56934,activity:'login.NewbieProcessActivity'},{y:56934,activity:'login.NewbieProcessActivity'},{y:56934,activity:'login.NewbieProcessActivity'},{y:56934,activity:'login.NewbieProcessActivity'},{y:56934,activity:'login.NewbieProcessActivity'},{y:56934,activity:'login.NewbieProcessActivity'},{y:56934,activity:'login.NewbieProcessActivity'},{y:56934,activity:'login.NewbieProcessActivity'},{y:56934,activity:'login.NewbieProcessActivity'},{y:56986,activity:'login.NewbieProcessActivity'},{y:56986,activity:'login.NewbieProcessActivity'},{y:56986,activity:'login.NewbieProcessActivity'},{y:63356,activity:'login.NewbieProcessActivity'},{y:63408,activity:'login.NewbieProcessActivity'},{y:63408,activity:'login.NewbieProcessActivity'},{y:63408,activity:'login.NewbieProcessActivity'},{y:63408,activity:'login.NewbieProcessActivity'},{y:63408,activity:'login.NewbieProcessActivity'},{y:64922,activity:'login.NewbieProcessActivity'},{y:66236,activity:'login.NewbieProcessActivity'},{y:66236,activity:'login.NewbieProcessActivity'},{y:66236,activity:'login.NewbieProcessActivity'},{y:66236,activity:'login.NewbieProcessActivity'},{y:66236,activity:'login.NewbieProcessActivity'},{y:66236,activity:'login.NewbieProcessActivity'},{y:67560,activity:'login.NewbieProcessActivity'},{y:67560,activity:'login.NewbieProcessActivity'},{y:69730,activity:'login.NewbieProcessActivity'},{y:69730,activity:'login.NewbieProcessActivity'},{y:69730,activity:'login.NewbieProcessActivity'},{y:69730,activity:'login.NewbieProcessActivity'},{y:69730,activity:'login.NewbieProcessActivity'},{y:69730,activity:'login.NewbieProcessActivity'},{y:73042,activity:'login.NewbieProcessActivity'},{y:83112,activity:'activity.MainActivity'},{y:83112,activity:'activity.MainActivity'},{y:83112,activity:'activity.MainActivity'},{y:85242,activity:'activity.MainActivity'},{y:85242,activity:'activity.MainActivity'},{y:85242,activity:'activity.MainActivity'},{y:85242,activity:'activity.MainActivity'},{y:85242,activity:'activity.MainActivity'},{y:85242,activity:'activity.MainActivity'},{y:85414,activity:'activity.MainActivity'},{y:86977,activity:'activity.MainActivity'},{y:86977,activity:'activity.MainActivity'},{y:86977,activity:'activity.MainActivity'},{y:87029,activity:'activity.MainActivity'}]},{name: 'Flow_bytes',data: [{y:0,activity:'activity.SplashActivity'},{y:0,activity:'activity.SplashActivity'},{y:0,activity:'activity.SplashActivity'},{y:52,activity:'Launcher'},{y:52,activity:'Launcher'},{y:3858,activity:'Launcher'},{y:3858,activity:'Launcher'},{y:3858,activity:'Launcher'},{y:5667,activity:'activity.SplashActivity'},{y:5667,activity:'activity.SplashActivity'},{y:7514,activity:'activity.SplashActivity'},{y:12023,activity:'activity.SplashActivity'},{y:12023,activity:'activity.SplashActivity'},{y:12023,activity:'activity.SplashActivity'},{y:16215,activity:'activity.SplashActivity'},{y:16955,activity:'activity.SplashActivity'},{y:16955,activity:'activity.SplashActivity'},{y:16955,activity:'activity.SplashActivity'},{y:16955,activity:'activity.SplashActivity'},{y:16955,activity:'activity.SplashActivity'},{y:36351,activity:'activity.SplashActivity'},{y:411467,activity:'login.NewbieProcessActivity'},{y:413047,activity:'login.NewbieProcessActivity'},{y:413047,activity:'login.NewbieProcessActivity'},{y:413047,activity:'login.NewbieProcessActivity'},{y:413341,activity:'login.NewbieProcessActivity'},{y:413341,activity:'login.NewbieProcessActivity'},{y:508005,activity:'login.NewbieProcessActivity'},{y:508005,activity:'login.NewbieProcessActivity'},{y:509983,activity:'login.NewbieProcessActivity'},{y:510143,activity:'login.NewbieProcessActivity'},{y:513147,activity:'login.NewbieProcessActivity'},{y:513147,activity:'login.NewbieProcessActivity'},{y:513147,activity:'login.NewbieProcessActivity'},{y:513147,activity:'login.NewbieProcessActivity'},{y:513147,activity:'login.NewbieProcessActivity'},{y:513147,activity:'login.NewbieProcessActivity'},{y:515135,activity:'login.NewbieProcessActivity'},{y:515135,activity:'login.NewbieProcessActivity'},{y:515135,activity:'login.NewbieProcessActivity'},{y:515215,activity:'login.NewbieProcessActivity'},{y:515215,activity:'login.NewbieProcessActivity'},{y:515215,activity:'login.NewbieProcessActivity'},{y:515215,activity:'login.NewbieProcessActivity'},{y:515255,activity:'login.NewbieProcessActivity'},{y:515255,activity:'login.NewbieProcessActivity'},{y:515255,activity:'login.NewbieProcessActivity'},{y:515387,activity:'login.NewbieProcessActivity'},{y:515387,activity:'login.NewbieProcessActivity'},{y:515387,activity:'login.NewbieProcessActivity'},{y:521757,activity:'login.NewbieProcessActivity'},{y:521861,activity:'login.NewbieProcessActivity'},{y:521861,activity:'login.NewbieProcessActivity'},{y:521861,activity:'login.NewbieProcessActivity'},{y:521861,activity:'login.NewbieProcessActivity'},{y:521861,activity:'login.NewbieProcessActivity'},{y:524223,activity:'login.NewbieProcessActivity'},{y:526201,activity:'login.NewbieProcessActivity'},{y:526201,activity:'login.NewbieProcessActivity'},{y:526201,activity:'login.NewbieProcessActivity'},{y:526201,activity:'login.NewbieProcessActivity'},{y:526201,activity:'login.NewbieProcessActivity'},{y:526201,activity:'login.NewbieProcessActivity'},{y:528189,activity:'login.NewbieProcessActivity'},{y:528189,activity:'login.NewbieProcessActivity'},{y:530836,activity:'login.NewbieProcessActivity'},{y:530836,activity:'login.NewbieProcessActivity'},{y:530836,activity:'login.NewbieProcessActivity'},{y:530836,activity:'login.NewbieProcessActivity'},{y:530836,activity:'login.NewbieProcessActivity'},{y:530836,activity:'login.NewbieProcessActivity'},{y:534148,activity:'login.NewbieProcessActivity'},{y:597862,activity:'activity.MainActivity'},{y:597862,activity:'activity.MainActivity'},{y:597862,activity:'activity.MainActivity'},{y:600253,activity:'activity.MainActivity'},{y:600253,activity:'activity.MainActivity'},{y:600253,activity:'activity.MainActivity'},{y:600253,activity:'activity.MainActivity'},{y:600253,activity:'activity.MainActivity'},{y:600253,activity:'activity.MainActivity'},{y:600425,activity:'activity.MainActivity'},{y:602413,activity:'activity.MainActivity'},{y:602413,activity:'activity.MainActivity'},{y:602413,activity:'activity.MainActivity'},{y:602465,activity:'activity.MainActivity'}]},
+
+]
+});
+});
+    </script>
+<style type="text/css">
+body {
+  font-family: Helvetica, arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: white;
+  padding: 30px; }
+
+body > *:first-child {
+  margin-top: 0 !important; }
+body > *:last-child {
+  margin-bottom: 0 !important; }
+
+a {
+  color: #4183C4; }
+a.absent {
+  color: #cc0000; }
+a.anchor {
+  display: block;
+  padding-left: 30px;
+  margin-left: -30px;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 20px 0 10px;
+  padding: 0;
+  font-weight: bold;
+  -webkit-font-smoothing: antialiased;
+  cursor: text;
+  position: relative; }
+
+h1:hover a.anchor, h2:hover a.anchor, h3:hover a.anchor, h4:hover a.anchor, h5:hover a.anchor, h6:hover a.anchor {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA09pVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoMTMuMCAyMDEyMDMwNS5tLjQxNSAyMDEyLzAzLzA1OjIxOjAwOjAwKSAgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OUM2NjlDQjI4ODBGMTFFMTg1ODlEODNERDJBRjUwQTQiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OUM2NjlDQjM4ODBGMTFFMTg1ODlEODNERDJBRjUwQTQiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo5QzY2OUNCMDg4MEYxMUUxODU4OUQ4M0REMkFGNTBBNCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo5QzY2OUNCMTg4MEYxMUUxODU4OUQ4M0REMkFGNTBBNCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PsQhXeAAAABfSURBVHjaYvz//z8DJYCRUgMYQAbAMBQIAvEqkBQWXI6sHqwHiwG70TTBxGaiWwjCTGgOUgJiF1J8wMRAIUA34B4Q76HUBelAfJYSA0CuMIEaRP8wGIkGMA54bgQIMACAmkXJi0hKJQAAAABJRU5ErkJggg==) no-repeat 10px center;
+  text-decoration: none; }
+
+h1 tt, h1 code {
+  font-size: inherit; }
+
+h2 tt, h2 code {
+  font-size: inherit; }
+
+h3 tt, h3 code {
+  font-size: inherit; }
+
+h4 tt, h4 code {
+  font-size: inherit; }
+
+h5 tt, h5 code {
+  font-size: inherit; }
+
+h6 tt, h6 code {
+  font-size: inherit; }
+
+h1 {
+  font-size: 28px;
+  color: black; }
+
+h2 {
+  font-size: 24px;
+  border-bottom: 1px solid #cccccc;
+  color: black; }
+
+h3 {
+  font-size: 18px; }
+
+h4 {
+  font-size: 16px; }
+
+h5 {
+  font-size: 14px; }
+
+h6 {
+  color: #777777;
+  font-size: 14px; }
+
+p, blockquote, ul, ol, dl, li, table, pre {
+  margin: 15px 0; }
+
+hr {
+  background: transparent url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAECAYAAACtBE5DAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBNYWNpbnRvc2giIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OENDRjNBN0E2NTZBMTFFMEI3QjRBODM4NzJDMjlGNDgiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OENDRjNBN0I2NTZBMTFFMEI3QjRBODM4NzJDMjlGNDgiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo4Q0NGM0E3ODY1NkExMUUwQjdCNEE4Mzg3MkMyOUY0OCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo4Q0NGM0E3OTY1NkExMUUwQjdCNEE4Mzg3MkMyOUY0OCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PqqezsUAAAAfSURBVHjaYmRABcYwBiM2QSA4y4hNEKYDQxAEAAIMAHNGAzhkPOlYAAAAAElFTkSuQmCC) repeat-x 0 0;
+  border: 0 none;
+  color: #cccccc;
+  height: 4px;
+  padding: 0;
+}
+
+body > h2:first-child {
+  margin-top: 0;
+  padding-top: 0; }
+body > h1:first-child {
+  margin-top: 0;
+  padding-top: 0; }
+  body > h1:first-child + h2 {
+    margin-top: 0;
+    padding-top: 0; }
+body > h3:first-child, body > h4:first-child, body > h5:first-child, body > h6:first-child {
+  margin-top: 0;
+  padding-top: 0; }
+
+a:first-child h1, a:first-child h2, a:first-child h3, a:first-child h4, a:first-child h5, a:first-child h6 {
+  margin-top: 0;
+  padding-top: 0; }
+
+h1 p, h2 p, h3 p, h4 p, h5 p, h6 p {
+  margin-top: 0; }
+
+li p.first {
+  display: inline-block; }
+li {
+  margin: 0; }
+ul, ol {
+  padding-left: 30px; }
+
+ul :first-child, ol :first-child {
+  margin-top: 0; }
+
+dl {
+  padding: 0; }
+  dl dt {
+    font-size: 14px;
+    font-weight: bold;
+    font-style: italic;
+    padding: 0;
+    margin: 15px 0 5px; }
+    dl dt:first-child {
+      padding: 0; }
+    dl dt > :first-child {
+      margin-top: 0; }
+    dl dt > :last-child {
+      margin-bottom: 0; }
+  dl dd {
+    margin: 0 0 15px;
+    padding: 0 15px; }
+    dl dd > :first-child {
+      margin-top: 0; }
+    dl dd > :last-child {
+      margin-bottom: 0; }
+
+blockquote {
+  border-left: 4px solid #dddddd;
+  padding: 0 15px;
+  color: #777777; }
+  blockquote > :first-child {
+    margin-top: 0; }
+  blockquote > :last-child {
+    margin-bottom: 0; }
+
+table {
+  padding: 0;border-collapse: collapse; }
+  table tr {
+    border-top: 1px solid #cccccc;
+    background-color: white;
+    margin: 0;
+    padding: 0; }
+    table tr:nth-child(2n) {
+      background-color: #f8f8f8; }
+    table tr th {
+      font-weight: bold;
+      border: 1px solid #cccccc;
+      margin: 0;
+      padding: 6px 13px; }
+    table tr td {
+      border: 1px solid #cccccc;
+      margin: 0;
+      padding: 6px 13px; }
+    table tr th :first-child, table tr td :first-child {
+      margin-top: 0; }
+    table tr th :last-child, table tr td :last-child {
+      margin-bottom: 0; }
+
+img {
+  max-width: 100%; }
+
+span.frame {
+  display: block;
+  overflow: hidden; }
+  span.frame > span {
+    border: 1px solid #dddddd;
+    display: block;
+    float: left;
+    overflow: hidden;
+    margin: 13px 0 0;
+    padding: 7px;
+    width: auto; }
+  span.frame span img {
+    display: block;
+    float: left; }
+  span.frame span span {
+    clear: both;
+    color: #333333;
+    display: block;
+    padding: 5px 0 0; }
+span.align-center {
+  display: block;
+  overflow: hidden;
+  clear: both; }
+  span.align-center > span {
+    display: block;
+    overflow: hidden;
+    margin: 13px auto 0;
+    text-align: center; }
+  span.align-center span img {
+    margin: 0 auto;
+    text-align: center; }
+span.align-right {
+  display: block;
+  overflow: hidden;
+  clear: both; }
+  span.align-right > span {
+    display: block;
+    overflow: hidden;
+    margin: 13px 0 0;
+    text-align: right; }
+  span.align-right span img {
+    margin: 0;
+    text-align: right; }
+span.float-left {
+  display: block;
+  margin-right: 13px;
+  overflow: hidden;
+  float: left; }
+  span.float-left span {
+    margin: 13px 0 0; }
+span.float-right {
+  display: block;
+  margin-left: 13px;
+  overflow: hidden;
+  float: right; }
+  span.float-right > span {
+    display: block;
+    overflow: hidden;
+    margin: 13px auto 0;
+    text-align: right; }
+
+code, tt {
+  margin: 0 2px;
+  padding: 0 5px;
+  white-space: nowrap;
+  border: 1px solid #eaeaea;
+  background-color: #f8f8f8;
+  border-radius: 3px; }
+
+pre code {
+  margin: 0;
+  padding: 0;
+  white-space: pre;
+  border: none;
+  background: transparent; }
+
+.highlight pre {
+  background-color: #f8f8f8;
+  border: 1px solid #cccccc;
+  font-size: 13px;
+  line-height: 19px;
+  overflow: auto;
+  padding: 6px 10px;
+  border-radius: 3px; }
+
+pre {
+  background-color: #f8f8f8;
+  border: 1px solid #cccccc;
+  font-size: 13px;
+  line-height: 19px;
+  overflow: auto;
+  padding: 6px 10px;
+  border-radius: 3px; }
+  pre code, pre tt {
+    background-color: transparent;
+    border: none; }
+
+sup {
+    font-size: 0.83em;
+    vertical-align: super;
+    line-height: 0;
+}
+* {
+	-webkit-print-color-adjust: exact;
+}
+@media screen and (min-width: 914px) {
+    body {
+        width: 854px;
+        margin:0 auto;
+    }
+}
+@media print {
+	table, pre {
+		page-break-inside: avoid;
+	}
+	pre {
+		word-wrap: break-word;
+	}
+}
+</style>
+
+<style type="text/css">
+/**
+ * prism.js default theme for JavaScript, CSS and HTML
+ * Based on dabblet (http://dabblet.com)
+ * @author Lea Verou
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+	color: black;
+	background: none;
+	text-shadow: 0 1px white;
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+pre[class*="language-"]::-moz-selection, pre[class*="language-"] ::-moz-selection,
+code[class*="language-"]::-moz-selection, code[class*="language-"] ::-moz-selection {
+	text-shadow: none;
+	background: #b3d4fc;
+}
+
+pre[class*="language-"]::selection, pre[class*="language-"] ::selection,
+code[class*="language-"]::selection, code[class*="language-"] ::selection {
+	text-shadow: none;
+	background: #b3d4fc;
+}
+
+@media print {
+	code[class*="language-"],
+	pre[class*="language-"] {
+		text-shadow: none;
+	}
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #f5f2f0;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: slategray;
+}
+
+.token.punctuation {
+	color: #999;
+}
+
+.namespace {
+	opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.boolean,
+.token.number,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: #905;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: #690;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string {
+	color: #a67f59;
+	background: hsla(0, 0%, 100%, .5);
+}
+
+.token.atrule,
+.token.attr-value,
+.token.keyword {
+	color: #07a;
+}
+
+.token.function {
+	color: #DD4A68;
+}
+
+.token.regex,
+.token.important,
+.token.variable {
+	color: #e90;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+</style>
+
+
+</head>
+
+<body>
+<script src="http://cdn.hcharts.cn/highcharts/highcharts.js"></script>
+<script src="http://cdn.hcharts.cn/highcharts/modules/exporting.js"></script>
+<h1 id="toc_0">Android性能专项测试报告</h1>
+
+<hr>
+
+<table>
+<thead>
+<tr>
+<th>测试手机</th>
+<th>Android系统版本</th>
+<th>目标应用</th>
+<th>应用版本</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td id="testphone">vivo
+vivoX3t
+ PD1227T
+</td>
+<td id="androidAPI">4.2.1
+</td>
+<td id="packageName">com.yaya.mmbang</td>
+<td id="versionName">3.13.0</td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="toc_1">1.启动时间</h2>
+
+<ol>
+<li><strong>启动时间</strong> 主要分为冷启动时间和热启动时间</li>
+<li>数据采集方式：</li>
+</ol>
+
+<div><pre><code class="language-none">adb shell am start -W $packageName/$packageName.$Mainactivity</code></pre></div>
+
+<div id="ColdStartTime" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+
+<div id="WarmStartTime" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+
+<!-- <p><a href="file:///Users/jimmy_zhou/Desktop/android/html/WarmStartTime.html">WarmStartTime</a></p>
+
+<p><img src="/Users/jimmy_zhou/Desktop/android/html/report/WarmStartTime.png" alt="WarmStartTime Screenshot"></p>
+
+<p><a href="file:///Users/jimmy_zhou/Desktop/android/html/ColdStartTime.html">ColdStartTime</a></p>
+
+<p><img src="/Users/jimmy_zhou/Desktop/android/html/report/ColdStartTime.png" alt="ColdStartTime Screenshot"></p>
+ -->
+<h2 id="toc_2">2.主要页面加载时间</h2>
+
+<ol>
+<li><strong>主要页面加载时间</strong> 统计了应用中部分页面activity的Displayed时间(不包含接口的响应时间)</li>
+<li>数据采集方式：</li>
+</ol>
+
+<div><pre><code class="language-none">$mmbangActivityList=(&quot;MainActivity&quot; &quot;SplashActivity&quot; ...)
+cat $DisplayTimeLog | grep $packageName | grep &quot;Displayed&quot; | grep ${mmbangActivityList[$i]} | head -n1 | cut -d &quot;+&quot; -f2</code></pre></div>
+
+<!-- <table>
+<thead>
+<tr>
+<th>No</th>
+<th>页面名称</th>
+<th>Activity展示时间</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>1</td>
+<td>启动页面</td>
+<td>404ms</td>
+</tr>
+<tr>
+<td>2</td>
+<td>主页面</td>
+<td>1s55ms</td>
+</tr>
+<tr>
+<td>3</td>
+<td>登录页面</td>
+<td>155ms</td>
+</tr>
+<tr>
+<td>4</td>
+<td>宝宝树推荐</td>
+<td>100ms</td>
+</tr>
+<tr>
+<td>5</td>
+<td>他人信息页</td>
+<td>160ms</td>
+</tr>
+<tr>
+<td>6</td>
+<td>消息</td>
+<td>134ms</td>
+</tr>
+<tr>
+<td>7</td>
+<td>发帖</td>
+<td>198ms</td>
+</tr>
+<tr>
+<td>8</td>
+<td>帮页面</td>
+<td>135ms</td>
+</tr>
+<tr>
+<td>9</td>
+<td>帖子详情页</td>
+<td>170ms</td>
+</tr>
+<tr>
+<td>10</td>
+<td>收藏</td>
+<td>135ms</td>
+</tr>
+<tr>
+<td>11</td>
+<td>我的帖子</td>
+<td>135ms</td>
+</tr>
+<tr>
+<td>12</td>
+<td>关注</td>
+<td>144ms</td>
+</tr>
+<tr>
+<td>13</td>
+<td>粉丝</td>
+<td>144ms</td>
+</tr>
+<tr>
+<td>14</td>
+<td>设置页面</td>
+<td>133ms</td>
+</tr>
+</tbody>
+</table> -->
+
+<div id="DisplayTime" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+
+<h2 id="toc_3">3.资源消耗</h2>
+
+<p>主要包含：CPU、Memory、耗电量、耗流量、流畅度</p>
+
+<p>采集数据场景：在跑monkey测试的同时，进行数据采集，后续会进行在appium页面遍历的场景下进行数据采集</p>
+
+<h3 id="toc_4">CPU</h3>
+
+<ol>
+<li><strong>CPU</strong> 主要统计了在跑monkey的同时，cpu占用率的曲线变化</li>
+<li>啊啊啊</li>
+<li>数据采集方式：同时采集了top(进程的cpu jiffies与总的cpu jiffies比值)和cpuinfo(时间占比)两组cpu数据</li>
+</ol>
+
+<div><pre><code class="language-none">adb shell dumpsys cpuinfo | grep $packageName | grep -v pushservice | head -n 1 | sed -E &#39;s/[[:space:]]+/ /g&#39; | sed &#39;s/^ //g&#39; | cut -d &quot; &quot; -f 1</code></pre></div>
+
+<div><pre><code class="language-none">adb shell top -n 1 -d 0 | grep $packageName | grep -v pushservice | head -n 1 | sed -E &#39;s/[[:space:]]+/ /g&#39; | sed &#39;s/^ //g&#39; | cut -d &quot; &quot; -f 3</code></pre></div>
+
+<div id="CPU" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+
+<!-- <p><a href="file:///Users/jimmy_zhou/Desktop/android/html/CPU.html">CPU</a></p>
+
+<p><img src="/Users/jimmy_zhou/Desktop/android/html/report/CPU.png" alt="CPU Screenshot"></p>
+ -->
+<h3 id="toc_5">Memory</h3>
+
+<ol>
+<li><strong>Memory</strong> 主要统计了在跑monkey的同时，PSS占用率的曲线变化(未root下无法采集到USS)</li>
+<li>数据采集方式：同时采集了PSS中（Dalvik Heap、Native Heap、TOTAL）</li>
+</ol>
+
+<div><pre><code class="language-none">adb shell dumpsys meminfo $packageName | grep Dalvik | head -n 1 | sed -E &#39;s/[[:space:]]+/ /g&#39; | sed &#39;s/^ //g&#39; | cut -d &quot; &quot;  -f 3
+
+adb shell dumpsys meminfo $packageName | grep Native | head -n 1 | sed -E &#39;s/[[:space:]]+/ /g&#39; | sed &#39;s/^ //g&#39; | cut -d &quot; &quot;  -f 3
+
+adb shell dumpsys meminfo $packageName | grep TOTAL | head -n 1 | sed -E &#39;s/[[:space:]]+/ /g&#39; | sed &#39;s/^ //g&#39; | cut -d &quot; &quot;  -f 3</code></pre></div>
+
+<div id="Memory" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+
+<!-- <p><a href="file:///Users/jimmy_zhou/Desktop/android/html/Memory.html">Memory</a></p>
+
+<p><img src="/Users/jimmy_zhou/Desktop/android/html/report/Memory.png" alt="Memory Screenshot"></p>
+ -->
+<h3 id="toc_6">耗流量</h3>
+
+<ol>
+<li>程序运行时先记录当前流量值，作为初始流量值，然后再继续程序运行中流量的差值</li>
+<li>数据采集方式：</li>
+</ol>
+
+<div><pre><code class="language-none">adb shell cat /proc/net/xt_qtaguid/stats | grep $myUID | awk &#39;{rx_bytes+=$6}END{print rx_bytes}&#39;
+
+adb shell cat /proc/net/xt_qtaguid/stats | grep $myUID | awk &#39;{tx_bytes+=$8}END{print tx_bytes}&#39;</code></pre></div>
+
+<div id="Flow" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+
+<h3 id="toc_7">耗电量</h3>
+
+<ol>
+<li>啊啊</li>
+<li>数据采集方式：</li>
+</ol>
+
+<div><pre><code class="language-none">adb shell dumpsys battery | grep level | awk -F: &#39;{print $2}&#39; | tr -d &quot; &quot;</code></pre></div>
+
+<h3 id="toc_8">流畅度</h3>
+
+<ol>
+<li>啊啊</li>
+<li>数据采集方式：</li>
+</ol>
+
+<div><pre><code class="language-none">adb shell dumpsys gfxinfo $packageName</code></pre></div>
+
+<h2 id="toc_9">4.页面重绘</h2>
+
+<p>TBD</p>
+
+<h2 id="toc_10">5.内存泄漏&amp;内存溢出</h2>
+
+<p>TBD</p>
+
+<h2 id="toc_11">6.monkey压力测试</h2>
+
+<p><strong>测试策略1</strong>：state=已登录 WiFiState=WiFi网络 seed=1 eventCount=10000</p>
+
+<p><strong>测试策略2</strong>：未登录 ...</p>
+
+<p><strong>测试策略3</strong>：无网络 ...</p>
+
+<p><strong>测试策略4</strong>：2g网络 ...</p>
+
+<p><strong>测试策略5</strong>：3g网络 ...</p>
+
+<p><strong>测试策略6</strong>：4g网络 ...</p>
+
+<p><strong>测试策略7</strong>：WiFi网络 ...</p>
+
+<p>...</p>
+
+<h2 id="toc_12">7.安全检查</h2>
+
+<h3 id="toc_13">反编译</h3>
+
+<h3 id="toc_14">代码混淆</h3>
+
+<h3 id="toc_15">敏感数据：传输加密与校验</h3>
+
+<h3 id="toc_16">敏感数据：本地缓存及本地数据库检查</h3>
+
+<h3 id="toc_17">敏感数据：日志数据检查</h3>
+
+
+
+<script type="text/javascript">
+var _self="undefined"!=typeof window?window:"undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?self:{},Prism=function(){var e=/\blang(?:uage)?-(\w+)\b/i,t=0,n=_self.Prism={util:{encode:function(e){return e instanceof a?new a(e.type,n.util.encode(e.content),e.alias):"Array"===n.util.type(e)?e.map(n.util.encode):e.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/\u00a0/g," ")},type:function(e){return Object.prototype.toString.call(e).match(/\[object (\w+)\]/)[1]},objId:function(e){return e.__id||Object.defineProperty(e,"__id",{value:++t}),e.__id},clone:function(e){var t=n.util.type(e);switch(t){case"Object":var a={};for(var r in e)e.hasOwnProperty(r)&&(a[r]=n.util.clone(e[r]));return a;case"Array":return e.map&&e.map(function(e){return n.util.clone(e)})}return e}},languages:{extend:function(e,t){var a=n.util.clone(n.languages[e]);for(var r in t)a[r]=t[r];return a},insertBefore:function(e,t,a,r){r=r||n.languages;var l=r[e];if(2==arguments.length){a=arguments[1];for(var i in a)a.hasOwnProperty(i)&&(l[i]=a[i]);return l}var o={};for(var s in l)if(l.hasOwnProperty(s)){if(s==t)for(var i in a)a.hasOwnProperty(i)&&(o[i]=a[i]);o[s]=l[s]}return n.languages.DFS(n.languages,function(t,n){n===r[e]&&t!=e&&(this[t]=o)}),r[e]=o},DFS:function(e,t,a,r){r=r||{};for(var l in e)e.hasOwnProperty(l)&&(t.call(e,l,e[l],a||l),"Object"!==n.util.type(e[l])||r[n.util.objId(e[l])]?"Array"!==n.util.type(e[l])||r[n.util.objId(e[l])]||(r[n.util.objId(e[l])]=!0,n.languages.DFS(e[l],t,l,r)):(r[n.util.objId(e[l])]=!0,n.languages.DFS(e[l],t,null,r)))}},plugins:{},highlightAll:function(e,t){var a={callback:t,selector:'code[class*="language-"], [class*="language-"] code, code[class*="lang-"], [class*="lang-"] code'};n.hooks.run("before-highlightall",a);for(var r,l=a.elements||document.querySelectorAll(a.selector),i=0;r=l[i++];)n.highlightElement(r,e===!0,a.callback)},highlightElement:function(t,a,r){for(var l,i,o=t;o&&!e.test(o.className);)o=o.parentNode;o&&(l=(o.className.match(e)||[,""])[1],i=n.languages[l]),t.className=t.className.replace(e,"").replace(/\s+/g," ")+" language-"+l,o=t.parentNode,/pre/i.test(o.nodeName)&&(o.className=o.className.replace(e,"").replace(/\s+/g," ")+" language-"+l);var s=t.textContent,u={element:t,language:l,grammar:i,code:s};if(!s||!i)return n.hooks.run("complete",u),void 0;if(n.hooks.run("before-highlight",u),a&&_self.Worker){var c=new Worker(n.filename);c.onmessage=function(e){u.highlightedCode=e.data,n.hooks.run("before-insert",u),u.element.innerHTML=u.highlightedCode,r&&r.call(u.element),n.hooks.run("after-highlight",u),n.hooks.run("complete",u)},c.postMessage(JSON.stringify({language:u.language,code:u.code,immediateClose:!0}))}else u.highlightedCode=n.highlight(u.code,u.grammar,u.language),n.hooks.run("before-insert",u),u.element.innerHTML=u.highlightedCode,r&&r.call(t),n.hooks.run("after-highlight",u),n.hooks.run("complete",u)},highlight:function(e,t,r){var l=n.tokenize(e,t);return a.stringify(n.util.encode(l),r)},tokenize:function(e,t){var a=n.Token,r=[e],l=t.rest;if(l){for(var i in l)t[i]=l[i];delete t.rest}e:for(var i in t)if(t.hasOwnProperty(i)&&t[i]){var o=t[i];o="Array"===n.util.type(o)?o:[o];for(var s=0;s<o.length;++s){var u=o[s],c=u.inside,g=!!u.lookbehind,h=!!u.greedy,f=0,d=u.alias;u=u.pattern||u;for(var p=0;p<r.length;p++){var m=r[p];if(r.length>e.length)break e;if(!(m instanceof a)){u.lastIndex=0;var y=u.exec(m),v=1;if(!y&&h&&p!=r.length-1){var b=r[p+1].matchedStr||r[p+1],k=m+b;if(p<r.length-2&&(k+=r[p+2].matchedStr||r[p+2]),u.lastIndex=0,y=u.exec(k),!y)continue;var w=y.index+(g?y[1].length:0);if(w>=m.length)continue;var _=y.index+y[0].length,P=m.length+b.length;if(v=3,P>=_){if(r[p+1].greedy)continue;v=2,k=k.slice(0,P)}m=k}if(y){g&&(f=y[1].length);var w=y.index+f,y=y[0].slice(f),_=w+y.length,S=m.slice(0,w),O=m.slice(_),j=[p,v];S&&j.push(S);var A=new a(i,c?n.tokenize(y,c):y,d,y,h);j.push(A),O&&j.push(O),Array.prototype.splice.apply(r,j)}}}}}return r},hooks:{all:{},add:function(e,t){var a=n.hooks.all;a[e]=a[e]||[],a[e].push(t)},run:function(e,t){var a=n.hooks.all[e];if(a&&a.length)for(var r,l=0;r=a[l++];)r(t)}}},a=n.Token=function(e,t,n,a,r){this.type=e,this.content=t,this.alias=n,this.matchedStr=a||null,this.greedy=!!r};if(a.stringify=function(e,t,r){if("string"==typeof e)return e;if("Array"===n.util.type(e))return e.map(function(n){return a.stringify(n,t,e)}).join("");var l={type:e.type,content:a.stringify(e.content,t,r),tag:"span",classes:["token",e.type],attributes:{},language:t,parent:r};if("comment"==l.type&&(l.attributes.spellcheck="true"),e.alias){var i="Array"===n.util.type(e.alias)?e.alias:[e.alias];Array.prototype.push.apply(l.classes,i)}n.hooks.run("wrap",l);var o="";for(var s in l.attributes)o+=(o?" ":"")+s+'="'+(l.attributes[s]||"")+'"';return"<"+l.tag+' class="'+l.classes.join(" ")+'" '+o+">"+l.content+"</"+l.tag+">"},!_self.document)return _self.addEventListener?(_self.addEventListener("message",function(e){var t=JSON.parse(e.data),a=t.language,r=t.code,l=t.immediateClose;_self.postMessage(n.highlight(r,n.languages[a],a)),l&&_self.close()},!1),_self.Prism):_self.Prism;var r=document.currentScript||[].slice.call(document.getElementsByTagName("script")).pop();return r&&(n.filename=r.src,document.addEventListener&&!r.hasAttribute("data-manual")&&document.addEventListener("DOMContentLoaded",n.highlightAll)),_self.Prism}();"undefined"!=typeof module&&module.exports&&(module.exports=Prism),"undefined"!=typeof global&&(global.Prism=Prism);
+</script>
+
+
+</body>
+
+</html>

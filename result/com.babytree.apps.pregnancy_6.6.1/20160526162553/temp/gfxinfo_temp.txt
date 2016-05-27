@@ -1,0 +1,97 @@
+Applications Graphics Acceleration Info:
+Uptime: 2473446 Realtime: 2473446
+
+** Graphics info for pid 28732 [com.babytree.apps.pregnancy] **
+
+Recent DisplayList operations
+                    DrawText
+                    DrawText
+                    RestoreToCount
+                  RestoreToCount
+              DrawDisplayList
+                DrawDisplayList
+                  DrawRect
+                DrawDisplayList
+                  Save
+                  ClipRect
+                  DrawDisplayList
+                    DrawPath
+                    Save
+                    ClipRect
+                    DrawDisplayList
+                    RestoreToCount
+                  DrawDisplayList
+                  DrawDisplayList
+                  RestoreToCount
+        DrawPatch
+  DrawDisplayList
+    DrawDisplayList
+      SetupShader
+      DrawRect
+      ResetShader
+      DrawDisplayList
+        DrawDisplayList
+          DrawDisplayList
+            DrawRect
+            DrawDisplayList
+              DrawDisplayList
+                DrawRect
+                DrawDisplayList
+                  DrawDisplayList
+                    DrawRect
+                    Save
+                    ConcatMatrix
+                    DrawBitmapRect
+                    RestoreToCount
+            DrawDisplayList
+              DrawRect
+              Save
+              ClipRect
+              DrawDisplayList
+                Save
+                ConcatMatrix
+                DrawBitmapRect
+                RestoreToCount
+              RestoreToCount
+        DrawPatch
+
+Caches:
+Current memory usage / total memory usage (bytes):
+  TextureCache          9019040 / 25165824
+  LayerCache                  0 / 16777216
+  GradientCache               0 /   524288
+  PathCache              107648 /  4194304
+  CircleShapeCache            0 /  1048576
+  OvalShapeCache              0 /  1048576
+  RoundRectShapeCache     58029 /  1048576
+  RectShapeCache              0 /  1048576
+  ArcShapeCache               0 /  1048576
+  TextDropShadowCache         0 /  2097152
+  FontRenderer 0        1310720 /  1310720
+Other:
+  FboCache                    1 /       16
+  PatchCache                 57 /      512
+Total memory usage:
+  10495437 bytes, 10.01 MB
+
+Profile data in ms:
+
+	com.babytree.apps.pregnancy/com.babytree.apps.pregnancy.activity.SailfishActivity/android.view.ViewRootImpl@41b3fea8
+	com.babytree.apps.pregnancy/com.babytree.apps.pregnancy.activity.knowledge.activity.KnowledgeGrowthActivity/android.view.ViewRootImpl@4172bd68
+	com.babytree.apps.pregnancy/com.babytree.platform.ui.activity.CommonImagePreviewActivity/android.view.ViewRootImpl@4153bcb8
+View hierarchy:
+
+  com.babytree.apps.pregnancy/com.babytree.apps.pregnancy.activity.SailfishActivity/android.view.ViewRootImpl@41b3fea8
+  249 views, 14.54 kB of display lists, 614 frames rendered
+
+  com.babytree.apps.pregnancy/com.babytree.apps.pregnancy.activity.knowledge.activity.KnowledgeGrowthActivity/android.view.ViewRootImpl@4172bd68
+  75 views, 5.29 kB of display lists, 334 frames rendered
+
+  com.babytree.apps.pregnancy/com.babytree.platform.ui.activity.CommonImagePreviewActivity/android.view.ViewRootImpl@4153bcb8
+  20 views, 0.70 kB of display lists, 7 frames rendered
+
+
+Total ViewRootImpl: 3
+Total Views:        344
+Total DisplayList:  20.52 kB
+

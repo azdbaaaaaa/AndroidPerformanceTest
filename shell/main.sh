@@ -17,20 +17,21 @@ export coldStartTimeHtmlDemoPath=$htmlDemoDirPath/"ColdStartTimeDemo.html"
 export warmStartTimeHtmlDemoPath=$htmlDemoDirPath/"WarmStartTimeDemo.html"
 export memoryHtmlDemoPath=$htmlDemoDirPath/"MemoryDemo.html"
 export cpuHtmlDemoPath=$htmlDemoDirPath/"CPUDemo.html"
-
+export reportDemoFilePath=$htmlDemoDirPath/"ReportDemo.html"
+export flowDemoFilePath=$htmlDemoDirPath/"FlowDemo.html"
 # 设置运行脚本配置内容
 # ##################################################################################
 # ##################################################################################
 # 以下变量主要用于 getStartTime.sh
 # 启动时间测试的执行次数
-export exeTimes=3
+export exeTimes=20
 # 以下变量主要用于 monkeyTest.sh
 # monkey操作间隔时间
 export thinkTime=500
 # seed值
-export seed=20
+export seed=$RANDOM
 # 执行的操作次数
-export eventNumber=300
+export eventNumber=3000
 # 设置采集数据间隔时间，单位:s
 export sleepTime=3
 # 
@@ -44,9 +45,9 @@ ls $apkPath | while read apkName
 do
 	################################################
 	# 以下代码执行单个应用，注释后可执行apk文件夹下所有apk
-	if [[ ! $apkName = "MMBang3.12.3.apk" ]]; then
-		continue
-	fi
+	# if [[ ! $apkName = "mmbang_svn_test-3.13.0-201605241831.apk" ]]; then
+	# 	continue
+	# fi
 	################################################
 	# 遍历apk
 	export apkName
@@ -81,17 +82,20 @@ do
 	# 结果文件地址
 	# getStartTime.sh	StartTimeCSV2HTML.sh
 	export startTimeFilePath=$resultDirResultPath/"StartTime.csv"
+
 	export coldStartTimeHtmlPath=$resultDirHtmlPath/"ColdStartTime.html"
 	export warmStartTimeHtmlPath=$resultDirHtmlPath/"WarmStartTime.html"
 	# monkeyTest.sh Performance2HTML.sh
 	export monkeyLogFilePath=$resultDirLogPath/"monkeyLog.log"
 	export logcatLogFilePath=$resultDirLogPath/"logcat.log"
+	export performanceTempFilePath=$resultDirResultPath/"performance.txt"
 	export performanceFilePath=$resultDirResultPath/"performance.csv"
 	export gfxinfoFilePath=$resultDirResultPath/"gfxinfo.csv"
 	export gfxinfo_temp=$resultDirTempPath/"gfxinfo_temp.txt"
+
 	export memoryHtmlFilePath=$resultDirHtmlPath/"Memory.html"
 	export cpuHtmlFilePath=$resultDirHtmlPath/"CPU.html"
-
+	export flowHtmlFilePath=$resultDirHtmlPath/"Flow.html"
 	#########################################################################
 	# 创建文件夹及其子目录文件夹
 

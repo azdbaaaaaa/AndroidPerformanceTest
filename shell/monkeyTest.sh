@@ -13,7 +13,7 @@
 # 结果文件
 # monkeyLogFilePath=$logPath/"monkeyLog.log"
 # logcatLogFilePath=$logPath/"logcat.log"
-# performanceFilePath=$logPath/"performance.csv"
+# performanceTempFilePath=$logPath/"performance.csv"
 # gfxinfoFilePath=$logPath/"gfxinfo.csv"
 
 # temp文件
@@ -42,11 +42,11 @@ echo "-----开始清除已有log文件-----"
 # 	rm -rf $logcatLogFilePath
 # fi
 
-# if [[ -e $performanceFilePath ]]; then
-# 	rm -rf $performanceFilePath
+# if [[ -e $performanceTempFilePath ]]; then
+# 	rm -rf $performanceTempFilePath
 # fi
 
-echo "Time,Activity,PSS_Dalvik,PSS_Native,PSS_Total,CPU_cpuinfo,CPU_top,RX_bytes,TX_bytes,BatteryLevel" >>$performanceFilePath
+echo "Time,Activity,PSS_Dalvik,PSS_Native,PSS_Total,CPU_cpuinfo,CPU_top,RX_bytes,TX_bytes,Folw_bytes,BatteryLevel" >>$performanceTempFilePath
 echo "Time,Activity,Draw,Prepare,Process,Execute">>$gfxinfoFilePath
 # myPID=`adb shell dumpsys meminfo $packageName | grep pid | awk '{print $5}'`
 myUID=`adb shell dumpsys package $packageName | grep packageSetting | cut -d "/" -f2 | cut -d "}" -f1`
@@ -79,10 +79,10 @@ function collectLogcat(){
 function collectPerformance(){
 	CurrentTime=`date +'%Y-%m-%d %H:%M:%S'`
 
-	CurrentActivity=`adb shell dumpsys activity | grep mFocusedActivity | tail -n 1 | cut -d "/" -f 2 |cut -d " " -f 1 | sed 's/}//g'`
+	CurrentActivity=`adb shell dumpsys activity | grep mFocusedActivity | tail -n 1 | cut -d "/" -f 2 |cut -d " " -f 1 | sed 's/}//g' | sed 's/\^M//g'`
 	CurrentActivity=${CurrentActivity#?}
-	PSS_Dalvik=`adb shell dumpsys meminfo $packageName | grep "Dalvik Heap" | head -n 1 | sed -E 's/[[:space:]]+/ /g' | sed 's/^ //g' | cut -d " "  -f 3`
-	PSS_Native=`adb shell dumpsys meminfo $packageName | grep "Native Heap" | head -n 1 | sed -E 's/[[:space:]]+/ /g' | sed 's/^ //g' | cut -d " "  -f 3`
+	PSS_Dalvik=`adb shell dumpsys meminfo $packageName | grep "Dalvik" | head -n 1 | sed -E 's/[[:space:]]+/ /g' | sed 's/^ //g' | cut -d " "  -f 3`
+	PSS_Native=`adb shell dumpsys meminfo $packageName | grep "Native" | head -n 1 | sed -E 's/[[:space:]]+/ /g' | sed 's/^ //g' | cut -d " "  -f 3`
 	PSS_Total=`adb shell dumpsys meminfo $packageName | grep TOTAL | head -n 1 | sed -E 's/[[:space:]]+/ /g' | sed 's/^ //g' | cut -d " "  -f 3`
 
 	CPU_cpuinfo=`adb shell dumpsys cpuinfo | grep $packageName | grep -v pushservice | head -n 1 | sed -E 's/[[:space:]]+/ /g' | sed 's/^ //g' | cut -d " " -f 1`
@@ -91,17 +91,19 @@ function collectPerformance(){
 	# echo "---"$myPID"---"$myUID"---"
 	RX_bytes_now=`adb shell cat /proc/net/xt_qtaguid/stats | grep $myUID | awk '{rx_bytes+=$6}END{print rx_bytes}'`
 	TX_bytes_now=`adb shell cat /proc/net/xt_qtaguid/stats | grep $myUID | awk '{tx_bytes+=$8}END{print tx_bytes}'`
+	# echo $RX_bytes_initial"--"$RX_bytes_now >> "/Users/jimmy_zhou/Documents/workspace/AndroidPerformanceTest/a.txt"
 
 	RX_bytes=$(($RX_bytes_now - $RX_bytes_initial))
 	TX_bytes=$(($TX_bytes_now - $TX_bytes_initial))
 
+	Folw_bytes=$(($RX_bytes+TX_bytes))
 	BatteryLevel=`adb shell dumpsys battery | grep level | awk -F: '{print $2}' | tr -d " "`
 	# echo $BatteryLevel
 	if [[ $CPU_cpuinfo =~ ^\+ ]]; then
 		CPU_cpuinfo=${CPU_cpuinfo#?}
 	fi
 
-	echo $CurrentTime,$CurrentActivity,$PSS_Dalvik,$PSS_Native,$PSS_Total,$CPU_cpuinfo,$CPU_top,$RX_bytes,$TX_bytes,$BatteryLevel >>$performanceFilePath
+	echo $CurrentTime,$CurrentActivity,$PSS_Dalvik,$PSS_Native,$PSS_Total,$CPU_cpuinfo,$CPU_top,$RX_bytes,$TX_bytes,$Folw_bytes,$BatteryLevel >>$performanceTempFilePath
 	# sleep 1
 }
 
@@ -115,7 +117,7 @@ function collectGfxinfo(){
 			#statements
 			gfxinfo_details=`echo $line | sed s/[[:space:]]/,/g`
 			# echo $gfxinfo_details
-			echo $CurrentTime","$CurrentActivity","$gfxinfo_details >> $gfxinfoFilePath
+			echo $CurrentTime","$gfxinfo_details","$CurrentActivity >> $gfxinfoFilePath
 		elif [[ $line =~ ^$packageName ]]; then
 			#statements
 			CurrentActivity=`echo $line | cut -d "/" -f2`
@@ -189,7 +191,9 @@ while [[ true ]]; do
 	fi
 done
 
+cat $performanceTempFilePath | tr -d "\r" >$performanceFilePath
 echo "-----结束logcat进程-----"
+
 
 PID=`ps | grep "adb shell logcat" | grep -v grep | awk -F " " '{print $1}'`
 echo "PID2:"$PID

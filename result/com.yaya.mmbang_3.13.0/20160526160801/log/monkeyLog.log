@@ -1,0 +1,2563 @@
+2016-05-26 16:12:45.238  :Monkey: seed=18673 count=3000
+2016-05-26 16:12:45.239  :AllowPackage: com.yaya.mmbang
+2016-05-26 16:12:45.239  :IncludeCategory: android.intent.category.LAUNCHER
+2016-05-26 16:12:45.241  :IncludeCategory: android.intent.category.MONKEY
+2016-05-26 16:12:45.281  // Selecting main activities from category android.intent.category.LAUNCHER
+2016-05-26 16:12:45.301  //   - NOT USING main activity com.bbk.calendar.MainActivity (from package com.bbk.calendar)
+2016-05-26 16:12:45.304  //   - NOT USING main activity com.android.gallery3d.app.Gallery (from package com.android.gallery3d)
+2016-05-26 16:12:45.305  //   - NOT USING main activity com.android.camera.Camera (from package com.android.gallery3d)
+2016-05-26 16:12:45.308  //   - NOT USING main activity com.android.bbkmusic.WidgetToTrackActivity (from package com.android.bbkmusic)
+2016-05-26 16:12:45.315  //   - NOT USING main activity com.android.bbksoundrecorder.SoundRecorder (from package com.android.bbksoundrecorder)
+2016-05-26 16:12:45.318  //   - NOT USING main activity com.bbk.theme.Theme (from package com.bbk.theme)
+2016-05-26 16:12:45.326  //   - NOT USING main activity com.android.contacts.TwelveKeyDialer (from package com.android.contacts)
+2016-05-26 16:12:45.327  //   - NOT USING main activity com.android.contacts.DialtactsContactsEntryActivity (from package com.android.contacts)
+2016-05-26 16:12:45.327  //   - NOT USING main activity com.android.email.activity.Welcome (from package com.android.email)
+2016-05-26 16:12:45.330  //   - NOT USING main activity com.iqoo.secure.MainActivity (from package com.iqoo.secure)
+2016-05-26 16:12:45.333  //   - NOT USING main activity com.android.mms.ui.ConversationList (from package com.android.mms)
+2016-05-26 16:12:45.336  //   - NOT USING main activity com.android.settings.Settings (from package com.android.settings)
+2016-05-26 16:12:45.341  //   - NOT USING main activity com.android.browser.BrowserActivity (from package com.android.browser)
+2016-05-26 16:12:45.345  //   - NOT USING main activity com.chaozh.iReader.ui.activity.WelcomeActivity (from package com.chaozh.iReader)
+2016-05-26 16:12:45.348  //   - NOT USING main activity com.baidu.baidumaps.WelcomeScreen (from package com.baidu.BaiduMap)
+2016-05-26 16:12:45.356  //   - NOT USING main activity com.cmread.bplusc.bookshelf.LocalMainActivity (from package com.ophone.reader.ui)
+2016-05-26 16:12:45.357  //   - NOT USING main activity com.qihoo.appstore.home.LauncherActivity (from package com.qihoo.appstore)
+2016-05-26 16:12:45.358  //   - NOT USING main activity com.tencent.assistant.activity.SplashActivity (from package com.tencent.android.qqdownloader)
+2016-05-26 16:12:45.358  //   - NOT USING main activity com.android.bbkcalculator.Calculator (from package com.android.bbkcalculator)
+2016-05-26 16:12:45.359  //   - NOT USING main activity com.bbk.cloud.activities.BBKCloudHomeScreen (from package com.bbk.cloud)
+2016-05-26 16:12:45.359  //   - NOT USING main activity com.android.filemanager.FileManagerActivity (from package com.android.filemanager)
+2016-05-26 16:12:45.359  //   - NOT USING main activity com.mediatek.FMRadio.FMRadioActivity (from package com.mediatek.FMRadio)
+2016-05-26 16:12:45.360  //   - NOT USING main activity com.android.notes.Notes (from package com.android.notes)
+2016-05-26 16:12:45.360  //   - NOT USING main activity com.android.BBKClock.Timer (from package com.android.BBKClock)
+2016-05-26 16:12:45.360  //   - NOT USING main activity com.vivo.weather.WeatherMain (from package com.vivo.weather)
+2016-05-26 16:12:45.361  //   - NOT USING main activity com.bbkflashlight.FlashlightActivity (from package com.bbkflashlight)
+2016-05-26 16:12:45.361  //   - NOT USING main activity com.vivo.hising.ui.MainActivity (from package com.vivo.hising)
+2016-05-26 16:12:45.362  //   - NOT USING main activity com.vivo.video.ui.VivoVideoMainActivity (from package com.vivo.video)
+2016-05-26 16:12:45.362  //   - NOT USING main activity com.bbk.VoiceAssistant.VoiceAssistantActivity (from package com.bbk.VoiceAssistant)
+2016-05-26 16:12:45.363  //   - NOT USING main activity com.bbk.pano360.demo.MainActivity (from package com.bbk.pano360.demo)
+2016-05-26 16:12:45.363  //   - NOT USING main activity com.bbk.appstore.ui.AppStore (from package com.bbk.appstore)
+2016-05-26 16:12:45.364  //   - NOT USING main activity com.vivo.game.ui.LogoActivity (from package com.vivo.game)
+2016-05-26 16:12:45.364  //   - NOT USING main activity com.baidu.searchbox.MainActivity (from package com.baidu.searchbox_bbk)
+2016-05-26 16:12:45.365  //   - NOT USING main activity cn.xender.messenger.MainActivity (from package cn.andouya)
+2016-05-26 16:12:45.365  //   - NOT USING main activity cn.itools.tool.market.ui.activity.HostActivity (from package cn.itools.tool.market)
+2016-05-26 16:12:45.365  //   - NOT USING main activity com.example.gif.MainActivity (from package com.example.gif)
+2016-05-26 16:12:45.366  //   - NOT USING main activity com.example.gif.MainActivity (from package com.example.gif2)
+2016-05-26 16:12:45.366  //   - NOT USING main activity com.letv.android.client.activity.SplashActivity (from package com.letv.android.client)
+2016-05-26 16:12:45.366  //   - NOT USING main activity com.netease.nr.biz.ad.AdActivity (from package com.netease.newsreader.activity)
+2016-05-26 16:12:45.367  //   - NOT USING main activity com.qihoo360.mobilesafe.ui.index.AppEnterActivity (from package com.qihoo360.mobilesafe)
+2016-05-26 16:12:45.367  //   - NOT USING main activity com.qiyi.video.WelcomeActivity (from package com.qiyi.video)
+2016-05-26 16:12:45.368  //   - NOT USING main activity com.mqunar.splash.SplashActivity (from package com.Qunar)
+2016-05-26 16:12:45.368  //   - NOT USING main activity com.sina.weibo.SplashActivity (from package com.sina.weibo)
+2016-05-26 16:12:45.368  //   - NOT USING main activity com.taobao.tao.welcome.Welcome (from package com.taobao.taobao)
+2016-05-26 16:12:45.370  //   - NOT USING main activity com.tencent.mm.ui.LauncherUI (from package com.tencent.mm)
+2016-05-26 16:12:45.370  //   - NOT USING main activity com.tencent.mobileqq.activity.SplashActivity (from package com.tencent.mobileqq)
+2016-05-26 16:12:45.371  //   - NOT USING main activity com.tencent.mtt.SplashActivity (from package com.tencent.mtt)
+2016-05-26 16:12:45.371  //   - NOT USING main activity com.tencent.server.fore.QuickLoadActivity (from package com.tencent.qqpimsecure)
+2016-05-26 16:12:45.372  //   - NOT USING main activity com.ting.mp3.oemc.android.SplashActivity (from package com.ting.mp3.oemc.android)
+2016-05-26 16:12:45.372  //   - NOT USING main activity com.tmall.wireless.splash.TMSplashActivity (from package com.tmall.wireless)
+2016-05-26 16:12:45.373  //   - NOT USING main activity com.vivo.space.ui.LogoActivity (from package com.vivo.space)
+2016-05-26 16:12:45.373  //   - NOT USING main activity com.android.bbk.lockscreen2.LockScreenActivity (from package com.android.bbk.lockscreen2)
+2016-05-26 16:12:45.374  //   - NOT USING main activity jackpal.androidterm.Term (from package jackpal.androidterm)
+2016-05-26 16:12:45.375  //   - NOT USING main activity com.yaya.haowan.ui.SplashActivity (from package com.yaya.haowan)
+2016-05-26 16:12:45.375  //   + Using main activity com.yaya.mmbang.activity.SplashActivity (from package com.yaya.mmbang)
+2016-05-26 16:12:45.385  // Selecting main activities from category android.intent.category.MONKEY
+2016-05-26 16:12:45.386  //   - NOT USING main activity com.iqoo.engineermode.EngineerMode (from package com.iqoo.engineermode)
+2016-05-26 16:12:45.386  //   - NOT USING main activity com.bbk.launcher2.Launcher (from package com.bbk.launcher2)
+2016-05-26 16:12:45.387  //   - NOT USING main activity com.bbk.scene.interstellar.SceneInterstellarActivity (from package com.bbk.scene.interstellar)
+2016-05-26 16:12:45.387  //   - NOT USING main activity com.android.settings.Settings$RunningServicesActivity (from package com.android.settings)
+2016-05-26 16:12:45.388  //   - NOT USING main activity com.android.settings.Settings$StorageUseActivity (from package com.android.settings)
+2016-05-26 16:12:45.388  // Seeded: 18673
+2016-05-26 16:12:45.396  // Event percentages:
+2016-05-26 16:12:45.397  //   0: 15.0%
+2016-05-26 16:12:45.398  //   1: 10.0%
+2016-05-26 16:12:45.398  //   2: 2.0%
+2016-05-26 16:12:45.399  //   3: 15.0%
+2016-05-26 16:12:45.399  //   4: -0.0%
+2016-05-26 16:12:45.399  //   5: 25.0%
+2016-05-26 16:12:45.400  //   6: 15.0%
+2016-05-26 16:12:45.401  //   7: 2.0%
+2016-05-26 16:12:45.401  //   8: 2.0%
+2016-05-26 16:12:45.402  //   9: 1.0%
+2016-05-26 16:12:45.402  //   10: 13.0%
+2016-05-26 16:12:45.403  :Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yaya.mmbang/.activity.SplashActivity;end
+2016-05-26 16:12:45.406      // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yaya.mmbang/.activity.SplashActivity } in package com.yaya.mmbang
+2016-05-26 16:12:45.407  Sleeping for 500 milliseconds
+2016-05-26 16:12:45.917 :Sending Touch (ACTION_DOWN): 0:(134.0,1164.0)
+2016-05-26 16:12:45.922 :Sending Touch (ACTION_UP): 0:(137.22446,1146.9293)
+2016-05-26 16:12:45.926  Sleeping for 500 milliseconds
+2016-05-26 16:12:46.428  :Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+2016-05-26 16:12:46.430  :Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+2016-05-26 16:12:46.488  Sleeping for 500 milliseconds
+2016-05-26 16:12:46.990 :Sending Trackball (ACTION_MOVE): 0:(-4.0,-2.0)
+2016-05-26 16:12:46.996 :Sending Trackball (ACTION_MOVE): 0:(4.0,2.0)
+2016-05-26 16:12:47.000 :Sending Trackball (ACTION_MOVE): 0:(4.0,1.0)
+2016-05-26 16:12:47.007 :Sending Trackball (ACTION_MOVE): 0:(-1.0,1.0)
+2016-05-26 16:12:47.022 :Sending Trackball (ACTION_MOVE): 0:(2.0,-3.0)
+2016-05-26 16:12:47.028 :Sending Trackball (ACTION_MOVE): 0:(1.0,0.0)
+2016-05-26 16:12:47.032 :Sending Trackball (ACTION_MOVE): 0:(-5.0,3.0)
+2016-05-26 16:12:47.034 :Sending Trackball (ACTION_MOVE): 0:(-4.0,3.0)
+2016-05-26 16:12:47.037 :Sending Trackball (ACTION_MOVE): 0:(2.0,2.0)
+2016-05-26 16:12:47.038 :Sending Trackball (ACTION_MOVE): 0:(3.0,2.0)
+2016-05-26 16:12:47.040 :Sending Touch (ACTION_DOWN): 0:(503.0,368.0)
+2016-05-26 16:12:47.042 :Sending Touch (ACTION_MOVE): 0:(503.36957,374.30435)
+2016-05-26 16:12:47.043 :Sending Touch (ACTION_MOVE): 0:(505.43283,380.14395)
+2016-05-26 16:12:47.044 :Sending Touch (ACTION_MOVE): 0:(506.41647,388.30927)
+2016-05-26 16:12:47.045 :Sending Touch (ACTION_MOVE): 0:(507.99234,389.23126)
+2016-05-26 16:12:47.046 :Sending Touch (ACTION_MOVE): 0:(510.48114,397.61533)
+2016-05-26 16:12:47.048 :Sending Touch (ACTION_MOVE): 0:(511.26825,405.4416)
+2016-05-26 16:12:47.049 :Sending Touch (ACTION_MOVE): 0:(512.19073,406.615)
+2016-05-26 16:12:47.050 :Sending Touch (ACTION_UP): 0:(515.0915,409.59518)
+2016-05-26 16:12:47.051  Sleeping for 500 milliseconds
+2016-05-26 16:12:47.552  :Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+2016-05-26 16:12:47.556  :Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+2016-05-26 16:12:47.560  Sleeping for 500 milliseconds
+2016-05-26 16:12:48.061  :Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+2016-05-26 16:12:48.070  :Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+2016-05-26 16:12:48.071  Sleeping for 500 milliseconds
+2016-05-26 16:12:48.573 :Sending Touch (ACTION_DOWN): 0:(184.0,817.0)
+2016-05-26 16:12:48.575 :Sending Touch (ACTION_MOVE): 0:(179.77757,809.6395)
+2016-05-26 16:12:48.577 :Sending Touch (ACTION_MOVE): 0:(168.54594,804.3522)
+2016-05-26 16:12:48.578 :Sending Touch (ACTION_MOVE): 0:(161.87306,795.8165)
+2016-05-26 16:12:48.579 :Sending Touch (ACTION_UP): 0:(153.00606,786.93567)
+2016-05-26 16:12:48.580  Sleeping for 500 milliseconds
+2016-05-26 16:12:49.081  :Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+2016-05-26 16:12:49.085  :Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+2016-05-26 16:12:49.087  Sleeping for 500 milliseconds
+2016-05-26 16:12:49.588  :Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+2016-05-26 16:12:49.593  :Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+2016-05-26 16:12:49.647  Sleeping for 500 milliseconds
+2016-05-26 16:12:50.148  :Sending Key (ACTION_DOWN): 66    // KEYCODE_ENTER
+2016-05-26 16:12:50.152  :Sending Key (ACTION_UP): 66    // KEYCODE_ENTER
+2016-05-26 16:12:50.156  Sleeping for 500 milliseconds
+2016-05-26 16:12:50.657  :Sending Key (ACTION_DOWN): 25    // KEYCODE_VOLUME_DOWN
+2016-05-26 16:12:50.724  :Sending Key (ACTION_UP): 25    // KEYCODE_VOLUME_DOWN
+2016-05-26 16:12:50.794  Sleeping for 500 milliseconds
+2016-05-26 16:12:51.295  :Sending Flip keyboardOpen=false
+2016-05-26 16:12:51.333  Sleeping for 500 milliseconds
+2016-05-26 16:12:51.834  :Sending Flip keyboardOpen=true
+2016-05-26 16:12:51.883  Sleeping for 500 milliseconds
+2016-05-26 16:12:52.385  :Sending Flip keyboardOpen=false
+2016-05-26 16:12:52.403  Sleeping for 500 milliseconds
+2016-05-26 16:12:52.904  :Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+2016-05-26 16:12:52.906  :Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+2016-05-26 16:12:52.908  Sleeping for 500 milliseconds
+2016-05-26 16:12:53.410  :Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+2016-05-26 16:12:53.414  :Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+2016-05-26 16:12:53.419  Sleeping for 500 milliseconds
+2016-05-26 16:12:53.920  :Sending Key (ACTION_DOWN): 4    // KEYCODE_BACK
+2016-05-26 16:12:53.928  :Sending Key (ACTION_UP): 4    // KEYCODE_BACK
+2016-05-26 16:12:53.933  Sleeping for 500 milliseconds
+2016-05-26 16:12:53.935      // activityResuming(com.bbk.launcher2)
+2016-05-26 16:12:53.937      // Rejecting resume of package com.bbk.launcher2
+2016-05-26 16:12:54.435  :Sending Key (ACTION_DOWN): 136    // KEYCODE_F6
+2016-05-26 16:12:54.440  :Sending Key (ACTION_UP): 136    // KEYCODE_F6
+2016-05-26 16:12:54.446  Sleeping for 500 milliseconds
+2016-05-26 16:12:54.949 :Sending Trackball (ACTION_MOVE): 0:(0.0,0.0)
+2016-05-26 16:12:54.953 :Sending Trackball (ACTION_MOVE): 0:(4.0,-5.0)
+2016-05-26 16:12:54.955 :Sending Trackball (ACTION_MOVE): 0:(-3.0,-2.0)
+2016-05-26 16:12:54.959 :Sending Trackball (ACTION_MOVE): 0:(-4.0,-5.0)
+2016-05-26 16:12:54.961 :Sending Trackball (ACTION_MOVE): 0:(-2.0,-1.0)
+2016-05-26 16:12:54.963 :Sending Trackball (ACTION_MOVE): 0:(-3.0,1.0)
+2016-05-26 16:12:54.964 :Sending Trackball (ACTION_MOVE): 0:(-3.0,-4.0)
+2016-05-26 16:12:54.965 :Sending Trackball (ACTION_MOVE): 0:(-4.0,-3.0)
+2016-05-26 16:12:54.966 :Sending Trackball (ACTION_MOVE): 0:(2.0,2.0)
+2016-05-26 16:12:54.967 :Sending Trackball (ACTION_MOVE): 0:(-5.0,-1.0)
+2016-05-26 16:12:54.969 :Sending Touch (ACTION_DOWN): 0:(291.0,552.0)
+2016-05-26 16:12:54.972 :Sending Touch (ACTION_MOVE): 0:(295.87842,540.8243)
+2016-05-26 16:12:54.977 :Sending Touch (ACTION_UP): 0:(298.04532,527.6692)
+2016-05-26 16:12:54.981  Sleeping for 500 milliseconds
+2016-05-26 16:12:55.482 :Sending Touch (ACTION_DOWN): 0:(322.0,441.0)
+2016-05-26 16:12:55.484 :Sending Touch (ACTION_UP): 0:(318.69254,455.26523)
+2016-05-26 16:12:55.487  Sleeping for 500 milliseconds
+2016-05-26 16:12:55.537      // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.taobao.taobao/com.taobao.tao.welcome.Welcome } in package com.taobao.taobao
+2016-05-26 16:12:55.987  :Sending Key (ACTION_DOWN): 41    // KEYCODE_M
+2016-05-26 16:12:55.992  :Sending Key (ACTION_UP): 41    // KEYCODE_M
+2016-05-26 16:12:56.018      // Rejecting start of Intent { act=android.search.action.GLOBAL_SEARCH cmp=com.baidu.searchbox_bbk/com.baidu.searchbox.SearchActivity } in package com.baidu.searchbox_bbk
+2016-05-26 16:12:56.021  Sleeping for 500 milliseconds
+2016-05-26 16:12:56.523  :Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+2016-05-26 16:12:56.535  :Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+2016-05-26 16:12:56.542  Sleeping for 500 milliseconds
+2016-05-26 16:12:57.047 :Sending Touch (ACTION_DOWN): 0:(214.0,496.0)
+2016-05-26 16:12:57.050 :Sending Touch (ACTION_UP): 0:(214.88762,498.7901)
+2016-05-26 16:12:57.053  Sleeping for 500 milliseconds
+2016-05-26 16:12:57.555 :Sending Touch (ACTION_DOWN): 0:(25.0,911.0)
+2016-05-26 16:12:57.558 :Sending Touch (ACTION_UP): 0:(37.162617,893.67163)
+2016-05-26 16:12:57.561  Sleeping for 500 milliseconds
+2016-05-26 16:12:58.064 :Sending Touch (ACTION_DOWN): 0:(437.0,376.0)
+2016-05-26 16:12:58.080 :Sending Touch (ACTION_POINTER_DOWN 1): 0:(449.59854,377.76547) 1:(557.0,55.0)
+2016-05-26 16:12:58.088 :Sending Touch (ACTION_MOVE): 0:(468.24442,381.1784) 1:(544.0885,33.726677)
+2016-05-26 16:12:58.089 :Sending Touch (ACTION_MOVE): 0:(471.53174,397.5973) 1:(536.0285,16.96037)
+2016-05-26 16:12:58.091 :Sending Touch (ACTION_MOVE): 0:(486.8811,410.4149) 1:(523.8146,10.086588)
+2016-05-26 16:12:58.091 :Sending Touch (ACTION_POINTER_UP 1): 0:(493.99634,423.628) 1:(521.50397,5.659353)
+2016-05-26 16:12:58.093 :Sending Touch (ACTION_UP): 0:(500.76965,439.35812)
+2016-05-26 16:12:58.094  Sleeping for 500 milliseconds
+2016-05-26 16:12:58.594  :Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+2016-05-26 16:12:58.606  :Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+2016-05-26 16:12:58.636  Sleeping for 500 milliseconds
+2016-05-26 16:12:59.137  :Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+2016-05-26 16:12:59.146  :Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+2016-05-26 16:12:59.152  Sleeping for 500 milliseconds
+2016-05-26 16:12:59.652  :Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+2016-05-26 16:12:59.657  :Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+2016-05-26 16:12:59.660  Sleeping for 500 milliseconds
+2016-05-26 16:13:00.162  :Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+2016-05-26 16:13:00.170  :Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+2016-05-26 16:13:00.172  Sleeping for 500 milliseconds
+2016-05-26 16:13:00.674  :Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+2016-05-26 16:13:00.678  :Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+2016-05-26 16:13:00.684  Sleeping for 500 milliseconds
+2016-05-26 16:13:01.185  :Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+2016-05-26 16:13:01.187  :Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+2016-05-26 16:13:01.189  Sleeping for 500 milliseconds
+2016-05-26 16:13:01.690 :Sending Touch (ACTION_DOWN): 0:(455.0,1142.0)
+2016-05-26 16:13:01.692 :Sending Touch (ACTION_UP): 0:(438.5691,1121.8733)
+2016-05-26 16:13:01.693  Sleeping for 500 milliseconds
+2016-05-26 16:13:02.194  :Sending Key (ACTION_DOWN): 119    // KEYCODE_FUNCTION
+2016-05-26 16:13:02.196  :Sending Key (ACTION_UP): 119    // KEYCODE_FUNCTION
+2016-05-26 16:13:02.217  Sleeping for 500 milliseconds
+2016-05-26 16:13:02.720 :Sending Touch (ACTION_DOWN): 0:(231.0,476.0)
+2016-05-26 16:13:02.723 :Sending Touch (ACTION_MOVE): 0:(226.17035,484.44156)
+2016-05-26 16:13:02.726 :Sending Touch (ACTION_UP): 0:(209.61133,495.04678)
+2016-05-26 16:13:02.728  Sleeping for 500 milliseconds
+2016-05-26 16:13:03.230  :Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+2016-05-26 16:13:03.235  :Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+2016-05-26 16:13:03.241  Sleeping for 500 milliseconds
+2016-05-26 16:13:03.742  :Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+2016-05-26 16:13:03.748  :Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+2016-05-26 16:13:03.750  Sleeping for 500 milliseconds
+2016-05-26 16:13:04.252 :Sending Touch (ACTION_DOWN): 0:(373.0,636.0)
+2016-05-26 16:13:04.255 :Sending Touch (ACTION_POINTER_DOWN 1): 0:(379.4227,643.60596) 1:(459.0,779.0)
+2016-05-26 16:13:04.256 :Sending Touch (ACTION_MOVE): 0:(387.78683,649.9316) 1:(457.37616,796.0729)
+2016-05-26 16:13:04.257 :Sending Touch (ACTION_MOVE): 0:(391.62424,656.666) 1:(454.204,801.3266)
+2016-05-26 16:13:04.258 :Sending Touch (ACTION_MOVE): 0:(408.52615,674.00946) 1:(452.18494,811.7455)
+2016-05-26 16:13:04.259 :Sending Touch (ACTION_MOVE): 0:(417.79297,681.92523) 1:(449.69193,817.2952)
+2016-05-26 16:13:04.261 :Sending Touch (ACTION_POINTER_UP 1): 0:(427.79858,689.14716) 1:(448.0101,822.95825)
+2016-05-26 16:13:04.262 :Sending Touch (ACTION_UP): 0:(438.2913,689.1858)
+2016-05-26 16:13:04.263  Sleeping for 500 milliseconds
+2016-05-26 16:13:04.764  :Sending Key (ACTION_DOWN): 28    // KEYCODE_CLEAR
+2016-05-26 16:13:04.765  :Sending Key (ACTION_UP): 28    // KEYCODE_CLEAR
+2016-05-26 16:13:04.786  Sleeping for 500 milliseconds
+2016-05-26 16:13:05.288 :Sending Touch (ACTION_DOWN): 0:(522.0,467.0)
+2016-05-26 16:13:05.294 :Sending Touch (ACTION_UP): 0:(527.6079,463.67502)
+2016-05-26 16:13:05.298  Sleeping for 500 milliseconds
+2016-05-26 16:13:05.800  :Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+2016-05-26 16:13:05.807  :Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+2016-05-26 16:13:05.812  Sleeping for 500 milliseconds
+2016-05-26 16:13:06.317  :Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+2016-05-26 16:13:06.322  :Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+2016-05-26 16:13:06.327  Sleeping for 500 milliseconds
+2016-05-26 16:13:06.829 :Sending Trackball (ACTION_MOVE): 0:(-5.0,1.0)
+2016-05-26 16:13:06.832 :Sending Trackball (ACTION_MOVE): 0:(3.0,-4.0)
+2016-05-26 16:13:06.835 :Sending Trackball (ACTION_MOVE): 0:(4.0,3.0)
+2016-05-26 16:13:06.838 :Sending Trackball (ACTION_MOVE): 0:(-1.0,-3.0)
+2016-05-26 16:13:06.841 :Sending Trackball (ACTION_MOVE): 0:(-3.0,-5.0)
+2016-05-26 16:13:06.844 :Sending Trackball (ACTION_MOVE): 0:(-4.0,0.0)
+2016-05-26 16:13:06.847 :Sending Trackball (ACTION_MOVE): 0:(-3.0,-2.0)
+2016-05-26 16:13:06.850 :Sending Trackball (ACTION_MOVE): 0:(-5.0,-4.0)
+2016-05-26 16:13:06.853 :Sending Trackball (ACTION_MOVE): 0:(1.0,0.0)
+2016-05-26 16:13:06.855 :Sending Trackball (ACTION_MOVE): 0:(-1.0,-1.0)
+2016-05-26 16:13:06.857  :Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+2016-05-26 16:13:06.867  :Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+2016-05-26 16:13:06.869  Sleeping for 500 milliseconds
+2016-05-26 16:13:07.371 :Sending Touch (ACTION_DOWN): 0:(699.0,59.0)
+2016-05-26 16:13:07.374 :Sending Touch (ACTION_UP): 0:(700.15955,58.20822)
+2016-05-26 16:13:07.375  Sleeping for 500 milliseconds
+2016-05-26 16:13:07.876  :Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+2016-05-26 16:13:07.881  :Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+2016-05-26 16:13:07.883  Sleeping for 500 milliseconds
+2016-05-26 16:13:08.384  :Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+2016-05-26 16:13:08.393  :Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+2016-05-26 16:13:08.406  Sleeping for 500 milliseconds
+2016-05-26 16:13:08.908 :Sending Trackball (ACTION_MOVE): 0:(0.0,0.0)
+2016-05-26 16:13:08.911 :Sending Trackball (ACTION_MOVE): 0:(-4.0,-5.0)
+2016-05-26 16:13:08.919 :Sending Trackball (ACTION_MOVE): 0:(-2.0,-2.0)
+2016-05-26 16:13:08.921 :Sending Trackball (ACTION_MOVE): 0:(-3.0,-2.0)
+2016-05-26 16:13:08.924 :Sending Trackball (ACTION_MOVE): 0:(1.0,0.0)
+2016-05-26 16:13:08.926 :Sending Trackball (ACTION_MOVE): 0:(-4.0,4.0)
+2016-05-26 16:13:08.929 :Sending Trackball (ACTION_MOVE): 0:(-2.0,2.0)
+2016-05-26 16:13:08.931 :Sending Trackball (ACTION_MOVE): 0:(1.0,0.0)
+2016-05-26 16:13:08.934 :Sending Trackball (ACTION_MOVE): 0:(2.0,0.0)
+2016-05-26 16:13:08.937 :Sending Trackball (ACTION_MOVE): 0:(2.0,-1.0)
+2016-05-26 16:13:08.939  :Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+2016-05-26 16:13:08.946  :Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+2016-05-26 16:13:08.956  Sleeping for 500 milliseconds
+2016-05-26 16:13:09.458 :Sending Touch (ACTION_DOWN): 0:(93.0,780.0)
+2016-05-26 16:13:09.465 :Sending Touch (ACTION_MOVE): 0:(97.727005,779.7137)
+2016-05-26 16:13:09.470 :Sending Touch (ACTION_MOVE): 0:(101.01151,779.4358)
+2016-05-26 16:13:09.473 :Sending Touch (ACTION_UP): 0:(118.04963,779.2716)
+2016-05-26 16:13:09.474  Sleeping for 500 milliseconds
+2016-05-26 16:13:09.975  :Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yaya.mmbang/.activity.SplashActivity;end
+2016-05-26 16:13:09.979      // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yaya.mmbang/.activity.SplashActivity } in package com.yaya.mmbang
+2016-05-26 16:13:09.988  Sleeping for 500 milliseconds
+2016-05-26 16:13:10.489  :Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+2016-05-26 16:13:10.492  :Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+2016-05-26 16:13:10.537  Sleeping for 500 milliseconds
+2016-05-26 16:13:11.038  :Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+2016-05-26 16:13:11.042  :Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+2016-05-26 16:13:11.046  Sleeping for 500 milliseconds
+2016-05-26 16:13:11.547  :Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+2016-05-26 16:13:11.552  :Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+2016-05-26 16:13:11.556  Sleeping for 500 milliseconds
+2016-05-26 16:13:12.062  :Sending Key (ACTION_DOWN): 70    // KEYCODE_EQUALS
+2016-05-26 16:13:12.067  :Sending Key (ACTION_UP): 70    // KEYCODE_EQUALS
+2016-05-26 16:13:12.074  Sleeping for 500 milliseconds
+2016-05-26 16:13:12.576 :Sending Touch (ACTION_DOWN): 0:(104.0,1100.0)
+2016-05-26 16:13:12.578 :Sending Touch (ACTION_UP): 0:(107.39876,1112.0195)
+2016-05-26 16:13:12.579  Sleeping for 500 milliseconds
+2016-05-26 16:13:13.080  :Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+2016-05-26 16:13:13.091  :Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+2016-05-26 16:13:13.097  Sleeping for 500 milliseconds
+2016-05-26 16:13:13.601 :Sending Touch (ACTION_DOWN): 0:(376.0,489.0)
+2016-05-26 16:13:13.607 :Sending Touch (ACTION_MOVE): 0:(383.39542,480.41534)
+2016-05-26 16:13:13.608 :Sending Touch (ACTION_MOVE): 0:(395.38406,474.74844)
+2016-05-26 16:13:13.609 :Sending Touch (ACTION_MOVE): 0:(396.5238,468.32947)
+2016-05-26 16:13:13.610 :Sending Touch (ACTION_MOVE): 0:(405.06467,465.1499)
+2016-05-26 16:13:13.611 :Sending Touch (ACTION_MOVE): 0:(415.47983,459.88214)
+2016-05-26 16:13:13.612 :Sending Touch (ACTION_MOVE): 0:(422.18066,458.70868)
+2016-05-26 16:13:13.613 :Sending Touch (ACTION_MOVE): 0:(434.79907,454.93317)
+2016-05-26 16:13:13.615 :Sending Touch (ACTION_UP): 0:(440.62628,450.07086)
+2016-05-26 16:13:13.623  Sleeping for 500 milliseconds
+2016-05-26 16:13:14.124  :Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+2016-05-26 16:13:14.131  :Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+2016-05-26 16:13:14.137  Sleeping for 500 milliseconds
+2016-05-26 16:13:14.638  :Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+2016-05-26 16:13:14.642  :Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+2016-05-26 16:13:14.648  Sleeping for 500 milliseconds
+2016-05-26 16:13:15.149  :Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+2016-05-26 16:13:15.151  :Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+2016-05-26 16:13:15.153  Sleeping for 500 milliseconds
+2016-05-26 16:13:15.658 :Sending Touch (ACTION_DOWN): 0:(575.0,249.0)
+2016-05-26 16:13:15.665 :Sending Touch (ACTION_UP): 0:(558.7812,240.63397)
+2016-05-26 16:13:15.667  Sleeping for 500 milliseconds
+2016-05-26 16:13:16.175 :Sending Trackball (ACTION_MOVE): 0:(1.0,-1.0)
+2016-05-26 16:13:16.189 :Sending Trackball (ACTION_MOVE): 0:(-4.0,2.0)
+2016-05-26 16:13:16.225 :Sending Trackball (ACTION_MOVE): 0:(-4.0,4.0)
+2016-05-26 16:13:16.227 :Sending Trackball (ACTION_MOVE): 0:(0.0,4.0)
+2016-05-26 16:13:16.228 :Sending Trackball (ACTION_MOVE): 0:(1.0,4.0)
+2016-05-26 16:13:16.229 :Sending Trackball (ACTION_MOVE): 0:(2.0,-1.0)
+2016-05-26 16:13:16.230 :Sending Trackball (ACTION_MOVE): 0:(-1.0,2.0)
+2016-05-26 16:13:16.231 :Sending Trackball (ACTION_MOVE): 0:(-2.0,4.0)
+2016-05-26 16:13:16.232 :Sending Trackball (ACTION_MOVE): 0:(2.0,4.0)
+2016-05-26 16:13:16.233 :Sending Trackball (ACTION_MOVE): 0:(4.0,-3.0)
+2016-05-26 16:13:16.234  :Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+2016-05-26 16:13:16.254  :Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+2016-05-26 16:13:16.266  Sleeping for 500 milliseconds
+2016-05-26 16:13:16.767 :Sending Touch (ACTION_DOWN): 0:(687.0,616.0)
+2016-05-26 16:13:16.769 :Sending Touch (ACTION_UP): 0:(688.13165,604.9506)
+2016-05-26 16:13:16.770  Sleeping for 500 milliseconds
+2016-05-26 16:13:17.271  :Sending Key (ACTION_DOWN): 25    // KEYCODE_VOLUME_DOWN
+2016-05-26 16:13:17.276  :Sending Key (ACTION_UP): 25    // KEYCODE_VOLUME_DOWN
+2016-05-26 16:13:17.294  Sleeping for 500 milliseconds
+2016-05-26 16:13:17.794  :Sending Key (ACTION_DOWN): 131    // KEYCODE_F1
+2016-05-26 16:13:17.817      // Rejecting start of Intent { act=com.android.bbk_phoneInstructions cmp=com.android.BBKPhoneInstructions/.PhoneInstructionsList } in package com.android.BBKPhoneInstructions
+2016-05-26 16:13:17.819  :Sending Key (ACTION_UP): 131    // KEYCODE_F1
+2016-05-26 16:13:17.820  Sleeping for 500 milliseconds
+2016-05-26 16:13:18.323 :Sending Touch (ACTION_DOWN): 0:(443.0,469.0)
+2016-05-26 16:13:18.327 :Sending Touch (ACTION_MOVE): 0:(423.2761,463.79236)
+2016-05-26 16:13:18.330 :Sending Touch (ACTION_MOVE): 0:(413.508,461.8483)
+2016-05-26 16:13:18.337 :Sending Touch (ACTION_MOVE): 0:(405.87723,455.28406)
+2016-05-26 16:13:18.346 :Sending Touch (ACTION_MOVE): 0:(383.8173,448.87604)
+2016-05-26 16:13:18.356 :Sending Touch (ACTION_MOVE): 0:(374.886,447.27045)
+2016-05-26 16:13:18.358 :Sending Touch (ACTION_MOVE): 0:(355.318,442.3169)
+2016-05-26 16:13:18.360 :Sending Touch (ACTION_UP): 0:(348.53012,437.4536)
+2016-05-26 16:13:18.362  Sleeping for 500 milliseconds
+2016-05-26 16:13:18.864 :Sending Touch (ACTION_DOWN): 0:(509.0,1237.0)
+2016-05-26 16:13:18.866 :Sending Touch (ACTION_POINTER_DOWN 1): 0:(515.17,1236.4553) 1:(226.0,518.0)
+2016-05-26 16:13:18.868 :Sending Touch (ACTION_MOVE): 0:(515.6496,1234.2448) 1:(219.91995,517.078)
+2016-05-26 16:13:18.869 :Sending Touch (ACTION_MOVE): 0:(522.5681,1232.9785) 1:(218.65834,515.5221)
+2016-05-26 16:13:18.871 :Sending Touch (ACTION_MOVE): 0:(526.2368,1218.5474) 1:(211.8207,512.3293)
+2016-05-26 16:13:18.874 :Sending Touch (ACTION_MOVE): 0:(532.25806,1213.2614) 1:(209.47523,511.1604)
+2016-05-26 16:13:18.877 :Sending Touch (ACTION_MOVE): 0:(534.2404,1199.8888) 1:(202.09097,510.46393)
+2016-05-26 16:13:18.881 :Sending Touch (ACTION_POINTER_UP 1): 0:(534.91675,1188.6161) 1:(201.79468,507.66614)
+2016-05-26 16:13:18.884 :Sending Touch (ACTION_UP): 0:(537.277,1177.1127)
+2016-05-26 16:13:18.886  Sleeping for 500 milliseconds
+2016-05-26 16:13:19.387  :Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+2016-05-26 16:13:19.388  :Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+2016-05-26 16:13:19.390  Sleeping for 500 milliseconds
+2016-05-26 16:13:19.891  :Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yaya.mmbang/.activity.SplashActivity;end
+2016-05-26 16:13:19.921      // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yaya.mmbang/.activity.SplashActivity } in package com.yaya.mmbang
+2016-05-26 16:13:19.924  Sleeping for 500 milliseconds
+2016-05-26 16:13:20.425 :Sending Trackball (ACTION_MOVE): 0:(-3.0,-4.0)
+2016-05-26 16:13:20.429 :Sending Trackball (ACTION_MOVE): 0:(-1.0,-5.0)
+2016-05-26 16:13:20.431 :Sending Trackball (ACTION_MOVE): 0:(-3.0,3.0)
+2016-05-26 16:13:20.434 :Sending Trackball (ACTION_MOVE): 0:(0.0,-2.0)
+2016-05-26 16:13:20.436 :Sending Trackball (ACTION_MOVE): 0:(2.0,0.0)
+2016-05-26 16:13:20.438 :Sending Trackball (ACTION_MOVE): 0:(3.0,0.0)
+2016-05-26 16:13:20.441 :Sending Trackball (ACTION_MOVE): 0:(3.0,-4.0)
+2016-05-26 16:13:20.444 :Sending Trackball (ACTION_MOVE): 0:(-2.0,-2.0)
+2016-05-26 16:13:20.446 :Sending Trackball (ACTION_MOVE): 0:(-2.0,4.0)
+2016-05-26 16:13:20.450 :Sending Trackball (ACTION_MOVE): 0:(-3.0,1.0)
+2016-05-26 16:13:20.452  :Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yaya.mmbang/.activity.SplashActivity;end
+2016-05-26 16:13:20.456      // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yaya.mmbang/.activity.SplashActivity } in package com.yaya.mmbang
+2016-05-26 16:13:20.459  Sleeping for 500 milliseconds
+2016-05-26 16:13:20.960  :Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+2016-05-26 16:13:20.966  :Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+2016-05-26 16:13:20.970  Sleeping for 500 milliseconds
+2016-05-26 16:13:21.472 :Sending Touch (ACTION_DOWN): 0:(108.0,1211.0)
+2016-05-26 16:13:21.475 :Sending Touch (ACTION_UP): 0:(115.12867,1199.6926)
+2016-05-26 16:13:21.477  Sleeping for 500 milliseconds
+2016-05-26 16:13:21.980 :Sending Trackball (ACTION_MOVE): 0:(-1.0,4.0)
+2016-05-26 16:13:21.990 :Sending Trackball (ACTION_MOVE): 0:(-4.0,2.0)
+2016-05-26 16:13:22.000 :Sending Trackball (ACTION_MOVE): 0:(-5.0,-4.0)
+2016-05-26 16:13:22.006 :Sending Trackball (ACTION_MOVE): 0:(-2.0,4.0)
+2016-05-26 16:13:22.011 :Sending Trackball (ACTION_MOVE): 0:(1.0,-4.0)
+2016-05-26 16:13:22.017 :Sending Trackball (ACTION_MOVE): 0:(-4.0,1.0)
+2016-05-26 16:13:22.021 :Sending Trackball (ACTION_MOVE): 0:(-4.0,-3.0)
+2016-05-26 16:13:22.024 :Sending Trackball (ACTION_MOVE): 0:(4.0,3.0)
+2016-05-26 16:13:22.026 :Sending Trackball (ACTION_MOVE): 0:(0.0,-1.0)
+2016-05-26 16:13:22.028 :Sending Trackball (ACTION_MOVE): 0:(-4.0,-2.0)
+2016-05-26 16:13:22.030  :Sending Key (ACTION_DOWN): 201    // KEYCODE_BUTTON_14
+2016-05-26 16:13:22.050  :Sending Key (ACTION_UP): 201    // KEYCODE_BUTTON_14
+2016-05-26 16:13:22.057  Sleeping for 500 milliseconds
+2016-05-26 16:13:22.559 :Sending Touch (ACTION_DOWN): 0:(581.0,824.0)
+2016-05-26 16:13:22.561 :Sending Touch (ACTION_MOVE): 0:(574.43646,824.367)
+2016-05-26 16:13:22.562 :Sending Touch (ACTION_MOVE): 0:(563.36957,825.2462)
+2016-05-26 16:13:22.563 :Sending Touch (ACTION_MOVE): 0:(551.0367,825.5645)
+2016-05-26 16:13:22.564 :Sending Touch (ACTION_MOVE): 0:(543.0359,825.7284)
+2016-05-26 16:13:22.566 :Sending Touch (ACTION_MOVE): 0:(532.29877,826.4493)
+2016-05-26 16:13:22.568 :Sending Touch (ACTION_MOVE): 0:(526.0388,826.7635)
+2016-05-26 16:13:22.569 :Sending Touch (ACTION_UP): 0:(523.4164,827.32196)
+2016-05-26 16:13:22.570  Sleeping for 500 milliseconds
+2016-05-26 16:13:23.071 :Sending Trackball (ACTION_MOVE): 0:(1.0,3.0)
+2016-05-26 16:13:23.075 :Sending Trackball (ACTION_MOVE): 0:(2.0,0.0)
+2016-05-26 16:13:23.077 :Sending Trackball (ACTION_MOVE): 0:(-4.0,1.0)
+2016-05-26 16:13:23.080 :Sending Trackball (ACTION_MOVE): 0:(4.0,-1.0)
+2016-05-26 16:13:23.082 :Sending Trackball (ACTION_MOVE): 0:(-3.0,0.0)
+2016-05-26 16:13:23.084 :Sending Trackball (ACTION_MOVE): 0:(1.0,-1.0)
+2016-05-26 16:13:23.086 :Sending Trackball (ACTION_MOVE): 0:(3.0,2.0)
+2016-05-26 16:13:23.088 :Sending Trackball (ACTION_MOVE): 0:(-3.0,3.0)
+2016-05-26 16:13:23.090 :Sending Trackball (ACTION_MOVE): 0:(2.0,0.0)
+2016-05-26 16:13:23.092 :Sending Trackball (ACTION_MOVE): 0:(1.0,2.0)
+2016-05-26 16:13:23.113 :Sending Touch (ACTION_DOWN): 0:(471.0,1169.0)
+2016-05-26 16:13:23.116 :Sending Touch (ACTION_POINTER_DOWN 1): 0:(450.06946,1166.9171) 1:(389.0,566.0)
+2016-05-26 16:13:23.117 :Sending Touch (ACTION_MOVE): 0:(429.65973,1165.7408) 1:(396.0647,565.6)
+2016-05-26 16:13:23.118 :Sending Touch (ACTION_MOVE): 0:(408.42523,1158.1438) 1:(397.71555,561.7239)
+2016-05-26 16:13:23.120 :Sending Touch (ACTION_MOVE): 0:(387.34967,1150.4187) 1:(407.07297,559.854)
+2016-05-26 16:13:23.121 :Sending Touch (ACTION_MOVE): 0:(379.49246,1140.9424) 1:(410.68234,556.3731)
+2016-05-26 16:13:23.122 :Sending Touch (ACTION_MOVE): 0:(372.79016,1138.367) 1:(420.41238,553.5629)
+2016-05-26 16:13:23.125 :Sending Touch (ACTION_POINTER_UP 1): 0:(355.39706,1130.7421) 1:(428.11142,552.54517)
+2016-05-26 16:13:23.127 :Sending Touch (ACTION_UP): 0:(350.7798,1128.0153)
+2016-05-26 16:13:23.128  Sleeping for 500 milliseconds
+2016-05-26 16:13:23.629  :Sending Key (ACTION_DOWN): 139    // KEYCODE_F9
+2016-05-26 16:13:23.633  :Sending Key (ACTION_UP): 139    // KEYCODE_F9
+2016-05-26 16:13:23.638  Sleeping for 500 milliseconds
+2016-05-26 16:13:24.140 :Sending Trackball (ACTION_MOVE): 0:(1.0,-4.0)
+2016-05-26 16:13:24.146 :Sending Trackball (ACTION_MOVE): 0:(0.0,-1.0)
+2016-05-26 16:13:24.149 :Sending Trackball (ACTION_MOVE): 0:(-4.0,2.0)
+2016-05-26 16:13:24.152 :Sending Trackball (ACTION_MOVE): 0:(0.0,3.0)
+2016-05-26 16:13:24.156 :Sending Trackball (ACTION_MOVE): 0:(4.0,-2.0)
+2016-05-26 16:13:24.159 :Sending Trackball (ACTION_MOVE): 0:(0.0,-5.0)
+2016-05-26 16:13:24.163 :Sending Trackball (ACTION_MOVE): 0:(-3.0,2.0)
+2016-05-26 16:13:24.165 :Sending Trackball (ACTION_MOVE): 0:(4.0,4.0)
+2016-05-26 16:13:24.168 :Sending Trackball (ACTION_MOVE): 0:(1.0,-2.0)
+2016-05-26 16:13:24.172 :Sending Trackball (ACTION_MOVE): 0:(3.0,-1.0)
+2016-05-26 16:13:24.175 :Sending Touch (ACTION_DOWN): 0:(321.0,1075.0)
+2016-05-26 16:13:24.176 :Sending Touch (ACTION_UP): 0:(321.45395,1090.1663)
+2016-05-26 16:13:24.177  Sleeping for 500 milliseconds
+2016-05-26 16:13:24.678  :Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+2016-05-26 16:13:24.683  :Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+2016-05-26 16:13:24.690  Sleeping for 500 milliseconds
+2016-05-26 16:13:25.192  :Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+2016-05-26 16:13:25.203  :Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+2016-05-26 16:13:25.212  Sleeping for 500 milliseconds
+2016-05-26 16:13:25.717  :Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+2016-05-26 16:13:25.748  :Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+2016-05-26 16:13:25.753  Sleeping for 500 milliseconds
+2016-05-26 16:13:26.253  :Sending Key (ACTION_DOWN): 136    // KEYCODE_F6
+2016-05-26 16:13:26.258  :Sending Key (ACTION_UP): 136    // KEYCODE_F6
+2016-05-26 16:13:26.260  Sleeping for 500 milliseconds
+2016-05-26 16:13:26.760  :Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+2016-05-26 16:13:26.772  :Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+2016-05-26 16:13:26.777  Sleeping for 500 milliseconds
+2016-05-26 16:13:27.279  :Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+2016-05-26 16:13:27.290  :Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+2016-05-26 16:13:27.297  Sleeping for 500 milliseconds
+2016-05-26 16:13:27.798  :Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+2016-05-26 16:13:27.836  :Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+2016-05-26 16:13:27.840  Sleeping for 500 milliseconds
+2016-05-26 16:13:28.341  :Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+2016-05-26 16:13:28.403  :Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+2016-05-26 16:13:28.416  Sleeping for 500 milliseconds
+2016-05-26 16:13:28.917  :Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+2016-05-26 16:13:28.921  :Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+2016-05-26 16:13:28.925  Sleeping for 500 milliseconds
+2016-05-26 16:13:29.425  :Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+2016-05-26 16:13:29.431  :Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+2016-05-26 16:13:29.434  Sleeping for 500 milliseconds
+2016-05-26 16:13:29.936  :Sending Key (ACTION_DOWN): 60    // KEYCODE_SHIFT_RIGHT
+2016-05-26 16:13:29.940  :Sending Key (ACTION_UP): 60    // KEYCODE_SHIFT_RIGHT
+2016-05-26 16:13:29.946  Sleeping for 500 milliseconds
+2016-05-26 16:13:30.447  :Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+2016-05-26 16:13:30.452  :Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+2016-05-26 16:13:30.475  Sleeping for 500 milliseconds
+2016-05-26 16:13:30.976 :Sending Touch (ACTION_DOWN): 0:(142.0,795.0)
+2016-05-26 16:13:30.977 :Sending Touch (ACTION_MOVE): 0:(143.99008,808.07043)
+2016-05-26 16:13:30.978 :Sending Touch (ACTION_UP): 0:(145.8172,808.34674)
+2016-05-26 16:13:30.979  Sleeping for 500 milliseconds
+2016-05-26 16:13:31.480  :Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+2016-05-26 16:13:31.484  :Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+2016-05-26 16:13:31.489  Sleeping for 500 milliseconds
+2016-05-26 16:13:31.990 :Sending Trackball (ACTION_MOVE): 0:(3.0,-5.0)
+2016-05-26 16:13:31.993 :Sending Trackball (ACTION_MOVE): 0:(0.0,-2.0)
+2016-05-26 16:13:31.994 :Sending Trackball (ACTION_MOVE): 0:(2.0,-2.0)
+2016-05-26 16:13:31.995 :Sending Trackball (ACTION_MOVE): 0:(-5.0,3.0)
+2016-05-26 16:13:31.996 :Sending Trackball (ACTION_MOVE): 0:(-4.0,0.0)
+2016-05-26 16:13:31.997 :Sending Trackball (ACTION_MOVE): 0:(4.0,3.0)
+2016-05-26 16:13:31.998 :Sending Trackball (ACTION_MOVE): 0:(-3.0,2.0)
+2016-05-26 16:13:31.999 :Sending Trackball (ACTION_MOVE): 0:(2.0,-4.0)
+2016-05-26 16:13:31.999 :Sending Trackball (ACTION_MOVE): 0:(2.0,-2.0)
+2016-05-26 16:13:32.001 :Sending Trackball (ACTION_MOVE): 0:(1.0,-2.0)
+2016-05-26 16:13:32.002 :Sending Trackball (ACTION_MOVE): 0:(-5.0,1.0)
+2016-05-26 16:13:32.004 :Sending Trackball (ACTION_MOVE): 0:(-2.0,4.0)
+2016-05-26 16:13:32.005 :Sending Trackball (ACTION_MOVE): 0:(2.0,-3.0)
+2016-05-26 16:13:32.007 :Sending Trackball (ACTION_MOVE): 0:(-5.0,-2.0)
+2016-05-26 16:13:32.008 :Sending Trackball (ACTION_MOVE): 0:(4.0,1.0)
+2016-05-26 16:13:32.009 :Sending Trackball (ACTION_MOVE): 0:(1.0,1.0)
+2016-05-26 16:13:32.010 :Sending Trackball (ACTION_MOVE): 0:(-1.0,4.0)
+2016-05-26 16:13:32.012 :Sending Trackball (ACTION_MOVE): 0:(3.0,3.0)
+2016-05-26 16:13:32.013 :Sending Trackball (ACTION_MOVE): 0:(0.0,-5.0)
+2016-05-26 16:13:32.015 :Sending Trackball (ACTION_MOVE): 0:(2.0,3.0)
+2016-05-26 16:13:32.016 :Sending Trackball (ACTION_DOWN): 0:(0.0,0.0)
+2016-05-26 16:13:32.017 :Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+2016-05-26 16:13:32.018  Sleeping for 500 milliseconds
+2016-05-26 16:13:32.520 :Sending Touch (ACTION_DOWN): 0:(178.0,1122.0)
+2016-05-26 16:13:32.525 :Sending Touch (ACTION_UP): 0:(177.3987,1120.8457)
+2016-05-26 16:13:32.528  Sleeping for 500 milliseconds
+2016-05-26 16:13:33.030  :Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+2016-05-26 16:13:33.038  :Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+2016-05-26 16:13:33.054  Sleeping for 500 milliseconds
+2016-05-26 16:13:33.555  :Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+2016-05-26 16:13:33.560  :Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+2016-05-26 16:13:33.562  Sleeping for 500 milliseconds
+2016-05-26 16:13:34.062 :Sending Trackball (ACTION_MOVE): 0:(1.0,-2.0)
+2016-05-26 16:13:34.084 :Sending Trackball (ACTION_MOVE): 0:(-1.0,1.0)
+2016-05-26 16:13:34.085 :Sending Trackball (ACTION_MOVE): 0:(-4.0,-3.0)
+2016-05-26 16:13:34.086 :Sending Trackball (ACTION_MOVE): 0:(4.0,-2.0)
+2016-05-26 16:13:34.087 :Sending Trackball (ACTION_MOVE): 0:(-1.0,-2.0)
+2016-05-26 16:13:34.088 :Sending Trackball (ACTION_MOVE): 0:(-5.0,0.0)
+2016-05-26 16:13:34.089 :Sending Trackball (ACTION_MOVE): 0:(1.0,-4.0)
+2016-05-26 16:13:34.090 :Sending Trackball (ACTION_MOVE): 0:(-2.0,-1.0)
+2016-05-26 16:13:34.093 :Sending Trackball (ACTION_MOVE): 0:(-1.0,4.0)
+2016-05-26 16:13:34.095 :Sending Trackball (ACTION_MOVE): 0:(-5.0,-5.0)
+2016-05-26 16:13:34.096  :Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+2016-05-26 16:13:34.106  :Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+2016-05-26 16:13:34.116  Sleeping for 500 milliseconds
+2016-05-26 16:13:34.617  :Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yaya.mmbang/.activity.SplashActivity;end
+2016-05-26 16:13:34.618      // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yaya.mmbang/.activity.SplashActivity } in package com.yaya.mmbang
+2016-05-26 16:13:34.620  Sleeping for 500 milliseconds
+2016-05-26 16:13:35.121 :Sending Touch (ACTION_DOWN): 0:(178.0,834.0)
+2016-05-26 16:13:35.123 :Sending Touch (ACTION_UP): 0:(170.4555,842.52356)
+2016-05-26 16:13:35.124  Sleeping for 500 milliseconds
+2016-05-26 16:13:35.625 :Sending Trackball (ACTION_MOVE): 0:(-3.0,-4.0)
+2016-05-26 16:13:35.628 :Sending Trackball (ACTION_MOVE): 0:(-3.0,-4.0)
+2016-05-26 16:13:35.631 :Sending Trackball (ACTION_MOVE): 0:(-4.0,3.0)
+2016-05-26 16:13:35.634 :Sending Trackball (ACTION_MOVE): 0:(3.0,2.0)
+2016-05-26 16:13:35.636 :Sending Trackball (ACTION_MOVE): 0:(-5.0,4.0)
+2016-05-26 16:13:35.639 :Sending Trackball (ACTION_MOVE): 0:(4.0,-2.0)
+2016-05-26 16:13:35.642 :Sending Trackball (ACTION_MOVE): 0:(-2.0,3.0)
+2016-05-26 16:13:35.644 :Sending Trackball (ACTION_MOVE): 0:(1.0,0.0)
+2016-05-26 16:13:35.646 :Sending Trackball (ACTION_MOVE): 0:(-2.0,3.0)
+2016-05-26 16:13:35.649 :Sending Trackball (ACTION_MOVE): 0:(-1.0,-3.0)
+2016-05-26 16:13:35.652  :Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yaya.mmbang/.activity.SplashActivity;end
+2016-05-26 16:13:35.656      // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yaya.mmbang/.activity.SplashActivity } in package com.yaya.mmbang
+2016-05-26 16:13:35.659  Sleeping for 500 milliseconds
+2016-05-26 16:13:36.162 :Sending Touch (ACTION_DOWN): 0:(393.0,708.0)
+2016-05-26 16:13:36.170 :Sending Touch (ACTION_UP): 0:(392.60623,704.5406)
+2016-05-26 16:13:36.172  Sleeping for 500 milliseconds
+2016-05-26 16:13:36.674  :Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+2016-05-26 16:13:36.678  :Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+2016-05-26 16:13:36.700  Sleeping for 500 milliseconds
+2016-05-26 16:13:37.202  :Sending Key (ACTION_DOWN): 24    // KEYCODE_VOLUME_UP
+2016-05-26 16:13:37.211  :Sending Key (ACTION_UP): 24    // KEYCODE_VOLUME_UP
+2016-05-26 16:13:37.225  Sleeping for 500 milliseconds
+2016-05-26 16:13:37.727 :Sending Touch (ACTION_DOWN): 0:(194.0,1175.0)
+2016-05-26 16:13:37.730 :Sending Touch (ACTION_UP): 0:(199.7381,1187.9373)
+2016-05-26 16:13:37.731  Sleeping for 500 milliseconds
+2016-05-26 16:13:38.232  :Sending Key (ACTION_DOWN): 29    // KEYCODE_A
+2016-05-26 16:13:38.236  :Sending Key (ACTION_UP): 29    // KEYCODE_A
+2016-05-26 16:13:38.239  Sleeping for 500 milliseconds
+2016-05-26 16:13:38.739  :Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+2016-05-26 16:13:38.750  :Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+2016-05-26 16:13:38.755  Sleeping for 500 milliseconds
+2016-05-26 16:13:39.256  :Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+2016-05-26 16:13:39.262  :Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+2016-05-26 16:13:39.264  Sleeping for 500 milliseconds
+2016-05-26 16:13:39.765  :Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+2016-05-26 16:13:39.773  :Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+2016-05-26 16:13:39.775  Sleeping for 500 milliseconds
+2016-05-26 16:13:40.277 :Sending Touch (ACTION_DOWN): 0:(663.0,914.0)
+2016-05-26 16:13:40.279 :Sending Touch (ACTION_POINTER_DOWN 1): 0:(672.8993,910.8129) 1:(110.0,774.0)
+2016-05-26 16:13:40.280 :Sending Touch (ACTION_MOVE): 0:(683.0676,908.5797) 1:(114.559685,765.5449)
+2016-05-26 16:13:40.281 :Sending Touch (ACTION_POINTER_UP 1): 0:(687.9037,905.14044) 1:(125.53613,761.70105)
+2016-05-26 16:13:40.282 :Sending Touch (ACTION_UP): 0:(699.6936,904.5434)
+2016-05-26 16:13:40.284  Sleeping for 500 milliseconds
+2016-05-26 16:13:40.786 :Sending Touch (ACTION_DOWN): 0:(39.0,835.0)
+2016-05-26 16:13:40.789 :Sending Touch (ACTION_MOVE): 0:(21.82293,828.8198)
+2016-05-26 16:13:40.790 :Sending Touch (ACTION_MOVE): 0:(13.506226,825.7133)
+2016-05-26 16:13:40.791 :Sending Touch (ACTION_MOVE): 0:(10.593373,813.7832)
+2016-05-26 16:13:40.792 :Sending Touch (ACTION_MOVE): 0:(0.0,810.63135)
+2016-05-26 16:13:40.793 :Sending Touch (ACTION_MOVE): 0:(0.0,789.14764)
+2016-05-26 16:13:40.804 :Sending Touch (ACTION_MOVE): 0:(0.0,777.7372)
+2016-05-26 16:13:40.808 :Sending Touch (ACTION_UP): 0:(0.0,756.0016)
+2016-05-26 16:13:40.809  Sleeping for 500 milliseconds
+2016-05-26 16:13:41.310  :Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+2016-05-26 16:13:41.312  :Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+2016-05-26 16:13:41.314  Sleeping for 500 milliseconds
+2016-05-26 16:13:41.815  :Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+2016-05-26 16:13:41.822  :Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+2016-05-26 16:13:41.826  Sleeping for 500 milliseconds
+2016-05-26 16:13:42.327  :Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+2016-05-26 16:13:42.329  :Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+2016-05-26 16:13:42.330  Sleeping for 500 milliseconds
+2016-05-26 16:13:42.831  :Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+2016-05-26 16:13:42.842  :Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+2016-05-26 16:13:42.851  Sleeping for 500 milliseconds
+2016-05-26 16:13:43.353 :Sending Trackball (ACTION_MOVE): 0:(-2.0,2.0)
+2016-05-26 16:13:43.364 :Sending Trackball (ACTION_MOVE): 0:(3.0,-3.0)
+2016-05-26 16:13:43.373 :Sending Trackball (ACTION_MOVE): 0:(3.0,2.0)
+2016-05-26 16:13:43.376 :Sending Trackball (ACTION_MOVE): 0:(-4.0,-4.0)
+2016-05-26 16:13:43.380 :Sending Trackball (ACTION_MOVE): 0:(3.0,1.0)
+2016-05-26 16:13:43.385 :Sending Trackball (ACTION_MOVE): 0:(2.0,3.0)
+2016-05-26 16:13:43.388 :Sending Trackball (ACTION_MOVE): 0:(2.0,-2.0)
+2016-05-26 16:13:43.389 :Sending Trackball (ACTION_MOVE): 0:(1.0,-5.0)
+2016-05-26 16:13:43.390 :Sending Trackball (ACTION_MOVE): 0:(-2.0,-2.0)
+2016-05-26 16:13:43.392 :Sending Trackball (ACTION_MOVE): 0:(-3.0,3.0)
+2016-05-26 16:13:43.393  :Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+2016-05-26 16:13:43.413  :Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+2016-05-26 16:13:43.420  Sleeping for 500 milliseconds
+2016-05-26 16:13:43.920  :Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+2016-05-26 16:13:43.926  :Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+2016-05-26 16:13:43.939  Sleeping for 500 milliseconds
+2016-05-26 16:13:44.440 :Sending Trackball (ACTION_MOVE): 0:(3.0,-4.0)
+2016-05-26 16:13:44.442 :Sending Trackball (ACTION_MOVE): 0:(2.0,-1.0)
+2016-05-26 16:13:44.443 :Sending Trackball (ACTION_MOVE): 0:(-2.0,1.0)
+2016-05-26 16:13:44.444 :Sending Trackball (ACTION_MOVE): 0:(0.0,2.0)
+2016-05-26 16:13:44.444 :Sending Trackball (ACTION_MOVE): 0:(-3.0,3.0)
+2016-05-26 16:13:44.446 :Sending Trackball (ACTION_MOVE): 0:(-1.0,-1.0)
+2016-05-26 16:13:44.447 :Sending Trackball (ACTION_MOVE): 0:(4.0,-1.0)
+2016-05-26 16:13:44.447 :Sending Trackball (ACTION_MOVE): 0:(4.0,-5.0)
+2016-05-26 16:13:44.448 :Sending Trackball (ACTION_MOVE): 0:(3.0,-4.0)
+2016-05-26 16:13:44.449 :Sending Trackball (ACTION_MOVE): 0:(0.0,-2.0)
+2016-05-26 16:13:44.450 :Sending Trackball (ACTION_MOVE): 0:(-4.0,2.0)
+2016-05-26 16:13:44.451 :Sending Trackball (ACTION_MOVE): 0:(-5.0,-4.0)
+2016-05-26 16:13:44.451 :Sending Trackball (ACTION_MOVE): 0:(-4.0,1.0)
+2016-05-26 16:13:44.452 :Sending Trackball (ACTION_MOVE): 0:(4.0,3.0)
+2016-05-26 16:13:44.454 :Sending Trackball (ACTION_MOVE): 0:(-3.0,-5.0)
+2016-05-26 16:13:44.455 :Sending Trackball (ACTION_MOVE): 0:(-1.0,3.0)
+2016-05-26 16:13:44.456 :Sending Trackball (ACTION_MOVE): 0:(1.0,-2.0)
+2016-05-26 16:13:44.457 :Sending Trackball (ACTION_MOVE): 0:(3.0,-1.0)
+2016-05-26 16:13:44.458 :Sending Trackball (ACTION_MOVE): 0:(1.0,1.0)
+2016-05-26 16:13:44.459 :Sending Trackball (ACTION_MOVE): 0:(0.0,-3.0)
+2016-05-26 16:13:44.459  :Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+2016-05-26 16:13:44.477  :Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+2016-05-26 16:13:44.482  Sleeping for 500 milliseconds
+2016-05-26 16:13:44.983  :Sending Key (ACTION_DOWN): 184    // KEYCODE_PROG_GREEN
+2016-05-26 16:13:44.988  :Sending Key (ACTION_UP): 184    // KEYCODE_PROG_GREEN
+2016-05-26 16:13:44.994  Sleeping for 500 milliseconds
+2016-05-26 16:13:45.495 :Sending Touch (ACTION_DOWN): 0:(518.0,622.0)
+2016-05-26 16:13:45.497 :Sending Touch (ACTION_UP): 0:(503.85748,611.87726)
+2016-05-26 16:13:45.498  Sleeping for 500 milliseconds
+2016-05-26 16:13:45.999  :Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+2016-05-26 16:13:46.003  :Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+2016-05-26 16:13:46.008  Sleeping for 500 milliseconds
+2016-05-26 16:13:46.446      // Allowing start of Intent { cmp=com.yaya.mmbang/.activity.MainActivity } in package com.yaya.mmbang
+2016-05-26 16:13:46.510  :Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+2016-05-26 16:13:46.559      // activityResuming(com.yaya.mmbang)
+2016-05-26 16:13:46.701  :Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+2016-05-26 16:13:46.709      // Allowing start of Intent { cmp=com.yaya.mmbang/.login.NewbieProcessActivity } in package com.yaya.mmbang
+2016-05-26 16:13:47.638  Sleeping for 500 milliseconds
+2016-05-26 16:13:48.140 :Sending Touch (ACTION_DOWN): 0:(653.0,1160.0)
+2016-05-26 16:13:48.142 :Sending Touch (ACTION_MOVE): 0:(659.5827,1160.7363)
+2016-05-26 16:13:48.144 :Sending Touch (ACTION_MOVE): 0:(668.1657,1160.8468)
+2016-05-26 16:13:48.145 :Sending Touch (ACTION_UP): 0:(684.76636,1161.7677)
+2016-05-26 16:13:48.146  Sleeping for 500 milliseconds
+2016-05-26 16:13:48.646  :Sending Key (ACTION_DOWN): 168    // KEYCODE_ZOOM_IN
+2016-05-26 16:13:48.655  :Sending Key (ACTION_UP): 168    // KEYCODE_ZOOM_IN
+2016-05-26 16:13:48.656  Sleeping for 500 milliseconds
+2016-05-26 16:13:49.157  :Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+2016-05-26 16:13:49.169  :Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+2016-05-26 16:13:49.179  Sleeping for 500 milliseconds
+2016-05-26 16:13:49.682  :Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+2016-05-26 16:13:49.684  :Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+2016-05-26 16:13:49.686  Sleeping for 500 milliseconds
+2016-05-26 16:13:50.187  :Sending Key (ACTION_DOWN): 75    // KEYCODE_APOSTROPHE
+2016-05-26 16:13:50.189  :Sending Key (ACTION_UP): 75    // KEYCODE_APOSTROPHE
+2016-05-26 16:13:50.191  Sleeping for 500 milliseconds
+2016-05-26 16:13:50.692  :Sending Key (ACTION_DOWN): 115    // KEYCODE_CAPS_LOCK
+2016-05-26 16:13:50.693  :Sending Key (ACTION_UP): 115    // KEYCODE_CAPS_LOCK
+2016-05-26 16:13:50.695  Sleeping for 500 milliseconds
+2016-05-26 16:13:51.196  :Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+2016-05-26 16:13:51.199  :Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+2016-05-26 16:13:51.202  Sleeping for 500 milliseconds
+2016-05-26 16:13:51.703  :Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+2016-05-26 16:13:51.705  :Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+2016-05-26 16:13:51.707  Sleeping for 500 milliseconds
+2016-05-26 16:13:52.208 :Sending Trackball (ACTION_MOVE): 0:(-3.0,-5.0)
+2016-05-26 16:13:52.211 :Sending Trackball (ACTION_MOVE): 0:(4.0,4.0)
+2016-05-26 16:13:52.214 :Sending Trackball (ACTION_MOVE): 0:(2.0,-2.0)
+2016-05-26 16:13:52.216 :Sending Trackball (ACTION_MOVE): 0:(2.0,-1.0)
+2016-05-26 16:13:52.218 :Sending Trackball (ACTION_MOVE): 0:(-2.0,4.0)
+2016-05-26 16:13:52.220 :Sending Trackball (ACTION_MOVE): 0:(-3.0,-5.0)
+2016-05-26 16:13:52.223 :Sending Trackball (ACTION_MOVE): 0:(-5.0,4.0)
+2016-05-26 16:13:52.225 :Sending Trackball (ACTION_MOVE): 0:(1.0,3.0)
+2016-05-26 16:13:52.228 :Sending Trackball (ACTION_MOVE): 0:(3.0,4.0)
+2016-05-26 16:13:52.230 :Sending Trackball (ACTION_MOVE): 0:(0.0,-5.0)
+2016-05-26 16:13:52.234 :Sending Trackball (ACTION_MOVE): 0:(3.0,2.0)
+2016-05-26 16:13:52.237 :Sending Trackball (ACTION_MOVE): 0:(-2.0,-2.0)
+2016-05-26 16:13:52.241 :Sending Trackball (ACTION_MOVE): 0:(1.0,0.0)
+2016-05-26 16:13:52.244 :Sending Trackball (ACTION_MOVE): 0:(1.0,-5.0)
+2016-05-26 16:13:52.247 :Sending Trackball (ACTION_MOVE): 0:(0.0,-1.0)
+2016-05-26 16:13:52.249 :Sending Trackball (ACTION_MOVE): 0:(-2.0,-3.0)
+2016-05-26 16:13:52.254 :Sending Trackball (ACTION_MOVE): 0:(4.0,-3.0)
+2016-05-26 16:13:52.259 :Sending Trackball (ACTION_MOVE): 0:(1.0,1.0)
+2016-05-26 16:13:52.262 :Sending Trackball (ACTION_MOVE): 0:(1.0,4.0)
+2016-05-26 16:13:52.266 :Sending Trackball (ACTION_MOVE): 0:(-4.0,-5.0)
+2016-05-26 16:13:52.268 :Sending Trackball (ACTION_MOVE): 0:(1.0,0.0)
+2016-05-26 16:13:52.271 :Sending Trackball (ACTION_MOVE): 0:(-4.0,-1.0)
+2016-05-26 16:13:52.274 :Sending Trackball (ACTION_MOVE): 0:(3.0,-4.0)
+2016-05-26 16:13:52.276 :Sending Trackball (ACTION_MOVE): 0:(-1.0,-4.0)
+2016-05-26 16:13:52.278 :Sending Trackball (ACTION_MOVE): 0:(-5.0,4.0)
+2016-05-26 16:13:52.281 :Sending Trackball (ACTION_MOVE): 0:(-1.0,3.0)
+2016-05-26 16:13:52.282 :Sending Trackball (ACTION_MOVE): 0:(-1.0,-1.0)
+2016-05-26 16:13:52.285 :Sending Trackball (ACTION_MOVE): 0:(2.0,-1.0)
+2016-05-26 16:13:52.286 :Sending Trackball (ACTION_MOVE): 0:(-3.0,1.0)
+2016-05-26 16:13:52.288 :Sending Trackball (ACTION_MOVE): 0:(-3.0,-1.0)
+2016-05-26 16:13:52.290  :Sending Key (ACTION_DOWN): 25    // KEYCODE_VOLUME_DOWN
+2016-05-26 16:13:52.306  :Sending Key (ACTION_UP): 25    // KEYCODE_VOLUME_DOWN
+2016-05-26 16:13:52.320  Sleeping for 500 milliseconds
+2016-05-26 16:13:52.822 :Sending Touch (ACTION_DOWN): 0:(569.0,893.0)
+2016-05-26 16:13:52.829 :Sending Touch (ACTION_UP): 0:(574.0237,894.5048)
+2016-05-26 16:13:52.830  Sleeping for 500 milliseconds
+2016-05-26 16:13:53.331  :Sending Key (ACTION_DOWN): 31    // KEYCODE_C
+2016-05-26 16:13:53.333  :Sending Key (ACTION_UP): 31    // KEYCODE_C
+2016-05-26 16:13:53.395  Sleeping for 500 milliseconds
+2016-05-26 16:13:53.895  :Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+2016-05-26 16:13:53.898  :Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+2016-05-26 16:13:53.901  Sleeping for 500 milliseconds
+2016-05-26 16:13:54.403 :Sending Touch (ACTION_DOWN): 0:(12.0,1094.0)
+2016-05-26 16:13:54.405 :Sending Touch (ACTION_UP): 0:(13.229973,1090.072)
+2016-05-26 16:13:54.407  Sleeping for 500 milliseconds
+2016-05-26 16:13:54.908  :Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+2016-05-26 16:13:54.913  :Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+2016-05-26 16:13:54.921  Sleeping for 500 milliseconds
+2016-05-26 16:13:55.423  :Sending Key (ACTION_DOWN): 144    // KEYCODE_NUMPAD_0
+2016-05-26 16:13:55.434  :Sending Key (ACTION_UP): 144    // KEYCODE_NUMPAD_0
+2016-05-26 16:13:55.443  Sleeping for 500 milliseconds
+2016-05-26 16:13:55.945 :Sending Touch (ACTION_DOWN): 0:(615.0,1021.0)
+2016-05-26 16:13:55.947 :Sending Touch (ACTION_MOVE): 0:(632.593,1024.1509)
+2016-05-26 16:13:55.948 :Sending Touch (ACTION_MOVE): 0:(640.2153,1028.2726)
+2016-05-26 16:13:55.949 :Sending Touch (ACTION_MOVE): 0:(655.60126,1041.883)
+2016-05-26 16:13:55.950 :Sending Touch (ACTION_MOVE): 0:(656.7503,1042.1522)
+2016-05-26 16:13:55.951 :Sending Touch (ACTION_MOVE): 0:(674.7673,1050.4401)
+2016-05-26 16:13:55.952 :Sending Touch (ACTION_MOVE): 0:(687.15643,1062.151)
+2016-05-26 16:13:55.953 :Sending Touch (ACTION_UP): 0:(709.5589,1068.0916)
+2016-05-26 16:13:55.954  Sleeping for 500 milliseconds
+2016-05-26 16:13:56.455  :Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yaya.mmbang/.activity.SplashActivity;end
+2016-05-26 16:13:56.457      // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yaya.mmbang/.activity.SplashActivity } in package com.yaya.mmbang
+2016-05-26 16:13:56.458  Sleeping for 500 milliseconds
+2016-05-26 16:13:56.959  :Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+2016-05-26 16:13:56.963  :Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+2016-05-26 16:13:56.970  Sleeping for 500 milliseconds
+2016-05-26 16:13:57.471  :Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+2016-05-26 16:13:57.474  :Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+2016-05-26 16:13:57.479  Sleeping for 500 milliseconds
+2016-05-26 16:13:57.980  :Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+2016-05-26 16:13:57.985  :Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+2016-05-26 16:13:57.986  Sleeping for 500 milliseconds
+2016-05-26 16:13:58.487  :Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+2016-05-26 16:13:58.496  :Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+2016-05-26 16:13:58.500  Sleeping for 500 milliseconds
+2016-05-26 16:13:59.002  :Sending Flip keyboardOpen=true
+2016-05-26 16:13:59.033  Sleeping for 500 milliseconds
+2016-05-26 16:13:59.534  :Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+2016-05-26 16:13:59.538  :Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+2016-05-26 16:13:59.541  Sleeping for 500 milliseconds
+2016-05-26 16:14:00.042 :Sending Touch (ACTION_DOWN): 0:(228.0,162.0)
+2016-05-26 16:14:00.044 :Sending Touch (ACTION_POINTER_DOWN 1): 0:(227.60509,156.23874) 1:(339.0,1166.0)
+2016-05-26 16:14:00.045 :Sending Touch (ACTION_MOVE): 0:(227.3022,145.99474) 1:(339.0653,1153.006)
+2016-05-26 16:14:00.046 :Sending Touch (ACTION_MOVE): 0:(227.26747,132.30516) 1:(340.23657,1150.6727)
+2016-05-26 16:14:00.047 :Sending Touch (ACTION_POINTER_UP 1): 0:(226.47374,120.879) 1:(347.41302,1146.9528)
+2016-05-26 16:14:00.048 :Sending Touch (ACTION_UP): 0:(226.04825,112.03884)
+2016-05-26 16:14:00.049  Sleeping for 500 milliseconds
+2016-05-26 16:14:00.550  :Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+2016-05-26 16:14:00.569  :Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+2016-05-26 16:14:00.581  Sleeping for 500 milliseconds
+2016-05-26 16:14:01.082  :Sending Flip keyboardOpen=false
+2016-05-26 16:14:01.113  Sleeping for 500 milliseconds
+2016-05-26 16:14:01.614  :Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+2016-05-26 16:14:01.616  :Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+2016-05-26 16:14:01.619  Sleeping for 500 milliseconds
+2016-05-26 16:14:02.120 :Sending Touch (ACTION_DOWN): 0:(270.0,181.0)
+2016-05-26 16:14:02.122 :Sending Touch (ACTION_UP): 0:(273.55792,178.84573)
+2016-05-26 16:14:02.123  Sleeping for 500 milliseconds
+2016-05-26 16:14:02.623  :Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+2016-05-26 16:14:02.626  :Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+2016-05-26 16:14:02.673  Sleeping for 500 milliseconds
+2016-05-26 16:14:03.174  :Sending Key (ACTION_DOWN): 128    // KEYCODE_MEDIA_CLOSE
+2016-05-26 16:14:03.178  :Sending Key (ACTION_UP): 128    // KEYCODE_MEDIA_CLOSE
+2016-05-26 16:14:03.183  Sleeping for 500 milliseconds
+2016-05-26 16:14:03.686 :Sending Touch (ACTION_DOWN): 0:(83.0,222.0)
+2016-05-26 16:14:03.689 :Sending Touch (ACTION_MOVE): 0:(73.96042,219.00334)
+2016-05-26 16:14:03.690 :Sending Touch (ACTION_MOVE): 0:(69.3767,214.12717)
+2016-05-26 16:14:03.691 :Sending Touch (ACTION_MOVE): 0:(59.126026,212.11327)
+2016-05-26 16:14:03.692 :Sending Touch (ACTION_MOVE): 0:(55.64648,206.77155)
+2016-05-26 16:14:03.693 :Sending Touch (ACTION_MOVE): 0:(48.98111,201.14874)
+2016-05-26 16:14:03.694 :Sending Touch (ACTION_MOVE): 0:(44.034237,201.0178)
+2016-05-26 16:14:03.695 :Sending Touch (ACTION_MOVE): 0:(38.29596,197.11992)
+2016-05-26 16:14:03.696 :Sending Touch (ACTION_UP): 0:(26.429003,194.27971)
+2016-05-26 16:14:03.697  Sleeping for 500 milliseconds
+2016-05-26 16:14:04.197  :Sending Key (ACTION_DOWN): 8    // KEYCODE_1
+2016-05-26 16:14:04.200  :Sending Key (ACTION_UP): 8    // KEYCODE_1
+2016-05-26 16:14:04.202  Sleeping for 500 milliseconds
+2016-05-26 16:14:04.703  :Sending Key (ACTION_DOWN): 111    // KEYCODE_ESCAPE
+2016-05-26 16:14:04.707  :Sending Key (ACTION_UP): 111    // KEYCODE_ESCAPE
+2016-05-26 16:14:04.712  Sleeping for 500 milliseconds
+2016-05-26 16:14:05.213  :Sending Key (ACTION_DOWN): 29    // KEYCODE_A
+2016-05-26 16:14:05.219  :Sending Key (ACTION_UP): 29    // KEYCODE_A
+2016-05-26 16:14:05.227  Sleeping for 500 milliseconds
+2016-05-26 16:14:05.729  :Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+2016-05-26 16:14:05.731  :Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+2016-05-26 16:14:05.790  Sleeping for 500 milliseconds
+2016-05-26 16:14:06.292 :Sending Touch (ACTION_DOWN): 0:(590.0,13.0)
+2016-05-26 16:14:06.295 :Sending Touch (ACTION_UP): 0:(587.9766,5.507966)
+2016-05-26 16:14:06.297  Sleeping for 500 milliseconds
+2016-05-26 16:14:06.799  :Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+2016-05-26 16:14:06.805  :Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+2016-05-26 16:14:06.809  Sleeping for 500 milliseconds
+2016-05-26 16:14:07.310  :Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+2016-05-26 16:14:07.317  :Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+2016-05-26 16:14:07.319  Sleeping for 500 milliseconds
+2016-05-26 16:14:07.819  :Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+2016-05-26 16:14:07.822  :Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+2016-05-26 16:14:07.824  Sleeping for 500 milliseconds
+2016-05-26 16:14:08.324  :Sending Key (ACTION_DOWN): 156    // KEYCODE_NUMPAD_SUBTRACT
+2016-05-26 16:14:08.328  :Sending Key (ACTION_UP): 156    // KEYCODE_NUMPAD_SUBTRACT
+2016-05-26 16:14:08.352  Sleeping for 500 milliseconds
+2016-05-26 16:14:08.853  :Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+2016-05-26 16:14:08.855  :Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+2016-05-26 16:14:08.857  Sleeping for 500 milliseconds
+2016-05-26 16:14:09.358  :Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+2016-05-26 16:14:09.360  :Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+2016-05-26 16:14:09.362  Sleeping for 500 milliseconds
+2016-05-26 16:14:09.862  :Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+2016-05-26 16:14:09.864  :Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+2016-05-26 16:14:09.866  Sleeping for 500 milliseconds
+2016-05-26 16:14:10.367 :Sending Trackball (ACTION_MOVE): 0:(0.0,1.0)
+2016-05-26 16:14:10.370 :Sending Trackball (ACTION_MOVE): 0:(-1.0,-5.0)
+2016-05-26 16:14:10.373 :Sending Trackball (ACTION_MOVE): 0:(-4.0,1.0)
+2016-05-26 16:14:10.375 :Sending Trackball (ACTION_MOVE): 0:(4.0,3.0)
+2016-05-26 16:14:10.378 :Sending Trackball (ACTION_MOVE): 0:(-5.0,4.0)
+2016-05-26 16:14:10.381 :Sending Trackball (ACTION_MOVE): 0:(1.0,3.0)
+2016-05-26 16:14:10.384 :Sending Trackball (ACTION_MOVE): 0:(1.0,3.0)
+2016-05-26 16:14:10.387 :Sending Trackball (ACTION_MOVE): 0:(-4.0,1.0)
+2016-05-26 16:14:10.400 :Sending Trackball (ACTION_MOVE): 0:(-2.0,4.0)
+2016-05-26 16:14:10.405 :Sending Trackball (ACTION_MOVE): 0:(3.0,-3.0)
+2016-05-26 16:14:10.406  :Sending Key (ACTION_DOWN): 136    // KEYCODE_F6
+2016-05-26 16:14:10.428  :Sending Key (ACTION_UP): 136    // KEYCODE_F6
+2016-05-26 16:14:10.442  Sleeping for 500 milliseconds
+2016-05-26 16:14:10.943  :Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+2016-05-26 16:14:10.946  :Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+2016-05-26 16:14:10.954  Sleeping for 500 milliseconds
+2016-05-26 16:14:11.454  :Sending Flip keyboardOpen=true
+2016-05-26 16:14:11.503  Sleeping for 500 milliseconds
+2016-05-26 16:14:12.004  :Sending Key (ACTION_DOWN): 163    // KEYCODE_NUMPAD_RIGHT_PAREN
+2016-05-26 16:14:12.008  :Sending Key (ACTION_UP): 163    // KEYCODE_NUMPAD_RIGHT_PAREN
+2016-05-26 16:14:12.013  Sleeping for 500 milliseconds
+2016-05-26 16:14:12.514  :Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+2016-05-26 16:14:12.518  :Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+2016-05-26 16:14:12.522  Sleeping for 500 milliseconds
+2016-05-26 16:14:13.024  :Sending Key (ACTION_DOWN): 203    // KEYCODE_BUTTON_16
+2016-05-26 16:14:13.036  :Sending Key (ACTION_UP): 203    // KEYCODE_BUTTON_16
+2016-05-26 16:14:13.040  Sleeping for 500 milliseconds
+2016-05-26 16:14:13.542 :Sending Touch (ACTION_DOWN): 0:(91.0,633.0)
+2016-05-26 16:14:13.545 :Sending Touch (ACTION_MOVE): 0:(79.521545,642.905)
+2016-05-26 16:14:13.547 :Sending Touch (ACTION_MOVE): 0:(62.26812,645.0606)
+2016-05-26 16:14:13.548 :Sending Touch (ACTION_MOVE): 0:(61.99819,650.2117)
+2016-05-26 16:14:13.550 :Sending Touch (ACTION_MOVE): 0:(54.83567,654.65625)
+2016-05-26 16:14:13.553 :Sending Touch (ACTION_UP): 0:(39.165703,658.78894)
+2016-05-26 16:14:13.555  Sleeping for 500 milliseconds
+2016-05-26 16:14:14.057 :Sending Touch (ACTION_DOWN): 0:(99.0,887.0)
+2016-05-26 16:14:14.058 :Sending Touch (ACTION_UP): 0:(106.21355,877.02484)
+2016-05-26 16:14:14.059  Sleeping for 500 milliseconds
+2016-05-26 16:14:14.562 :Sending Touch (ACTION_DOWN): 0:(165.0,823.0)
+2016-05-26 16:14:14.567 :Sending Touch (ACTION_MOVE): 0:(181.74426,823.22015)
+2016-05-26 16:14:14.572 :Sending Touch (ACTION_MOVE): 0:(191.44351,823.5768)
+2016-05-26 16:14:14.574 :Sending Touch (ACTION_MOVE): 0:(202.19061,824.0769)
+2016-05-26 16:14:14.575 :Sending Touch (ACTION_MOVE): 0:(208.29202,824.4047)
+2016-05-26 16:14:14.576 :Sending Touch (ACTION_UP): 0:(220.37811,824.8491)
+2016-05-26 16:14:14.576  Sleeping for 500 milliseconds
+2016-05-26 16:14:15.077 :Sending Touch (ACTION_DOWN): 0:(159.0,47.0)
+2016-05-26 16:14:15.078 :Sending Touch (ACTION_UP): 0:(149.71878,50.493607)
+2016-05-26 16:14:15.080  Sleeping for 500 milliseconds
+2016-05-26 16:14:15.581  :Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+2016-05-26 16:14:15.585  :Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+2016-05-26 16:14:15.592  Sleeping for 500 milliseconds
+2016-05-26 16:14:16.094  :Sending Key (ACTION_DOWN): 63    // KEYCODE_SYM
+2016-05-26 16:14:16.096  :Sending Key (ACTION_UP): 63    // KEYCODE_SYM
+2016-05-26 16:14:16.098  Sleeping for 500 milliseconds
+2016-05-26 16:14:16.600  :Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+2016-05-26 16:14:16.605  :Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+2016-05-26 16:14:16.610  Sleeping for 500 milliseconds
+2016-05-26 16:14:17.111 :Sending Trackball (ACTION_MOVE): 0:(-4.0,-4.0)
+2016-05-26 16:14:17.113 :Sending Trackball (ACTION_MOVE): 0:(0.0,1.0)
+2016-05-26 16:14:17.115 :Sending Trackball (ACTION_MOVE): 0:(1.0,0.0)
+2016-05-26 16:14:17.116 :Sending Trackball (ACTION_MOVE): 0:(-4.0,-4.0)
+2016-05-26 16:14:17.117 :Sending Trackball (ACTION_MOVE): 0:(0.0,4.0)
+2016-05-26 16:14:17.118 :Sending Trackball (ACTION_MOVE): 0:(-2.0,3.0)
+2016-05-26 16:14:17.119 :Sending Trackball (ACTION_MOVE): 0:(-5.0,3.0)
+2016-05-26 16:14:17.120 :Sending Trackball (ACTION_MOVE): 0:(-3.0,1.0)
+2016-05-26 16:14:17.121 :Sending Trackball (ACTION_MOVE): 0:(1.0,2.0)
+2016-05-26 16:14:17.122 :Sending Trackball (ACTION_MOVE): 0:(-2.0,0.0)
+2016-05-26 16:14:17.123  :Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+2016-05-26 16:14:17.173  :Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+2016-05-26 16:14:17.185  Sleeping for 500 milliseconds
+2016-05-26 16:14:17.686  :Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+2016-05-26 16:14:17.688  :Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+2016-05-26 16:14:17.850  Sleeping for 500 milliseconds
+2016-05-26 16:14:18.353 :Sending Touch (ACTION_DOWN): 0:(689.0,15.0)
+2016-05-26 16:14:18.389 :Sending Touch (ACTION_POINTER_DOWN 1): 0:(679.9817,0.0) 1:(121.0,481.0)
+2016-05-26 16:14:18.391 :Sending Touch (ACTION_MOVE): 0:(673.0766,0.0) 1:(109.73772,478.26563)
+2016-05-26 16:14:18.393 :Sending Touch (ACTION_MOVE): 0:(667.63354,0.0) 1:(103.44805,474.72018)
+2016-05-26 16:14:18.397 :Sending Touch (ACTION_MOVE): 0:(665.7046,0.0) 1:(93.75879,472.42416)
+2016-05-26 16:14:18.398 :Sending Touch (ACTION_MOVE): 0:(657.03644,0.0) 1:(81.67479,471.68265)
+2016-05-26 16:14:18.399 :Sending Touch (ACTION_POINTER_UP 1): 0:(650.0267,0.0) 1:(70.067245,471.35675)
+2016-05-26 16:14:18.400 :Sending Touch (ACTION_UP): 0:(648.76764,0.0)
+2016-05-26 16:14:18.401  Sleeping for 500 milliseconds
+2016-05-26 16:14:18.902  :Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+2016-05-26 16:14:18.906  :Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+2016-05-26 16:14:18.911  Sleeping for 500 milliseconds
+2016-05-26 16:14:19.412  :Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+2016-05-26 16:14:19.418  :Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+2016-05-26 16:14:19.423  Sleeping for 500 milliseconds
+2016-05-26 16:14:19.925 :Sending Touch (ACTION_DOWN): 0:(371.0,724.0)
+2016-05-26 16:14:19.927 :Sending Touch (ACTION_MOVE): 0:(372.70404,725.0742)
+2016-05-26 16:14:19.928 :Sending Touch (ACTION_MOVE): 0:(374.85306,727.5877)
+2016-05-26 16:14:19.928 :Sending Touch (ACTION_MOVE): 0:(375.64404,729.13184)
+2016-05-26 16:14:19.929 :Sending Touch (ACTION_MOVE): 0:(375.93076,731.12964)
+2016-05-26 16:14:19.930 :Sending Touch (ACTION_MOVE): 0:(377.29776,731.6151)
+2016-05-26 16:14:19.931 :Sending Touch (ACTION_UP): 0:(378.62292,732.7798)
+2016-05-26 16:14:19.932  Sleeping for 500 milliseconds
+2016-05-26 16:14:20.433  :Sending Key (ACTION_DOWN): 41    // KEYCODE_M
+2016-05-26 16:14:20.435  :Sending Key (ACTION_UP): 41    // KEYCODE_M
+2016-05-26 16:14:20.505  Sleeping for 500 milliseconds
+2016-05-26 16:14:21.007 :Sending Trackball (ACTION_MOVE): 0:(3.0,-5.0)
+2016-05-26 16:14:21.011 :Sending Trackball (ACTION_MOVE): 0:(2.0,-2.0)
+2016-05-26 16:14:21.015 :Sending Trackball (ACTION_MOVE): 0:(2.0,-2.0)
+2016-05-26 16:14:21.019 :Sending Trackball (ACTION_MOVE): 0:(3.0,0.0)
+2016-05-26 16:14:21.024 :Sending Trackball (ACTION_MOVE): 0:(-4.0,-2.0)
+2016-05-26 16:14:21.027 :Sending Trackball (ACTION_MOVE): 0:(0.0,-3.0)
+2016-05-26 16:14:21.030 :Sending Trackball (ACTION_MOVE): 0:(1.0,4.0)
+2016-05-26 16:14:21.034 :Sending Trackball (ACTION_MOVE): 0:(-3.0,4.0)
+2016-05-26 16:14:21.038 :Sending Trackball (ACTION_MOVE): 0:(4.0,-4.0)
+2016-05-26 16:14:21.040 :Sending Trackball (ACTION_MOVE): 0:(4.0,-3.0)
+2016-05-26 16:14:21.042 :Sending Trackball (ACTION_DOWN): 0:(0.0,0.0)
+2016-05-26 16:14:21.044 :Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+2016-05-26 16:14:21.046  Sleeping for 500 milliseconds
+2016-05-26 16:14:21.548 :Sending Touch (ACTION_DOWN): 0:(389.0,1038.0)
+2016-05-26 16:14:21.552 :Sending Touch (ACTION_MOVE): 0:(409.54208,1022.77625)
+2016-05-26 16:14:21.554 :Sending Touch (ACTION_MOVE): 0:(411.15598,1017.9904)
+2016-05-26 16:14:21.558 :Sending Touch (ACTION_MOVE): 0:(426.81372,1006.5839)
+2016-05-26 16:14:21.561 :Sending Touch (ACTION_MOVE): 0:(428.17737,1004.86896)
+2016-05-26 16:14:21.565 :Sending Touch (ACTION_MOVE): 0:(434.03302,993.1636)
+2016-05-26 16:14:21.568 :Sending Touch (ACTION_MOVE): 0:(453.61545,990.0949)
+2016-05-26 16:14:21.571 :Sending Touch (ACTION_MOVE): 0:(457.49347,974.93475)
+2016-05-26 16:14:21.575 :Sending Touch (ACTION_UP): 0:(457.68274,965.8949)
+2016-05-26 16:14:21.579  Sleeping for 500 milliseconds
+2016-05-26 16:14:22.081  :Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+2016-05-26 16:14:22.085  :Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+2016-05-26 16:14:22.091  Sleeping for 500 milliseconds
+2016-05-26 16:14:22.592  :Sending Flip keyboardOpen=false
+2016-05-26 16:14:22.653  Sleeping for 500 milliseconds
+2016-05-26 16:14:23.154 :Sending Trackball (ACTION_MOVE): 0:(0.0,-1.0)
+2016-05-26 16:14:23.157 :Sending Trackball (ACTION_MOVE): 0:(-1.0,-3.0)
+2016-05-26 16:14:23.158 :Sending Trackball (ACTION_MOVE): 0:(-4.0,2.0)
+2016-05-26 16:14:23.159 :Sending Trackball (ACTION_MOVE): 0:(-2.0,-2.0)
+2016-05-26 16:14:23.159 :Sending Trackball (ACTION_MOVE): 0:(-1.0,0.0)
+2016-05-26 16:14:23.160 :Sending Trackball (ACTION_MOVE): 0:(-1.0,1.0)
+2016-05-26 16:14:23.161 :Sending Trackball (ACTION_MOVE): 0:(-1.0,-5.0)
+2016-05-26 16:14:23.162 :Sending Trackball (ACTION_MOVE): 0:(4.0,-5.0)
+2016-05-26 16:14:23.163 :Sending Trackball (ACTION_MOVE): 0:(-5.0,2.0)
+2016-05-26 16:14:23.164 :Sending Trackball (ACTION_MOVE): 0:(3.0,-1.0)
+2016-05-26 16:14:23.166 :Sending Touch (ACTION_DOWN): 0:(547.0,838.0)
+2016-05-26 16:14:23.168 :Sending Touch (ACTION_UP): 0:(544.4797,843.46936)
+2016-05-26 16:14:23.172  Sleeping for 500 milliseconds
+2016-05-26 16:14:23.673  :Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+2016-05-26 16:14:23.675  :Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+2016-05-26 16:14:23.677  Sleeping for 500 milliseconds
+2016-05-26 16:14:24.178  :Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+2016-05-26 16:14:24.182  :Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+2016-05-26 16:14:24.191  Sleeping for 500 milliseconds
+2016-05-26 16:14:24.693 :Sending Trackball (ACTION_MOVE): 0:(-5.0,2.0)
+2016-05-26 16:14:24.697 :Sending Trackball (ACTION_MOVE): 0:(0.0,-1.0)
+2016-05-26 16:14:24.699 :Sending Trackball (ACTION_MOVE): 0:(1.0,3.0)
+2016-05-26 16:14:24.701 :Sending Trackball (ACTION_MOVE): 0:(2.0,3.0)
+2016-05-26 16:14:24.703 :Sending Trackball (ACTION_MOVE): 0:(-1.0,-5.0)
+2016-05-26 16:14:24.705 :Sending Trackball (ACTION_MOVE): 0:(1.0,4.0)
+2016-05-26 16:14:24.707 :Sending Trackball (ACTION_MOVE): 0:(-4.0,-1.0)
+2016-05-26 16:14:24.709 :Sending Trackball (ACTION_MOVE): 0:(-1.0,1.0)
+2016-05-26 16:14:24.710 :Sending Trackball (ACTION_MOVE): 0:(-2.0,-2.0)
+2016-05-26 16:14:24.712 :Sending Trackball (ACTION_MOVE): 0:(3.0,4.0)
+2016-05-26 16:14:24.721 :Sending Touch (ACTION_DOWN): 0:(58.0,1062.0)
+2016-05-26 16:14:24.735 :Sending Touch (ACTION_UP): 0:(56.31439,1053.8605)
+2016-05-26 16:14:24.738  Sleeping for 500 milliseconds
+2016-05-26 16:14:25.239  :Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+2016-05-26 16:14:25.248  :Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+2016-05-26 16:14:25.253  Sleeping for 500 milliseconds
+2016-05-26 16:14:25.754  :Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+2016-05-26 16:14:25.759  :Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+2016-05-26 16:14:25.773  Sleeping for 500 milliseconds
+2016-05-26 16:14:26.275  :Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+2016-05-26 16:14:26.277  :Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+2016-05-26 16:14:26.295  Sleeping for 500 milliseconds
+2016-05-26 16:14:26.796  :Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+2016-05-26 16:14:26.800  :Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+2016-05-26 16:14:26.802  Sleeping for 500 milliseconds
+2016-05-26 16:14:27.303 :Sending Trackball (ACTION_MOVE): 0:(1.0,-2.0)
+2016-05-26 16:14:27.307 :Sending Trackball (ACTION_MOVE): 0:(2.0,1.0)
+2016-05-26 16:14:27.309 :Sending Trackball (ACTION_MOVE): 0:(-5.0,-2.0)
+2016-05-26 16:14:27.311 :Sending Trackball (ACTION_MOVE): 0:(0.0,1.0)
+2016-05-26 16:14:27.313 :Sending Trackball (ACTION_MOVE): 0:(2.0,2.0)
+2016-05-26 16:14:27.316 :Sending Trackball (ACTION_MOVE): 0:(1.0,-4.0)
+2016-05-26 16:14:27.319 :Sending Trackball (ACTION_MOVE): 0:(4.0,-1.0)
+2016-05-26 16:14:27.321 :Sending Trackball (ACTION_MOVE): 0:(0.0,-4.0)
+2016-05-26 16:14:27.324 :Sending Trackball (ACTION_MOVE): 0:(4.0,4.0)
+2016-05-26 16:14:27.327 :Sending Trackball (ACTION_MOVE): 0:(3.0,-5.0)
+2016-05-26 16:14:27.329  :Sending Key (ACTION_DOWN): 34    // KEYCODE_F
+2016-05-26 16:14:27.350  :Sending Key (ACTION_UP): 34    // KEYCODE_F
+2016-05-26 16:14:27.363  Sleeping for 500 milliseconds
+2016-05-26 16:14:27.866  :Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+2016-05-26 16:14:27.873  :Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+2016-05-26 16:14:27.878  Sleeping for 500 milliseconds
+2016-05-26 16:14:28.379  :Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yaya.mmbang/.activity.SplashActivity;end
+2016-05-26 16:14:28.383      // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yaya.mmbang/.activity.SplashActivity } in package com.yaya.mmbang
+2016-05-26 16:14:28.388  Sleeping for 500 milliseconds
+2016-05-26 16:14:28.890  :Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+2016-05-26 16:14:28.892  :Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+2016-05-26 16:14:28.905  Sleeping for 500 milliseconds
+2016-05-26 16:14:29.406  :Sending Key (ACTION_DOWN): 25    // KEYCODE_VOLUME_DOWN
+2016-05-26 16:14:29.413  :Sending Key (ACTION_UP): 25    // KEYCODE_VOLUME_DOWN
+2016-05-26 16:14:29.457  Sleeping for 500 milliseconds
+2016-05-26 16:14:29.958  :Sending Key (ACTION_DOWN): 175    // KEYCODE_CAPTIONS
+2016-05-26 16:14:29.961  :Sending Key (ACTION_UP): 175    // KEYCODE_CAPTIONS
+2016-05-26 16:14:29.965  Sleeping for 500 milliseconds
+2016-05-26 16:14:30.466  :Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+2016-05-26 16:14:30.470  :Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+2016-05-26 16:14:30.475  Sleeping for 500 milliseconds
+2016-05-26 16:14:30.977  :Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+2016-05-26 16:14:30.981  :Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+2016-05-26 16:14:30.987  Sleeping for 500 milliseconds
+2016-05-26 16:14:31.488  :Sending Key (ACTION_DOWN): 81    // KEYCODE_PLUS
+2016-05-26 16:14:31.492  :Sending Key (ACTION_UP): 81    // KEYCODE_PLUS
+2016-05-26 16:14:31.495  Sleeping for 500 milliseconds
+2016-05-26 16:14:31.996 :Sending Touch (ACTION_DOWN): 0:(687.0,858.0)
+2016-05-26 16:14:31.997 :Sending Touch (ACTION_MOVE): 0:(689.11566,849.3396)
+2016-05-26 16:14:31.998 :Sending Touch (ACTION_MOVE): 0:(690.39355,844.9681)
+2016-05-26 16:14:31.999 :Sending Touch (ACTION_MOVE): 0:(693.87415,841.7293)
+2016-05-26 16:14:32.000 :Sending Touch (ACTION_UP): 0:(696.6146,839.64087)
+2016-05-26 16:14:32.001  Sleeping for 500 milliseconds
+2016-05-26 16:14:32.502 :Sending Trackball (ACTION_MOVE): 0:(1.0,-5.0)
+2016-05-26 16:14:32.504 :Sending Trackball (ACTION_MOVE): 0:(-4.0,-5.0)
+2016-05-26 16:14:32.506 :Sending Trackball (ACTION_MOVE): 0:(-2.0,-1.0)
+2016-05-26 16:14:32.506 :Sending Trackball (ACTION_MOVE): 0:(0.0,3.0)
+2016-05-26 16:14:32.507 :Sending Trackball (ACTION_MOVE): 0:(2.0,3.0)
+2016-05-26 16:14:32.508 :Sending Trackball (ACTION_MOVE): 0:(2.0,-1.0)
+2016-05-26 16:14:32.510 :Sending Trackball (ACTION_MOVE): 0:(-5.0,0.0)
+2016-05-26 16:14:32.510 :Sending Trackball (ACTION_MOVE): 0:(4.0,-5.0)
+2016-05-26 16:14:32.511 :Sending Trackball (ACTION_MOVE): 0:(1.0,-1.0)
+2016-05-26 16:14:32.512 :Sending Trackball (ACTION_MOVE): 0:(3.0,3.0)
+2016-05-26 16:14:32.513  :Sending Key (ACTION_DOWN): 57    // KEYCODE_ALT_LEFT
+2016-05-26 16:14:32.526  :Sending Key (ACTION_UP): 57    // KEYCODE_ALT_LEFT
+2016-05-26 16:14:32.538  Sleeping for 500 milliseconds
+2016-05-26 16:14:33.038 :Sending Trackball (ACTION_MOVE): 0:(-5.0,4.0)
+2016-05-26 16:14:33.040 :Sending Trackball (ACTION_MOVE): 0:(-1.0,-1.0)
+2016-05-26 16:14:33.042 :Sending Trackball (ACTION_MOVE): 0:(-5.0,-2.0)
+2016-05-26 16:14:33.042 :Sending Trackball (ACTION_MOVE): 0:(-4.0,-3.0)
+2016-05-26 16:14:33.043 :Sending Trackball (ACTION_MOVE): 0:(4.0,-4.0)
+2016-05-26 16:14:33.045 :Sending Trackball (ACTION_MOVE): 0:(0.0,-5.0)
+2016-05-26 16:14:33.046 :Sending Trackball (ACTION_MOVE): 0:(-1.0,-1.0)
+2016-05-26 16:14:33.047 :Sending Trackball (ACTION_MOVE): 0:(4.0,-3.0)
+2016-05-26 16:14:33.048 :Sending Trackball (ACTION_MOVE): 0:(1.0,-3.0)
+2016-05-26 16:14:33.049 :Sending Trackball (ACTION_MOVE): 0:(-4.0,-2.0)
+2016-05-26 16:14:33.050  :Sending Key (ACTION_DOWN): 98    // KEYCODE_BUTTON_C
+2016-05-26 16:14:33.056  :Sending Key (ACTION_UP): 98    // KEYCODE_BUTTON_C
+2016-05-26 16:14:33.084  Sleeping for 500 milliseconds
+2016-05-26 16:14:33.584  :Sending Key (ACTION_DOWN): 3    // KEYCODE_HOME
+2016-05-26 16:14:33.594  :Sending Key (ACTION_UP): 3    // KEYCODE_HOME
+2016-05-26 16:14:33.618      // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] cmp=com.bbk.launcher2/.Launcher } in package com.bbk.launcher2
+2016-05-26 16:14:33.625  Sleeping for 500 milliseconds
+2016-05-26 16:14:34.125  :Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+2016-05-26 16:14:34.130  :Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+2016-05-26 16:14:34.135  Sleeping for 500 milliseconds
+2016-05-26 16:14:34.637 :Sending Trackball (ACTION_MOVE): 0:(-5.0,0.0)
+2016-05-26 16:14:34.643 :Sending Trackball (ACTION_MOVE): 0:(-2.0,2.0)
+2016-05-26 16:14:34.646 :Sending Trackball (ACTION_MOVE): 0:(2.0,3.0)
+2016-05-26 16:14:34.649 :Sending Trackball (ACTION_MOVE): 0:(1.0,-5.0)
+2016-05-26 16:14:34.653 :Sending Trackball (ACTION_MOVE): 0:(2.0,-4.0)
+2016-05-26 16:14:34.659 :Sending Trackball (ACTION_MOVE): 0:(-1.0,3.0)
+2016-05-26 16:14:34.661 :Sending Trackball (ACTION_MOVE): 0:(3.0,3.0)
+2016-05-26 16:14:34.664 :Sending Trackball (ACTION_MOVE): 0:(1.0,0.0)
+2016-05-26 16:14:34.667 :Sending Trackball (ACTION_MOVE): 0:(3.0,-1.0)
+2016-05-26 16:14:34.671 :Sending Trackball (ACTION_MOVE): 0:(-3.0,2.0)
+2016-05-26 16:14:34.674 :Sending Trackball (ACTION_MOVE): 0:(-5.0,2.0)
+2016-05-26 16:14:34.675 :Sending Trackball (ACTION_MOVE): 0:(4.0,-4.0)
+2016-05-26 16:14:34.676 :Sending Trackball (ACTION_MOVE): 0:(4.0,0.0)
+2016-05-26 16:14:34.677 :Sending Trackball (ACTION_MOVE): 0:(-1.0,3.0)
+2016-05-26 16:14:34.679 :Sending Trackball (ACTION_MOVE): 0:(2.0,-2.0)
+2016-05-26 16:14:34.680 :Sending Trackball (ACTION_MOVE): 0:(-1.0,1.0)
+2016-05-26 16:14:34.681 :Sending Trackball (ACTION_MOVE): 0:(-1.0,0.0)
+2016-05-26 16:14:34.682 :Sending Trackball (ACTION_MOVE): 0:(-2.0,0.0)
+2016-05-26 16:14:34.683 :Sending Trackball (ACTION_MOVE): 0:(1.0,-5.0)
+2016-05-26 16:14:34.684 :Sending Trackball (ACTION_MOVE): 0:(-2.0,-2.0)
+2016-05-26 16:14:34.685  :Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yaya.mmbang/.activity.SplashActivity;end
+2016-05-26 16:14:34.688      // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yaya.mmbang/.activity.SplashActivity } in package com.yaya.mmbang
+2016-05-26 16:14:34.691  Sleeping for 500 milliseconds
+2016-05-26 16:14:35.192 :Sending Touch (ACTION_DOWN): 0:(455.0,1094.0)
+2016-05-26 16:14:35.194 :Sending Touch (ACTION_UP): 0:(431.01755,1092.4978)
+2016-05-26 16:14:35.195  Sleeping for 500 milliseconds
+2016-05-26 16:14:35.696  :Sending Key (ACTION_DOWN): 58    // KEYCODE_ALT_RIGHT
+2016-05-26 16:14:35.698  :Sending Key (ACTION_UP): 58    // KEYCODE_ALT_RIGHT
+2016-05-26 16:14:35.811  Sleeping for 500 milliseconds
+2016-05-26 16:14:36.312 :Sending Touch (ACTION_DOWN): 0:(656.0,1074.0)
+2016-05-26 16:14:36.314 :Sending Touch (ACTION_UP): 0:(671.96497,1073.8762)
+2016-05-26 16:14:36.315  Sleeping for 500 milliseconds
+2016-05-26 16:14:36.817 :Sending Touch (ACTION_DOWN): 0:(92.0,183.0)
+2016-05-26 16:14:36.822 :Sending Touch (ACTION_UP): 0:(103.86066,189.80922)
+2016-05-26 16:14:36.825  Sleeping for 500 milliseconds
+2016-05-26 16:14:37.327 :Sending Touch (ACTION_DOWN): 0:(563.0,714.0)
+2016-05-26 16:14:37.331 :Sending Touch (ACTION_UP): 0:(568.63666,704.84546)
+2016-05-26 16:14:37.343  Sleeping for 500 milliseconds
+2016-05-26 16:14:37.845  :Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+2016-05-26 16:14:37.854  :Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+2016-05-26 16:14:37.859  Sleeping for 500 milliseconds
+2016-05-26 16:14:38.360  :Sending Flip keyboardOpen=true
+2016-05-26 16:14:38.393  Sleeping for 500 milliseconds
+2016-05-26 16:14:38.894  :Sending Key (ACTION_DOWN): 115    // KEYCODE_CAPS_LOCK
+2016-05-26 16:14:38.896  :Sending Key (ACTION_UP): 115    // KEYCODE_CAPS_LOCK
+2016-05-26 16:14:38.898  Sleeping for 500 milliseconds
+2016-05-26 16:14:39.399  :Sending Key (ACTION_DOWN): 183    // KEYCODE_PROG_RED
+2016-05-26 16:14:39.402  :Sending Key (ACTION_UP): 183    // KEYCODE_PROG_RED
+2016-05-26 16:14:39.404  Sleeping for 500 milliseconds
+2016-05-26 16:14:39.906 :Sending Touch (ACTION_DOWN): 0:(289.0,79.0)
+2016-05-26 16:14:39.910 :Sending Touch (ACTION_MOVE): 0:(291.15497,60.448406)
+2016-05-26 16:14:39.913 :Sending Touch (ACTION_MOVE): 0:(298.87982,47.58318)
+2016-05-26 16:14:39.915 :Sending Touch (ACTION_MOVE): 0:(306.25958,39.6175)
+2016-05-26 16:14:39.918 :Sending Touch (ACTION_MOVE): 0:(311.1223,21.250566)
+2016-05-26 16:14:39.920 :Sending Touch (ACTION_MOVE): 0:(324.3111,5.987547)
+2016-05-26 16:14:39.922 :Sending Touch (ACTION_MOVE): 0:(332.86047,4.017989)
+2016-05-26 16:14:39.925 :Sending Touch (ACTION_UP): 0:(349.49316,0.0)
+2016-05-26 16:14:39.927  Sleeping for 500 milliseconds
+2016-05-26 16:14:40.429  :Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+2016-05-26 16:14:40.438  :Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+2016-05-26 16:14:40.441  Sleeping for 500 milliseconds
+2016-05-26 16:14:40.943  :Sending Flip keyboardOpen=false
+2016-05-26 16:14:41.033  Sleeping for 500 milliseconds
+2016-05-26 16:14:41.534  :Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+2016-05-26 16:14:41.536  :Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+2016-05-26 16:14:41.624  Sleeping for 500 milliseconds
+2016-05-26 16:14:42.126 :Sending Touch (ACTION_DOWN): 0:(353.0,166.0)
+2016-05-26 16:14:42.127 :Sending Touch (ACTION_UP): 0:(348.30292,163.39847)
+2016-05-26 16:14:42.129  Sleeping for 500 milliseconds
+2016-05-26 16:14:42.630  :Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+2016-05-26 16:14:42.634  :Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+2016-05-26 16:14:42.658  Sleeping for 500 milliseconds
+2016-05-26 16:14:43.159  :Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yaya.mmbang/.activity.SplashActivity;end
+2016-05-26 16:14:43.161      // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yaya.mmbang/.activity.SplashActivity } in package com.yaya.mmbang
+2016-05-26 16:14:43.161  Sleeping for 500 milliseconds
+2016-05-26 16:14:43.665  :Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yaya.mmbang/.activity.SplashActivity;end
+2016-05-26 16:14:43.670      // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yaya.mmbang/.activity.SplashActivity } in package com.yaya.mmbang
+2016-05-26 16:14:43.672  Sleeping for 500 milliseconds
+2016-05-26 16:14:44.174  :Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+2016-05-26 16:14:44.178  :Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+2016-05-26 16:14:44.180  Sleeping for 500 milliseconds
+2016-05-26 16:14:44.681  :Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+2016-05-26 16:14:44.686  :Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+2016-05-26 16:14:44.688  Sleeping for 500 milliseconds
+2016-05-26 16:14:45.189  :Sending Key (ACTION_DOWN): 53    // KEYCODE_Y
+2016-05-26 16:14:45.191  :Sending Key (ACTION_UP): 53    // KEYCODE_Y
+2016-05-26 16:14:45.192  Sleeping for 500 milliseconds
+2016-05-26 16:14:45.693  :Sending Key (ACTION_DOWN): 112    // KEYCODE_FORWARD_DEL
+2016-05-26 16:14:45.695  :Sending Key (ACTION_UP): 112    // KEYCODE_FORWARD_DEL
+2016-05-26 16:14:45.697  Sleeping for 500 milliseconds
+2016-05-26 16:14:46.198 :Sending Trackball (ACTION_MOVE): 0:(-1.0,2.0)
+2016-05-26 16:14:46.199 :Sending Trackball (ACTION_MOVE): 0:(-5.0,0.0)
+2016-05-26 16:14:46.200 :Sending Trackball (ACTION_MOVE): 0:(-5.0,-3.0)
+2016-05-26 16:14:46.201 :Sending Trackball (ACTION_MOVE): 0:(-4.0,2.0)
+2016-05-26 16:14:46.202 :Sending Trackball (ACTION_MOVE): 0:(-1.0,-1.0)
+2016-05-26 16:14:46.202 :Sending Trackball (ACTION_MOVE): 0:(2.0,-1.0)
+2016-05-26 16:14:46.203 :Sending Trackball (ACTION_MOVE): 0:(-1.0,-5.0)
+2016-05-26 16:14:46.204 :Sending Trackball (ACTION_MOVE): 0:(-3.0,3.0)
+2016-05-26 16:14:46.205 :Sending Trackball (ACTION_MOVE): 0:(2.0,1.0)
+2016-05-26 16:14:46.206 :Sending Trackball (ACTION_MOVE): 0:(2.0,-1.0)
+2016-05-26 16:14:46.207 :Sending Touch (ACTION_DOWN): 0:(14.0,227.0)
+2016-05-26 16:14:46.208 :Sending Touch (ACTION_UP): 0:(27.081055,235.02992)
+2016-05-26 16:14:46.209  Sleeping for 500 milliseconds
+2016-05-26 16:14:46.712 :Sending Touch (ACTION_DOWN): 0:(554.0,988.0)
+2016-05-26 16:14:46.718 :Sending Touch (ACTION_MOVE): 0:(551.8059,968.41504)
+2016-05-26 16:14:46.721 :Sending Touch (ACTION_MOVE): 0:(544.0732,961.38696)
+2016-05-26 16:14:46.725 :Sending Touch (ACTION_MOVE): 0:(541.3479,946.8385)
+2016-05-26 16:14:46.733 :Sending Touch (ACTION_MOVE): 0:(536.0384,933.3867)
+2016-05-26 16:14:46.736 :Sending Touch (ACTION_MOVE): 0:(513.2002,929.48944)
+2016-05-26 16:14:46.740 :Sending Touch (ACTION_MOVE): 0:(501.8564,917.1191)
+2016-05-26 16:14:46.751 :Sending Touch (ACTION_MOVE): 0:(486.65836,907.7314)
+2016-05-26 16:14:46.756 :Sending Touch (ACTION_UP): 0:(475.089,900.37274)
+2016-05-26 16:14:46.757  Sleeping for 500 milliseconds
+2016-05-26 16:14:47.258 :Sending Trackball (ACTION_MOVE): 0:(2.0,-2.0)
+2016-05-26 16:14:47.261 :Sending Trackball (ACTION_MOVE): 0:(-2.0,0.0)
+2016-05-26 16:14:47.262 :Sending Trackball (ACTION_MOVE): 0:(-4.0,3.0)
+2016-05-26 16:14:47.263 :Sending Trackball (ACTION_MOVE): 0:(2.0,1.0)
+2016-05-26 16:14:47.264 :Sending Trackball (ACTION_MOVE): 0:(-2.0,0.0)
+2016-05-26 16:14:47.265 :Sending Trackball (ACTION_MOVE): 0:(-5.0,4.0)
+2016-05-26 16:14:47.266 :Sending Trackball (ACTION_MOVE): 0:(-5.0,4.0)
+2016-05-26 16:14:47.268 :Sending Trackball (ACTION_MOVE): 0:(3.0,4.0)
+2016-05-26 16:14:47.269 :Sending Trackball (ACTION_MOVE): 0:(4.0,4.0)
+2016-05-26 16:14:47.270 :Sending Trackball (ACTION_MOVE): 0:(3.0,0.0)
+2016-05-26 16:14:47.271  :Sending Key (ACTION_DOWN): 207    // KEYCODE_CONTACTS
+2016-05-26 16:14:47.279  :Sending Key (ACTION_UP): 207    // KEYCODE_CONTACTS
+2016-05-26 16:14:47.437  Sleeping for 500 milliseconds
+2016-05-26 16:14:47.938  :Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+2016-05-26 16:14:47.941  :Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+2016-05-26 16:14:47.944  Sleeping for 500 milliseconds
+2016-05-26 16:14:48.445 :Sending Trackball (ACTION_MOVE): 0:(-4.0,2.0)
+2016-05-26 16:14:48.449 :Sending Trackball (ACTION_MOVE): 0:(2.0,0.0)
+2016-05-26 16:14:48.460 :Sending Trackball (ACTION_MOVE): 0:(-2.0,3.0)
+2016-05-26 16:14:48.465 :Sending Trackball (ACTION_MOVE): 0:(2.0,-5.0)
+2016-05-26 16:14:48.471 :Sending Trackball (ACTION_MOVE): 0:(4.0,2.0)
+2016-05-26 16:14:48.474 :Sending Trackball (ACTION_MOVE): 0:(-3.0,3.0)
+2016-05-26 16:14:48.476 :Sending Trackball (ACTION_MOVE): 0:(1.0,4.0)
+2016-05-26 16:14:48.476 :Sending Trackball (ACTION_MOVE): 0:(0.0,-4.0)
+2016-05-26 16:14:48.478 :Sending Trackball (ACTION_MOVE): 0:(1.0,0.0)
+2016-05-26 16:14:48.481 :Sending Trackball (ACTION_MOVE): 0:(-2.0,-5.0)
+2016-05-26 16:14:48.483  :Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+2016-05-26 16:14:48.541  :Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+2016-05-26 16:14:48.619  Sleeping for 500 milliseconds
+2016-05-26 16:14:49.121 :Sending Touch (ACTION_DOWN): 0:(118.0,892.0)
+2016-05-26 16:14:49.126 :Sending Touch (ACTION_UP): 0:(124.77582,886.0755)
+2016-05-26 16:14:49.129  Sleeping for 500 milliseconds
+2016-05-26 16:14:49.630  :Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+2016-05-26 16:14:49.633  :Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+2016-05-26 16:14:49.636  Sleeping for 500 milliseconds
+2016-05-26 16:14:50.136  :Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+2016-05-26 16:14:50.138  :Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+2016-05-26 16:14:50.140  Sleeping for 500 milliseconds
+2016-05-26 16:14:50.641 :Sending Trackball (ACTION_MOVE): 0:(1.0,3.0)
+2016-05-26 16:14:50.658 :Sending Trackball (ACTION_MOVE): 0:(-2.0,-3.0)
+2016-05-26 16:14:50.662 :Sending Trackball (ACTION_MOVE): 0:(-4.0,-4.0)
+2016-05-26 16:14:50.666 :Sending Trackball (ACTION_MOVE): 0:(-1.0,-1.0)
+2016-05-26 16:14:50.668 :Sending Trackball (ACTION_MOVE): 0:(2.0,-4.0)
+2016-05-26 16:14:50.670 :Sending Trackball (ACTION_MOVE): 0:(1.0,0.0)
+2016-05-26 16:14:50.673 :Sending Trackball (ACTION_MOVE): 0:(3.0,3.0)
+2016-05-26 16:14:50.675 :Sending Trackball (ACTION_MOVE): 0:(1.0,3.0)
+2016-05-26 16:14:50.677 :Sending Trackball (ACTION_MOVE): 0:(2.0,-5.0)
+2016-05-26 16:14:50.679 :Sending Trackball (ACTION_MOVE): 0:(2.0,4.0)
+2016-05-26 16:14:50.681 :Sending Trackball (ACTION_MOVE): 0:(2.0,-4.0)
+2016-05-26 16:14:50.683 :Sending Trackball (ACTION_MOVE): 0:(1.0,1.0)
+2016-05-26 16:14:50.685 :Sending Trackball (ACTION_MOVE): 0:(1.0,-5.0)
+2016-05-26 16:14:50.688 :Sending Trackball (ACTION_MOVE): 0:(-5.0,1.0)
+2016-05-26 16:14:50.690 :Sending Trackball (ACTION_MOVE): 0:(3.0,-4.0)
+2016-05-26 16:14:50.692 :Sending Trackball (ACTION_MOVE): 0:(0.0,-2.0)
+2016-05-26 16:14:50.694 :Sending Trackball (ACTION_MOVE): 0:(3.0,2.0)
+2016-05-26 16:14:50.695 :Sending Trackball (ACTION_MOVE): 0:(-1.0,0.0)
+2016-05-26 16:14:50.696 :Sending Trackball (ACTION_MOVE): 0:(-2.0,2.0)
+2016-05-26 16:14:50.697 :Sending Trackball (ACTION_MOVE): 0:(3.0,-2.0)
+2016-05-26 16:14:50.699 :Sending Trackball (ACTION_MOVE): 0:(3.0,4.0)
+2016-05-26 16:14:50.700 :Sending Trackball (ACTION_MOVE): 0:(-1.0,4.0)
+2016-05-26 16:14:50.701 :Sending Trackball (ACTION_MOVE): 0:(1.0,3.0)
+2016-05-26 16:14:50.702 :Sending Trackball (ACTION_MOVE): 0:(4.0,-1.0)
+2016-05-26 16:14:50.704 :Sending Trackball (ACTION_MOVE): 0:(0.0,-1.0)
+2016-05-26 16:14:50.705 :Sending Trackball (ACTION_MOVE): 0:(-4.0,-1.0)
+2016-05-26 16:14:50.706 :Sending Trackball (ACTION_MOVE): 0:(-3.0,4.0)
+2016-05-26 16:14:50.707 :Sending Trackball (ACTION_MOVE): 0:(1.0,2.0)
+2016-05-26 16:14:50.708 :Sending Trackball (ACTION_MOVE): 0:(1.0,0.0)
+2016-05-26 16:14:50.710 :Sending Trackball (ACTION_MOVE): 0:(4.0,4.0)
+2016-05-26 16:14:50.712 :Sending Touch (ACTION_DOWN): 0:(478.0,921.0)
+2016-05-26 16:14:50.716 :Sending Touch (ACTION_UP): 0:(488.06064,923.0378)
+2016-05-26 16:14:50.717  Sleeping for 500 milliseconds
+2016-05-26 16:14:51.217  :Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yaya.mmbang/.activity.SplashActivity;end
+2016-05-26 16:14:51.219      // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yaya.mmbang/.activity.SplashActivity } in package com.yaya.mmbang
+2016-05-26 16:14:51.220  Sleeping for 500 milliseconds
+2016-05-26 16:14:51.721  :Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+2016-05-26 16:14:51.729  :Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+2016-05-26 16:14:51.731  Sleeping for 500 milliseconds
+2016-05-26 16:14:52.234 :Sending Touch (ACTION_DOWN): 0:(384.0,262.0)
+2016-05-26 16:14:52.237 :Sending Touch (ACTION_MOVE): 0:(383.3589,265.89862)
+2016-05-26 16:14:52.240 :Sending Touch (ACTION_MOVE): 0:(377.55243,267.97525)
+2016-05-26 16:14:52.242 :Sending Touch (ACTION_UP): 0:(374.90872,272.34903)
+2016-05-26 16:14:52.245  Sleeping for 500 milliseconds
+2016-05-26 16:14:52.747 :Sending Trackball (ACTION_MOVE): 0:(0.0,-1.0)
+2016-05-26 16:14:52.751 :Sending Trackball (ACTION_MOVE): 0:(-5.0,-4.0)
+2016-05-26 16:14:52.754 :Sending Trackball (ACTION_MOVE): 0:(-3.0,1.0)
+2016-05-26 16:14:52.757 :Sending Trackball (ACTION_MOVE): 0:(-2.0,-3.0)
+2016-05-26 16:14:52.760 :Sending Trackball (ACTION_MOVE): 0:(2.0,-4.0)
+2016-05-26 16:14:52.785 :Sending Trackball (ACTION_MOVE): 0:(0.0,1.0)
+2016-05-26 16:14:52.787 :Sending Trackball (ACTION_MOVE): 0:(-4.0,2.0)
+2016-05-26 16:14:52.789 :Sending Trackball (ACTION_MOVE): 0:(-5.0,-3.0)
+2016-05-26 16:14:52.791 :Sending Trackball (ACTION_MOVE): 0:(3.0,-4.0)
+2016-05-26 16:14:52.792 :Sending Trackball (ACTION_MOVE): 0:(-4.0,0.0)
+2016-05-26 16:14:52.793  :Sending Key (ACTION_DOWN): 45    // KEYCODE_Q
+2016-05-26 16:14:52.813  :Sending Key (ACTION_UP): 45    // KEYCODE_Q
+2016-05-26 16:14:52.871  Sleeping for 500 milliseconds
+2016-05-26 16:14:53.372 :Sending Trackball (ACTION_MOVE): 0:(0.0,-3.0)
+2016-05-26 16:14:53.375 :Sending Trackball (ACTION_MOVE): 0:(-3.0,3.0)
+2016-05-26 16:14:53.376 :Sending Trackball (ACTION_MOVE): 0:(1.0,2.0)
+2016-05-26 16:14:53.377 :Sending Trackball (ACTION_MOVE): 0:(-4.0,-3.0)
+2016-05-26 16:14:53.378 :Sending Trackball (ACTION_MOVE): 0:(-4.0,-3.0)
+2016-05-26 16:14:53.379 :Sending Trackball (ACTION_MOVE): 0:(-3.0,4.0)
+2016-05-26 16:14:53.380 :Sending Trackball (ACTION_MOVE): 0:(-1.0,0.0)
+2016-05-26 16:14:53.381 :Sending Trackball (ACTION_MOVE): 0:(-4.0,-5.0)
+2016-05-26 16:14:53.382 :Sending Trackball (ACTION_MOVE): 0:(4.0,-4.0)
+2016-05-26 16:14:53.383 :Sending Trackball (ACTION_MOVE): 0:(3.0,4.0)
+2016-05-26 16:14:53.385 :Sending Trackball (ACTION_MOVE): 0:(2.0,3.0)
+2016-05-26 16:14:53.386 :Sending Trackball (ACTION_MOVE): 0:(-2.0,1.0)
+2016-05-26 16:14:53.387 :Sending Trackball (ACTION_MOVE): 0:(3.0,-3.0)
+2016-05-26 16:14:53.388 :Sending Trackball (ACTION_MOVE): 0:(2.0,-3.0)
+2016-05-26 16:14:53.390 :Sending Trackball (ACTION_MOVE): 0:(-5.0,-1.0)
+2016-05-26 16:14:53.391 :Sending Trackball (ACTION_MOVE): 0:(-4.0,-1.0)
+2016-05-26 16:14:53.392 :Sending Trackball (ACTION_MOVE): 0:(-4.0,-3.0)
+2016-05-26 16:14:53.393 :Sending Trackball (ACTION_MOVE): 0:(1.0,3.0)
+2016-05-26 16:14:53.396 :Sending Trackball (ACTION_MOVE): 0:(-1.0,-4.0)
+2016-05-26 16:14:53.397 :Sending Trackball (ACTION_MOVE): 0:(0.0,-3.0)
+2016-05-26 16:14:53.398 :Sending Trackball (ACTION_DOWN): 0:(0.0,0.0)
+2016-05-26 16:14:53.400 :Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+2016-05-26 16:14:53.401  Sleeping for 500 milliseconds
+2016-05-26 16:14:53.902 :Sending Trackball (ACTION_MOVE): 0:(-3.0,0.0)
+2016-05-26 16:14:53.905 :Sending Trackball (ACTION_MOVE): 0:(1.0,-1.0)
+2016-05-26 16:14:53.906 :Sending Trackball (ACTION_MOVE): 0:(3.0,-1.0)
+2016-05-26 16:14:53.907 :Sending Trackball (ACTION_MOVE): 0:(1.0,-3.0)
+2016-05-26 16:14:53.908 :Sending Trackball (ACTION_MOVE): 0:(-3.0,4.0)
+2016-05-26 16:14:53.908 :Sending Trackball (ACTION_MOVE): 0:(1.0,-2.0)
+2016-05-26 16:14:53.909 :Sending Trackball (ACTION_MOVE): 0:(-3.0,0.0)
+2016-05-26 16:14:53.910 :Sending Trackball (ACTION_MOVE): 0:(-3.0,-3.0)
+2016-05-26 16:14:53.911 :Sending Trackball (ACTION_MOVE): 0:(0.0,4.0)
+2016-05-26 16:14:53.912 :Sending Trackball (ACTION_MOVE): 0:(-1.0,2.0)
+2016-05-26 16:14:53.914 :Sending Touch (ACTION_DOWN): 0:(154.0,507.0)
+2016-05-26 16:14:53.915 :Sending Touch (ACTION_UP): 0:(132.09698,492.40674)
+2016-05-26 16:14:53.916  Sleeping for 500 milliseconds
+2016-05-26 16:14:54.416 :Sending Trackball (ACTION_MOVE): 0:(-3.0,2.0)
+2016-05-26 16:14:54.418 :Sending Trackball (ACTION_MOVE): 0:(-1.0,1.0)
+2016-05-26 16:14:54.419 :Sending Trackball (ACTION_MOVE): 0:(-4.0,-3.0)
+2016-05-26 16:14:54.420 :Sending Trackball (ACTION_MOVE): 0:(-5.0,-5.0)
+2016-05-26 16:14:54.421 :Sending Trackball (ACTION_MOVE): 0:(-5.0,-5.0)
+2016-05-26 16:14:54.422 :Sending Trackball (ACTION_MOVE): 0:(-1.0,-2.0)
+2016-05-26 16:14:54.423 :Sending Trackball (ACTION_MOVE): 0:(1.0,-4.0)
+2016-05-26 16:14:54.424 :Sending Trackball (ACTION_MOVE): 0:(2.0,-1.0)
+2016-05-26 16:14:54.424 :Sending Trackball (ACTION_MOVE): 0:(4.0,-5.0)
+2016-05-26 16:14:54.428 :Sending Trackball (ACTION_MOVE): 0:(3.0,0.0)
+2016-05-26 16:14:54.430  :Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+2016-05-26 16:14:54.448  :Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+2016-05-26 16:14:54.450  Sleeping for 500 milliseconds
+2016-05-26 16:14:54.951  :Sending Key (ACTION_DOWN): 115    // KEYCODE_CAPS_LOCK
+2016-05-26 16:14:54.953  :Sending Key (ACTION_UP): 115    // KEYCODE_CAPS_LOCK
+2016-05-26 16:14:54.955  Sleeping for 500 milliseconds
+2016-05-26 16:14:55.455  :Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+2016-05-26 16:14:55.462  :Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+2016-05-26 16:14:55.465  Sleeping for 500 milliseconds
+2016-05-26 16:14:55.967  :Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+2016-05-26 16:14:55.971  :Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+2016-05-26 16:14:55.977  Sleeping for 500 milliseconds
+2016-05-26 16:14:56.479  :Sending Key (ACTION_DOWN): 25    // KEYCODE_VOLUME_DOWN
+2016-05-26 16:14:56.484  :Sending Key (ACTION_UP): 25    // KEYCODE_VOLUME_DOWN
+2016-05-26 16:14:56.499  Sleeping for 500 milliseconds
+2016-05-26 16:14:57.000 :Sending Trackball (ACTION_MOVE): 0:(3.0,-5.0)
+2016-05-26 16:14:57.001 :Sending Trackball (ACTION_MOVE): 0:(2.0,-1.0)
+2016-05-26 16:14:57.002 :Sending Trackball (ACTION_MOVE): 0:(-4.0,0.0)
+2016-05-26 16:14:57.004 :Sending Trackball (ACTION_MOVE): 0:(-4.0,-4.0)
+2016-05-26 16:14:57.006 :Sending Trackball (ACTION_MOVE): 0:(1.0,-4.0)
+2016-05-26 16:14:57.007 :Sending Trackball (ACTION_MOVE): 0:(-2.0,-1.0)
+2016-05-26 16:14:57.009 :Sending Trackball (ACTION_MOVE): 0:(3.0,-2.0)
+2016-05-26 16:14:57.010 :Sending Trackball (ACTION_MOVE): 0:(-2.0,1.0)
+2016-05-26 16:14:57.011 :Sending Trackball (ACTION_MOVE): 0:(2.0,-5.0)
+2016-05-26 16:14:57.012 :Sending Trackball (ACTION_MOVE): 0:(-4.0,-5.0)
+2016-05-26 16:14:57.015 :Sending Trackball (ACTION_MOVE): 0:(1.0,4.0)
+2016-05-26 16:14:57.016 :Sending Trackball (ACTION_MOVE): 0:(3.0,-1.0)
+2016-05-26 16:14:57.018 :Sending Trackball (ACTION_MOVE): 0:(2.0,2.0)
+2016-05-26 16:14:57.020 :Sending Trackball (ACTION_MOVE): 0:(2.0,-3.0)
+2016-05-26 16:14:57.022 :Sending Trackball (ACTION_MOVE): 0:(0.0,-1.0)
+2016-05-26 16:14:57.023 :Sending Trackball (ACTION_MOVE): 0:(-3.0,-2.0)
+2016-05-26 16:14:57.025 :Sending Trackball (ACTION_MOVE): 0:(2.0,-2.0)
+2016-05-26 16:14:57.026 :Sending Trackball (ACTION_MOVE): 0:(-3.0,-4.0)
+2016-05-26 16:14:57.027 :Sending Trackball (ACTION_MOVE): 0:(-1.0,1.0)
+2016-05-26 16:14:57.027 :Sending Trackball (ACTION_MOVE): 0:(-3.0,-3.0)
+2016-05-26 16:14:57.028  :Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+2016-05-26 16:14:57.065  :Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+2016-05-26 16:14:57.068  Sleeping for 500 milliseconds
+2016-05-26 16:14:57.568  :Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+2016-05-26 16:14:57.573  :Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+2016-05-26 16:14:57.576  Sleeping for 500 milliseconds
+2016-05-26 16:14:58.077  :Sending Key (ACTION_DOWN): 65    // KEYCODE_ENVELOPE
+2016-05-26 16:14:58.092  :Sending Key (ACTION_UP): 65    // KEYCODE_ENVELOPE
+2016-05-26 16:14:58.096  Sleeping for 500 milliseconds
+2016-05-26 16:14:58.597  :Sending Key (ACTION_DOWN): 43    // KEYCODE_O
+2016-05-26 16:14:58.609  :Sending Key (ACTION_UP): 43    // KEYCODE_O
+2016-05-26 16:14:58.628  Sleeping for 500 milliseconds
+2016-05-26 16:14:59.129  :Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+2016-05-26 16:14:59.134  :Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+2016-05-26 16:14:59.138  Sleeping for 500 milliseconds
+2016-05-26 16:14:59.640 :Sending Touch (ACTION_DOWN): 0:(270.0,1200.0)
+2016-05-26 16:14:59.642 :Sending Touch (ACTION_MOVE): 0:(281.79587,1201.7334)
+2016-05-26 16:14:59.643 :Sending Touch (ACTION_UP): 0:(291.44244,1207.2163)
+2016-05-26 16:14:59.644  Sleeping for 500 milliseconds
+2016-05-26 16:15:00.144  :Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+2016-05-26 16:15:00.147  :Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+2016-05-26 16:15:00.285  Sleeping for 500 milliseconds
+2016-05-26 16:15:00.786  :Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+2016-05-26 16:15:00.803  :Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+2016-05-26 16:15:00.806  Sleeping for 500 milliseconds
+2016-05-26 16:15:01.306  :Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+2016-05-26 16:15:01.312  :Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+2016-05-26 16:15:01.316  Sleeping for 500 milliseconds
+2016-05-26 16:15:01.818 :Sending Trackball (ACTION_MOVE): 0:(-3.0,-1.0)
+2016-05-26 16:15:01.821 :Sending Trackball (ACTION_MOVE): 0:(2.0,-2.0)
+2016-05-26 16:15:01.823 :Sending Trackball (ACTION_MOVE): 0:(-2.0,-4.0)
+2016-05-26 16:15:01.826 :Sending Trackball (ACTION_MOVE): 0:(-5.0,3.0)
+2016-05-26 16:15:01.829 :Sending Trackball (ACTION_MOVE): 0:(3.0,-3.0)
+2016-05-26 16:15:01.837 :Sending Trackball (ACTION_MOVE): 0:(4.0,-5.0)
+2016-05-26 16:15:01.842 :Sending Trackball (ACTION_MOVE): 0:(3.0,-5.0)
+2016-05-26 16:15:01.845 :Sending Trackball (ACTION_MOVE): 0:(1.0,-2.0)
+2016-05-26 16:15:01.854 :Sending Trackball (ACTION_MOVE): 0:(-2.0,-1.0)
+2016-05-26 16:15:01.862 :Sending Trackball (ACTION_MOVE): 0:(-2.0,4.0)
+2016-05-26 16:15:01.864 :Sending Touch (ACTION_DOWN): 0:(573.0,719.0)
+2016-05-26 16:15:01.865 :Sending Touch (ACTION_UP): 0:(585.4484,733.67035)
+2016-05-26 16:15:01.866  Sleeping for 500 milliseconds
+2016-05-26 16:15:02.367  :Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+2016-05-26 16:15:02.369  :Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+2016-05-26 16:15:02.385  Sleeping for 500 milliseconds
+2016-05-26 16:15:02.886 :Sending Trackball (ACTION_MOVE): 0:(-3.0,4.0)
+2016-05-26 16:15:02.888 :Sending Trackball (ACTION_MOVE): 0:(4.0,-2.0)
+2016-05-26 16:15:02.889 :Sending Trackball (ACTION_MOVE): 0:(0.0,-2.0)
+2016-05-26 16:15:02.890 :Sending Trackball (ACTION_MOVE): 0:(-4.0,-1.0)
+2016-05-26 16:15:02.891 :Sending Trackball (ACTION_MOVE): 0:(4.0,1.0)
+2016-05-26 16:15:02.893 :Sending Trackball (ACTION_MOVE): 0:(4.0,0.0)
+2016-05-26 16:15:02.894 :Sending Trackball (ACTION_MOVE): 0:(1.0,-3.0)
+2016-05-26 16:15:02.895 :Sending Trackball (ACTION_MOVE): 0:(-3.0,4.0)
+2016-05-26 16:15:02.896 :Sending Trackball (ACTION_MOVE): 0:(2.0,3.0)
+2016-05-26 16:15:02.896 :Sending Trackball (ACTION_MOVE): 0:(0.0,4.0)
+2016-05-26 16:15:02.897 :Sending Trackball (ACTION_DOWN): 0:(0.0,0.0)
+2016-05-26 16:15:02.898 :Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+2016-05-26 16:15:02.899  Sleeping for 500 milliseconds
+2016-05-26 16:15:03.400  :Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+2016-05-26 16:15:03.401  :Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+2016-05-26 16:15:03.403  Sleeping for 500 milliseconds
+2016-05-26 16:15:03.904  :Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+2016-05-26 16:15:03.907  :Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+2016-05-26 16:15:03.909  Sleeping for 500 milliseconds
+2016-05-26 16:15:04.411 :Sending Trackball (ACTION_MOVE): 0:(1.0,-1.0)
+2016-05-26 16:15:04.414 :Sending Trackball (ACTION_MOVE): 0:(0.0,1.0)
+2016-05-26 16:15:04.417 :Sending Trackball (ACTION_MOVE): 0:(-5.0,4.0)
+2016-05-26 16:15:04.419 :Sending Trackball (ACTION_MOVE): 0:(-1.0,-5.0)
+2016-05-26 16:15:04.421 :Sending Trackball (ACTION_MOVE): 0:(3.0,2.0)
+2016-05-26 16:15:04.424 :Sending Trackball (ACTION_MOVE): 0:(2.0,3.0)
+2016-05-26 16:15:04.426 :Sending Trackball (ACTION_MOVE): 0:(-3.0,2.0)
+2016-05-26 16:15:04.429 :Sending Trackball (ACTION_MOVE): 0:(-1.0,-3.0)
+2016-05-26 16:15:04.431 :Sending Trackball (ACTION_MOVE): 0:(-3.0,4.0)
+2016-05-26 16:15:04.435 :Sending Trackball (ACTION_MOVE): 0:(3.0,-3.0)
+2016-05-26 16:15:04.437  :Sending Key (ACTION_DOWN): 101    // KEYCODE_BUTTON_Z
+2016-05-26 16:15:04.510  :Sending Key (ACTION_UP): 101    // KEYCODE_BUTTON_Z
+2016-05-26 16:15:04.557  Sleeping for 500 milliseconds
+2016-05-26 16:15:05.058  :Sending Key (ACTION_DOWN): 70    // KEYCODE_EQUALS
+2016-05-26 16:15:05.060  :Sending Key (ACTION_UP): 70    // KEYCODE_EQUALS
+2016-05-26 16:15:05.064  Sleeping for 500 milliseconds
+2016-05-26 16:15:05.566  :Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+2016-05-26 16:15:05.570  :Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+2016-05-26 16:15:05.575  Sleeping for 500 milliseconds
+2016-05-26 16:15:06.077 :Sending Touch (ACTION_DOWN): 0:(388.0,418.0)
+2016-05-26 16:15:06.079 :Sending Touch (ACTION_UP): 0:(387.98007,430.20746)
+2016-05-26 16:15:06.080  Sleeping for 500 milliseconds
+2016-05-26 16:15:06.582 :Sending Trackball (ACTION_MOVE): 0:(-5.0,-5.0)
+2016-05-26 16:15:06.583 :Sending Trackball (ACTION_MOVE): 0:(-3.0,4.0)
+2016-05-26 16:15:06.585 :Sending Trackball (ACTION_MOVE): 0:(-1.0,-1.0)
+2016-05-26 16:15:06.587 :Sending Trackball (ACTION_MOVE): 0:(2.0,-5.0)
+2016-05-26 16:15:06.588 :Sending Trackball (ACTION_MOVE): 0:(-3.0,1.0)
+2016-05-26 16:15:06.589 :Sending Trackball (ACTION_MOVE): 0:(4.0,3.0)
+2016-05-26 16:15:06.591 :Sending Trackball (ACTION_MOVE): 0:(0.0,-3.0)
+2016-05-26 16:15:06.591 :Sending Trackball (ACTION_MOVE): 0:(2.0,2.0)
+2016-05-26 16:15:06.592 :Sending Trackball (ACTION_MOVE): 0:(-3.0,2.0)
+2016-05-26 16:15:06.593 :Sending Trackball (ACTION_MOVE): 0:(0.0,-4.0)
+2016-05-26 16:15:06.594  :Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+2016-05-26 16:15:06.604  :Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+2016-05-26 16:15:06.617  Sleeping for 500 milliseconds
+2016-05-26 16:15:07.118 :Sending Touch (ACTION_DOWN): 0:(673.0,279.0)
+2016-05-26 16:15:07.119 :Sending Touch (ACTION_UP): 0:(673.86646,288.73895)
+2016-05-26 16:15:07.121  Sleeping for 500 milliseconds
+2016-05-26 16:15:07.622  :Sending Key (ACTION_DOWN): 159    // KEYCODE_NUMPAD_COMMA
+2016-05-26 16:15:07.626  :Sending Key (ACTION_UP): 159    // KEYCODE_NUMPAD_COMMA
+2016-05-26 16:15:07.629  Sleeping for 500 milliseconds
+2016-05-26 16:15:08.175  :Sending Key (ACTION_DOWN): 192    // KEYCODE_BUTTON_5
+2016-05-26 16:15:08.177  :Sending Key (ACTION_UP): 192    // KEYCODE_BUTTON_5
+2016-05-26 16:15:08.181  Sleeping for 500 milliseconds
+2016-05-26 16:15:08.681  :Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+2016-05-26 16:15:08.684  :Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+2016-05-26 16:15:08.692  Sleeping for 500 milliseconds
+2016-05-26 16:15:09.193  :Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+2016-05-26 16:15:09.199  :Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+2016-05-26 16:15:09.200  Sleeping for 500 milliseconds
+2016-05-26 16:15:09.702 :Sending Touch (ACTION_DOWN): 0:(370.0,919.0)
+2016-05-26 16:15:09.706 :Sending Touch (ACTION_UP): 0:(366.14774,935.4638)
+2016-05-26 16:15:09.708  Sleeping for 500 milliseconds
+2016-05-26 16:15:10.209  :Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yaya.mmbang/.activity.SplashActivity;end
+2016-05-26 16:15:10.211      // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yaya.mmbang/.activity.SplashActivity } in package com.yaya.mmbang
+2016-05-26 16:15:10.211  Sleeping for 500 milliseconds
+2016-05-26 16:15:10.712  :Sending Key (ACTION_DOWN): 13    // KEYCODE_6
+2016-05-26 16:15:10.717  :Sending Key (ACTION_UP): 13    // KEYCODE_6
+2016-05-26 16:15:10.730  Sleeping for 500 milliseconds
+2016-05-26 16:15:11.231  :Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+2016-05-26 16:15:11.236  :Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+2016-05-26 16:15:11.246  Sleeping for 500 milliseconds
+2016-05-26 16:15:11.747  :Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+2016-05-26 16:15:11.750  :Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+2016-05-26 16:15:11.752  Sleeping for 500 milliseconds
+2016-05-26 16:15:12.252  :Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+2016-05-26 16:15:12.256  :Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+2016-05-26 16:15:12.268  Sleeping for 500 milliseconds
+2016-05-26 16:15:12.769  :Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+2016-05-26 16:15:12.776  :Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+2016-05-26 16:15:12.777  Sleeping for 500 milliseconds
+2016-05-26 16:15:13.279  :Sending Key (ACTION_DOWN): 80    // KEYCODE_FOCUS
+2016-05-26 16:15:13.286  :Sending Key (ACTION_UP): 80    // KEYCODE_FOCUS
+2016-05-26 16:15:13.301  Sleeping for 500 milliseconds
+2016-05-26 16:15:13.801  :Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+2016-05-26 16:15:13.807  :Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+2016-05-26 16:15:13.811  Sleeping for 500 milliseconds
+2016-05-26 16:15:14.312 :Sending Trackball (ACTION_MOVE): 0:(1.0,-4.0)
+2016-05-26 16:15:14.314 :Sending Trackball (ACTION_MOVE): 0:(3.0,3.0)
+2016-05-26 16:15:14.315 :Sending Trackball (ACTION_MOVE): 0:(4.0,-4.0)
+2016-05-26 16:15:14.316 :Sending Trackball (ACTION_MOVE): 0:(0.0,-3.0)
+2016-05-26 16:15:14.317 :Sending Trackball (ACTION_MOVE): 0:(3.0,4.0)
+2016-05-26 16:15:14.318 :Sending Trackball (ACTION_MOVE): 0:(4.0,0.0)
+2016-05-26 16:15:14.319 :Sending Trackball (ACTION_MOVE): 0:(-2.0,4.0)
+2016-05-26 16:15:14.320 :Sending Trackball (ACTION_MOVE): 0:(-4.0,-2.0)
+2016-05-26 16:15:14.321 :Sending Trackball (ACTION_MOVE): 0:(1.0,-1.0)
+2016-05-26 16:15:14.322 :Sending Trackball (ACTION_MOVE): 0:(-4.0,-1.0)
+2016-05-26 16:15:14.323  :Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+2016-05-26 16:15:14.343  :Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+2016-05-26 16:15:14.359  Sleeping for 500 milliseconds
+2016-05-26 16:15:14.860  :Sending Key (ACTION_DOWN): 7    // KEYCODE_0
+2016-05-26 16:15:14.862  :Sending Key (ACTION_UP): 7    // KEYCODE_0
+2016-05-26 16:15:14.863  Sleeping for 500 milliseconds
+2016-05-26 16:15:15.364  :Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+2016-05-26 16:15:15.367  :Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+2016-05-26 16:15:15.415  Sleeping for 500 milliseconds
+2016-05-26 16:15:15.916  :Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+2016-05-26 16:15:15.920  :Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+2016-05-26 16:15:15.922  Sleeping for 500 milliseconds
+2016-05-26 16:15:16.422  :Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+2016-05-26 16:15:16.427  :Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+2016-05-26 16:15:16.431  Sleeping for 500 milliseconds
+2016-05-26 16:15:16.934 :Sending Touch (ACTION_DOWN): 0:(674.0,940.0)
+2016-05-26 16:15:16.938 :Sending Touch (ACTION_UP): 0:(678.871,932.7842)
+2016-05-26 16:15:16.940  Sleeping for 500 milliseconds
+2016-05-26 16:15:17.442 :Sending Trackball (ACTION_MOVE): 0:(0.0,1.0)
+2016-05-26 16:15:17.443 :Sending Trackball (ACTION_MOVE): 0:(-2.0,0.0)
+2016-05-26 16:15:17.444 :Sending Trackball (ACTION_MOVE): 0:(-1.0,1.0)
+2016-05-26 16:15:17.445 :Sending Trackball (ACTION_MOVE): 0:(-2.0,2.0)
+2016-05-26 16:15:17.446 :Sending Trackball (ACTION_MOVE): 0:(-4.0,-5.0)
+2016-05-26 16:15:17.447 :Sending Trackball (ACTION_MOVE): 0:(2.0,2.0)
+2016-05-26 16:15:17.448 :Sending Trackball (ACTION_MOVE): 0:(-2.0,3.0)
+2016-05-26 16:15:17.449 :Sending Trackball (ACTION_MOVE): 0:(-5.0,-2.0)
+2016-05-26 16:15:17.449 :Sending Trackball (ACTION_MOVE): 0:(-4.0,0.0)
+2016-05-26 16:15:17.450 :Sending Trackball (ACTION_MOVE): 0:(-1.0,-2.0)
+2016-05-26 16:15:17.451 :Sending Trackball (ACTION_DOWN): 0:(0.0,0.0)
+2016-05-26 16:15:17.452 :Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+2016-05-26 16:15:17.453  Sleeping for 500 milliseconds
+2016-05-26 16:15:17.953  :Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+2016-05-26 16:15:17.957  :Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+2016-05-26 16:15:17.966  Sleeping for 500 milliseconds
+2016-05-26 16:15:18.467 :Sending Touch (ACTION_DOWN): 0:(524.0,647.0)
+2016-05-26 16:15:18.469 :Sending Touch (ACTION_UP): 0:(511.2933,649.87836)
+2016-05-26 16:15:18.470  Sleeping for 500 milliseconds
+2016-05-26 16:15:18.971  :Sending Key (ACTION_DOWN): 77    // KEYCODE_AT
+2016-05-26 16:15:18.978  :Sending Key (ACTION_UP): 77    // KEYCODE_AT
+2016-05-26 16:15:19.004  Sleeping for 500 milliseconds
+2016-05-26 16:15:19.506 :Sending Trackball (ACTION_MOVE): 0:(-2.0,-4.0)
+2016-05-26 16:15:19.511 :Sending Trackball (ACTION_MOVE): 0:(-2.0,4.0)
+2016-05-26 16:15:19.517 :Sending Trackball (ACTION_MOVE): 0:(-4.0,-5.0)
+2016-05-26 16:15:19.520 :Sending Trackball (ACTION_MOVE): 0:(-3.0,-4.0)
+2016-05-26 16:15:19.531 :Sending Trackball (ACTION_MOVE): 0:(2.0,-2.0)
+2016-05-26 16:15:19.534 :Sending Trackball (ACTION_MOVE): 0:(-1.0,0.0)
+2016-05-26 16:15:19.537 :Sending Trackball (ACTION_MOVE): 0:(1.0,-1.0)
+2016-05-26 16:15:19.540 :Sending Trackball (ACTION_MOVE): 0:(3.0,2.0)
+2016-05-26 16:15:19.545 :Sending Trackball (ACTION_MOVE): 0:(-2.0,-2.0)
+2016-05-26 16:15:19.550 :Sending Trackball (ACTION_MOVE): 0:(0.0,1.0)
+2016-05-26 16:15:19.554 :Sending Trackball (ACTION_MOVE): 0:(-2.0,-2.0)
+2016-05-26 16:15:19.557 :Sending Trackball (ACTION_MOVE): 0:(-3.0,-4.0)
+2016-05-26 16:15:19.558 :Sending Trackball (ACTION_MOVE): 0:(4.0,-2.0)
+2016-05-26 16:15:19.559 :Sending Trackball (ACTION_MOVE): 0:(-3.0,4.0)
+2016-05-26 16:15:19.560 :Sending Trackball (ACTION_MOVE): 0:(1.0,3.0)
+2016-05-26 16:15:19.561 :Sending Trackball (ACTION_MOVE): 0:(-4.0,-2.0)
+2016-05-26 16:15:19.562 :Sending Trackball (ACTION_MOVE): 0:(4.0,3.0)
+2016-05-26 16:15:19.563 :Sending Trackball (ACTION_MOVE): 0:(1.0,0.0)
+2016-05-26 16:15:19.564 :Sending Trackball (ACTION_MOVE): 0:(4.0,2.0)
+2016-05-26 16:15:19.565 :Sending Trackball (ACTION_MOVE): 0:(-3.0,3.0)
+2016-05-26 16:15:19.566  :Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+2016-05-26 16:15:19.588  :Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+2016-05-26 16:15:19.596  Sleeping for 500 milliseconds
+2016-05-26 16:15:20.105 :Sending Touch (ACTION_DOWN): 0:(159.0,917.0)
+2016-05-26 16:15:20.124 :Sending Touch (ACTION_MOVE): 0:(159.35263,918.4256)
+2016-05-26 16:15:20.135 :Sending Touch (ACTION_MOVE): 0:(159.7397,921.54395)
+2016-05-26 16:15:20.138 :Sending Touch (ACTION_MOVE): 0:(169.54404,932.90607)
+2016-05-26 16:15:20.139 :Sending Touch (ACTION_MOVE): 0:(171.05577,934.90436)
+2016-05-26 16:15:20.140 :Sending Touch (ACTION_MOVE): 0:(174.46689,936.81354)
+2016-05-26 16:15:20.141 :Sending Touch (ACTION_UP): 0:(182.24107,944.1533)
+2016-05-26 16:15:20.142  Sleeping for 500 milliseconds
+2016-05-26 16:15:20.643 :Sending Trackball (ACTION_MOVE): 0:(0.0,1.0)
+2016-05-26 16:15:20.652 :Sending Trackball (ACTION_MOVE): 0:(3.0,1.0)
+2016-05-26 16:15:20.655 :Sending Trackball (ACTION_MOVE): 0:(-5.0,-3.0)
+2016-05-26 16:15:20.662 :Sending Trackball (ACTION_MOVE): 0:(4.0,2.0)
+2016-05-26 16:15:20.667 :Sending Trackball (ACTION_MOVE): 0:(-2.0,-3.0)
+2016-05-26 16:15:20.673 :Sending Trackball (ACTION_MOVE): 0:(-5.0,-3.0)
+2016-05-26 16:15:20.675 :Sending Trackball (ACTION_MOVE): 0:(2.0,-3.0)
+2016-05-26 16:15:20.676 :Sending Trackball (ACTION_MOVE): 0:(1.0,3.0)
+2016-05-26 16:15:20.677 :Sending Trackball (ACTION_MOVE): 0:(4.0,-3.0)
+2016-05-26 16:15:20.679 :Sending Trackball (ACTION_MOVE): 0:(4.0,3.0)
+2016-05-26 16:15:20.680  :Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+2016-05-26 16:15:20.716  :Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+2016-05-26 16:15:20.738  Sleeping for 500 milliseconds
+2016-05-26 16:15:21.240 :Sending Touch (ACTION_DOWN): 0:(183.0,169.0)
+2016-05-26 16:15:21.241 :Sending Touch (ACTION_UP): 0:(177.8201,166.16588)
+2016-05-26 16:15:21.242  Sleeping for 500 milliseconds
+2016-05-26 16:15:21.744  :Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+2016-05-26 16:15:21.757  :Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+2016-05-26 16:15:21.763  Sleeping for 500 milliseconds
+2016-05-26 16:15:22.264  :Sending Key (ACTION_DOWN): 152    // KEYCODE_NUMPAD_8
+2016-05-26 16:15:22.266  :Sending Key (ACTION_UP): 152    // KEYCODE_NUMPAD_8
+2016-05-26 16:15:22.269  Sleeping for 500 milliseconds
+2016-05-26 16:15:22.770  :Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+2016-05-26 16:15:22.776  :Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+2016-05-26 16:15:22.781  Sleeping for 500 milliseconds
+2016-05-26 16:15:23.283 :Sending Trackball (ACTION_MOVE): 0:(-4.0,-1.0)
+2016-05-26 16:15:23.286 :Sending Trackball (ACTION_MOVE): 0:(-4.0,4.0)
+2016-05-26 16:15:23.288 :Sending Trackball (ACTION_MOVE): 0:(0.0,-1.0)
+2016-05-26 16:15:23.291 :Sending Trackball (ACTION_MOVE): 0:(-5.0,2.0)
+2016-05-26 16:15:23.294 :Sending Trackball (ACTION_MOVE): 0:(0.0,-2.0)
+2016-05-26 16:15:23.296 :Sending Trackball (ACTION_MOVE): 0:(2.0,-3.0)
+2016-05-26 16:15:23.298 :Sending Trackball (ACTION_MOVE): 0:(0.0,2.0)
+2016-05-26 16:15:23.300 :Sending Trackball (ACTION_MOVE): 0:(1.0,-4.0)
+2016-05-26 16:15:23.302 :Sending Trackball (ACTION_MOVE): 0:(1.0,-4.0)
+2016-05-26 16:15:23.304 :Sending Trackball (ACTION_MOVE): 0:(-1.0,-4.0)
+2016-05-26 16:15:23.308 :Sending Touch (ACTION_DOWN): 0:(385.0,982.0)
+2016-05-26 16:15:23.311 :Sending Touch (ACTION_UP): 0:(376.4987,976.8892)
+2016-05-26 16:15:23.313  Sleeping for 500 milliseconds
+2016-05-26 16:15:23.819  :Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+2016-05-26 16:15:23.821  :Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+2016-05-26 16:15:23.823  Sleeping for 500 milliseconds
+2016-05-26 16:15:24.323  :Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+2016-05-26 16:15:24.329  :Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+2016-05-26 16:15:24.332  Sleeping for 500 milliseconds
+2016-05-26 16:15:24.833 :Sending Trackball (ACTION_MOVE): 0:(-1.0,3.0)
+2016-05-26 16:15:24.835 :Sending Trackball (ACTION_MOVE): 0:(-5.0,1.0)
+2016-05-26 16:15:24.836 :Sending Trackball (ACTION_MOVE): 0:(-1.0,-5.0)
+2016-05-26 16:15:24.836 :Sending Trackball (ACTION_MOVE): 0:(-1.0,-3.0)
+2016-05-26 16:15:24.837 :Sending Trackball (ACTION_MOVE): 0:(-1.0,-1.0)
+2016-05-26 16:15:24.838 :Sending Trackball (ACTION_MOVE): 0:(-3.0,-1.0)
+2016-05-26 16:15:24.839 :Sending Trackball (ACTION_MOVE): 0:(-1.0,-1.0)
+2016-05-26 16:15:24.840 :Sending Trackball (ACTION_MOVE): 0:(-1.0,4.0)
+2016-05-26 16:15:24.840 :Sending Trackball (ACTION_MOVE): 0:(3.0,4.0)
+2016-05-26 16:15:24.841 :Sending Trackball (ACTION_MOVE): 0:(4.0,3.0)
+2016-05-26 16:15:24.842 :Sending Trackball (ACTION_MOVE): 0:(1.0,-3.0)
+2016-05-26 16:15:24.843 :Sending Trackball (ACTION_MOVE): 0:(-1.0,1.0)
+2016-05-26 16:15:24.844 :Sending Trackball (ACTION_MOVE): 0:(0.0,0.0)
+2016-05-26 16:15:24.845 :Sending Trackball (ACTION_MOVE): 0:(2.0,-2.0)
+2016-05-26 16:15:24.845 :Sending Trackball (ACTION_MOVE): 0:(-4.0,-3.0)
+2016-05-26 16:15:24.846 :Sending Trackball (ACTION_MOVE): 0:(0.0,-3.0)
+2016-05-26 16:15:24.847 :Sending Trackball (ACTION_MOVE): 0:(-2.0,-4.0)
+2016-05-26 16:15:24.848 :Sending Trackball (ACTION_MOVE): 0:(4.0,-5.0)
+2016-05-26 16:15:24.849 :Sending Trackball (ACTION_MOVE): 0:(-1.0,0.0)
+2016-05-26 16:15:24.849 :Sending Trackball (ACTION_MOVE): 0:(2.0,-1.0)
+2016-05-26 16:15:24.851 :Sending Touch (ACTION_DOWN): 0:(353.0,745.0)
+2016-05-26 16:15:24.852 :Sending Touch (ACTION_UP): 0:(354.70972,757.8734)
+2016-05-26 16:15:24.853  Sleeping for 500 milliseconds
+2016-05-26 16:15:25.354 :Sending Trackball (ACTION_MOVE): 0:(-3.0,3.0)
+2016-05-26 16:15:25.356 :Sending Trackball (ACTION_MOVE): 0:(-2.0,1.0)
+2016-05-26 16:15:25.357 :Sending Trackball (ACTION_MOVE): 0:(-2.0,-3.0)
+2016-05-26 16:15:25.358 :Sending Trackball (ACTION_MOVE): 0:(-3.0,4.0)
+2016-05-26 16:15:25.358 :Sending Trackball (ACTION_MOVE): 0:(0.0,1.0)
+2016-05-26 16:15:25.359 :Sending Trackball (ACTION_MOVE): 0:(-1.0,0.0)
+2016-05-26 16:15:25.360 :Sending Trackball (ACTION_MOVE): 0:(-2.0,-2.0)
+2016-05-26 16:15:25.361 :Sending Trackball (ACTION_MOVE): 0:(-4.0,3.0)
+2016-05-26 16:15:25.361 :Sending Trackball (ACTION_MOVE): 0:(2.0,-3.0)
+2016-05-26 16:15:25.362 :Sending Trackball (ACTION_MOVE): 0:(-4.0,2.0)
+2016-05-26 16:15:25.363  :Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+2016-05-26 16:15:25.370  :Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+2016-05-26 16:15:25.379  Sleeping for 500 milliseconds
+2016-05-26 16:15:25.880  :Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+2016-05-26 16:15:25.893  :Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+2016-05-26 16:15:25.899  Sleeping for 500 milliseconds
+2016-05-26 16:15:26.400  :Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+2016-05-26 16:15:26.414  :Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+2016-05-26 16:15:26.416  Sleeping for 500 milliseconds
+2016-05-26 16:15:26.918 :Sending Touch (ACTION_DOWN): 0:(35.0,708.0)
+2016-05-26 16:15:26.919 :Sending Touch (ACTION_UP): 0:(28.7873,708.72003)
+2016-05-26 16:15:26.920  Sleeping for 500 milliseconds
+2016-05-26 16:15:27.421 :Sending Touch (ACTION_DOWN): 0:(290.0,180.0)
+2016-05-26 16:15:27.423 :Sending Touch (ACTION_MOVE): 0:(290.03326,178.07648)
+2016-05-26 16:15:27.424 :Sending Touch (ACTION_MOVE): 0:(290.04138,171.09079)
+2016-05-26 16:15:27.425 :Sending Touch (ACTION_MOVE): 0:(290.12177,165.11566)
+2016-05-26 16:15:27.426 :Sending Touch (ACTION_MOVE): 0:(290.2098,164.0834)
+2016-05-26 16:15:27.427 :Sending Touch (ACTION_UP): 0:(290.3178,154.40118)
+2016-05-26 16:15:27.428  Sleeping for 500 milliseconds
+2016-05-26 16:15:27.930 :Sending Touch (ACTION_DOWN): 0:(607.0,1016.0)
+2016-05-26 16:15:27.937 :Sending Touch (ACTION_UP): 0:(606.38904,1016.67224)
+2016-05-26 16:15:27.939  Sleeping for 500 milliseconds
+2016-05-26 16:15:28.443  :Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+2016-05-26 16:15:28.448  :Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+2016-05-26 16:15:28.457  Sleeping for 500 milliseconds
+2016-05-26 16:15:28.960 :Sending Touch (ACTION_DOWN): 0:(285.0,1102.0)
+2016-05-26 16:15:28.963 :Sending Touch (ACTION_UP): 0:(293.47308,1102.4932)
+2016-05-26 16:15:28.966  Sleeping for 500 milliseconds
+2016-05-26 16:15:29.469 :Sending Touch (ACTION_DOWN): 0:(26.0,657.0)
+2016-05-26 16:15:29.471 :Sending Touch (ACTION_UP): 0:(23.593277,658.4922)
+2016-05-26 16:15:29.474  Sleeping for 500 milliseconds
+2016-05-26 16:15:29.977 :Sending Touch (ACTION_DOWN): 0:(674.0,316.0)
+2016-05-26 16:15:29.982 :Sending Touch (ACTION_POINTER_DOWN 1): 0:(678.1635,330.76273) 1:(702.0,349.0)
+2016-05-26 16:15:29.983 :Sending Touch (ACTION_MOVE): 0:(686.6622,352.35645) 1:(683.53796,337.07007)
+2016-05-26 16:15:29.984 :Sending Touch (ACTION_MOVE): 0:(693.2975,370.27225) 1:(667.0317,323.22363)
+2016-05-26 16:15:29.985 :Sending Touch (ACTION_MOVE): 0:(703.81256,389.06256) 1:(656.99115,309.89148)
+2016-05-26 16:15:29.986 :Sending Touch (ACTION_MOVE): 0:(704.232,407.47943) 1:(643.82367,303.35217)
+2016-05-26 16:15:29.987 :Sending Touch (ACTION_MOVE): 0:(711.4512,407.97543) 1:(637.7916,292.11755)
+2016-05-26 16:15:29.988 :Sending Touch (ACTION_MOVE): 0:(719.34375,412.15015) 1:(629.16943,289.53564)
+2016-05-26 16:15:29.989 :Sending Touch (ACTION_MOVE): 0:(720.0,430.90942) 1:(622.9675,282.2763)
+2016-05-26 16:15:29.990 :Sending Touch (ACTION_MOVE): 0:(720.0,443.949) 1:(622.14905,278.91486)
+2016-05-26 16:15:29.991 :Sending Touch (ACTION_MOVE): 0:(720.0,454.9603) 1:(605.9291,266.63803)
+2016-05-26 16:15:29.992 :Sending Touch (ACTION_POINTER_UP 1): 0:(720.0,457.47403) 1:(602.1411,265.92676)
+2016-05-26 16:15:29.993 :Sending Touch (ACTION_UP): 0:(720.0,459.06345)
+2016-05-26 16:15:29.994  Sleeping for 500 milliseconds
+2016-05-26 16:15:30.494  :Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+2016-05-26 16:15:30.496  :Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+2016-05-26 16:15:30.500  Sleeping for 500 milliseconds
+2016-05-26 16:15:31.000  :Sending Key (ACTION_DOWN): 201    // KEYCODE_BUTTON_14
+2016-05-26 16:15:31.006  :Sending Key (ACTION_UP): 201    // KEYCODE_BUTTON_14
+2016-05-26 16:15:31.019  Sleeping for 500 milliseconds
+2016-05-26 16:15:31.522 :Sending Touch (ACTION_DOWN): 0:(452.0,676.0)
+2016-05-26 16:15:31.524 :Sending Touch (ACTION_MOVE): 0:(440.03574,667.80554)
+2016-05-26 16:15:31.527 :Sending Touch (ACTION_MOVE): 0:(424.50766,663.5275)
+2016-05-26 16:15:31.530 :Sending Touch (ACTION_MOVE): 0:(411.55896,657.19824)
+2016-05-26 16:15:31.532 :Sending Touch (ACTION_MOVE): 0:(403.213,652.3862)
+2016-05-26 16:15:31.535 :Sending Touch (ACTION_MOVE): 0:(389.99277,639.37463)
+2016-05-26 16:15:31.537 :Sending Touch (ACTION_MOVE): 0:(367.1006,636.77924)
+2016-05-26 16:15:31.539 :Sending Touch (ACTION_MOVE): 0:(358.9281,625.4694)
+2016-05-26 16:15:31.542 :Sending Touch (ACTION_MOVE): 0:(355.43948,623.5812)
+2016-05-26 16:15:31.544 :Sending Touch (ACTION_MOVE): 0:(346.89948,613.9687)
+2016-05-26 16:15:31.548 :Sending Touch (ACTION_UP): 0:(336.08594,612.2708)
+2016-05-26 16:15:31.550  Sleeping for 500 milliseconds
+2016-05-26 16:15:32.051  :Sending Key (ACTION_DOWN): 102    // KEYCODE_BUTTON_L1
+2016-05-26 16:15:32.058  :Sending Key (ACTION_UP): 102    // KEYCODE_BUTTON_L1
+2016-05-26 16:15:32.062  Sleeping for 500 milliseconds
+2016-05-26 16:15:32.563  :Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+2016-05-26 16:15:32.565  :Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+2016-05-26 16:15:32.568  Sleeping for 500 milliseconds
+2016-05-26 16:15:33.069 :Sending Touch (ACTION_DOWN): 0:(178.0,1158.0)
+2016-05-26 16:15:33.071 :Sending Touch (ACTION_UP): 0:(194.89891,1153.2573)
+2016-05-26 16:15:33.072  Sleeping for 500 milliseconds
+2016-05-26 16:15:33.573  :Sending Key (ACTION_DOWN): 83    // KEYCODE_NOTIFICATION
+2016-05-26 16:15:33.584  :Sending Key (ACTION_UP): 83    // KEYCODE_NOTIFICATION
+2016-05-26 16:15:33.599  Sleeping for 500 milliseconds
+2016-05-26 16:15:34.100 :Sending Trackball (ACTION_MOVE): 0:(-2.0,-2.0)
+2016-05-26 16:15:34.105 :Sending Trackball (ACTION_MOVE): 0:(-3.0,-1.0)
+2016-05-26 16:15:34.110 :Sending Trackball (ACTION_MOVE): 0:(4.0,1.0)
+2016-05-26 16:15:34.113 :Sending Trackball (ACTION_MOVE): 0:(-3.0,3.0)
+2016-05-26 16:15:34.118 :Sending Trackball (ACTION_MOVE): 0:(1.0,-3.0)
+2016-05-26 16:15:34.123 :Sending Trackball (ACTION_MOVE): 0:(4.0,-1.0)
+2016-05-26 16:15:34.129 :Sending Trackball (ACTION_MOVE): 0:(-4.0,0.0)
+2016-05-26 16:15:34.135 :Sending Trackball (ACTION_MOVE): 0:(-3.0,-1.0)
+2016-05-26 16:15:34.137 :Sending Trackball (ACTION_MOVE): 0:(1.0,4.0)
+2016-05-26 16:15:34.139 :Sending Trackball (ACTION_MOVE): 0:(-1.0,0.0)
+2016-05-26 16:15:34.140  :Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+2016-05-26 16:15:34.159  :Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+2016-05-26 16:15:34.162  Sleeping for 500 milliseconds
+2016-05-26 16:15:34.663  :Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+2016-05-26 16:15:34.666  :Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+2016-05-26 16:15:34.669  Sleeping for 500 milliseconds
+2016-05-26 16:15:35.170 :Sending Trackball (ACTION_MOVE): 0:(-4.0,1.0)
+2016-05-26 16:15:35.175 :Sending Trackball (ACTION_MOVE): 0:(1.0,0.0)
+2016-05-26 16:15:35.179 :Sending Trackball (ACTION_MOVE): 0:(-2.0,-1.0)
+2016-05-26 16:15:35.182 :Sending Trackball (ACTION_MOVE): 0:(4.0,-3.0)
+2016-05-26 16:15:35.185 :Sending Trackball (ACTION_MOVE): 0:(-2.0,1.0)
+2016-05-26 16:15:35.188 :Sending Trackball (ACTION_MOVE): 0:(0.0,4.0)
+2016-05-26 16:15:35.190 :Sending Trackball (ACTION_MOVE): 0:(-4.0,3.0)
+2016-05-26 16:15:35.194 :Sending Trackball (ACTION_MOVE): 0:(1.0,-4.0)
+2016-05-26 16:15:35.196 :Sending Trackball (ACTION_MOVE): 0:(2.0,0.0)
+2016-05-26 16:15:35.199 :Sending Trackball (ACTION_MOVE): 0:(2.0,-2.0)
+2016-05-26 16:15:35.204 :Sending Touch (ACTION_DOWN): 0:(220.0,1017.0)
+2016-05-26 16:15:35.206 :Sending Touch (ACTION_UP): 0:(207.52672,1026.644)
+2016-05-26 16:15:35.207  Sleeping for 500 milliseconds
+2016-05-26 16:15:35.707  :Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yaya.mmbang/.activity.SplashActivity;end
+2016-05-26 16:15:35.709      // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yaya.mmbang/.activity.SplashActivity } in package com.yaya.mmbang
+2016-05-26 16:15:35.711  Sleeping for 500 milliseconds
+2016-05-26 16:15:36.217 :Sending Touch (ACTION_DOWN): 0:(351.0,50.0)
+2016-05-26 16:15:36.223 :Sending Touch (ACTION_UP): 0:(352.71887,50.31539)
+2016-05-26 16:15:36.227  Sleeping for 500 milliseconds
+2016-05-26 16:15:36.728  :Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+2016-05-26 16:15:36.732  :Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+2016-05-26 16:15:36.736  Sleeping for 500 milliseconds
+2016-05-26 16:15:37.238 :Sending Touch (ACTION_DOWN): 0:(169.0,620.0)
+2016-05-26 16:15:37.244 :Sending Touch (ACTION_MOVE): 0:(172.67406,624.27747)
+2016-05-26 16:15:37.249 :Sending Touch (ACTION_MOVE): 0:(182.63347,628.8648)
+2016-05-26 16:15:37.253 :Sending Touch (ACTION_MOVE): 0:(186.80739,632.5676)
+2016-05-26 16:15:37.254 :Sending Touch (ACTION_MOVE): 0:(201.22191,633.0292)
+2016-05-26 16:15:37.255 :Sending Touch (ACTION_MOVE): 0:(215.53596,638.3206)
+2016-05-26 16:15:37.257 :Sending Touch (ACTION_UP): 0:(219.6863,638.79675)
+2016-05-26 16:15:37.257  Sleeping for 500 milliseconds
+2016-05-26 16:15:37.758  :Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+2016-05-26 16:15:37.775  :Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+2016-05-26 16:15:37.782  Sleeping for 500 milliseconds
+2016-05-26 16:15:38.285 :Sending Touch (ACTION_DOWN): 0:(548.0,757.0)
+2016-05-26 16:15:38.288 :Sending Touch (ACTION_UP): 0:(545.9163,744.159)
+2016-05-26 16:15:38.291  Sleeping for 500 milliseconds
+2016-05-26 16:15:38.793 :Sending Touch (ACTION_DOWN): 0:(687.0,1138.0)
+2016-05-26 16:15:38.795 :Sending Touch (ACTION_UP): 0:(681.997,1138.0166)
+2016-05-26 16:15:38.796  Sleeping for 500 milliseconds
+2016-05-26 16:15:39.297  :Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+2016-05-26 16:15:39.301  :Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+2016-05-26 16:15:39.302  Sleeping for 500 milliseconds
+2016-05-26 16:15:39.803  :Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+2016-05-26 16:15:39.807  :Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+2016-05-26 16:15:39.812  Sleeping for 500 milliseconds
+2016-05-26 16:15:40.313  :Sending Flip keyboardOpen=true
+2016-05-26 16:15:40.373  Sleeping for 500 milliseconds
+2016-05-26 16:15:40.875 :Sending Touch (ACTION_DOWN): 0:(380.0,382.0)
+2016-05-26 16:15:40.878 :Sending Touch (ACTION_UP): 0:(373.10806,381.1675)
+2016-05-26 16:15:40.881  Sleeping for 500 milliseconds
+2016-05-26 16:15:41.382  :Sending Key (ACTION_DOWN): 63    // KEYCODE_SYM
+2016-05-26 16:15:41.389  :Sending Key (ACTION_UP): 63    // KEYCODE_SYM
+2016-05-26 16:15:41.393  Sleeping for 500 milliseconds
+2016-05-26 16:15:41.894  :Sending Key (ACTION_DOWN): 10    // KEYCODE_3
+2016-05-26 16:15:41.898  :Sending Key (ACTION_UP): 10    // KEYCODE_3
+2016-05-26 16:15:41.901  Sleeping for 500 milliseconds
+2016-05-26 16:15:42.403  :Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+2016-05-26 16:15:42.430  :Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+2016-05-26 16:15:42.440  Sleeping for 500 milliseconds
+2016-05-26 16:15:42.942 :Sending Touch (ACTION_DOWN): 0:(536.0,443.0)
+2016-05-26 16:15:42.943 :Sending Touch (ACTION_UP): 0:(527.8911,442.61188)
+2016-05-26 16:15:42.945  Sleeping for 500 milliseconds
+2016-05-26 16:15:43.447  :Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+2016-05-26 16:15:43.452  :Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+2016-05-26 16:15:43.456  Sleeping for 500 milliseconds
+2016-05-26 16:15:43.958  :Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+2016-05-26 16:15:43.967  :Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+2016-05-26 16:15:43.970  Sleeping for 500 milliseconds
+2016-05-26 16:15:44.471  :Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+2016-05-26 16:15:44.477  :Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+2016-05-26 16:15:44.489  Sleeping for 500 milliseconds
+2016-05-26 16:15:44.989  :Sending Key (ACTION_DOWN): 102    // KEYCODE_BUTTON_L1
+2016-05-26 16:15:45.003  :Sending Key (ACTION_UP): 102    // KEYCODE_BUTTON_L1
+2016-05-26 16:15:45.006  Sleeping for 500 milliseconds
+2016-05-26 16:15:45.522 :Sending Touch (ACTION_DOWN): 0:(540.0,869.0)
+2016-05-26 16:15:45.525 :Sending Touch (ACTION_MOVE): 0:(525.26556,860.31964)
+2016-05-26 16:15:45.526 :Sending Touch (ACTION_MOVE): 0:(509.52957,856.207)
+2016-05-26 16:15:45.527 :Sending Touch (ACTION_MOVE): 0:(500.16235,851.2687)
+2016-05-26 16:15:45.528 :Sending Touch (ACTION_MOVE): 0:(491.85358,844.1508)
+2016-05-26 16:15:45.530 :Sending Touch (ACTION_MOVE): 0:(482.56274,842.1643)
+2016-05-26 16:15:45.531 :Sending Touch (ACTION_MOVE): 0:(472.0225,838.4597)
+2016-05-26 16:15:45.532 :Sending Touch (ACTION_MOVE): 0:(465.91388,837.6804)
+2016-05-26 16:15:45.534 :Sending Touch (ACTION_MOVE): 0:(459.31772,834.6907)
+2016-05-26 16:15:45.536 :Sending Touch (ACTION_MOVE): 0:(441.30933,832.3112)
+2016-05-26 16:15:45.536 :Sending Touch (ACTION_UP): 0:(438.1766,821.4712)
+2016-05-26 16:15:45.537  Sleeping for 500 milliseconds
+2016-05-26 16:15:46.038  :Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+2016-05-26 16:15:46.040  :Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+2016-05-26 16:15:46.042  Sleeping for 500 milliseconds
+2016-05-26 16:15:46.542  :Sending Key (ACTION_DOWN): 83    // KEYCODE_NOTIFICATION
+2016-05-26 16:15:46.549  :Sending Key (ACTION_UP): 83    // KEYCODE_NOTIFICATION
+2016-05-26 16:15:46.557  Sleeping for 500 milliseconds
+2016-05-26 16:15:47.059 :Sending Trackball (ACTION_MOVE): 0:(-3.0,1.0)
+2016-05-26 16:15:47.062 :Sending Trackball (ACTION_MOVE): 0:(3.0,-5.0)
+2016-05-26 16:15:47.065 :Sending Trackball (ACTION_MOVE): 0:(-4.0,-3.0)
+2016-05-26 16:15:47.067 :Sending Trackball (ACTION_MOVE): 0:(-2.0,4.0)
+2016-05-26 16:15:47.070 :Sending Trackball (ACTION_MOVE): 0:(1.0,1.0)
+2016-05-26 16:15:47.072 :Sending Trackball (ACTION_MOVE): 0:(4.0,2.0)
+2016-05-26 16:15:47.074 :Sending Trackball (ACTION_MOVE): 0:(-2.0,1.0)
+2016-05-26 16:15:47.077 :Sending Trackball (ACTION_MOVE): 0:(-2.0,3.0)
+2016-05-26 16:15:47.079 :Sending Trackball (ACTION_MOVE): 0:(-2.0,-4.0)
+2016-05-26 16:15:47.081 :Sending Trackball (ACTION_MOVE): 0:(-4.0,1.0)
+2016-05-26 16:15:47.083  :Sending Key (ACTION_DOWN): 175    // KEYCODE_CAPTIONS
+2016-05-26 16:15:47.094  :Sending Key (ACTION_UP): 175    // KEYCODE_CAPTIONS
+2016-05-26 16:15:47.097  Sleeping for 500 milliseconds
+2016-05-26 16:15:47.599  :Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+2016-05-26 16:15:47.600  :Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+2016-05-26 16:15:47.602  Sleeping for 500 milliseconds
+2016-05-26 16:15:48.102  :Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+2016-05-26 16:15:48.104  :Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+2016-05-26 16:15:48.106  Sleeping for 500 milliseconds
+2016-05-26 16:15:48.607 :Sending Touch (ACTION_DOWN): 0:(70.0,996.0)
+2016-05-26 16:15:48.609 :Sending Touch (ACTION_UP): 0:(59.262722,988.81555)
+2016-05-26 16:15:48.609  Sleeping for 500 milliseconds
+2016-05-26 16:15:49.110  :Sending Key (ACTION_DOWN): 24    // KEYCODE_VOLUME_UP
+2016-05-26 16:15:49.121  :Sending Key (ACTION_UP): 24    // KEYCODE_VOLUME_UP
+2016-05-26 16:15:49.146  Sleeping for 500 milliseconds
+2016-05-26 16:15:49.647  :Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+2016-05-26 16:15:49.651  :Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+2016-05-26 16:15:49.661  Sleeping for 500 milliseconds
+2016-05-26 16:15:50.163  :Sending Key (ACTION_DOWN): 181    // KEYCODE_AVR_POWER
+2016-05-26 16:15:50.167  :Sending Key (ACTION_UP): 181    // KEYCODE_AVR_POWER
+2016-05-26 16:15:50.171  Sleeping for 500 milliseconds
+2016-05-26 16:15:50.672  :Sending Key (ACTION_DOWN): 29    // KEYCODE_A
+2016-05-26 16:15:50.675  :Sending Key (ACTION_UP): 29    // KEYCODE_A
+2016-05-26 16:15:50.679  Sleeping for 500 milliseconds
+2016-05-26 16:15:51.179  :Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+2016-05-26 16:15:51.181  :Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+2016-05-26 16:15:51.222  Sleeping for 500 milliseconds
+2016-05-26 16:15:51.724 :Sending Trackball (ACTION_MOVE): 0:(-5.0,-3.0)
+2016-05-26 16:15:51.731 :Sending Trackball (ACTION_MOVE): 0:(-3.0,-1.0)
+2016-05-26 16:15:51.733 :Sending Trackball (ACTION_MOVE): 0:(1.0,1.0)
+2016-05-26 16:15:51.736 :Sending Trackball (ACTION_MOVE): 0:(1.0,3.0)
+2016-05-26 16:15:51.737 :Sending Trackball (ACTION_MOVE): 0:(1.0,-3.0)
+2016-05-26 16:15:51.738 :Sending Trackball (ACTION_MOVE): 0:(-4.0,0.0)
+2016-05-26 16:15:51.740 :Sending Trackball (ACTION_MOVE): 0:(-3.0,-3.0)
+2016-05-26 16:15:51.741 :Sending Trackball (ACTION_MOVE): 0:(-4.0,-2.0)
+2016-05-26 16:15:51.742 :Sending Trackball (ACTION_MOVE): 0:(3.0,4.0)
+2016-05-26 16:15:51.743 :Sending Trackball (ACTION_MOVE): 0:(-5.0,2.0)
+2016-05-26 16:15:51.746 :Sending Touch (ACTION_DOWN): 0:(611.0,29.0)
+2016-05-26 16:15:51.747 :Sending Touch (ACTION_UP): 0:(601.5482,29.22072)
+2016-05-26 16:15:51.750  Sleeping for 500 milliseconds
+2016-05-26 16:15:52.251  :Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+2016-05-26 16:15:52.259  :Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+2016-05-26 16:15:52.263  Sleeping for 500 milliseconds
+2016-05-26 16:15:52.765  :Sending Key (ACTION_DOWN): 192    // KEYCODE_BUTTON_5
+2016-05-26 16:15:52.769  :Sending Key (ACTION_UP): 192    // KEYCODE_BUTTON_5
+2016-05-26 16:15:52.780  Sleeping for 500 milliseconds
+2016-05-26 16:15:53.282  :Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+2016-05-26 16:15:53.286  :Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+2016-05-26 16:15:53.290  Sleeping for 500 milliseconds
+2016-05-26 16:15:53.791 :Sending Trackball (ACTION_MOVE): 0:(-1.0,-2.0)
+2016-05-26 16:15:53.793 :Sending Trackball (ACTION_MOVE): 0:(-4.0,-5.0)
+2016-05-26 16:15:53.794 :Sending Trackball (ACTION_MOVE): 0:(2.0,1.0)
+2016-05-26 16:15:53.795 :Sending Trackball (ACTION_MOVE): 0:(-4.0,-1.0)
+2016-05-26 16:15:53.796 :Sending Trackball (ACTION_MOVE): 0:(3.0,1.0)
+2016-05-26 16:15:53.797 :Sending Trackball (ACTION_MOVE): 0:(3.0,-3.0)
+2016-05-26 16:15:53.798 :Sending Trackball (ACTION_MOVE): 0:(1.0,2.0)
+2016-05-26 16:15:53.798 :Sending Trackball (ACTION_MOVE): 0:(-4.0,-5.0)
+2016-05-26 16:15:53.799 :Sending Trackball (ACTION_MOVE): 0:(-1.0,4.0)
+2016-05-26 16:15:53.800 :Sending Trackball (ACTION_MOVE): 0:(1.0,-3.0)
+2016-05-26 16:15:53.802 :Sending Touch (ACTION_DOWN): 0:(83.0,825.0)
+2016-05-26 16:15:53.803 :Sending Touch (ACTION_UP): 0:(87.56344,807.29974)
+2016-05-26 16:15:53.809  Sleeping for 500 milliseconds
+2016-05-26 16:15:54.310  :Sending Key (ACTION_DOWN): 24    // KEYCODE_VOLUME_UP
+2016-05-26 16:15:54.348  :Sending Key (ACTION_UP): 24    // KEYCODE_VOLUME_UP
+2016-05-26 16:15:54.364  Sleeping for 500 milliseconds
+2016-05-26 16:15:54.864  :Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+2016-05-26 16:15:54.867  :Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+2016-05-26 16:15:54.872  Sleeping for 500 milliseconds
+2016-05-26 16:15:55.374 :Sending Touch (ACTION_DOWN): 0:(341.0,452.0)
+2016-05-26 16:15:55.378 :Sending Touch (ACTION_UP): 0:(334.8795,434.19107)
+2016-05-26 16:15:55.381  Sleeping for 500 milliseconds
+2016-05-26 16:15:55.882  :Sending Key (ACTION_DOWN): 24    // KEYCODE_VOLUME_UP
+2016-05-26 16:15:55.887  :Sending Key (ACTION_UP): 24    // KEYCODE_VOLUME_UP
+2016-05-26 16:15:55.895  Sleeping for 500 milliseconds
+2016-05-26 16:15:56.396  :Sending Key (ACTION_DOWN): 69    // KEYCODE_MINUS
+2016-05-26 16:15:56.406  :Sending Key (ACTION_UP): 69    // KEYCODE_MINUS
+2016-05-26 16:15:56.412  Sleeping for 500 milliseconds
+2016-05-26 16:15:56.914 :Sending Touch (ACTION_DOWN): 0:(713.0,691.0)
+2016-05-26 16:15:56.918 :Sending Touch (ACTION_UP): 0:(711.1919,682.67773)
+2016-05-26 16:15:56.919  Sleeping for 500 milliseconds
+2016-05-26 16:15:57.420  :Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yaya.mmbang/.activity.SplashActivity;end
+2016-05-26 16:15:57.421      // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yaya.mmbang/.activity.SplashActivity } in package com.yaya.mmbang
+2016-05-26 16:15:57.422  Sleeping for 500 milliseconds
+2016-05-26 16:15:57.923  :Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+2016-05-26 16:15:57.926  :Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+2016-05-26 16:15:57.929  Sleeping for 500 milliseconds
+2016-05-26 16:15:58.430  :Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+2016-05-26 16:15:58.434  :Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+2016-05-26 16:15:58.441  Sleeping for 500 milliseconds
+2016-05-26 16:15:58.943  :Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+2016-05-26 16:15:58.948  :Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+2016-05-26 16:15:58.956  Sleeping for 500 milliseconds
+2016-05-26 16:15:59.459 :Sending Touch (ACTION_DOWN): 0:(239.0,1096.0)
+2016-05-26 16:15:59.461 :Sending Touch (ACTION_MOVE): 0:(234.80255,1113.3229)
+2016-05-26 16:15:59.465 :Sending Touch (ACTION_UP): 0:(228.21872,1130.3647)
+2016-05-26 16:15:59.468  Sleeping for 500 milliseconds
+2016-05-26 16:15:59.969  :Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+2016-05-26 16:15:59.972  :Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+2016-05-26 16:15:59.975  Sleeping for 500 milliseconds
+2016-05-26 16:16:00.476 :Sending Touch (ACTION_DOWN): 0:(436.0,752.0)
+2016-05-26 16:16:00.478 :Sending Touch (ACTION_UP): 0:(435.3609,733.7283)
+2016-05-26 16:16:00.480  Sleeping for 500 milliseconds
+2016-05-26 16:16:00.981 :Sending Touch (ACTION_DOWN): 0:(449.0,806.0)
+2016-05-26 16:16:00.983 :Sending Touch (ACTION_MOVE): 0:(446.01776,805.2205)
+2016-05-26 16:16:00.985 :Sending Touch (ACTION_MOVE): 0:(443.97174,799.78955)
+2016-05-26 16:16:00.986 :Sending Touch (ACTION_MOVE): 0:(439.77045,799.3995)
+2016-05-26 16:16:00.987 :Sending Touch (ACTION_MOVE): 0:(436.51425,794.3679)
+2016-05-26 16:16:00.988 :Sending Touch (ACTION_MOVE): 0:(432.88303,790.85095)
+2016-05-26 16:16:00.989 :Sending Touch (ACTION_MOVE): 0:(432.4694,789.0551)
+2016-05-26 16:16:00.990 :Sending Touch (ACTION_UP): 0:(424.66855,786.88495)
+2016-05-26 16:16:00.991  Sleeping for 500 milliseconds
+2016-05-26 16:16:01.492  :Sending Key (ACTION_DOWN): 72    // KEYCODE_RIGHT_BRACKET
+2016-05-26 16:16:01.494  :Sending Key (ACTION_UP): 72    // KEYCODE_RIGHT_BRACKET
+2016-05-26 16:16:01.502  Sleeping for 500 milliseconds
+2016-05-26 16:16:02.002  :Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+2016-05-26 16:16:02.004  :Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+2016-05-26 16:16:02.006  Sleeping for 500 milliseconds
+2016-05-26 16:16:02.507  :Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+2016-05-26 16:16:02.508  :Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+2016-05-26 16:16:02.510  Sleeping for 500 milliseconds
+2016-05-26 16:16:03.010  :Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+2016-05-26 16:16:03.012  :Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+2016-05-26 16:16:03.014  Sleeping for 500 milliseconds
+2016-05-26 16:16:03.514  :Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+2016-05-26 16:16:03.516  :Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+2016-05-26 16:16:03.558  Sleeping for 500 milliseconds
+2016-05-26 16:16:04.060 :Sending Touch (ACTION_DOWN): 0:(476.0,485.0)
+2016-05-26 16:16:04.063 :Sending Touch (ACTION_UP): 0:(481.49478,475.83737)
+2016-05-26 16:16:04.076  Sleeping for 500 milliseconds
+2016-05-26 16:16:04.579 :Sending Touch (ACTION_DOWN): 0:(272.0,17.0)
+2016-05-26 16:16:04.582 :Sending Touch (ACTION_MOVE): 0:(270.81644,21.17388)
+2016-05-26 16:16:04.591 :Sending Touch (ACTION_MOVE): 0:(268.44125,26.201195)
+2016-05-26 16:16:04.593 :Sending Touch (ACTION_MOVE): 0:(266.88766,28.575157)
+2016-05-26 16:16:04.596 :Sending Touch (ACTION_MOVE): 0:(264.04434,33.23427)
+2016-05-26 16:16:04.598 :Sending Touch (ACTION_MOVE): 0:(262.95053,34.772446)
+2016-05-26 16:16:04.601 :Sending Touch (ACTION_MOVE): 0:(261.8044,40.147007)
+2016-05-26 16:16:04.603 :Sending Touch (ACTION_MOVE): 0:(258.79227,44.49461)
+2016-05-26 16:16:04.605 :Sending Touch (ACTION_MOVE): 0:(258.027,44.553165)
+2016-05-26 16:16:04.608 :Sending Touch (ACTION_UP): 0:(257.21326,46.07517)
+2016-05-26 16:16:04.610  Sleeping for 500 milliseconds
+2016-05-26 16:16:05.113 :Sending Touch (ACTION_DOWN): 0:(479.0,1055.0)
+2016-05-26 16:16:05.117 :Sending Touch (ACTION_UP): 0:(483.66205,1052.8463)
+2016-05-26 16:16:05.119  Sleeping for 500 milliseconds
+2016-05-26 16:16:05.621 :Sending Touch (ACTION_DOWN): 0:(635.0,480.0)
+2016-05-26 16:16:05.622 :Sending Touch (ACTION_UP): 0:(634.17706,480.92804)
+2016-05-26 16:16:05.623  Sleeping for 500 milliseconds
+2016-05-26 16:16:06.124  :Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+2016-05-26 16:16:06.126  :Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+2016-05-26 16:16:06.181  Sleeping for 500 milliseconds
+2016-05-26 16:16:06.682 :Sending Trackball (ACTION_MOVE): 0:(3.0,0.0)
+2016-05-26 16:16:06.684 :Sending Trackball (ACTION_MOVE): 0:(-3.0,-2.0)
+2016-05-26 16:16:06.685 :Sending Trackball (ACTION_MOVE): 0:(4.0,0.0)
+2016-05-26 16:16:06.686 :Sending Trackball (ACTION_MOVE): 0:(2.0,-4.0)
+2016-05-26 16:16:06.687 :Sending Trackball (ACTION_MOVE): 0:(-3.0,4.0)
+2016-05-26 16:16:06.688 :Sending Trackball (ACTION_MOVE): 0:(4.0,-2.0)
+2016-05-26 16:16:06.689 :Sending Trackball (ACTION_MOVE): 0:(0.0,-3.0)
+2016-05-26 16:16:06.690 :Sending Trackball (ACTION_MOVE): 0:(0.0,4.0)
+2016-05-26 16:16:06.691 :Sending Trackball (ACTION_MOVE): 0:(-2.0,0.0)
+2016-05-26 16:16:06.691 :Sending Trackball (ACTION_MOVE): 0:(0.0,2.0)
+2016-05-26 16:16:06.692  :Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+2016-05-26 16:16:06.787  :Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+2016-05-26 16:16:06.797  Sleeping for 500 milliseconds
+2016-05-26 16:16:07.298 :Sending Trackball (ACTION_MOVE): 0:(-5.0,1.0)
+2016-05-26 16:16:07.302 :Sending Trackball (ACTION_MOVE): 0:(0.0,-3.0)
+2016-05-26 16:16:07.304 :Sending Trackball (ACTION_MOVE): 0:(-3.0,1.0)
+2016-05-26 16:16:07.307 :Sending Trackball (ACTION_MOVE): 0:(-5.0,1.0)
+2016-05-26 16:16:07.317 :Sending Trackball (ACTION_MOVE): 0:(-2.0,-4.0)
+2016-05-26 16:16:07.323 :Sending Trackball (ACTION_MOVE): 0:(-1.0,4.0)
+2016-05-26 16:16:07.327 :Sending Trackball (ACTION_MOVE): 0:(-5.0,-1.0)
+2016-05-26 16:16:07.339 :Sending Trackball (ACTION_MOVE): 0:(0.0,0.0)
+2016-05-26 16:16:07.344 :Sending Trackball (ACTION_MOVE): 0:(-5.0,-2.0)
+2016-05-26 16:16:07.347 :Sending Trackball (ACTION_MOVE): 0:(-1.0,4.0)
+2016-05-26 16:16:07.351 :Sending Touch (ACTION_DOWN): 0:(154.0,807.0)
+2016-05-26 16:16:07.354 :Sending Touch (ACTION_UP): 0:(144.27133,818.63336)
+2016-05-26 16:16:07.355  Sleeping for 500 milliseconds
+2016-05-26 16:16:07.856  :Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+2016-05-26 16:16:07.860  :Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+2016-05-26 16:16:07.869  Sleeping for 500 milliseconds
+2016-05-26 16:16:08.371 :Sending Trackball (ACTION_MOVE): 0:(1.0,-2.0)
+2016-05-26 16:16:08.374 :Sending Trackball (ACTION_MOVE): 0:(2.0,-2.0)
+2016-05-26 16:16:08.377 :Sending Trackball (ACTION_MOVE): 0:(2.0,4.0)
+2016-05-26 16:16:08.379 :Sending Trackball (ACTION_MOVE): 0:(-4.0,-2.0)
+2016-05-26 16:16:08.381 :Sending Trackball (ACTION_MOVE): 0:(-2.0,3.0)
+2016-05-26 16:16:08.384 :Sending Trackball (ACTION_MOVE): 0:(-4.0,-5.0)
+2016-05-26 16:16:08.386 :Sending Trackball (ACTION_MOVE): 0:(1.0,0.0)
+2016-05-26 16:16:08.389 :Sending Trackball (ACTION_MOVE): 0:(-3.0,0.0)
+2016-05-26 16:16:08.391 :Sending Trackball (ACTION_MOVE): 0:(1.0,-4.0)
+2016-05-26 16:16:08.394 :Sending Trackball (ACTION_MOVE): 0:(4.0,0.0)
+2016-05-26 16:16:08.395 :Sending Touch (ACTION_DOWN): 0:(536.0,68.0)
+2016-05-26 16:16:08.396 :Sending Touch (ACTION_UP): 0:(521.9032,67.691986)
+2016-05-26 16:16:08.397  Sleeping for 500 milliseconds
+2016-05-26 16:16:08.898 :Sending Trackball (ACTION_MOVE): 0:(3.0,-3.0)
+2016-05-26 16:16:08.900 :Sending Trackball (ACTION_MOVE): 0:(-3.0,3.0)
+2016-05-26 16:16:08.901 :Sending Trackball (ACTION_MOVE): 0:(-3.0,-4.0)
+2016-05-26 16:16:08.901 :Sending Trackball (ACTION_MOVE): 0:(4.0,-4.0)
+2016-05-26 16:16:08.902 :Sending Trackball (ACTION_MOVE): 0:(-4.0,2.0)
+2016-05-26 16:16:08.903 :Sending Trackball (ACTION_MOVE): 0:(0.0,0.0)
+2016-05-26 16:16:08.904 :Sending Trackball (ACTION_MOVE): 0:(-1.0,2.0)
+2016-05-26 16:16:08.905 :Sending Trackball (ACTION_MOVE): 0:(4.0,0.0)
+2016-05-26 16:16:08.906 :Sending Trackball (ACTION_MOVE): 0:(1.0,0.0)
+2016-05-26 16:16:08.906 :Sending Trackball (ACTION_MOVE): 0:(-3.0,1.0)
+2016-05-26 16:16:08.907 :Sending Trackball (ACTION_MOVE): 0:(4.0,3.0)
+2016-05-26 16:16:08.908 :Sending Trackball (ACTION_MOVE): 0:(-5.0,3.0)
+2016-05-26 16:16:08.909 :Sending Trackball (ACTION_MOVE): 0:(3.0,3.0)
+2016-05-26 16:16:08.910 :Sending Trackball (ACTION_MOVE): 0:(-5.0,-2.0)
+2016-05-26 16:16:08.910 :Sending Trackball (ACTION_MOVE): 0:(-2.0,-2.0)
+2016-05-26 16:16:08.911 :Sending Trackball (ACTION_MOVE): 0:(-1.0,1.0)
+2016-05-26 16:16:08.912 :Sending Trackball (ACTION_MOVE): 0:(4.0,-1.0)
+2016-05-26 16:16:08.913 :Sending Trackball (ACTION_MOVE): 0:(0.0,3.0)
+2016-05-26 16:16:08.914 :Sending Trackball (ACTION_MOVE): 0:(-4.0,4.0)
+2016-05-26 16:16:08.916 :Sending Trackball (ACTION_MOVE): 0:(0.0,2.0)
+2016-05-26 16:16:08.918 :Sending Trackball (ACTION_MOVE): 0:(-1.0,1.0)
+2016-05-26 16:16:08.919 :Sending Trackball (ACTION_MOVE): 0:(2.0,2.0)
+2016-05-26 16:16:08.920 :Sending Trackball (ACTION_MOVE): 0:(-1.0,1.0)
+2016-05-26 16:16:08.921 :Sending Trackball (ACTION_MOVE): 0:(2.0,3.0)
+2016-05-26 16:16:08.922 :Sending Trackball (ACTION_MOVE): 0:(-5.0,-4.0)
+2016-05-26 16:16:08.923 :Sending Trackball (ACTION_MOVE): 0:(-1.0,3.0)
+2016-05-26 16:16:08.924 :Sending Trackball (ACTION_MOVE): 0:(-4.0,2.0)
+2016-05-26 16:16:08.925 :Sending Trackball (ACTION_MOVE): 0:(0.0,-2.0)
+2016-05-26 16:16:08.926 :Sending Trackball (ACTION_MOVE): 0:(-2.0,3.0)
+2016-05-26 16:16:08.927 :Sending Trackball (ACTION_MOVE): 0:(-2.0,1.0)
+2016-05-26 16:16:08.927 :Sending Trackball (ACTION_DOWN): 0:(0.0,0.0)
+2016-05-26 16:16:08.928 :Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+2016-05-26 16:16:08.929  Sleeping for 500 milliseconds
+2016-05-26 16:16:09.430  :Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+2016-05-26 16:16:09.432  :Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+2016-05-26 16:16:09.568  Sleeping for 500 milliseconds
+2016-05-26 16:16:10.069  :Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+2016-05-26 16:16:10.074  :Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+2016-05-26 16:16:10.092  Sleeping for 500 milliseconds
+2016-05-26 16:16:10.593 :Sending Touch (ACTION_DOWN): 0:(365.0,109.0)
+2016-05-26 16:16:10.595 :Sending Touch (ACTION_UP): 0:(364.64722,125.477844)
+2016-05-26 16:16:10.596  Sleeping for 500 milliseconds
+2016-05-26 16:16:11.096  :Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+2016-05-26 16:16:11.101  :Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+2016-05-26 16:16:11.109  Sleeping for 500 milliseconds
+2016-05-26 16:16:11.611  :Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+2016-05-26 16:16:11.615  :Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+2016-05-26 16:16:11.622  Sleeping for 500 milliseconds
+2016-05-26 16:16:12.124  :Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+2016-05-26 16:16:12.126  :Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+2016-05-26 16:16:12.127  Sleeping for 500 milliseconds
+2016-05-26 16:16:12.628  :Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+2016-05-26 16:16:12.631  :Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+2016-05-26 16:16:12.640  Sleeping for 500 milliseconds
+2016-05-26 16:16:13.142 :Sending Touch (ACTION_DOWN): 0:(437.0,1138.0)
+2016-05-26 16:16:13.144 :Sending Touch (ACTION_UP): 0:(432.53983,1135.6179)
+2016-05-26 16:16:13.145  Sleeping for 500 milliseconds
+2016-05-26 16:16:13.646  :Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yaya.mmbang/.activity.SplashActivity;end
+2016-05-26 16:16:13.649      // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yaya.mmbang/.activity.SplashActivity } in package com.yaya.mmbang
+2016-05-26 16:16:13.653  Sleeping for 500 milliseconds
+2016-05-26 16:16:14.156 :Sending Touch (ACTION_DOWN): 0:(404.0,351.0)
+2016-05-26 16:16:14.160 :Sending Touch (ACTION_UP): 0:(402.10257,355.31564)
+2016-05-26 16:16:14.163  Sleeping for 500 milliseconds
+2016-05-26 16:16:14.665 :Sending Trackball (ACTION_MOVE): 0:(1.0,-4.0)
+2016-05-26 16:16:14.667 :Sending Trackball (ACTION_MOVE): 0:(-5.0,-1.0)
+2016-05-26 16:16:14.670 :Sending Trackball (ACTION_MOVE): 0:(3.0,-2.0)
+2016-05-26 16:16:14.673 :Sending Trackball (ACTION_MOVE): 0:(4.0,3.0)
+2016-05-26 16:16:14.677 :Sending Trackball (ACTION_MOVE): 0:(-5.0,2.0)
+2016-05-26 16:16:14.679 :Sending Trackball (ACTION_MOVE): 0:(-2.0,2.0)
+2016-05-26 16:16:14.681 :Sending Trackball (ACTION_MOVE): 0:(3.0,1.0)
+2016-05-26 16:16:14.684 :Sending Trackball (ACTION_MOVE): 0:(4.0,3.0)
+2016-05-26 16:16:14.687 :Sending Trackball (ACTION_MOVE): 0:(3.0,-3.0)
+2016-05-26 16:16:14.689 :Sending Trackball (ACTION_MOVE): 0:(-2.0,-3.0)
+2016-05-26 16:16:14.691  :Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+2016-05-26 16:16:14.706  :Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+2016-05-26 16:16:14.708  Sleeping for 500 milliseconds
+2016-05-26 16:16:15.209  :Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+2016-05-26 16:16:15.211  :Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+2016-05-26 16:16:15.249  Sleeping for 500 milliseconds
+2016-05-26 16:16:15.750 :Sending Touch (ACTION_DOWN): 0:(66.0,1207.0)
+2016-05-26 16:16:15.753 :Sending Touch (ACTION_UP): 0:(65.971756,1213.3586)
+2016-05-26 16:16:15.756  Sleeping for 500 milliseconds
+2016-05-26 16:16:16.256  :Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+2016-05-26 16:16:16.258  :Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+2016-05-26 16:16:16.260  Sleeping for 500 milliseconds
+2016-05-26 16:16:16.761 :Sending Trackball (ACTION_MOVE): 0:(3.0,-4.0)
+2016-05-26 16:16:16.765 :Sending Trackball (ACTION_MOVE): 0:(-5.0,0.0)
+2016-05-26 16:16:16.767 :Sending Trackball (ACTION_MOVE): 0:(-4.0,-4.0)
+2016-05-26 16:16:16.770 :Sending Trackball (ACTION_MOVE): 0:(1.0,-5.0)
+2016-05-26 16:16:16.773 :Sending Trackball (ACTION_MOVE): 0:(1.0,-1.0)
+2016-05-26 16:16:16.775 :Sending Trackball (ACTION_MOVE): 0:(-2.0,-1.0)
+2016-05-26 16:16:16.780 :Sending Trackball (ACTION_MOVE): 0:(4.0,1.0)
+2016-05-26 16:16:16.782 :Sending Trackball (ACTION_MOVE): 0:(-4.0,-4.0)
+2016-05-26 16:16:16.784 :Sending Trackball (ACTION_MOVE): 0:(0.0,3.0)
+2016-05-26 16:16:16.787 :Sending Trackball (ACTION_MOVE): 0:(0.0,-2.0)
+2016-05-26 16:16:16.788  :Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+2016-05-26 16:16:16.872  :Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+2016-05-26 16:16:16.881  Sleeping for 500 milliseconds
+2016-05-26 16:16:17.382  :Sending Key (ACTION_DOWN): 30    // KEYCODE_B
+2016-05-26 16:16:17.392  :Sending Key (ACTION_UP): 30    // KEYCODE_B
+2016-05-26 16:16:17.401  Sleeping for 500 milliseconds
+2016-05-26 16:16:17.902  :Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+2016-05-26 16:16:17.963  :Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+2016-05-26 16:16:17.979  Sleeping for 500 milliseconds
+2016-05-26 16:16:18.481 :Sending Touch (ACTION_DOWN): 0:(283.0,70.0)
+2016-05-26 16:16:18.483 :Sending Touch (ACTION_UP): 0:(283.05417,63.347916)
+2016-05-26 16:16:18.484  Sleeping for 500 milliseconds
+2016-05-26 16:16:18.984  :Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+2016-05-26 16:16:18.988  :Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+2016-05-26 16:16:18.996  Sleeping for 500 milliseconds
+2016-05-26 16:16:19.497  :Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+2016-05-26 16:16:19.499  :Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+2016-05-26 16:16:19.502  Sleeping for 500 milliseconds
+2016-05-26 16:16:20.005 :Sending Touch (ACTION_DOWN): 0:(403.0,646.0)
+2016-05-26 16:16:20.008 :Sending Touch (ACTION_UP): 0:(403.27176,635.11926)
+2016-05-26 16:16:20.017  Sleeping for 500 milliseconds
+2016-05-26 16:16:20.519  :Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+2016-05-26 16:16:20.535  :Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+2016-05-26 16:16:20.548  Sleeping for 500 milliseconds
+2016-05-26 16:16:21.048  :Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+2016-05-26 16:16:21.051  :Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+2016-05-26 16:16:21.053  Sleeping for 500 milliseconds
+2016-05-26 16:16:21.554  :Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+2016-05-26 16:16:21.558  :Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+2016-05-26 16:16:21.571  Sleeping for 500 milliseconds
+2016-05-26 16:16:22.071  :Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+2016-05-26 16:16:22.073  :Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+2016-05-26 16:16:22.085  Sleeping for 500 milliseconds
+2016-05-26 16:16:22.395      // activityResuming(com.yaya.mmbang)
+2016-05-26 16:16:22.661 :Sending Touch (ACTION_DOWN): 0:(557.0,906.0)
+2016-05-26 16:16:22.666      // activityResuming(com.yaya.mmbang)
+2016-05-26 16:16:22.764 :Sending Touch (ACTION_POINTER_DOWN 1): 0:(569.50146,902.97473) 1:(645.0,432.0)
+2016-05-26 16:16:22.766 :Sending Touch (ACTION_MOVE): 0:(578.0621,902.0621) 1:(633.9343,414.5166)
+2016-05-26 16:16:22.767 :Sending Touch (ACTION_MOVE): 0:(580.0775,898.4279) 1:(627.4398,396.46536)
+2016-05-26 16:16:22.769 :Sending Touch (ACTION_MOVE): 0:(581.85284,896.33154) 1:(623.649,385.3476)
+2016-05-26 16:16:22.770 :Sending Touch (ACTION_MOVE): 0:(582.56573,893.55304) 1:(619.783,379.53842)
+2016-05-26 16:16:22.772 :Sending Touch (ACTION_POINTER_UP 1): 0:(595.1963,893.06525) 1:(611.858,379.4177)
+2016-05-26 16:16:22.773 :Sending Touch (ACTION_UP): 0:(599.5933,889.9182)
+2016-05-26 16:16:22.774  Sleeping for 500 milliseconds
+2016-05-26 16:16:23.275 :Sending Touch (ACTION_DOWN): 0:(543.0,562.0)
+2016-05-26 16:16:23.277 :Sending Touch (ACTION_UP): 0:(547.92896,560.33905)
+2016-05-26 16:16:23.278  Sleeping for 500 milliseconds
+2016-05-26 16:16:23.779  :Sending Key (ACTION_DOWN): 195    // KEYCODE_BUTTON_8
+2016-05-26 16:16:23.787  :Sending Key (ACTION_UP): 195    // KEYCODE_BUTTON_8
+2016-05-26 16:16:23.795  Sleeping for 500 milliseconds
+2016-05-26 16:16:24.296  :Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+2016-05-26 16:16:24.300  :Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+2016-05-26 16:16:24.729  Sleeping for 500 milliseconds
+2016-05-26 16:16:25.231 :Sending Touch (ACTION_DOWN): 0:(454.0,1178.0)
+2016-05-26 16:16:25.232 :Sending Touch (ACTION_MOVE): 0:(449.80612,1183.0321)
+2016-05-26 16:16:25.233 :Sending Touch (ACTION_MOVE): 0:(432.68933,1192.66)
+2016-05-26 16:16:25.234 :Sending Touch (ACTION_MOVE): 0:(428.80347,1203.4453)
+2016-05-26 16:16:25.235 :Sending Touch (ACTION_MOVE): 0:(408.18378,1205.7612)
+2016-05-26 16:16:25.236 :Sending Touch (ACTION_MOVE): 0:(402.7145,1209.0779)
+2016-05-26 16:16:25.237 :Sending Touch (ACTION_MOVE): 0:(386.8128,1212.3462)
+2016-05-26 16:16:25.238 :Sending Touch (ACTION_MOVE): 0:(367.75876,1220.0225)
+2016-05-26 16:16:25.239 :Sending Touch (ACTION_MOVE): 0:(355.6738,1222.0635)
+2016-05-26 16:16:25.240 :Sending Touch (ACTION_MOVE): 0:(341.12338,1223.5138)
+2016-05-26 16:16:25.241 :Sending Touch (ACTION_UP): 0:(329.3581,1231.8856)
+2016-05-26 16:16:25.242  Sleeping for 500 milliseconds
+2016-05-26 16:16:25.743  :Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+2016-05-26 16:16:25.745  :Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+2016-05-26 16:16:25.747  Sleeping for 500 milliseconds
+2016-05-26 16:16:26.248  :Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+2016-05-26 16:16:26.252  :Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+2016-05-26 16:16:26.255  Sleeping for 500 milliseconds
+2016-05-26 16:16:26.756  :Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+2016-05-26 16:16:26.760  :Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+2016-05-26 16:16:26.763  Sleeping for 500 milliseconds
+2016-05-26 16:16:27.265 :Sending Touch (ACTION_DOWN): 0:(147.0,32.0)
+2016-05-26 16:16:27.268 :Sending Touch (ACTION_MOVE): 0:(130.21768,29.43179)
+2016-05-26 16:16:27.269 :Sending Touch (ACTION_MOVE): 0:(123.10582,18.454758)
+2016-05-26 16:16:27.270 :Sending Touch (ACTION_MOVE): 0:(118.70982,12.084978)
+2016-05-26 16:16:27.272 :Sending Touch (ACTION_MOVE): 0:(116.64111,0.0)
+2016-05-26 16:16:27.273 :Sending Touch (ACTION_UP): 0:(112.01103,0.0)
+2016-05-26 16:16:27.275  Sleeping for 500 milliseconds
+2016-05-26 16:16:27.775  :Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+2016-05-26 16:16:27.779  :Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+2016-05-26 16:16:27.782  Sleeping for 500 milliseconds
+2016-05-26 16:16:28.283 :Sending Touch (ACTION_DOWN): 0:(483.0,595.0)
+2016-05-26 16:16:28.285 :Sending Touch (ACTION_MOVE): 0:(481.04788,596.5883)
+2016-05-26 16:16:28.286 :Sending Touch (ACTION_MOVE): 0:(480.8082,600.3206)
+2016-05-26 16:16:28.287 :Sending Touch (ACTION_MOVE): 0:(476.5204,605.22485)
+2016-05-26 16:16:28.287 :Sending Touch (ACTION_MOVE): 0:(471.45715,609.94867)
+2016-05-26 16:16:28.289 :Sending Touch (ACTION_MOVE): 0:(470.289,611.9126)
+2016-05-26 16:16:28.291 :Sending Touch (ACTION_MOVE): 0:(465.28348,615.8204)
+2016-05-26 16:16:28.294 :Sending Touch (ACTION_UP): 0:(462.6273,620.10974)
+2016-05-26 16:16:28.295  Sleeping for 500 milliseconds
+2016-05-26 16:16:28.797 :Sending Touch (ACTION_DOWN): 0:(136.0,446.0)
+2016-05-26 16:16:28.800 :Sending Touch (ACTION_MOVE): 0:(138.24423,444.97162)
+2016-05-26 16:16:28.803 :Sending Touch (ACTION_MOVE): 0:(144.11476,441.8753)
+2016-05-26 16:16:28.809 :Sending Touch (ACTION_MOVE): 0:(146.52849,437.9101)
+2016-05-26 16:16:28.812 :Sending Touch (ACTION_MOVE): 0:(154.31703,433.62094)
+2016-05-26 16:16:28.814 :Sending Touch (ACTION_UP): 0:(160.9159,430.41208)
+2016-05-26 16:16:28.816  Sleeping for 500 milliseconds
+2016-05-26 16:16:29.317  :Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+2016-05-26 16:16:29.321  :Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+2016-05-26 16:16:29.325  Sleeping for 500 milliseconds
+2016-05-26 16:16:29.827  :Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+2016-05-26 16:16:29.830  :Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+2016-05-26 16:16:29.835  Sleeping for 500 milliseconds
+2016-05-26 16:16:30.337 :Sending Touch (ACTION_DOWN): 0:(324.0,593.0)
+2016-05-26 16:16:30.340 :Sending Touch (ACTION_UP): 0:(316.80606,600.87115)
+2016-05-26 16:16:30.341  Sleeping for 500 milliseconds
+2016-05-26 16:16:30.842  :Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+2016-05-26 16:16:30.849  :Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+2016-05-26 16:16:30.970  Sleeping for 500 milliseconds
+2016-05-26 16:16:31.471  :Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+2016-05-26 16:16:31.473  :Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+2016-05-26 16:16:31.475  Sleeping for 500 milliseconds
+2016-05-26 16:16:31.975  :Sending Key (ACTION_DOWN): 25    // KEYCODE_VOLUME_DOWN
+2016-05-26 16:16:31.984  :Sending Key (ACTION_UP): 25    // KEYCODE_VOLUME_DOWN
+2016-05-26 16:16:32.006  Sleeping for 500 milliseconds
+2016-05-26 16:16:32.507  :Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+2016-05-26 16:16:32.511  :Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+2016-05-26 16:16:32.517  Sleeping for 500 milliseconds
+2016-05-26 16:16:33.019  :Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+2016-05-26 16:16:33.025  :Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+2016-05-26 16:16:33.030  Sleeping for 500 milliseconds
+2016-05-26 16:16:33.532 :Sending Trackball (ACTION_MOVE): 0:(-3.0,-2.0)
+2016-05-26 16:16:33.533 :Sending Trackball (ACTION_MOVE): 0:(2.0,-4.0)
+2016-05-26 16:16:33.534 :Sending Trackball (ACTION_MOVE): 0:(-3.0,3.0)
+2016-05-26 16:16:33.535 :Sending Trackball (ACTION_MOVE): 0:(-4.0,4.0)
+2016-05-26 16:16:33.536 :Sending Trackball (ACTION_MOVE): 0:(4.0,-2.0)
+2016-05-26 16:16:33.537 :Sending Trackball (ACTION_MOVE): 0:(-2.0,0.0)
+2016-05-26 16:16:33.538 :Sending Trackball (ACTION_MOVE): 0:(-5.0,3.0)
+2016-05-26 16:16:33.538 :Sending Trackball (ACTION_MOVE): 0:(4.0,2.0)
+2016-05-26 16:16:33.539 :Sending Trackball (ACTION_MOVE): 0:(0.0,4.0)
+2016-05-26 16:16:33.540 :Sending Trackball (ACTION_MOVE): 0:(-1.0,-4.0)
+2016-05-26 16:16:33.541  :Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+2016-05-26 16:16:33.573  :Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+2016-05-26 16:16:33.647  Sleeping for 500 milliseconds
+2016-05-26 16:16:34.148 :Sending Trackball (ACTION_MOVE): 0:(3.0,-5.0)
+2016-05-26 16:16:34.149 :Sending Trackball (ACTION_MOVE): 0:(-4.0,-2.0)
+2016-05-26 16:16:34.150 :Sending Trackball (ACTION_MOVE): 0:(-4.0,2.0)
+2016-05-26 16:16:34.151 :Sending Trackball (ACTION_MOVE): 0:(-1.0,2.0)
+2016-05-26 16:16:34.152 :Sending Trackball (ACTION_MOVE): 0:(4.0,-5.0)
+2016-05-26 16:16:34.153 :Sending Trackball (ACTION_MOVE): 0:(-2.0,-2.0)
+2016-05-26 16:16:34.153 :Sending Trackball (ACTION_MOVE): 0:(2.0,-3.0)
+2016-05-26 16:16:34.154 :Sending Trackball (ACTION_MOVE): 0:(0.0,-4.0)
+2016-05-26 16:16:34.155 :Sending Trackball (ACTION_MOVE): 0:(0.0,-5.0)
+2016-05-26 16:16:34.156 :Sending Trackball (ACTION_MOVE): 0:(0.0,-4.0)
+2016-05-26 16:16:34.157  :Sending Key (ACTION_DOWN): 9    // KEYCODE_2
+2016-05-26 16:16:34.328  :Sending Key (ACTION_UP): 9    // KEYCODE_2
+2016-05-26 16:16:34.344  Sleeping for 500 milliseconds
+2016-05-26 16:16:34.844  :Sending Key (ACTION_DOWN): 34    // KEYCODE_F
+2016-05-26 16:16:34.846  :Sending Key (ACTION_UP): 34    // KEYCODE_F
+2016-05-26 16:16:34.848  Sleeping for 500 milliseconds
+2016-05-26 16:16:35.348  :Sending Key (ACTION_DOWN): 143    // KEYCODE_NUM_LOCK
+2016-05-26 16:16:35.352  :Sending Key (ACTION_UP): 143    // KEYCODE_NUM_LOCK
+2016-05-26 16:16:35.357  Sleeping for 500 milliseconds
+2016-05-26 16:16:35.858  :Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+2016-05-26 16:16:35.860  :Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+2016-05-26 16:16:35.862  Sleeping for 500 milliseconds
+2016-05-26 16:16:36.363  :Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+2016-05-26 16:16:36.365  :Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+2016-05-26 16:16:36.367  Sleeping for 500 milliseconds
+2016-05-26 16:16:36.867  :Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+2016-05-26 16:16:36.870  :Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+2016-05-26 16:16:36.988  Sleeping for 500 milliseconds
+2016-05-26 16:16:37.488  :Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+2016-05-26 16:16:37.491  :Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+2016-05-26 16:16:37.495  Sleeping for 500 milliseconds
+2016-05-26 16:16:37.997 :Sending Touch (ACTION_DOWN): 0:(571.0,663.0)
+2016-05-26 16:16:38.000 :Sending Touch (ACTION_UP): 0:(580.53064,661.7079)
+2016-05-26 16:16:38.003  Sleeping for 500 milliseconds
+2016-05-26 16:16:38.504  :Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+2016-05-26 16:16:38.514  :Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+2016-05-26 16:16:38.517  Sleeping for 500 milliseconds
+2016-05-26 16:16:39.019 :Sending Touch (ACTION_DOWN): 0:(717.0,1120.0)
+2016-05-26 16:16:39.021 :Sending Touch (ACTION_MOVE): 0:(720.0,1120.096)
+2016-05-26 16:16:39.021 :Sending Touch (ACTION_MOVE): 0:(720.0,1120.2052)
+2016-05-26 16:16:39.022 :Sending Touch (ACTION_UP): 0:(720.0,1120.3456)
+2016-05-26 16:16:39.024  Sleeping for 500 milliseconds
+2016-05-26 16:16:39.524  :Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+2016-05-26 16:16:39.529  :Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+2016-05-26 16:16:39.548  Sleeping for 500 milliseconds
+2016-05-26 16:16:40.049  :Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+2016-05-26 16:16:40.051  :Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+2016-05-26 16:16:40.194  Sleeping for 500 milliseconds
+2016-05-26 16:16:40.695  :Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+2016-05-26 16:16:40.697  :Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+2016-05-26 16:16:40.699  Sleeping for 500 milliseconds
+2016-05-26 16:16:41.201  :Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+2016-05-26 16:16:41.217  :Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+2016-05-26 16:16:41.228  Sleeping for 500 milliseconds
+2016-05-26 16:16:41.730  :Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+2016-05-26 16:16:41.734  :Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+2016-05-26 16:16:41.739  Sleeping for 500 milliseconds
+2016-05-26 16:16:42.240  :Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+2016-05-26 16:16:42.242  :Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+2016-05-26 16:16:42.245  Sleeping for 500 milliseconds
+2016-05-26 16:16:42.746 :Sending Touch (ACTION_DOWN): 0:(242.0,514.0)
+2016-05-26 16:16:42.747 :Sending Touch (ACTION_UP): 0:(239.87532,511.80148)
+2016-05-26 16:16:42.752  Sleeping for 500 milliseconds
+2016-05-26 16:16:43.252  :Sending Key (ACTION_DOWN): 167    // KEYCODE_CHANNEL_DOWN
+2016-05-26 16:16:43.255  :Sending Key (ACTION_UP): 167    // KEYCODE_CHANNEL_DOWN
+2016-05-26 16:16:43.288  Sleeping for 500 milliseconds
+2016-05-26 16:16:43.789  :Sending Key (ACTION_DOWN): 125    // KEYCODE_FORWARD
+2016-05-26 16:16:43.793  :Sending Key (ACTION_UP): 125    // KEYCODE_FORWARD
+2016-05-26 16:16:43.797  Sleeping for 500 milliseconds
+2016-05-26 16:16:44.299 :Sending Trackball (ACTION_MOVE): 0:(0.0,3.0)
+2016-05-26 16:16:44.303 :Sending Trackball (ACTION_MOVE): 0:(-3.0,2.0)
+2016-05-26 16:16:44.304 :Sending Trackball (ACTION_MOVE): 0:(-1.0,3.0)
+2016-05-26 16:16:44.305 :Sending Trackball (ACTION_MOVE): 0:(-2.0,-2.0)
+2016-05-26 16:16:44.306 :Sending Trackball (ACTION_MOVE): 0:(1.0,4.0)
+2016-05-26 16:16:44.307 :Sending Trackball (ACTION_MOVE): 0:(4.0,2.0)
+2016-05-26 16:16:44.308 :Sending Trackball (ACTION_MOVE): 0:(-4.0,-1.0)
+2016-05-26 16:16:44.308 :Sending Trackball (ACTION_MOVE): 0:(-4.0,1.0)
+2016-05-26 16:16:44.309 :Sending Trackball (ACTION_MOVE): 0:(-2.0,2.0)
+2016-05-26 16:16:44.310 :Sending Trackball (ACTION_MOVE): 0:(-5.0,-2.0)
+2016-05-26 16:16:44.311 :Sending Touch (ACTION_DOWN): 0:(698.0,900.0)
+2016-05-26 16:16:44.313 :Sending Touch (ACTION_UP): 0:(698.02,881.11395)
+2016-05-26 16:16:44.325  Sleeping for 500 milliseconds
+2016-05-26 16:16:44.825  :Sending Key (ACTION_DOWN): 212    // KEYCODE_EISU
+2016-05-26 16:16:44.831  :Sending Key (ACTION_UP): 212    // KEYCODE_EISU
+2016-05-26 16:16:44.841  Sleeping for 500 milliseconds
+2016-05-26 16:16:45.342  :Sending Key (ACTION_DOWN): 118    // KEYCODE_META_RIGHT
+2016-05-26 16:16:45.358  :Sending Key (ACTION_UP): 118    // KEYCODE_META_RIGHT
+2016-05-26 16:16:45.362  Sleeping for 500 milliseconds
+2016-05-26 16:16:45.864 :Sending Touch (ACTION_DOWN): 0:(11.0,874.0)
+2016-05-26 16:16:45.867 :Sending Touch (ACTION_MOVE): 0:(19.011993,882.6286)
+2016-05-26 16:16:45.869 :Sending Touch (ACTION_MOVE): 0:(20.217888,883.84314)
+2016-05-26 16:16:45.870 :Sending Touch (ACTION_MOVE): 0:(22.862135,891.25995)
+2016-05-26 16:16:45.872 :Sending Touch (ACTION_MOVE): 0:(29.713104,891.61127)
+2016-05-26 16:16:45.874 :Sending Touch (ACTION_UP): 0:(31.42802,897.84595)
+2016-05-26 16:16:45.875  Sleeping for 500 milliseconds
+2016-05-26 16:16:46.378 :Sending Touch (ACTION_DOWN): 0:(521.0,809.0)
+2016-05-26 16:16:46.381 :Sending Touch (ACTION_UP): 0:(526.8394,810.3008)
+2016-05-26 16:16:46.382  Sleeping for 500 milliseconds
+2016-05-26 16:16:46.882  :Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+2016-05-26 16:16:46.900  :Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+2016-05-26 16:16:46.902  Sleeping for 500 milliseconds
+2016-05-26 16:16:47.403 :Sending Touch (ACTION_DOWN): 0:(552.0,504.0)
+2016-05-26 16:16:47.405 :Sending Touch (ACTION_UP): 0:(553.269,493.60403)
+2016-05-26 16:16:47.406  Sleeping for 500 milliseconds
+2016-05-26 16:16:47.907  :Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+2016-05-26 16:16:47.922  :Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+2016-05-26 16:16:47.935  Sleeping for 500 milliseconds
+2016-05-26 16:16:48.437 :Sending Touch (ACTION_DOWN): 0:(156.0,631.0)
+2016-05-26 16:16:48.440 :Sending Touch (ACTION_POINTER_DOWN 1): 0:(169.35919,629.80164) 1:(260.0,178.0)
+2016-05-26 16:16:48.442 :Sending Touch (ACTION_POINTER_UP 1): 0:(186.30804,623.2686) 1:(260.67102,193.09135)
+2016-05-26 16:16:48.443 :Sending Touch (ACTION_UP): 0:(195.89114,619.5595)
+2016-05-26 16:16:48.445  Sleeping for 500 milliseconds
+2016-05-26 16:16:48.946 :Sending Touch (ACTION_DOWN): 0:(456.0,730.0)
+2016-05-26 16:16:48.947 :Sending Touch (ACTION_UP): 0:(455.96823,714.6295)
+2016-05-26 16:16:48.948  Sleeping for 500 milliseconds
+2016-05-26 16:16:49.449  :Sending Key (ACTION_DOWN): 97    // KEYCODE_BUTTON_B
+2016-05-26 16:16:49.451  :Sending Key (ACTION_UP): 97    // KEYCODE_BUTTON_B
+2016-05-26 16:16:49.453  Sleeping for 500 milliseconds
+2016-05-26 16:16:49.954  :Sending Key (ACTION_DOWN): 216    // KEYCODE_YEN
+2016-05-26 16:16:49.955  :Sending Key (ACTION_UP): 216    // KEYCODE_YEN
+2016-05-26 16:16:49.957  Sleeping for 500 milliseconds
+2016-05-26 16:16:50.458 :Sending Trackball (ACTION_MOVE): 0:(1.0,-1.0)
+2016-05-26 16:16:50.459 :Sending Trackball (ACTION_MOVE): 0:(1.0,-1.0)
+2016-05-26 16:16:50.460 :Sending Trackball (ACTION_MOVE): 0:(-4.0,-2.0)
+2016-05-26 16:16:50.461 :Sending Trackball (ACTION_MOVE): 0:(0.0,1.0)
+2016-05-26 16:16:50.463 :Sending Trackball (ACTION_MOVE): 0:(-1.0,4.0)
+2016-05-26 16:16:50.464 :Sending Trackball (ACTION_MOVE): 0:(0.0,2.0)
+2016-05-26 16:16:50.465 :Sending Trackball (ACTION_MOVE): 0:(-4.0,-4.0)
+2016-05-26 16:16:50.466 :Sending Trackball (ACTION_MOVE): 0:(0.0,0.0)
+2016-05-26 16:16:50.467 :Sending Trackball (ACTION_MOVE): 0:(-2.0,2.0)
+2016-05-26 16:16:50.468 :Sending Trackball (ACTION_MOVE): 0:(2.0,1.0)
+2016-05-26 16:16:50.469  :Sending Flip keyboardOpen=false
+2016-05-26 16:16:50.553  Sleeping for 500 milliseconds
+2016-05-26 16:16:51.054 :Sending Trackball (ACTION_MOVE): 0:(-2.0,-5.0)
+2016-05-26 16:16:51.065 :Sending Trackball (ACTION_MOVE): 0:(-2.0,-3.0)
+2016-05-26 16:16:51.066 :Sending Trackball (ACTION_MOVE): 0:(0.0,0.0)
+2016-05-26 16:16:51.067 :Sending Trackball (ACTION_MOVE): 0:(1.0,4.0)
+2016-05-26 16:16:51.068 :Sending Trackball (ACTION_MOVE): 0:(-4.0,-1.0)
+2016-05-26 16:16:51.069 :Sending Trackball (ACTION_MOVE): 0:(3.0,-2.0)
+2016-05-26 16:16:51.070 :Sending Trackball (ACTION_MOVE): 0:(-4.0,3.0)
+2016-05-26 16:16:51.071 :Sending Trackball (ACTION_MOVE): 0:(-4.0,3.0)
+2016-05-26 16:16:51.072 :Sending Trackball (ACTION_MOVE): 0:(-1.0,4.0)
+2016-05-26 16:16:51.074 :Sending Trackball (ACTION_MOVE): 0:(2.0,-2.0)
+2016-05-26 16:16:51.075 :Sending Trackball (ACTION_DOWN): 0:(0.0,0.0)
+2016-05-26 16:16:51.078 :Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+2016-05-26 16:16:51.079  Sleeping for 500 milliseconds
+2016-05-26 16:16:51.580 :Sending Touch (ACTION_DOWN): 0:(630.0,1.0)
+2016-05-26 16:16:51.582 :Sending Touch (ACTION_MOVE): 0:(628.964,7.237096)
+2016-05-26 16:16:51.583 :Sending Touch (ACTION_MOVE): 0:(620.0541,9.794251)
+2016-05-26 16:16:51.584 :Sending Touch (ACTION_MOVE): 0:(617.2089,16.832447)
+2016-05-26 16:16:51.587 :Sending Touch (ACTION_MOVE): 0:(599.82153,26.346495)
+2016-05-26 16:16:51.588 :Sending Touch (ACTION_MOVE): 0:(577.57715,36.21216)
+2016-05-26 16:16:51.589 :Sending Touch (ACTION_MOVE): 0:(576.51135,39.433086)
+2016-05-26 16:16:51.590 :Sending Touch (ACTION_MOVE): 0:(556.6989,40.928516)
+2016-05-26 16:16:51.591 :Sending Touch (ACTION_MOVE): 0:(536.21265,43.652496)
+2016-05-26 16:16:51.592 :Sending Touch (ACTION_MOVE): 0:(525.2898,53.768253)
+2016-05-26 16:16:51.592 :Sending Touch (ACTION_UP): 0:(508.12372,58.9978)
+2016-05-26 16:16:51.594  Sleeping for 500 milliseconds
+2016-05-26 16:16:52.095 :Sending Touch (ACTION_DOWN): 0:(8.0,248.0)
+2016-05-26 16:16:52.098 :Sending Touch (ACTION_MOVE): 0:(5.612261,244.26021)
+2016-05-26 16:16:52.100 :Sending Touch (ACTION_MOVE): 0:(4.0643706,233.94032)
+2016-05-26 16:16:52.103 :Sending Touch (ACTION_MOVE): 0:(3.104501,222.81065)
+2016-05-26 16:16:52.104 :Sending Touch (ACTION_MOVE): 0:(0.0,221.0777)
+2016-05-26 16:16:52.106 :Sending Touch (ACTION_MOVE): 0:(0.0,216.40617)
+2016-05-26 16:16:52.108 :Sending Touch (ACTION_MOVE): 0:(0.0,202.25557)
+2016-05-26 16:16:52.110 :Sending Touch (ACTION_MOVE): 0:(0.0,196.78696)
+2016-05-26 16:16:52.112 :Sending Touch (ACTION_MOVE): 0:(0.0,180.44632)
+2016-05-26 16:16:52.113 :Sending Touch (ACTION_MOVE): 0:(0.0,159.01955)
+2016-05-26 16:16:52.115 :Sending Touch (ACTION_UP): 0:(0.0,147.81242)
+2016-05-26 16:16:52.117  Sleeping for 500 milliseconds
+2016-05-26 16:16:52.618  :Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+2016-05-26 16:16:52.630  :Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+2016-05-26 16:16:52.632  Sleeping for 500 milliseconds
+2016-05-26 16:16:53.133 :Sending Touch (ACTION_DOWN): 0:(346.0,1245.0)
+2016-05-26 16:16:53.135 :Sending Touch (ACTION_UP): 0:(345.26022,1242.3173)
+2016-05-26 16:16:53.137  Sleeping for 500 milliseconds
+2016-05-26 16:16:53.637 :Sending Trackball (ACTION_MOVE): 0:(-3.0,-1.0)
+2016-05-26 16:16:53.639 :Sending Trackball (ACTION_MOVE): 0:(4.0,-4.0)
+2016-05-26 16:16:53.640 :Sending Trackball (ACTION_MOVE): 0:(-3.0,-5.0)
+2016-05-26 16:16:53.641 :Sending Trackball (ACTION_MOVE): 0:(-5.0,4.0)
+2016-05-26 16:16:53.642 :Sending Trackball (ACTION_MOVE): 0:(1.0,1.0)
+2016-05-26 16:16:53.643 :Sending Trackball (ACTION_MOVE): 0:(-5.0,-4.0)
+2016-05-26 16:16:53.644 :Sending Trackball (ACTION_MOVE): 0:(4.0,-5.0)
+2016-05-26 16:16:53.646 :Sending Trackball (ACTION_MOVE): 0:(0.0,-5.0)
+2016-05-26 16:16:53.647 :Sending Trackball (ACTION_MOVE): 0:(-4.0,-1.0)
+2016-05-26 16:16:53.648 :Sending Trackball (ACTION_MOVE): 0:(4.0,1.0)
+2016-05-26 16:16:53.649  :Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+2016-05-26 16:16:53.651  :Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+2016-05-26 16:16:53.653  Sleeping for 500 milliseconds
+2016-05-26 16:16:54.154 :Sending Touch (ACTION_DOWN): 0:(566.0,88.0)
+2016-05-26 16:16:54.155 :Sending Touch (ACTION_UP): 0:(546.1469,83.02823)
+2016-05-26 16:16:54.156  Sleeping for 500 milliseconds
+2016-05-26 16:16:54.657  :Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+2016-05-26 16:16:54.659  :Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+2016-05-26 16:16:54.661  Sleeping for 500 milliseconds
+2016-05-26 16:16:55.162 :Sending Trackball (ACTION_MOVE): 0:(3.0,4.0)
+2016-05-26 16:16:55.163 :Sending Trackball (ACTION_MOVE): 0:(3.0,1.0)
+2016-05-26 16:16:55.164 :Sending Trackball (ACTION_MOVE): 0:(3.0,4.0)
+2016-05-26 16:16:55.171 :Sending Trackball (ACTION_MOVE): 0:(3.0,0.0)
+2016-05-26 16:16:55.172 :Sending Trackball (ACTION_MOVE): 0:(0.0,3.0)
+2016-05-26 16:16:55.175 :Sending Trackball (ACTION_MOVE): 0:(-2.0,4.0)
+2016-05-26 16:16:55.176 :Sending Trackball (ACTION_MOVE): 0:(2.0,-2.0)
+2016-05-26 16:16:55.178 :Sending Trackball (ACTION_MOVE): 0:(-1.0,-1.0)
+2016-05-26 16:16:55.179 :Sending Trackball (ACTION_MOVE): 0:(-3.0,-2.0)
+2016-05-26 16:16:55.181 :Sending Trackball (ACTION_MOVE): 0:(2.0,0.0)
+2016-05-26 16:16:55.182  :Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+2016-05-26 16:16:55.184  :Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+2016-05-26 16:16:55.186  Sleeping for 500 milliseconds
+2016-05-26 16:16:55.687  :Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+2016-05-26 16:16:55.689  :Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+2016-05-26 16:16:55.690  Sleeping for 500 milliseconds
+2016-05-26 16:16:56.190  :Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+2016-05-26 16:16:56.206  :Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+2016-05-26 16:16:56.208  Sleeping for 500 milliseconds
+2016-05-26 16:16:56.710 :Sending Touch (ACTION_DOWN): 0:(360.0,776.0)
+2016-05-26 16:16:56.711 :Sending Touch (ACTION_UP): 0:(348.6489,774.2213)
+2016-05-26 16:16:56.713  Sleeping for 500 milliseconds
+2016-05-26 16:16:57.214  :Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+2016-05-26 16:16:57.216  :Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+2016-05-26 16:16:57.217  Sleeping for 500 milliseconds
+2016-05-26 16:16:57.718  :Sending Key (ACTION_DOWN): 35    // KEYCODE_G
+2016-05-26 16:16:57.722  :Sending Key (ACTION_UP): 35    // KEYCODE_G
+2016-05-26 16:16:57.724  Sleeping for 500 milliseconds
+2016-05-26 16:16:58.230 :Sending Touch (ACTION_DOWN): 0:(257.0,440.0)
+2016-05-26 16:16:58.233 :Sending Touch (ACTION_UP): 0:(255.68327,452.71127)
+2016-05-26 16:16:58.235  Sleeping for 500 milliseconds
+2016-05-26 16:16:58.737 :Sending Touch (ACTION_DOWN): 0:(126.0,831.0)
+2016-05-26 16:16:58.739 :Sending Touch (ACTION_MOVE): 0:(125.01082,833.38934)
+2016-05-26 16:16:58.741 :Sending Touch (ACTION_UP): 0:(124.06182,836.7371)
+2016-05-26 16:16:58.743  Sleeping for 500 milliseconds
+2016-05-26 16:16:59.244  :Sending Key (ACTION_DOWN): 40    // KEYCODE_L
+2016-05-26 16:16:59.246  :Sending Key (ACTION_UP): 40    // KEYCODE_L
+2016-05-26 16:16:59.248  Sleeping for 500 milliseconds
+2016-05-26 16:16:59.749  :Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+2016-05-26 16:16:59.751  :Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+2016-05-26 16:16:59.753  Sleeping for 500 milliseconds
+2016-05-26 16:17:00.254  :Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+2016-05-26 16:17:00.260  :Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+2016-05-26 16:17:00.262  Sleeping for 500 milliseconds
+2016-05-26 16:17:00.763  :Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+2016-05-26 16:17:00.765  :Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+2016-05-26 16:17:00.766  Sleeping for 500 milliseconds
+2016-05-26 16:17:01.268  :Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+2016-05-26 16:17:01.286  :Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+2016-05-26 16:17:01.289  Sleeping for 500 milliseconds
+2016-05-26 16:17:01.790  :Sending Key (ACTION_DOWN): 107    // KEYCODE_BUTTON_THUMBR
+2016-05-26 16:17:01.792  :Sending Key (ACTION_UP): 107    // KEYCODE_BUTTON_THUMBR
+2016-05-26 16:17:01.794  Sleeping for 500 milliseconds
+2016-05-26 16:17:02.295  :Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+2016-05-26 16:17:02.297  :Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+2016-05-26 16:17:02.298  Sleeping for 500 milliseconds
+2016-05-26 16:17:02.799  :Sending Key (ACTION_DOWN): 138    // KEYCODE_F8
+2016-05-26 16:17:02.802  :Sending Key (ACTION_UP): 138    // KEYCODE_F8
+2016-05-26 16:17:02.804  Sleeping for 500 milliseconds
+2016-05-26 16:17:03.313 :Sending Touch (ACTION_DOWN): 0:(233.0,209.0)
+2016-05-26 16:17:03.316 :Sending Touch (ACTION_MOVE): 0:(242.01227,206.91812)
+2016-05-26 16:17:03.321 :Sending Touch (ACTION_MOVE): 0:(249.13455,206.68039)
+2016-05-26 16:17:03.325 :Sending Touch (ACTION_MOVE): 0:(249.9565,205.56056)
+2016-05-26 16:17:03.333 :Sending Touch (ACTION_MOVE): 0:(263.7179,203.34691)
+2016-05-26 16:17:03.335 :Sending Touch (ACTION_MOVE): 0:(274.63034,200.56693)
+2016-05-26 16:17:03.337 :Sending Touch (ACTION_MOVE): 0:(286.89172,197.7516)
+2016-05-26 16:17:03.339 :Sending Touch (ACTION_MOVE): 0:(298.56738,195.1817)
+2016-05-26 16:17:03.342 :Sending Touch (ACTION_MOVE): 0:(308.8208,194.35689)
+2016-05-26 16:17:03.344 :Sending Touch (ACTION_MOVE): 0:(312.63174,192.61781)
+2016-05-26 16:17:03.346 :Sending Touch (ACTION_UP): 0:(315.33844,192.29933)
+2016-05-26 16:17:03.347  Sleeping for 500 milliseconds
+2016-05-26 16:17:03.848  :Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+2016-05-26 16:17:03.854  :Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+2016-05-26 16:17:03.858  Sleeping for 500 milliseconds
+2016-05-26 16:17:04.358  :Sending Key (ACTION_DOWN): 63    // KEYCODE_SYM
+2016-05-26 16:17:04.361  :Sending Key (ACTION_UP): 63    // KEYCODE_SYM
+2016-05-26 16:17:04.365  Sleeping for 500 milliseconds

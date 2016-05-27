@@ -1,0 +1,4 @@
+Applications Graphics Acceleration Info:
+Uptime: 1381169 Realtime: 1381169
+
+** Graphics info for pid 822 [com.yaya.mmbang] **

@@ -11,11 +11,11 @@
 # csvDirPath=$rootPath/"csv"
 # htmlDemoDirPath=$htmlPath/"htmlDemo"
 
-reportDemoFilePath=$htmlDemoDirPath/"reportDemo.html"
+reportDemoFilePath=$htmlDemoDirPath/"ReportDemo.html"
 
 
 resultDirPath=$1
-echo $resultDirPath
+# echo $resultDirPath
 
 resultDirHtmlPath=$resultDirPath/"html"
 resultDirLogPath=$resultDirPath/"log"
@@ -29,17 +29,18 @@ coldStartTimeHtmlPath=$resultDirHtmlPath/"ColdStartTime.html"
 warmStartTimeHtmlPath=$resultDirHtmlPath/"WarmStartTime.html"
 memoryHtmlFilePath=$resultDirHtmlPath/"Memory.html"
 cpuHtmlFilePath=$resultDirHtmlPath/"CPU.html"
+flowHtmlFilePath=$resultDirHtmlPath/"Flow.html"
 
 displayTimeHtmlFilePath=$htmlPath/"DisplayTime.html"
 
 function getHighchartsCode(){
 	htmlFilePath=$1
-	startLine=`cat $htmlFilePath | grep -n "\\$(function ()" | head -n 1 | cut -d ":" -f1`
-	endLineTemp=`cat $htmlFilePath | grep -n "</head>" | head -n 1 | cut -d ":" -f1`
-	endLine=$((endLineTemp-2))
-	cat $htmlFilePath | head -n $endLine | tail -n $(($endLineTemp-$startLine-1))
-	# echo $startLine
-	# echo $endLine
+	if [[ -f $htmlFilePath ]]; then
+		startLine=`cat $htmlFilePath | grep -n "\\$(function ()" | head -n 1 | cut -d ":" -f1`
+		endLineTemp=`cat $htmlFilePath | grep -n "</head>" | head -n 1 | cut -d ":" -f1`
+		endLine=$((endLineTemp-2))
+		cat $htmlFilePath | head -n $endLine | tail -n $(($endLineTemp-$startLine-1))
+	fi
 }
 
 function getMyColdTime(){
@@ -114,8 +115,9 @@ do
 		getHighchartsCode $warmStartTimeHtmlPath >>$reportTempFilePath
 		getHighchartsCode $memoryHtmlFilePath >>$reportTempFilePath
 		getHighchartsCode $cpuHtmlFilePath >>$reportTempFilePath
-		echo $displayTimeHtmlFilePath
+		# echo $displayTimeHtmlFilePath
 		getHighchartsCode $displayTimeHtmlFilePath >>$reportTempFilePath
+		getHighchartsCode $flowHtmlFilePath >>$reportTempFilePath
 	elif [[ $line =~ '<td id="testphone">' ]]; then
 		echo '<td id="testphone">'$phoneBrand$phoneModel'</td>' >>$reportTempFilePath
 	elif [[ $line =~ '<td id="androidAPI">' ]]; then
