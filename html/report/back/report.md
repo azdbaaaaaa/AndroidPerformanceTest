@@ -11,11 +11,11 @@
 ~~~
 adb shell am start -W $packageName/$packageName.$Mainactivity
 ~~~
-[WarmStartTime](file:///Users/jimmy_zhou/Desktop/android/html/WarmStartTime.html)
+<!--[WarmStartTime](file:///Users/jimmy_zhou/Desktop/android/html/WarmStartTime.html)-->
 
 ![WarmStartTime Screenshot](/Users/jimmy_zhou/Desktop/android/html/report/WarmStartTime.png)
 
-[ColdStartTime](file:///Users/jimmy_zhou/Desktop/android/html/ColdStartTime.html)
+<!--[ColdStartTime](file:///Users/jimmy_zhou/Desktop/android/html/ColdStartTime.html)-->
 
 ![ColdStartTime Screenshot](/Users/jimmy_zhou/Desktop/android/html/report/ColdStartTime.png)
 
@@ -28,7 +28,7 @@ $mmbangActivityList=("MainActivity" "SplashActivity" ...)
 cat $DisplayTimeLog | grep $packageName | grep "Displayed" | grep ${mmbangActivityList[$i]} | head -n1 | cut -d "+" -f2
 ~~~
 
-[DisplayTime](file:///Users/jimmy_zhou/Desktop/android/html/ColdStartTime.html)
+<!--[DisplayTime](file:///Users/jimmy_zhou/Desktop/android/html/ColdStartTime.html)-->
 
 ![DisplayTime Screenshot](/Users/jimmy_zhou/Desktop/android/html/report/ColdStartTime.png)
 
@@ -48,8 +48,8 @@ adb shell dumpsys cpuinfo | grep $packageName | grep -v pushservice | head -n 1 
 ~~~
 adb shell top -n 1 -d 0 | grep $packageName | grep -v pushservice | head -n 1 | sed -E 's/[[:space:]]+/ /g' | sed 's/^ //g' | cut -d " " -f 3
 ~~~
-[CPU](file:///Users/jimmy_zhou/Desktop/android/html/CPU.html)
-
+<!--[CPU](file:///Users/jimmy_zhou/Desktop/android/html/CPU.html)
+-->
 ![CPU Screenshot](/Users/jimmy_zhou/Desktop/android/html/report/CPU.png)
 
 ###Memory
@@ -65,7 +65,7 @@ adb shell dumpsys meminfo $packageName | grep Native | head -n 1 | sed -E 's/[[:
 adb shell dumpsys meminfo $packageName | grep TOTAL | head -n 1 | sed -E 's/[[:space:]]+/ /g' | sed 's/^ //g' | cut -d " "  -f 3
 ~~~
 
-[Memory](file:///Users/jimmy_zhou/Desktop/android/html/Memory.html)
+<!--[Memory](file:///Users/jimmy_zhou/Desktop/android/html/Memory.html)-->
 
 ![Memory Screenshot](/Users/jimmy_zhou/Desktop/android/html/report/Memory.png)
 
