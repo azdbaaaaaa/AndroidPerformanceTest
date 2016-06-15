@@ -307,6 +307,146 @@ sup {
 }
 </style>
 
+<style type="text/css">
+/**
+ * prism.js default theme for JavaScript, CSS and HTML
+ * Based on dabblet (http://dabblet.com)
+ * @author Lea Verou
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+	color: black;
+	background: none;
+	text-shadow: 0 1px white;
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+pre[class*="language-"]::-moz-selection, pre[class*="language-"] ::-moz-selection,
+code[class*="language-"]::-moz-selection, code[class*="language-"] ::-moz-selection {
+	text-shadow: none;
+	background: #b3d4fc;
+}
+
+pre[class*="language-"]::selection, pre[class*="language-"] ::selection,
+code[class*="language-"]::selection, code[class*="language-"] ::selection {
+	text-shadow: none;
+	background: #b3d4fc;
+}
+
+@media print {
+	code[class*="language-"],
+	pre[class*="language-"] {
+		text-shadow: none;
+	}
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #f5f2f0;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: slategray;
+}
+
+.token.punctuation {
+	color: #999;
+}
+
+.namespace {
+	opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.boolean,
+.token.number,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: #905;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: #690;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string {
+	color: #a67f59;
+	background: hsla(0, 0%, 100%, .5);
+}
+
+.token.atrule,
+.token.attr-value,
+.token.keyword {
+	color: #07a;
+}
+
+.token.function {
+	color: #DD4A68;
+}
+
+.token.regex,
+.token.important,
+.token.variable {
+	color: #e90;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+</style>
+
 
 </head>
 
@@ -500,7 +640,7 @@ USS- Unique Set Size 进程独自占用的物理内存（不包含共享库占�
 </ul>
 </blockquote>
 
-<p><img src="http://doc.mmbang.net/%E4%BA%A7%E5%93%81/Android%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95%E8%B5%84%E6%BA%90/PPT/%E5%8F%AF%E8%BE%BE%E6%80%A7%E7%AE%97%E6%B3%95.png" alt="可达性算法pic"></p>
+<p><img src="http://doc.mmbang.net/%E4%BA%A7%E5%93%81/%E6%B5%8B%E8%AF%95%E6%96%87%E6%A1%A3/Android%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95%E8%B5%84%E6%BA%90/PPT/%E5%8F%AF%E8%BE%BE%E6%80%A7%E7%AE%97%E6%B3%95.png" alt="可达性算法pic"></p>
 
 <p><strong>引用类型分类</strong></p>
 
@@ -547,7 +687,7 @@ GC_BEFORE_OOM: 表示是在准备抛OOM异常之前进行的最后努力而触�
 <p><strong>Android系统里面有一个Generational Heap Memory的模型，系统会根据内存中不同的内存数据类型分别执行不同的GC操作</strong>。例如，最近刚分配的对象会放在Young Generation区域，这个区域的对象通常都是会快速被创建并且很快被销毁回收的，同时这个区域的GC操作速度也是比Old Generation区域的GC操作速度更快的。</p>
 
 <p>前面提到过每次GC发生的时候，所有的线程都是暂停状态的。<strong>GC所占用的时间和它是哪一个Generation也有关系，Young Generation的每次GC操作时间是最短的，Old Generation其次，Permanent Generation最长。</strong>执行时间的长短也和当前Generation中的对象数量有关，遍历查找20000个对象比起遍历50个对象自然是要慢很多的。
-<img src="http://doc.mmbang.net/%E4%BA%A7%E5%93%81/Android%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95%E8%B5%84%E6%BA%90/PPT/%E4%B8%89%E7%BA%A7Generation%E7%9A%84%E5%86%85%E5%AD%98%E6%A8%A1%E5%9E%8B.png" alt="三级Generation的内存模型"></p>
+<img src="http://doc.mmbang.net/%E4%BA%A7%E5%93%81/%E6%B5%8B%E8%AF%95%E6%96%87%E6%A1%A3/Android%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95%E8%B5%84%E6%BA%90/PPT/%E4%B8%89%E7%BA%A7Generation%E7%9A%84%E5%86%85%E5%AD%98%E6%A8%A1%E5%9E%8B.png" alt="三级Generation的内存模型"></p>
 
 <p>虽然Google的工程师在尽量缩短每次GC所花费的时间，但是特别注意GC引起的性能问题还是很有必要。如果不小心在最小的for循环单元里面执行了创建对象的操作，这将很容易引起GC并导致性能问题。通过Memory Monitor我们可以查看到内存的占用情况，每一次瞬间的内存降低都是因为此时发生了GC操作，如果在短时间内发生大量的内存上涨与降低的事件，这说明很有可能这里有性能问题。我们还可以通过Heap and Allocation Tracker工具来查看此时内存中分配的到底有哪些对象。</p>
 </blockquote>
@@ -569,24 +709,24 @@ GC_BEFORE_OOM: 表示是在准备抛OOM异常之前进行的最后努力而触�
 </blockquote>
 
 <p>解决上面的问题有简洁直观方法，如果你在Memory Monitor里面查看到短时间发生了多次内存的涨跌，这意味着很有可能发生了内存抖动。
-<img src="http://doc.mmbang.net/%E4%BA%A7%E5%93%81/Android%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95%E8%B5%84%E6%BA%90/PPT/%E5%86%85%E5%AD%98%E6%8A%96%E5%8A%A8.png" alt="内存抖动pic"></p>
+<img src="http://doc.mmbang.net/%E4%BA%A7%E5%93%81/%E6%B5%8B%E8%AF%95%E6%96%87%E6%A1%A3/Android%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95%E8%B5%84%E6%BA%90/PPT/%E5%86%85%E5%AD%98%E6%8A%96%E5%8A%A8.png" alt="内存抖动pic"></p>
 
 <h3 id="toc_12">3.2 渲染性能</h3>
 
 <p>大多数用户感知到的卡顿等性能问题的最主要根源都是因为渲染性能。Android系统每隔16ms发出VSYNC信号，触发对UI进行渲染，如果每次渲染都成功，这样就能够达到流畅的画面所需要的60fps，为了能够实现60fps，这意味着程序的大多数操作都必须在16ms内完成。
-<img src="http://doc.mmbang.net/%E4%BA%A7%E5%93%81/Android%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95%E8%B5%84%E6%BA%90/PPT/%E4%B8%8D%E5%A4%B1%E5%B8%A7.png" alt="不失帧"></p>
+<img src="http://doc.mmbang.net/%E4%BA%A7%E5%93%81/%E6%B5%8B%E8%AF%95%E6%96%87%E6%A1%A3/Android%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95%E8%B5%84%E6%BA%90/PPT/%E4%B8%8D%E5%A4%B1%E5%B8%A7.png" alt="不失帧"></p>
 
 <p>如果你的某个操作花费时间是24ms，系统在得到VSYNC信号的时候就无法进行正常渲染，这样就发生了丢帧现象。那么用户在32ms内看到的会是同一帧画面。
-<img src="http://doc.mmbang.net/%E4%BA%A7%E5%93%81/Android%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95%E8%B5%84%E6%BA%90/PPT/%E5%A4%B1%E5%B8%A7.png" alt="失帧"></p>
+<img src="http://doc.mmbang.net/%E4%BA%A7%E5%93%81/%E6%B5%8B%E8%AF%95%E6%96%87%E6%A1%A3/Android%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95%E8%B5%84%E6%BA%90/PPT/%E5%A4%B1%E5%B8%A7.png" alt="失帧"></p>
 
 <h4 id="toc_13">3.2.1 过度绘制（Show GPU Overdraw）</h4>
 
 <p>Overdraw(过度绘制)描述的是屏幕上的某个像素在同一帧的时间内被绘制了多次。
-<img src="http://doc.mmbang.net/%E4%BA%A7%E5%93%81/Android%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95%E8%B5%84%E6%BA%90/PPT/%E8%BF%87%E5%BA%A6%E7%BB%98%E5%88%B6%E5%8E%9F%E7%90%86.png" alt="过度绘制原理">
+<img src="http://doc.mmbang.net/%E4%BA%A7%E5%93%81/%E6%B5%8B%E8%AF%95%E6%96%87%E6%A1%A3/Android%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95%E8%B5%84%E6%BA%90/PPT/%E8%BF%87%E5%BA%A6%E7%BB%98%E5%88%B6%E5%8E%9F%E7%90%86.png" alt="过度绘制原理">
 在多层次的UI结构里面，如果不可见的UI也在做绘制的操作，这就会导致某些像素区域被绘制了多次。这就浪费大量的CPU以及GPU资源。</p>
 
 <p><strong><em>工具：Show GPU Overdraw</em></strong>
-<img src="http://doc.mmbang.net/%E4%BA%A7%E5%93%81/Android%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95%E8%B5%84%E6%BA%90/PPT/%E8%BF%87%E5%BA%A6%E7%BB%98%E5%88%B6%E5%B7%A5%E5%85%B7.png" alt="过度绘制工具">
+<img src="http://doc.mmbang.net/%E4%BA%A7%E5%93%81/%E6%B5%8B%E8%AF%95%E6%96%87%E6%A1%A3/Android%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95%E8%B5%84%E6%BA%90/PPT/%E8%BF%87%E5%BA%A6%E7%BB%98%E5%88%B6%E5%B7%A5%E5%85%B7.png" alt="过度绘制工具">
 我们可以通过手机设置里面的开发者选项，打开Show GPU Overdraw的选项，可以观察UI上的Overdraw情况。</p>
 
 <h4 id="toc_14">3.2.2 VSYNC（Profile GPU Rendering）</h4>
@@ -599,7 +739,7 @@ GC_BEFORE_OOM: 表示是在准备抛OOM异常之前进行的最后努力而触�
 </ul>
 
 <p><strong>Tearing（画面撕裂）</strong>
-<img src="http://doc.mmbang.net/%E4%BA%A7%E5%93%81/Android%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95%E8%B5%84%E6%BA%90/PPT/%E7%94%BB%E9%9D%A2%E6%92%95%E8%A3%82.png" alt="Tearing">
+<img src="http://doc.mmbang.net/%E4%BA%A7%E5%93%81/%E6%B5%8B%E8%AF%95%E6%96%87%E6%A1%A3/Android%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95%E8%B5%84%E6%BA%90/PPT/%E7%94%BB%E9%9D%A2%E6%92%95%E8%A3%82.png" alt="Tearing">
 不幸的是，刷新频率和帧率并不是总能够保持相同的节奏。如果发生帧率与刷新频率不一致的情况，就会容易出现Tearing的现象(画面上下两部分显示内容发生断裂，来自不同的两帧数据发生重叠)。</p>
 
 <p><strong>VSYNC</strong></p>
@@ -609,7 +749,7 @@ GC_BEFORE_OOM: 表示是在准备抛OOM异常之前进行的最后努力而触�
 <p>理解图像渲染里面的双重与三重缓存机制，这个概念比较复杂，请移步查看<a href="http://source.android.com/devices/graphics/index.html">这里</a>，还有<a href="http://article.yeeyan.org/view/37503/304664">这里</a>。</p>
 
 <p><strong><em>工具：Profile GPU Rendering</em></strong>
-<img src="http://doc.mmbang.net/%E4%BA%A7%E5%93%81/Android%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95%E8%B5%84%E6%BA%90/PPT/gfxinfo.png" alt="gfxinfo">
+<img src="http://doc.mmbang.net/%E4%BA%A7%E5%93%81/%E6%B5%8B%E8%AF%95%E6%96%87%E6%A1%A3/Android%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95%E8%B5%84%E6%BA%90/PPT/gfxinfo.png" alt="gfxinfo">
 中间有一根绿色的横线，代表16ms，我们需要确保每一帧花费的总时间都低于这条横线，这样才能够避免出现卡顿的问题。</p>
 
 <p>每一条柱状线都包含三部分，蓝色代表测量绘制Display List的时间，红色代表OpenGL渲染Display List所需要的时间，黄色代表CPU等待GPU处理的时间。</p>
@@ -721,7 +861,20 @@ TX_bytes_now=`adb shell cat /proc/net/xt_qtaguid/stats | grep $myUID | awk &#39;
 
 <p><strong>修复所有的bug</strong>：那么这个就是标准了，0 crash和 0 ANR。这两个都是不允许的。</p>
 
+<hr>
 
+<!--# iOS篇
+## 1.启动时间
+
+_reportMainSceneUpdateFinished
+
+_reportAppLaunchFinished-->
+
+
+
+<script type="text/javascript">
+var _self="undefined"!=typeof window?window:"undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?self:{},Prism=function(){var e=/\blang(?:uage)?-(\w+)\b/i,t=0,n=_self.Prism={util:{encode:function(e){return e instanceof a?new a(e.type,n.util.encode(e.content),e.alias):"Array"===n.util.type(e)?e.map(n.util.encode):e.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/\u00a0/g," ")},type:function(e){return Object.prototype.toString.call(e).match(/\[object (\w+)\]/)[1]},objId:function(e){return e.__id||Object.defineProperty(e,"__id",{value:++t}),e.__id},clone:function(e){var t=n.util.type(e);switch(t){case"Object":var a={};for(var r in e)e.hasOwnProperty(r)&&(a[r]=n.util.clone(e[r]));return a;case"Array":return e.map&&e.map(function(e){return n.util.clone(e)})}return e}},languages:{extend:function(e,t){var a=n.util.clone(n.languages[e]);for(var r in t)a[r]=t[r];return a},insertBefore:function(e,t,a,r){r=r||n.languages;var l=r[e];if(2==arguments.length){a=arguments[1];for(var i in a)a.hasOwnProperty(i)&&(l[i]=a[i]);return l}var o={};for(var s in l)if(l.hasOwnProperty(s)){if(s==t)for(var i in a)a.hasOwnProperty(i)&&(o[i]=a[i]);o[s]=l[s]}return n.languages.DFS(n.languages,function(t,n){n===r[e]&&t!=e&&(this[t]=o)}),r[e]=o},DFS:function(e,t,a,r){r=r||{};for(var l in e)e.hasOwnProperty(l)&&(t.call(e,l,e[l],a||l),"Object"!==n.util.type(e[l])||r[n.util.objId(e[l])]?"Array"!==n.util.type(e[l])||r[n.util.objId(e[l])]||(r[n.util.objId(e[l])]=!0,n.languages.DFS(e[l],t,l,r)):(r[n.util.objId(e[l])]=!0,n.languages.DFS(e[l],t,null,r)))}},plugins:{},highlightAll:function(e,t){var a={callback:t,selector:'code[class*="language-"], [class*="language-"] code, code[class*="lang-"], [class*="lang-"] code'};n.hooks.run("before-highlightall",a);for(var r,l=a.elements||document.querySelectorAll(a.selector),i=0;r=l[i++];)n.highlightElement(r,e===!0,a.callback)},highlightElement:function(t,a,r){for(var l,i,o=t;o&&!e.test(o.className);)o=o.parentNode;o&&(l=(o.className.match(e)||[,""])[1],i=n.languages[l]),t.className=t.className.replace(e,"").replace(/\s+/g," ")+" language-"+l,o=t.parentNode,/pre/i.test(o.nodeName)&&(o.className=o.className.replace(e,"").replace(/\s+/g," ")+" language-"+l);var s=t.textContent,u={element:t,language:l,grammar:i,code:s};if(!s||!i)return n.hooks.run("complete",u),void 0;if(n.hooks.run("before-highlight",u),a&&_self.Worker){var c=new Worker(n.filename);c.onmessage=function(e){u.highlightedCode=e.data,n.hooks.run("before-insert",u),u.element.innerHTML=u.highlightedCode,r&&r.call(u.element),n.hooks.run("after-highlight",u),n.hooks.run("complete",u)},c.postMessage(JSON.stringify({language:u.language,code:u.code,immediateClose:!0}))}else u.highlightedCode=n.highlight(u.code,u.grammar,u.language),n.hooks.run("before-insert",u),u.element.innerHTML=u.highlightedCode,r&&r.call(t),n.hooks.run("after-highlight",u),n.hooks.run("complete",u)},highlight:function(e,t,r){var l=n.tokenize(e,t);return a.stringify(n.util.encode(l),r)},tokenize:function(e,t){var a=n.Token,r=[e],l=t.rest;if(l){for(var i in l)t[i]=l[i];delete t.rest}e:for(var i in t)if(t.hasOwnProperty(i)&&t[i]){var o=t[i];o="Array"===n.util.type(o)?o:[o];for(var s=0;s<o.length;++s){var u=o[s],c=u.inside,g=!!u.lookbehind,h=!!u.greedy,f=0,d=u.alias;u=u.pattern||u;for(var p=0;p<r.length;p++){var m=r[p];if(r.length>e.length)break e;if(!(m instanceof a)){u.lastIndex=0;var y=u.exec(m),v=1;if(!y&&h&&p!=r.length-1){var b=r[p+1].matchedStr||r[p+1],k=m+b;if(p<r.length-2&&(k+=r[p+2].matchedStr||r[p+2]),u.lastIndex=0,y=u.exec(k),!y)continue;var w=y.index+(g?y[1].length:0);if(w>=m.length)continue;var _=y.index+y[0].length,P=m.length+b.length;if(v=3,P>=_){if(r[p+1].greedy)continue;v=2,k=k.slice(0,P)}m=k}if(y){g&&(f=y[1].length);var w=y.index+f,y=y[0].slice(f),_=w+y.length,S=m.slice(0,w),O=m.slice(_),j=[p,v];S&&j.push(S);var A=new a(i,c?n.tokenize(y,c):y,d,y,h);j.push(A),O&&j.push(O),Array.prototype.splice.apply(r,j)}}}}}return r},hooks:{all:{},add:function(e,t){var a=n.hooks.all;a[e]=a[e]||[],a[e].push(t)},run:function(e,t){var a=n.hooks.all[e];if(a&&a.length)for(var r,l=0;r=a[l++];)r(t)}}},a=n.Token=function(e,t,n,a,r){this.type=e,this.content=t,this.alias=n,this.matchedStr=a||null,this.greedy=!!r};if(a.stringify=function(e,t,r){if("string"==typeof e)return e;if("Array"===n.util.type(e))return e.map(function(n){return a.stringify(n,t,e)}).join("");var l={type:e.type,content:a.stringify(e.content,t,r),tag:"span",classes:["token",e.type],attributes:{},language:t,parent:r};if("comment"==l.type&&(l.attributes.spellcheck="true"),e.alias){var i="Array"===n.util.type(e.alias)?e.alias:[e.alias];Array.prototype.push.apply(l.classes,i)}n.hooks.run("wrap",l);var o="";for(var s in l.attributes)o+=(o?" ":"")+s+'="'+(l.attributes[s]||"")+'"';return"<"+l.tag+' class="'+l.classes.join(" ")+'" '+o+">"+l.content+"</"+l.tag+">"},!_self.document)return _self.addEventListener?(_self.addEventListener("message",function(e){var t=JSON.parse(e.data),a=t.language,r=t.code,l=t.immediateClose;_self.postMessage(n.highlight(r,n.languages[a],a)),l&&_self.close()},!1),_self.Prism):_self.Prism;var r=document.currentScript||[].slice.call(document.getElementsByTagName("script")).pop();return r&&(n.filename=r.src,document.addEventListener&&!r.hasAttribute("data-manual")&&document.addEventListener("DOMContentLoaded",n.highlightAll)),_self.Prism}();"undefined"!=typeof module&&module.exports&&(module.exports=Prism),"undefined"!=typeof global&&(global.Prism=Prism);
+</script>
 
 
 </body>
